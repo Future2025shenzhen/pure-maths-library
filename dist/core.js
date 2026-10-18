@@ -17,12 +17,12 @@ export function filterQuestions(data,filters,state){
  const needle=filters.search.trim().toLowerCase();
  return data.questions.filter(q=>{
   if(q.stage!==filters.stage)return false;
-  if(!filters.chapters.length||!q.chapters.some(c=>filters.chapters.includes(c)))return false;
+  if(!filters.chapters.length||!(q.chapterLinks||q.chapters).some(c=>filters.chapters.includes(c)))return false;
   if(filters.type&&q.type!==filters.type&&!q.topics.includes(filters.type))return false;
   if(filters.status==='done'&&!state.done.includes(q.id))return false;
   if(filters.status==='undone'&&state.done.includes(q.id))return false;
   if(filters.savedOnly&&!state.saved.includes(q.id))return false;
-  if(needle){const cs=data.chapters[q.stage].filter(c=>q.chapters.includes(c.id));const hay=[q.id,q.type,q.stem,...q.parts.flatMap(p=>[p.text,...(p.subparts||[]).map(s=>s.text)]),...cs.flatMap(c=>[c.title,c.zh,c.scope]),...q.topics].join(' ').toLowerCase();if(!hay.includes(needle))return false;}
+  if(needle){const cs=data.chapters[q.stage].filter(c=>(q.chapterLinks||q.chapters).includes(c.id));const hay=[q.id,q.type,q.stem,...q.parts.flatMap(p=>[p.text,...(p.subparts||[]).map(s=>s.text)]),...cs.flatMap(c=>[c.title,c.zh,c.scope]),...q.topics].join(' ').toLowerCase();if(!hay.includes(needle))return false;}
   return true;
  });
 }

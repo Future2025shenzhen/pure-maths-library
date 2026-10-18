@@ -2,7 +2,7 @@
 
 ## 当前状态
 
-代码和数据库迁移已完成。本项目尚未连接真实 Supabase 项目，线上 `dist/account-config.json` 保持 `enabled:false`；不会假装已注册、已同步或生成虚假访问数据。连接前仍维持原有本机模式。
+账户代码已发布，并已填入项目所有者提供的 Supabase Project URL 与前端公开密钥，`dist/account-config.json` 设置为 `enabled:true`。项目所有者已在 SQL Editor 确认题号目录为750道原创题、323道真题。当前执行环境的网络策略不允许连接该 Supabase 域名，因此尚未从本环境完成真实注册、登录、跨设备同步及国内连接验证；需从网站执行首次验收。
 
 用户免费注册。基础服务可以从 Supabase Free 项目开始，受其当时免费配额和暂停政策约束；这不等于无限量永久免费基础设施。
 

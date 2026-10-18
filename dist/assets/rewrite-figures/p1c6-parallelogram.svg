@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="401.6pt" height="178.215385pt" viewBox="0 0 401.6 178.215385" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T14:42:06.386114</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 178.215385 
+L 401.6 178.215385 
+L 401.6 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.984615 141.230769 
+L 245.476923 141.230769 
+L 351.094611 58.713188 
+L 142.602303 58.713188 
+L 36.984615 141.230769 
+z
+" clip-path="url(#p291a3dfbcf)" style="fill: none; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 245.476923 141.230769 
+L 142.602303 58.713188 
+" clip-path="url(#p291a3dfbcf)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'; text-anchor: start" x="127.827692" y="154.633846" transform="rotate(-0 127.827692 154.633846)">14 cm</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'DejaVu Serif'; text-anchor: start" x="91.28269" y="98.482748" transform="rotate(-0 91.28269 98.482748)">9 cm</text>
+   </g>
+   <g id="text_3">
+    <!-- $38^\circ$ -->
+    <g transform="translate(68.258462 136.763077)">
+     <text>
+      <tspan x="0" y="-0.273438" style="font-size: 9px; font-family: 'DejaVu Sans'">3</tspan>
+      <tspan x="5.726074" y="-0.273438" style="font-size: 9px; font-family: 'DejaVu Sans'">8</tspan>
+      <tspan x="12.765674" y="-3.71875" style="font-size: 6.3px; font-family: 'DejaVu Sans'">∘</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p291a3dfbcf">
+   <rect x="7.2" y="7.2" width="387.2" height="163.815385"/>
+  </clipPath>
+ </defs>
+</svg>

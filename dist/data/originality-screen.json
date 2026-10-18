@@ -1,0 +1,6 @@
+{
+  "method": "14-word contiguous English-text overlap against all 69 received paper texts. Text extraction and formula normalization limit this test; it cannot certify conceptual originality. Only six representative papers were closely read.",
+  "flags": [],
+  "paperCount": 69,
+  "questionCount": 150
+}

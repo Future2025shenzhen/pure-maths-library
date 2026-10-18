@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="175.2pt" height="228.8pt" viewBox="0 0 175.2 228.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T14:42:06.716064</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M -0 228.8 
+L 175.2 228.8 
+L 175.2 0 
+L -0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34 194.8 
+L 141.2 194.8 
+L 141.2 60.8 
+L 34 60.8 
+z
+" clip-path="url(#p5fd565de6e)" style="fill: #e6e6e6"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 141.2 194.8 
+C 141.2 191.247462 135.549018 187.836793 125.500923 185.324769 
+C 115.452829 182.812745 101.810152 181.4 87.6 181.4 
+C 73.389848 181.4 59.747171 182.812745 49.699077 185.324769 
+C 39.650982 187.836793 34 191.247462 34 194.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 34 194.8 
+C 34 198.352538 39.650982 201.763207 49.699077 204.275231 
+C 59.747171 206.787255 73.389848 208.2 87.6 208.2 
+C 101.810152 208.2 115.452829 206.787255 125.500923 204.275231 
+C 135.549018 201.763207 141.2 198.352538 141.2 194.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 141.2 60.8 
+C 141.2 59.040328 139.813532 57.297767 137.119943 55.672042 
+C 134.426354 54.046317 130.478027 52.569045 125.500923 51.324769 
+C 120.52382 50.080493 114.614731 49.093412 108.111832 48.420014 
+C 101.608933 47.746617 94.638688 47.4 87.6 47.4 
+C 80.561312 47.4 73.591067 47.746617 67.088168 48.420014 
+C 60.585269 49.093412 54.67618 50.080493 49.699077 51.324769 
+C 44.721973 52.569045 40.773646 54.046317 38.080057 55.672042 
+C 35.386468 57.297767 34 59.040328 34 60.8 
+C 34 62.559672 35.386468 64.302233 38.080057 65.927958 
+C 40.773646 67.553683 44.721973 69.030955 49.699077 70.275231 
+C 54.67618 71.519507 60.585269 72.506588 67.088168 73.179986 
+C 73.591067 73.853383 80.561312 74.2 87.6 74.2 
+C 94.638688 74.2 101.608933 73.853383 108.111832 73.179986 
+C 114.614731 72.506588 120.52382 71.519507 125.500923 70.275231 
+C 130.478027 69.030955 134.426354 67.553683 137.119943 65.927958 
+C 139.813532 64.302233 141.2 62.559672 141.2 60.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 34 194.8 
+L 34 60.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 141.2 194.8 
+L 141.2 60.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke: #000000; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 87.6 60.8 
+L 141.2 60.8 
+" clip-path="url(#p5fd565de6e)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
+   </g>
+   <g id="text_1">
+    <!-- $r$ -->
+    <g transform="translate(106.36 55.44)">
+     <text>
+      <tspan x="0" y="-0.953125" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'">r</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- $h$ -->
+    <g transform="translate(149.24 125.12)">
+     <text>
+      <tspan x="0" y="-0.15625" style="font-style: oblique; font-size: 9px; font-family: 'DejaVu Sans'">h</tspan>
+     </text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5fd565de6e">
+   <rect x="7.2" y="7.2" width="160.8" height="214.4"/>
+  </clipPath>
+ </defs>
+</svg>

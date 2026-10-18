@@ -1,0 +1,284 @@
+{
+  "P1": [
+    {
+      "file": "p1-jan-2020.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p1-jan-2021.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-jan-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jan-2023.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p1-jan-2024.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jan-2025.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-jan-2026-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jan-2026.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-jun-2021.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-jun-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jun-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jun-2024.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p1-jun-2025-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jun-2025.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jun-2026-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-jun-2026.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-oct-2020.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-oct-2021.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-oct-2022.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-oct-2023.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p1-oct-2024.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p1-oct-2025-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p1-oct-2025.pdf",
+      "questions": 10
+    }
+  ],
+  "P2": [
+    {
+      "file": "p2-jan-2020.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2021.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2024.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2025.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2026-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jan-2026.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2021.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p2-jun-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2023.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p2-jun-2024.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2025-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2025.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2026-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-jun-2026.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p2-oct-2020.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p2-oct-2021.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-oct-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-oct-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-oct-2024.pdf",
+      "questions": 11
+    },
+    {
+      "file": "p2-oct-2025-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p2-oct-2025.pdf",
+      "questions": 9
+    }
+  ],
+  "P3": [
+    {
+      "file": "p3-jan-2020.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jan-2021.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jan-2022.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jan-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jan-2024.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jan-2025.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jan-2026-a.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jan-2026.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jun-2021.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jun-2022.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jun-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jun-2024.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jun-2025-a.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-jun-2025.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jun-2026-a.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-jun-2026.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-oct-2020.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-oct-2021.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-oct-2022.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-oct-2023.pdf",
+      "questions": 10
+    },
+    {
+      "file": "p3-oct-2024.pdf",
+      "questions": 9
+    },
+    {
+      "file": "p3-oct-2025-a.pdf",
+      "questions": 8
+    },
+    {
+      "file": "p3-oct-2025.pdf",
+      "questions": 9
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "checks": [
+    "answers, save, done, reload persistence, saved view",
+    "search ID, empty results, reset, whole-question refresh",
+    "75-mark constrained paper, done exclusion, full answer matching, paper reload persistence",
+    "PDF page rendering, page navigation, page jump, fullscreen",
+    "mobile filter drawer, stage change, answers, no horizontal viewport overflow",
+    "tablet 820x1180 no viewport overflow",
+    "All 150 question-and-answer views: 1990 TeX formulas rendered in real Chromium, with exact formula-count parity and no KaTeX errors"
+  ],
+  "consoleErrors": [],
+  "passed": true
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="347.733333pt" height="214.4pt" viewBox="0 0 347.733333 214.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-17T13:08:19.412332</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 214.4 
+L 347.733333 214.4 
+L 347.733333 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 325.381818 173.866667 
+C 325.381818 133.697762 309.407763 95.132981 281.004058 66.729276 
+C 252.600353 38.32557 214.035572 22.351515 173.866667 22.351515 
+C 133.697762 22.351515 95.132981 38.32557 66.729276 66.729276 
+C 38.32557 95.132981 22.351515 133.697762 22.351515 173.866667 
+L 173.866667 173.866667 
+z
+" clip-path="url(#p20f7e1aed5)" style="fill: #d9d9d9; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 82.957576 173.866667 
+L 264.775758 173.866667 
+L 264.775758 52.654545 
+L 82.957576 52.654545 
+z
+" clip-path="url(#p20f7e1aed5)" style="fill: #ffffff; stroke: #000000; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 173.866667 173.866667 
+L 82.957576 52.654545 
+" clip-path="url(#p20f7e1aed5)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 173.866667 173.866667 
+L 264.775758 52.654545 
+" clip-path="url(#p20f7e1aed5)" style="fill: none; stroke-dasharray: 3.7,1.6; stroke-dashoffset: 0; stroke: #000000"/>
+   </g>
+   <g id="text_1">
+    <!-- $O$ -->
+    <g transform="translate(175.078788 185.987879)">
+     <text>
+      <tspan x="0" y="-0.578125" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'">O</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_2">
+    <!-- $A$ -->
+    <g transform="translate(84.169697 51.442424)">
+     <text>
+      <tspan x="0" y="-0.703125" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'">A</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_3">
+    <!-- $B$ -->
+    <g transform="translate(265.987879 51.442424)">
+     <text>
+      <tspan x="0" y="-0.703125" style="font-style: oblique; font-size: 10px; font-family: 'DejaVu Sans'">B</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start" x="155.381818" y="39.321212" transform="rotate(-0 155.381818 39.321212)">cap</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start" x="38.715152" y="142.351515" transform="rotate(-0 38.715152 142.351515)">side</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start" x="284.169697" y="142.351515" transform="rotate(-0 284.169697 142.351515)">side</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start" x="159.927273" y="196.89697" transform="rotate(-0 159.927273 196.89697)">12 cm</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10px; font-family: 'DejaVu Serif'; text-anchor: start" x="114.472727" y="112.048485" transform="rotate(-0 114.472727 112.048485)">10 cm</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p20f7e1aed5">
+   <rect x="7.2" y="7.2" width="333.333333" height="200"/>
+  </clipPath>
+ </defs>
+</svg>

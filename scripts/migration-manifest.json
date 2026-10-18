@@ -1,10 +1,9 @@
 {
-  "origin": "https://pure-maths-library-p123.merryhare20.chatgpt.site",
   "files": [
     {
       "path": "app.js",
-      "sha256": "9f5bdab94ac23a44830ca2003dc5a9de92411b2a80c856ad107bbe08202fb231",
-      "bytes": 26312
+      "sha256": "7d2618571012e1e1c6caaf60dfddb26a3b22f204156dc3d38896d0f80b0066a2",
+      "bytes": 26761
     },
     {
       "path": "assets/favicon.svg",
@@ -437,6 +436,1996 @@
       "bytes": 14362757
     },
     {
+      "path": "assets/past-pages/p1-jan-2020-page-02.webp",
+      "sha256": "ade16e60b1d1ba7e77a810d4fdc1e4868fb68bc92d73f804734788e4afc67435",
+      "bytes": 47290
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-04.webp",
+      "sha256": "1856f21aa87345feebc46d008250df8748f5e23966e4f257d3dd3017d16e63c5",
+      "bytes": 50554
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-06.webp",
+      "sha256": "42d87d8239786e1762d96643decf611dec0431e8c7c594c30ef7dd3695909fb3",
+      "bytes": 63510
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-08.webp",
+      "sha256": "53aef7f3d898d3367e63d6b7e94f9817901151dd13b37965e9c2e4116eaac997",
+      "bytes": 67742
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-12.webp",
+      "sha256": "897083eed4ef1d63db4636d59b21c20b04a23516485af64ce6f70a699c7f2441",
+      "bytes": 50518
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-14.webp",
+      "sha256": "d8f5d1c6f66b8ae836414b315e4d23fa47eaf00bc1aeeac2ae05142b078ebeda",
+      "bytes": 58154
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-18.webp",
+      "sha256": "11821ce421101c7fca3209b9317af6606ce7d3eed15e4c3263ceeaf789ee2266",
+      "bytes": 65402
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-20.webp",
+      "sha256": "6702057f30040e254d2b18138f3f492c7344da224786a88052d78bf1db71871a",
+      "bytes": 51272
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-22.webp",
+      "sha256": "ffcfff452dd1f4380919193fac3ba3ffc4a676444b20bc352e2be0015874b9c1",
+      "bytes": 55646
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-24.webp",
+      "sha256": "165be561d5a0d2be16ebf8d905cb80b48ba9f3c675f205dc84d52db97354a881",
+      "bytes": 63964
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2020-page-26.webp",
+      "sha256": "cafde87bad65fe2ac15f4ba10e15e4af2a6661b0e97aa2a3ba70b3b5beb32c3e",
+      "bytes": 55408
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-02.webp",
+      "sha256": "f33e4424ee1fb48644c5d01dfbd91a6a004b1ee68d0879edbbcc2ed429de1f8f",
+      "bytes": 56004
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-04.webp",
+      "sha256": "dffb450b40028dff85e8efcaac240042cc9c939009825b2ba24cba9ed5bfacc3",
+      "bytes": 61182
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-08.webp",
+      "sha256": "82b13a78e6ad4b2aba44b2585486e6f99bdf071606b7418d8cacf72844446d11",
+      "bytes": 65220
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-10.webp",
+      "sha256": "07feacace3222c443493fe20ca27dc600bc87f4e312986a29e34688b61751307",
+      "bytes": 68852
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-14.webp",
+      "sha256": "854f4b4f8ae384f1d67f398f824082676ea0b9e4240bac529eb83bcdca768f5a",
+      "bytes": 69164
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-18.webp",
+      "sha256": "9233d35563560d8b4183744333b0d3eca3c0862f2113f5b4ceaceaa5a755f52e",
+      "bytes": 59472
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-22.webp",
+      "sha256": "0140f52c645606f696d08a5508ab2381f3d2841acaf352e16291186d9a5dc950",
+      "bytes": 53820
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-26.webp",
+      "sha256": "f5be63ae3529f6ebee66765b7293d2fd1d6ca39a7c450c2b232257042d93197d",
+      "bytes": 75362
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2021-page-30.webp",
+      "sha256": "c39bf2a4878121c834a2f85df3288ec8e54c4db092b85678b12bb1ce67625254",
+      "bytes": 57032
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-02.webp",
+      "sha256": "85ed163cf8ed6dd58a9edbc9ac7e1deadfffc44fc7c0107a94e302719cd7287e",
+      "bytes": 53858
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-04.webp",
+      "sha256": "9e7ae7505a823ca999206246936cc5d7199338820da5f4e176bf7e4bc2ad61bd",
+      "bytes": 62702
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-06.webp",
+      "sha256": "7c651662f10681a765cc7c7b3bdd174c7121469cdd0acece6d17c62efe39ccba",
+      "bytes": 68676
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-10.webp",
+      "sha256": "3e5f6b15ed297603b425e66ca3f87fb6cb001bd6b0f0b86f9f132ddf22884094",
+      "bytes": 76278
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-12.webp",
+      "sha256": "8af832c55f3be7d0f907213630fe647c303297707a3e5e28cc008697259f3094",
+      "bytes": 75774
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-16.webp",
+      "sha256": "e53a7cab9583426a52ea5de9ce44396580ea28ed34192f7f04720aed11776546",
+      "bytes": 64778
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-20.webp",
+      "sha256": "2be676668cb131ba3329f07255b5ac45b9da8caf46386bba1e043ee23b1cf467",
+      "bytes": 71802
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-24.webp",
+      "sha256": "687f4127fa7d596f5590b7db02b5542e38f1adbef379c0d869560d6582182ee0",
+      "bytes": 72830
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-28.webp",
+      "sha256": "e40519eb63fb794d774a122f53e2fb22b011028ed2227435240557d6c261ad91",
+      "bytes": 73314
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2022-page-30.webp",
+      "sha256": "d7e7f216c1dca55d64e4fba9eecd72f70004ba0641c687e0988b0dcf9d224e2d",
+      "bytes": 64064
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-02.webp",
+      "sha256": "e6a806e7c154dc7d22518944bbcef6a5d43805a90cdb80fde359b4623274072b",
+      "bytes": 62332
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-04.webp",
+      "sha256": "2b934e302f0d0a3df0598a6997bcfc996c6ed557d6ce1842b9ec4ea5e486cc97",
+      "bytes": 58246
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-06.webp",
+      "sha256": "fc691a76840276063cdc2b4e61a4af9b73a34b344295434ef06be7c97782956d",
+      "bytes": 52786
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-08.webp",
+      "sha256": "b7c1c91f9ad99f2adc21cbb4499fc7ac7b7e4e8910a356a0156ea5fd05f671d6",
+      "bytes": 54482
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-10.webp",
+      "sha256": "61c1897cdc7a3bf7851263224044c09f43838b04fb636a54e5b6c2e81a314fa5",
+      "bytes": 61360
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-12.webp",
+      "sha256": "60cd7b19248b43781dffc08c262f0df7092b7029c2239edda41893cc51dc30bf",
+      "bytes": 77354
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-16.webp",
+      "sha256": "234eaf41d070f7618902af89fffae918105fa1d12af24be138aa4778a3904f9d",
+      "bytes": 71826
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-17.webp",
+      "sha256": "c34731d490719ce5f729cbc4c1c6ae72c14ec694bfea9bfae04518074539755e",
+      "bytes": 54446
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-19.webp",
+      "sha256": "e9cecd0268ffcf1a0e8485cc536a2a6dc5797b6fcd9f8b8d3be41a7d6eeb54c6",
+      "bytes": 57342
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-20.webp",
+      "sha256": "72983519670c680dc624c3410d9aaa2e36dcdcc0a0486babe2fd5bf77eab9a3f",
+      "bytes": 76894
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-24.webp",
+      "sha256": "6fa9223448116c7daefd7283b3a58ac4372133dbc998aee2bb77b088b2d52d59",
+      "bytes": 68002
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-26.webp",
+      "sha256": "aea415a3077400c828f57f3a4aecc549e4a45694270c20a317d99a2c604bf0ae",
+      "bytes": 78302
+    },
+    {
+      "path": "assets/past-pages/p1-jan-2023-page-30.webp",
+      "sha256": "958c0ba8c4f3d6d6ba0001f87aa552cad88dec27b01641a408c01efb2187ad46",
+      "bytes": 60158
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-02.webp",
+      "sha256": "9658b049e5acdf5c5a9a0616d0b24a7cb9345b256266a9ae3f54ba75ea8e0db6",
+      "bytes": 62184
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-04.webp",
+      "sha256": "85105ce3cd7e51d95c7ebde34a51d4d3d1f6c48c060f993c098099207ef6f1ef",
+      "bytes": 67772
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-08.webp",
+      "sha256": "a4e0265bee2ddfe2277ff7539c907ee8bfddf0a65704f8c2813c7ad2b0f950b4",
+      "bytes": 76536
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-12.webp",
+      "sha256": "20267dbb02d32a85326bc7a325d3cf74ca1762d37513673c34a7c2692ed420e1",
+      "bytes": 53464
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-14.webp",
+      "sha256": "7e14b7535eacf261df36c5165605639b1ef4fc72af12a5d0c2bda9a322071292",
+      "bytes": 86508
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-18.webp",
+      "sha256": "845d2d1571edef6e509a4cb3583beca85fa7aed223ce4026f70fc3af9822cfcc",
+      "bytes": 62642
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-22.webp",
+      "sha256": "96d7c0f7387e84811a8546d012f6781b12f38dd81e62526a3209e095b11d77d6",
+      "bytes": 79624
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-26.webp",
+      "sha256": "d9aab941b0ab38dff5fa0cebc4932876c6c06b07544640ab5f3c3711a10d922e",
+      "bytes": 67712
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2021-page-30.webp",
+      "sha256": "ce397fc4056de64ecfd77c5cb88eb1b4b3576cf57f3662dd60e895a44e639ad6",
+      "bytes": 79954
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-02.webp",
+      "sha256": "79e9f5c4bbcae09098881c57d7036d005ab506ac9b7328aa61b849428690eae3",
+      "bytes": 54418
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-04.webp",
+      "sha256": "bc341e2c352a6d09b0cff1ec9996907c8f46e955277cfe13faa27fb6bf04cec5",
+      "bytes": 61070
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-06.webp",
+      "sha256": "4122d968401ec4c8e4d3acc76d92d51f3dd75d074f34f677c2529f8528553ec2",
+      "bytes": 65078
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-08.webp",
+      "sha256": "80059c85f3e5eb9880e6d00f1c7ff71a5b4eb4b4f2748ad16a5201a5b9e64c44",
+      "bytes": 71482
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-10.webp",
+      "sha256": "00509ed11ac24063ccc0060793c68d91332736f305e0e85bd46773e0736e72d4",
+      "bytes": 81812
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-14.webp",
+      "sha256": "d5f5e79b71a48323d69dfce501c6dc5e44e73ec6bf213e73c3945da587dfd39a",
+      "bytes": 64452
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-18.webp",
+      "sha256": "6dec6c46333a60bdd941e0ca24b89e66c5c8b46555a32f1d7bc534373e1e594d",
+      "bytes": 62118
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-22.webp",
+      "sha256": "5d858aff407f0ff222ca826343693eac8e0916938af6e47e18517c72a1d283a2",
+      "bytes": 85222
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-26.webp",
+      "sha256": "f809689ac1da5145f016bd24ca61ebd1f885e8bbc4f3bdf2cf7ca044f137b2ba",
+      "bytes": 73280
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-27.webp",
+      "sha256": "df88882e8fe985d6c7acecf94022fa8aaac7049a0736bfe72752dffa9c1053d0",
+      "bytes": 57438
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2022-page-28.webp",
+      "sha256": "00b7dffd8ddc8cc4d9b4b8894ff4307800d6c94a6f7b8007287b33591f4588a2",
+      "bytes": 73998
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-02.webp",
+      "sha256": "508ede6f3751780dd120a043ac11724dba15db3857db9fc3a6ca48f446d5de3a",
+      "bytes": 57064
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-04.webp",
+      "sha256": "9b8358aa3ebe8bddd410d6707be6beead73699ee091cdfd18a1e3b1a34169fed",
+      "bytes": 68280
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-06.webp",
+      "sha256": "c75b7b09bc55659a771b8e2d7b59a10cf09d10db54f3ff2e85630a476f5cae61",
+      "bytes": 59898
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-08.webp",
+      "sha256": "aa66aaa55a17f2eadfc622207dc2228eb48877b561b526a54a2ac5e426364e62",
+      "bytes": 61490
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-10.webp",
+      "sha256": "076f59f381e73bc1da120edb3d0b6232dfefa6c68e77f8498252e2caf459e531",
+      "bytes": 70380
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-14.webp",
+      "sha256": "a9b0832e8be57d1906ede2db47d8a23b49c5e95e031e32d305d95a8fe19849a8",
+      "bytes": 66444
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-18.webp",
+      "sha256": "3d53d9401691fa5dbed815641aa370581b953c749ffc283e6ce440ad1169ccf6",
+      "bytes": 73438
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-20.webp",
+      "sha256": "4b8be3f0be840985b044de8a355347bf0af82130984d9f793217b2341adcbb7e",
+      "bytes": 70580
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-24.webp",
+      "sha256": "5a90a05a89242939752b50c0987ae1f3cdce1697c019d48dea1710c50622d335",
+      "bytes": 79474
+    },
+    {
+      "path": "assets/past-pages/p1-jun-2023-page-28.webp",
+      "sha256": "fad708cf323d6c2c923fbfecb8a4cac8be72fc355de1b80a96fdd02e732f62c7",
+      "bytes": 79736
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-02.webp",
+      "sha256": "04a694c7264dd06a0ee8e2e35d614ffb541a94bc58396d55367c8b4fc9fcf239",
+      "bytes": 47916
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-04.webp",
+      "sha256": "3676278b9b6cf00d0aaa4b725b3ee4dbb72c7dfa723b8dfa59a95d22fb5d75cc",
+      "bytes": 57876
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-08.webp",
+      "sha256": "1e3c76911f4b30c02e0f625ad4e1e17593065e93cf102c5408ab0e962e00d345",
+      "bytes": 73874
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-12.webp",
+      "sha256": "cf672ac3d6798d3167e559dd9efb705197bcd12cbb4a8808c86b07c268f6ba24",
+      "bytes": 48730
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-14.webp",
+      "sha256": "8f28f4104219b5520ac02c6b6bb177940c2146ac06a61b0f05cefe7213a55f65",
+      "bytes": 75148
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-18.webp",
+      "sha256": "bf7b41eea47b2b6648b452712caa4187ac499ad86731e06435815b663f53aef2",
+      "bytes": 62118
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-22.webp",
+      "sha256": "3813fbdd1a617dedaa1b4a83e198e2add7eb846a7ba994c7e3d9aa03b07a00bc",
+      "bytes": 58902
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-26.webp",
+      "sha256": "10d1b9e7db7d640309b0adda7b0b085df9df96b26df8de6b3ed8148a472a1d12",
+      "bytes": 57840
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2020-page-30.webp",
+      "sha256": "24ea9ed3de9d116569c4618e9e344abc7b482a66beb2843757fbc4a5b87f21c0",
+      "bytes": 51376
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-02.webp",
+      "sha256": "7c51c3b8d06c33151a4d0af142b70de176d0829b410d1ad9c23dec04e65ca28d",
+      "bytes": 53730
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-04.webp",
+      "sha256": "719eb62b5380cf6df76f65988131961fd8e2cc8e327cec337fb1fd83e30639b1",
+      "bytes": 62650
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-06.webp",
+      "sha256": "9d00985258baa3c964a66e62d8ca29c2d92610a5202ca5ca81a1d5f5fcc7569f",
+      "bytes": 69978
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-08.webp",
+      "sha256": "761dc322513d179f7357607e53648cd3f229cf1d1f0a94675e378b71ca4a92b3",
+      "bytes": 70422
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-10.webp",
+      "sha256": "21a47e3c4e0139b058f86365759cbd93ec36c10691a190029b2403cc3d7e89c5",
+      "bytes": 62382
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-14.webp",
+      "sha256": "5aae075ae9a914de5eb946bbb3e56b3b1fcdc72d1b24c3ada03ecf70d845c9bf",
+      "bytes": 69886
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-18.webp",
+      "sha256": "3ec49292c380a668458315a9b7d90401a2c35cd96e9c093a33d6e1cf0b2384b7",
+      "bytes": 75188
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-22.webp",
+      "sha256": "8c71f435ad175a6ab9e8202c0b95074a5c2d8403b96a85c3c676177508b3ef19",
+      "bytes": 72232
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-26.webp",
+      "sha256": "d521689d2f78aeffae8bb210f25b75b40a2d1f23abbf0977e62b96f2089356cc",
+      "bytes": 80712
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-27.webp",
+      "sha256": "0ff5aa80849aa3c433fc11bf4ac3d86a3ce227938a4bd870a041ffa438c1d971",
+      "bytes": 57850
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-29.webp",
+      "sha256": "f0d10d61d3f91c4a12a8bd2a17146648ffccc9f29a9d348359b5d87d52dc27b1",
+      "bytes": 59428
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2021-page-30.webp",
+      "sha256": "1a4801ad3bc99bff5f3e336059a215a086d1ba15e565280fcc39758b7c7742e5",
+      "bytes": 59316
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-02.webp",
+      "sha256": "738940b6486c1ebccee3cf2cbeef0233bb16cd72f21dd3d91e7d8083af8267e0",
+      "bytes": 62224
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-04.webp",
+      "sha256": "a22b8cc3dab3cc08d53c3a5b6513f5ba395443d00a2c641603749748070e30ef",
+      "bytes": 59876
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-06.webp",
+      "sha256": "ad1b917eb4194ba2fb03e09e9300b49f51f4cc5c6d33ddc917e2f1844b95a6f4",
+      "bytes": 66770
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-08.webp",
+      "sha256": "c43db7d6d2cc02eac8ca906f2a3607076cd4b8e4fc63f473bcd94439030e7473",
+      "bytes": 61672
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-10.webp",
+      "sha256": "ea1899031d76ded87c2ac4f6dcd5115142ff08ed92ca4fe6015c3b372c0022cc",
+      "bytes": 66222
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-14.webp",
+      "sha256": "13b554b265bebc1cd2c5992191a8ab11ab0e45dc4b10e5c1cd8a6d2853e18d3b",
+      "bytes": 64304
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-16.webp",
+      "sha256": "72e59ff4c7a105d40702a758c70df678a07f1c04d988196921e9f90cd76f9715",
+      "bytes": 74820
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-20.webp",
+      "sha256": "542dca4b9e9a00372e6b0394bf2dd9edcea3076af8ead95cefcf07bd821d8a54",
+      "bytes": 76140
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-24.webp",
+      "sha256": "58b02c12edb34da65e7882849258447cb3a546a0b9564887e3e13dccd841bd03",
+      "bytes": 76618
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2022-page-25.webp",
+      "sha256": "86209a1f1b5d38799b1f5f452571d28d32325e486abaca3f236db1211f665d31",
+      "bytes": 67082
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-02.webp",
+      "sha256": "eb736ba6b1d9752e7b39ab43001bf79d78c1074288f12baab586bb362df2dce3",
+      "bytes": 56584
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-04.webp",
+      "sha256": "007dff4da52a1a48ef6071ad684cf45d52c8a0c056e3c855c1dde584457bc8ac",
+      "bytes": 59988
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-06.webp",
+      "sha256": "1f93f51e018483fc9f633ec10641fdefae4e1895964165754dd4ffd3f3592dee",
+      "bytes": 67002
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-08.webp",
+      "sha256": "92e513aee604acc2d6eccf61fff97a442ccc91305e50c65b57632e79506abfd0",
+      "bytes": 77500
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-09.webp",
+      "sha256": "cfe01ef9a00e40972ffe91799e8950c10fec6a0c6be5a504f1568cf20f1456bf",
+      "bytes": 67462
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-10.webp",
+      "sha256": "4efb84bfaa3c2279feafcb127691275b9e296258d8a11df0c262a816dc97cccf",
+      "bytes": 75022
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-14.webp",
+      "sha256": "03f690854ffd9a63c24e9374ef7057d9bf3f24d1f3417fe98d02c217caa367cc",
+      "bytes": 67024
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-16.webp",
+      "sha256": "bfe98eeface43d124d9655b6551b82b1c8f05291bab99bace491f2d2e0f702fb",
+      "bytes": 64684
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-20.webp",
+      "sha256": "6ec87768c970c5f267a8e3ad7d91303d123cab2ee8454d8bfd44d73ebce95e8d",
+      "bytes": 68740
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-24.webp",
+      "sha256": "e5778a32f72d423d1809dfa5f522ba8d51fa45545bb187afbd31d5fe4830cb7b",
+      "bytes": 84856
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-28.webp",
+      "sha256": "8d739f3d38beabd0e9add043a83aaf0ae1481a47333c54550ea3136e90462f48",
+      "bytes": 80888
+    },
+    {
+      "path": "assets/past-pages/p1-oct-2023-page-30.webp",
+      "sha256": "bd571b04ce049c9c37e4ae77d8fead134e59db42c909e47dd8be5be0c831f217",
+      "bytes": 81206
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-02.webp",
+      "sha256": "e52540b345f6eb9ee024315d50e3e1bc6e24e0bf48158b600537e93c78ac7210",
+      "bytes": 63872
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-04.webp",
+      "sha256": "ccccaab1be233e392c2f043487c298d294c6454385493e14e03092babb0ba306",
+      "bytes": 53120
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-06.webp",
+      "sha256": "58a5a392dcd1321ba1ee6037b882727fbc91c8369c64a7c642f6159d6fdbbd88",
+      "bytes": 56592
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-08.webp",
+      "sha256": "d6eb6739f68679cd6dab5d315152aca532fb71968382dcc48fcea1a6bfa2efbf",
+      "bytes": 56014
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-10.webp",
+      "sha256": "e40764ff255817a0b54dffabbf885f11acdf9a2d9c0374298cfa971aea2046eb",
+      "bytes": 70166
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-12.webp",
+      "sha256": "bcbec761b7e83755e142b3880d7241c52bb70faee0cc20a2b7b9a27abe7251aa",
+      "bytes": 57594
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-16.webp",
+      "sha256": "969b781887497b9c0131f9391175e721d3b6cfc5113e91ab1be7b0f0b4f99ddc",
+      "bytes": 53194
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-18.webp",
+      "sha256": "b0fcc3bea8384609acbefd8644c21e0a71062fe98b9ce4801a4bf262652bbaa9",
+      "bytes": 55150
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-22.webp",
+      "sha256": "b5d434be94766359dcb034985e85589f8aed79ed2bad42c8b901a2227a919dbe",
+      "bytes": 55232
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2020-page-26.webp",
+      "sha256": "f65bdf5b55f56d16926be1df2806bfc4a1f7919f744740e13ebeb538fa2cd616",
+      "bytes": 58728
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-02.webp",
+      "sha256": "e761a441e47b8fd70ff7ed47e9c9700a588e5eedc58be82f3e5366727b0277d1",
+      "bytes": 51628
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-06.webp",
+      "sha256": "f382b6f12923dc4662a1f317139d2a4ef19828fc28c26ade8709821a3a6a7f32",
+      "bytes": 52030
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-08.webp",
+      "sha256": "864f0ae7ab746d3376e70cc693b4d3bc08a3269fa96c9e9053caaaf04bdb75d4",
+      "bytes": 52426
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-10.webp",
+      "sha256": "1e69f9265402f3c3bafe91d018635ff5e8cfc7f9b131174ced251122d96b3b9d",
+      "bytes": 55730
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-14.webp",
+      "sha256": "7c9667f7f728c2c4477fad95a5b5b45b0e7a70f3a5dde832446214adc74d4875",
+      "bytes": 52728
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-16.webp",
+      "sha256": "085feb74a84e24e65df0e92182ed0a97d98d5e3502df7e970cd4464d72faffe2",
+      "bytes": 56052
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-20.webp",
+      "sha256": "5a219b43580feecebaeaac4670a05a6e5cac6671417c4c459ba544376984e144",
+      "bytes": 80932
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-22.webp",
+      "sha256": "fbd06e74a3c3173925ca702ae1fab842463f3947008724d18c7d9113acc21b7b",
+      "bytes": 54224
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-26.webp",
+      "sha256": "849c6e01985dfb1e8df8a81db7f9ced247e51666084ac24f5976309f6a940d3f",
+      "bytes": 60932
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2021-page-30.webp",
+      "sha256": "4ea52c412f4a034c1524a934008041e5a8c93e088919c0a7621d8189d03c69e7",
+      "bytes": 75454
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-02.webp",
+      "sha256": "1317fc78b121a83a88c545cb45a783302023bc72216f74897ec2287be2d3767e",
+      "bytes": 69322
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-06.webp",
+      "sha256": "02d99b4be68cdca0b50414e16470e052a17aead1b9e4cfd4bebd66356c3f5637",
+      "bytes": 66778
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-08.webp",
+      "sha256": "be69611043886c79a8bc7214bda6624d111b355c41af26e2d5c1844877306c0d",
+      "bytes": 62474
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-12.webp",
+      "sha256": "9e270b0e4b19a3b10f083c88b876c9d673e36934c1acf958e4c8ad5b9fd6dd6d",
+      "bytes": 53134
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-14.webp",
+      "sha256": "89a1cecac3763a1ed33a77692e032fee9040c08dfe7ca9d4606fbcda80bddb84",
+      "bytes": 65050
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-18.webp",
+      "sha256": "77a0f329f3aa4a98f9d0e1fd1cd9aae3a572a5fb808585096a25e90e036fb60d",
+      "bytes": 72524
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-22.webp",
+      "sha256": "51ced3b6dcb4f97c506ff8dc02558369d59456a61ac27eefcae8e46264a7347d",
+      "bytes": 64560
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-26.webp",
+      "sha256": "50f9ad2051a19d2690c594ba2689ee0570b6de0c9e795c08ae04d0dde83544da",
+      "bytes": 78028
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-30.webp",
+      "sha256": "eb4d58975fe71c0ab460669b6c33dff24a4e6f4194090d4e6f1e9fd13bf1963f",
+      "bytes": 76122
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2022-page-34.webp",
+      "sha256": "5e0f899bcc01f95a8e17c3b6bd78993d7e7b3d02aed269ebef860e0ed5e99285",
+      "bytes": 58646
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-02.webp",
+      "sha256": "cefda06b88c0846a4e8551b4651743ec5c0656279e2ba6fb4522146fc9a5f0af",
+      "bytes": 73540
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-04.webp",
+      "sha256": "cd1f95e340d465c47a6d26425035a0ba506a8ff3fd6ebda7b3d413e90a759a52",
+      "bytes": 79842
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-08.webp",
+      "sha256": "b1af75d79e2f9f2d688b03696aaec23c26e702d087cf69247486eeb0a88bcef6",
+      "bytes": 68334
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-10.webp",
+      "sha256": "10bb105978afbdd1b71ad7fb24cec6656c97e4afb64fa8fbf9c92dec16785198",
+      "bytes": 58908
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-12.webp",
+      "sha256": "a521138165d42616567d3df640095efdb2f121e5281d815fcea7bd7cdc0658f3",
+      "bytes": 63248
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-16.webp",
+      "sha256": "0e804bf58dabf4eb7521530147ea9c406acf6ea8453f55749954f52bd5234e91",
+      "bytes": 63410
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-20.webp",
+      "sha256": "17a962fa471b02db19fc01ed5d128e86659ed5b21bcdcb448213e49b43a55095",
+      "bytes": 65604
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-22.webp",
+      "sha256": "ad7325ef5d23db2d952e6fcbbed6b8a93402447d91348c03a64143ee7ee74abb",
+      "bytes": 65734
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-26.webp",
+      "sha256": "d7f004cd88e5e627a4185a536f3da6bfadf474cdb0a92c4388b09c915d9e54ab",
+      "bytes": 84780
+    },
+    {
+      "path": "assets/past-pages/p2-jan-2023-page-30.webp",
+      "sha256": "3d8af212b7736a98d560866b84347439e4f140e37b15fb3939f36a583d39b65f",
+      "bytes": 60726
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-02.webp",
+      "sha256": "3e2fb5d33e7bb891e3fc6d84641c6ec1cebdfcff836e314cc15f65f3fa1aebf1",
+      "bytes": 70810
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-04.webp",
+      "sha256": "f7e498b30e9a0612e23b12069390a3b6a2b66c77f24dc326a574ef15c8913d1b",
+      "bytes": 70018
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-05.webp",
+      "sha256": "7923174cf95adde30197c560897ae6b088550e31f3e804df9b31c8d7d0c24822",
+      "bytes": 56196
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-06.webp",
+      "sha256": "c1c6a57faad97f68bbb99bf5ebda4b710b41acb2914c6402734384ab7c96ee46",
+      "bytes": 56350
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-10.webp",
+      "sha256": "711bc203a422e1d5148a2d877c073d76c6587d8545c6cf179f61dd167b7ab052",
+      "bytes": 65436
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-14.webp",
+      "sha256": "d35bf291e2d860480bd31208ad6058fbf01ec546409fc3b1b6fb33193cca4446",
+      "bytes": 85350
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-18.webp",
+      "sha256": "0efa19b0edb001c2525b5f32302510572afb69812e36d32f137f07d47581c862",
+      "bytes": 60340
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-22.webp",
+      "sha256": "6e9d38940deb189e2a491f390f733c891b69e2f1f1a735fe84e663e2e949ccfb",
+      "bytes": 59390
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-26.webp",
+      "sha256": "abc7328c30aea7a5b5ceebc459555ad265364bb2e9ac13af969556127a1edfdf",
+      "bytes": 70710
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2021-page-30.webp",
+      "sha256": "f51a6006ed681453c486f7f864a16d2dfc9333a494a0aeb8168aeb269a815de4",
+      "bytes": 73872
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-02.webp",
+      "sha256": "a4cb317eeacecdaf887ad948225e9af833557c9b5cf26445553a59b74424df31",
+      "bytes": 56042
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-04.webp",
+      "sha256": "de237505cf2ddf5ac5ccb4bc3bedab99dca54e35ff8ccdd7548c8734b133dba2",
+      "bytes": 74908
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-08.webp",
+      "sha256": "60789815e57af567917e47a3f9ef2f4fa377411d71fdfbf99a2c284a9b4241fa",
+      "bytes": 58750
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-12.webp",
+      "sha256": "4390657bbec29e77e3ebb84e0d2618057cb6d779bf960028d598d4c8501d15fe",
+      "bytes": 59556
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-14.webp",
+      "sha256": "3aefd4c3c50581de913efb358d7f2b272607fd41bb9b216e369579c402be770f",
+      "bytes": 59470
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-16.webp",
+      "sha256": "350a40d8d83c4fdefd6bccaa28b5f5b6947f499aebf5152733513429ab203e7c",
+      "bytes": 58332
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-20.webp",
+      "sha256": "c185b0056c590c7c04d4aeea2abad3d36a638a72a533bd0c50f01aefc7e853bc",
+      "bytes": 57434
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-22.webp",
+      "sha256": "603150e88a3501fb3e08d1f29f240bfc04a492bdc6653c40fdef4f4abddc5cc2",
+      "bytes": 63178
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-24.webp",
+      "sha256": "06e22378f6febeda1dc7763b4fe8501e83cd7e218465a744809e3597d7c7378c",
+      "bytes": 81292
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2022-page-28.webp",
+      "sha256": "03b1b07c343d1c3b495f416e44f6bd50cdd7df01e912e2ce2e1300830f147098",
+      "bytes": 71018
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-02.webp",
+      "sha256": "49aebe3ee435d5a33fd9882799a0da69516bdbeed64ab3bb735546448a84694a",
+      "bytes": 65620
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-04.webp",
+      "sha256": "2d7d6abde225cbec1b10bf254a130d36d6c58efd3130a157b2943c518d583454",
+      "bytes": 65962
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-06.webp",
+      "sha256": "8d09417be55793f4c636b194dd725936d5011bc8e26bc21f18c582a5bcdf2924",
+      "bytes": 62330
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-08.webp",
+      "sha256": "1e9ebb7ca92c97cfa68312b59ec971d016ed26c5fe2f92ea90f1bd4a7300d02d",
+      "bytes": 63124
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-12.webp",
+      "sha256": "8941921d7f513c4c8532e880d307b2312af79626c05cd851870add3ba95482c2",
+      "bytes": 54250
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-14.webp",
+      "sha256": "e7728b2f29e4893dd8fa8a4c798ed873f0a77e2db9e00a505d6c63b0da318b14",
+      "bytes": 76702
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-18.webp",
+      "sha256": "4efc0656814fb99a74bd59de55bd67940e4432318230757147333e44bd646fc6",
+      "bytes": 70242
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-20.webp",
+      "sha256": "827853d60da65809920e23264d958bbfb1d50fd5925f9fbb8cc4527d7c625cdf",
+      "bytes": 64312
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-22.webp",
+      "sha256": "9874851344c2ce961e853215614e141d7a09b9fe5eb1304a527ae20f0b6e62eb",
+      "bytes": 67796
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-26.webp",
+      "sha256": "d64cf93582853c4f8323d30daaf659eef83133e3d442f722521fa5c717ef073f",
+      "bytes": 79370
+    },
+    {
+      "path": "assets/past-pages/p2-jun-2023-page-30.webp",
+      "sha256": "35830057ea096cc22165e5804c7d84ae3869ceb85df887e8720dafdeefebdef2",
+      "bytes": 62794
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-02.webp",
+      "sha256": "6c3bde0f74e0027bda48d9213c26f8a24ce577e4fee8c996d89a1d379aff200a",
+      "bytes": 53724
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-06.webp",
+      "sha256": "a7d6bb67617658662574989a4c29b4f379f2ef1fb471b2e0fb55c029a6e2264a",
+      "bytes": 59240
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-08.webp",
+      "sha256": "cbcfa73c086e117e1ed864b701806b342a63e6226a0d0216c3437ca8868b24e0",
+      "bytes": 58742
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-12.webp",
+      "sha256": "aef9e4aacfd5d953652b0482ba32a6cd2c8ebbfda498f3c0da5e247d11fa268f",
+      "bytes": 58188
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-16.webp",
+      "sha256": "56bed5c0f50b7efabb81884b118d65b0faaa3b43b95f40ed239d89259e6b0ffd",
+      "bytes": 72158
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-20.webp",
+      "sha256": "b652d5eea9c6709925d800ef985c82ba2453dadbbd9e5ac95903f76e624725a1",
+      "bytes": 70056
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-24.webp",
+      "sha256": "fd29a71677d6b5772c4fd98537cdcb1538811d6313affb0a3dfe48975b990132",
+      "bytes": 56858
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-26.webp",
+      "sha256": "07c080807ad4b44330ee9efd9a6e35d41c20dc73d5b4c71190ea63ed94e36661",
+      "bytes": 57456
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2020-page-30.webp",
+      "sha256": "5c9f18ff58cbf3b34384f80ce907377476f2e98a0abe4e9e580f428037213453",
+      "bytes": 52740
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-02.webp",
+      "sha256": "441e4eeccbbd054cb546bb9cbca08a6a6a8604d87f45f53525f27b60ef5eb469",
+      "bytes": 63150
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-04.webp",
+      "sha256": "370f442be827fc6471eef0a694339ae7de99fbee1d1a15e4b827b0a7d9b93b21",
+      "bytes": 58506
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-06.webp",
+      "sha256": "e07a482395cbe0b27ebab096138fd3745993149d6c053eddcb07b6017211022c",
+      "bytes": 74850
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-10.webp",
+      "sha256": "33c27b3d9fc10a730db38e4f4ecc9f14bbbd41bc615ebfc9c29ecbf2e3718b62",
+      "bytes": 60774
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-14.webp",
+      "sha256": "c829863a4c654d5c1834cf541c98b95f2020fc1d8762013f727278268bfcd15d",
+      "bytes": 65682
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-16.webp",
+      "sha256": "6e981fcc5744030d7077ba339c04e87bbc32006b19341b89004a715ea3704daa",
+      "bytes": 64488
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-20.webp",
+      "sha256": "142088dc7c714c1986f058061fc538f094bac3fec6c2e7681dbccde3d247b1af",
+      "bytes": 67260
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-24.webp",
+      "sha256": "8ce7cb72766356d0c8425f40c6e521f8e0b216ee91fb1a390c8bb60ac30fe4d4",
+      "bytes": 80096
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-28.webp",
+      "sha256": "4dc637fac9f1e02168f6499d2eb1bf169b39fce81092062b133433bebb117240",
+      "bytes": 57510
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2021-page-30.webp",
+      "sha256": "ead1ddfb0c1c4a5b449c0d45cebf6d23c674724c65b5b9b7b52d4deee70f7549",
+      "bytes": 63672
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-02.webp",
+      "sha256": "04486d3883d8d5d2808ce979a85fd1ce7fea19c430b5ae8b9e39fcb4c5713cce",
+      "bytes": 60552
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-04.webp",
+      "sha256": "052b962fbfcc5fde64362dfe80d43a35dbc654749bd83ee05683afca6fdc900f",
+      "bytes": 67336
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-08.webp",
+      "sha256": "58de7e9a3aab093116b0bfd0c47d1cfe82c103f99999974f084a329235eca93b",
+      "bytes": 59524
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-10.webp",
+      "sha256": "7b35267a16183d3dcc2e488a7e3eec167145e9dde9b76b6a95c7b7ea9eb63901",
+      "bytes": 66414
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-12.webp",
+      "sha256": "2e00daca085d399a8c0bc7c67e21e9f2ff10813b9c96ac8fc8f914d029493fa2",
+      "bytes": 62536
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-16.webp",
+      "sha256": "23f2373c29a6c91100ac69c3db1b9936bafd86e7664d9c3001d33f2d3c3eaa83",
+      "bytes": 86414
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-20.webp",
+      "sha256": "d5d5b673c0b1beed0d7325451d4433fd93bffa58e5950a0a4a9d2c978a8ae7b7",
+      "bytes": 72546
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-24.webp",
+      "sha256": "4fbee610962bf57a2337209504a56e66bd6a5c982d8eb1e9fc981b26a5b3c57e",
+      "bytes": 59334
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-26.webp",
+      "sha256": "f196f7d0002bfc87a863524356603e8b1c9a9ba3c2e435a0a6669b7dbf843200",
+      "bytes": 83086
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2022-page-30.webp",
+      "sha256": "ed607b961a61fbb6a633f34fc678d6965770f82b28f296c71e6313df835ca24b",
+      "bytes": 57596
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-02.webp",
+      "sha256": "0dafdcad27ebf0b8a61a152ee70c136d8fd1953bf17ba1c804117ad9bbb2e039",
+      "bytes": 61524
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-04.webp",
+      "sha256": "dae4a334a2b9fc2b214da77053b0ff2aa6466292f58839b785283d4bc37cd5a1",
+      "bytes": 57844
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-06.webp",
+      "sha256": "adc25de628283c1684c4557176721d19b2d1fe0c40486e6b925c74e8fe80d618",
+      "bytes": 68542
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-08.webp",
+      "sha256": "651341a7404e55255be202f089640cabcb992b423b6d11462933a36937a5f519",
+      "bytes": 73318
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-12.webp",
+      "sha256": "32668b3f2af1df1ab2237828aa6f1f170878c4c8282912cace0e6344cc36b6af",
+      "bytes": 63366
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-14.webp",
+      "sha256": "979b55a8e03c90ed5fa2fb2d7e5b69473f9d0e5f9db6f5e8b2bd4b3654eabc17",
+      "bytes": 86642
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-16.webp",
+      "sha256": "2772e7f2be51bc913ca7ff50e102d898e1f70ee8a186c55916619541eb080325",
+      "bytes": 73638
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-20.webp",
+      "sha256": "39a180043ee91e4a807b3b8bde839402fe2d1a1e29d1215b689b7e93149e0c53",
+      "bytes": 72180
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-24.webp",
+      "sha256": "7e0074fec794decf59d9a3c6fee07f18d28ea0f1d5f4aa2873448eb33304b9e7",
+      "bytes": 82074
+    },
+    {
+      "path": "assets/past-pages/p2-oct-2023-page-28.webp",
+      "sha256": "e020f2bc522d354e4f5cdb7272dc1c7406540aff005ec96e44c8b90cc9f09335",
+      "bytes": 69002
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-02.webp",
+      "sha256": "289da0fabadcdae95f9ea8bb69b7c83263fbc79af4a5768f7f5c255014deb5fc",
+      "bytes": 66220
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-04.webp",
+      "sha256": "3f58c51797664b9eed2005c7065af2cfa5694c5c4fd649621bab70ac07dc3d40",
+      "bytes": 56664
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-08.webp",
+      "sha256": "d251a3896d5f3a8cc6eb0b6c9daa7b4a4f84fc55182b16e1893afacae7f37b39",
+      "bytes": 63378
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-10.webp",
+      "sha256": "7afa6222c590ea27cadf1775d8ffa4bc50c1bff69a2183378d26a9eda54ea5c4",
+      "bytes": 64996
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-14.webp",
+      "sha256": "3952009a022550d184a24aa6fcbf8577c983c990e70d7bbbed8aa1d288ea4665",
+      "bytes": 57280
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-18.webp",
+      "sha256": "f3255596985ef28ab549234b9187d389bdead4b434b26edb1003936c7a5410df",
+      "bytes": 65004
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-22.webp",
+      "sha256": "f2096075b9ffdf04d3abffc9334f2cee188dd406c4c3b3d2b1aed62c37ec4b28",
+      "bytes": 77672
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-26.webp",
+      "sha256": "4f42bcc13c97bcff7513bf712cbddb67731e4285491cebea517766673464ecd0",
+      "bytes": 58812
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2020-page-30.webp",
+      "sha256": "dc226efb8924790864a7b77b2e6f569b28159ef34687616ddd8e36996fe8c56b",
+      "bytes": 66726
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-02.webp",
+      "sha256": "828b14b5f484f7581a18c02399501006a5a4be5eaea795982acacfd1b0cd9d70",
+      "bytes": 48004
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-04.webp",
+      "sha256": "53704ea64c37cdcad72ecc012d13e35cb0c2732f0d7f9e68fe7ceb9b4333ef22",
+      "bytes": 66602
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-06.webp",
+      "sha256": "9e6d4161bbb0245ebfd6ff171ad643131534b49c05b6215893ac7222b5985b83",
+      "bytes": 53690
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-10.webp",
+      "sha256": "488e4d34fb40d8d49651665d6a297e3db284b707c066796ae5e01843292de1ef",
+      "bytes": 65662
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-14.webp",
+      "sha256": "2e0b04c800030d782e0efb65c790fee6d214bffa48f19247a126f9ecd97a601a",
+      "bytes": 65286
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-18.webp",
+      "sha256": "66007027317aedbcf6f1ad780bf954ec62de72787daaafb00f9e7638e9be30b8",
+      "bytes": 64994
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-22.webp",
+      "sha256": "011a3ea07af2cbcfadbc723f1c094dc5786f88c4b870bd55e8571d8449c2453c",
+      "bytes": 60536
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-26.webp",
+      "sha256": "33c7e010ffbd41612647ae3e85a3a54ca9459e03d2bf40dc87a6008f5a48f835",
+      "bytes": 67646
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-28.webp",
+      "sha256": "2544a1c022276c7bcc3eece2b4aae95f314e2104e30f14817b63c02e4f2ddd9a",
+      "bytes": 47314
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2021-page-30.webp",
+      "sha256": "0bccc45e1e17dc104a488888098331e785b521067483275a2c9dfbe86fc6f008",
+      "bytes": 59604
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-02.webp",
+      "sha256": "f6ce02304bcdde683c24c59fc1edc31e72ac3c9723f022cd034e111a958ebf86",
+      "bytes": 53852
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-04.webp",
+      "sha256": "bd81018f4bdb75700e547d0d616ca4ea82f59a2fd7d8e643b63c498aaa875f13",
+      "bytes": 59920
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-06.webp",
+      "sha256": "2b9d3009c2a8a7ccf96ec1ebc380d89978416218322947b5e1536f6b337c4baf",
+      "bytes": 58312
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-08.webp",
+      "sha256": "702ef31dfb93ff74c73ad8f8832c71c072f46658d536a3759b986c00fb2e3faf",
+      "bytes": 75668
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-10.webp",
+      "sha256": "d4a19e49ee6691097f42497a7910c1098b1d836d05c131f2a05a3272dd6564ff",
+      "bytes": 79122
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-14.webp",
+      "sha256": "9c12b7038d8ec9ffe5582222269070225a35702bfbf47fef75259a5d1fc20dc4",
+      "bytes": 60860
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-18.webp",
+      "sha256": "68b23b30388a1a4018a90d681dd1e4fde5d82eb61606097ae67b32425e161501",
+      "bytes": 69268
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-22.webp",
+      "sha256": "ee9f1a3584ece2e156ce9e9a1b1ed0ddcd2cfbecf942acf2130fa6dc35e85334",
+      "bytes": 74308
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-26.webp",
+      "sha256": "be0e3bbb6d51abb87f8778587f5297285d9ef06afa1d1bdefea8a098fc625b89",
+      "bytes": 63732
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2022-page-30.webp",
+      "sha256": "f6b4af4d128a40d500c4881702ab722972d49423c869c4c55836bd9fc90e0b26",
+      "bytes": 64504
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-02.webp",
+      "sha256": "b3095709554a72d58e3458aa3b20ffe27f92693cc3e6ecb8808867a5515162e1",
+      "bytes": 59206
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-04.webp",
+      "sha256": "4e1da8831ae27ea907744bb450b26a8a0930b00455b3bf2dbb481757b2a82294",
+      "bytes": 69438
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-06.webp",
+      "sha256": "3865d523a36bc141517b2ae9978a2c5d01a8a113487a009e0eff4d3066805705",
+      "bytes": 68568
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-08.webp",
+      "sha256": "bd897241d5215bba465c95556206fd6e4146d91b10dbba3acfc7fe3bf4f73ab1",
+      "bytes": 60852
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-12.webp",
+      "sha256": "600ff7c4cd45fb8ec84271e9fe5c065fd17316eec75a69d89ffc04fedc2ebbb4",
+      "bytes": 66722
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-16.webp",
+      "sha256": "9ff5bfbc4a8a0c8b3908cc5a3cb6406bf43505b5a49dae8dac696d2fb5521678",
+      "bytes": 71522
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-20.webp",
+      "sha256": "3b3c864243554ea2d05576b4425ba11901994c9d58cf583b62fc5f8bd5026817",
+      "bytes": 66124
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-24.webp",
+      "sha256": "f22b1cf22c40e27d81de040c430eca8f6821c498033afa65249e32e54fc5fae4",
+      "bytes": 53380
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-26.webp",
+      "sha256": "09bb57ec3a1b480ab0d710299ca8b94b32b47c5a12abf143c30a33e92b935ff0",
+      "bytes": 80318
+    },
+    {
+      "path": "assets/past-pages/p3-jan-2023-page-30.webp",
+      "sha256": "c11245c55c248e32041fa735485136276ec4758917ad92efa855a36735db4f9d",
+      "bytes": 80298
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-02.webp",
+      "sha256": "69ae0fd7502d5df74541834112d20a60f9fe861d4ed148a896e1365c22360d89",
+      "bytes": 64506
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-04.webp",
+      "sha256": "1e0f6df3bd29070b2caf7a126c54f8137b78ac3207c3cda0675a36fd2ffa4e4e",
+      "bytes": 64990
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-08.webp",
+      "sha256": "079d8c280bb21ab28f2c1f51cdddfe10a0e2388d0edad6bd24651e1a4b6c01c4",
+      "bytes": 63442
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-12.webp",
+      "sha256": "02d508f0925503a36f7634774f2b8d212e484d006ad725ff1eeca17eb541b75f",
+      "bytes": 64262
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-16.webp",
+      "sha256": "0cebc10f3a94088633ffa13b9f352ae911092332ca7611b1eb4b1125f2e9315f",
+      "bytes": 76232
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-20.webp",
+      "sha256": "6f972ae7a80935ea64f243cd25aeb89ab4588cde323ad0c25cab16d2937f0cba",
+      "bytes": 63394
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-24.webp",
+      "sha256": "377bfc943048a1a530025e41df7d2d00a6eb4620f0e17a9b19d783431296ce3a",
+      "bytes": 55270
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-26.webp",
+      "sha256": "55b3afe0e89a1bf8b792165904404b1fcbaca5ef811968bcb3788723b4c41953",
+      "bytes": 80258
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2021-page-30.webp",
+      "sha256": "fbd7b708971004667a0484e9b3210701228c31058b7aa67b35b2ba1b6d3e9206",
+      "bytes": 68356
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-02.webp",
+      "sha256": "3b6382edfa8ae14e202366f566e5202b6f61ff3dbd0291e3796da56e83cd9d0b",
+      "bytes": 60924
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-04.webp",
+      "sha256": "f676e3fe04b4647698c0c6174ec76e79fd560a3d7e5c8c497711796514ecc3b3",
+      "bytes": 58910
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-08.webp",
+      "sha256": "3b41ed6b97b39015dba8a62c69178112725f987c47e10931a5322690de657d20",
+      "bytes": 63320
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-10.webp",
+      "sha256": "732c15796b9b78ff8d8bcace80465f865c579d4f333df3177fb028a709973d2a",
+      "bytes": 73654
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-14.webp",
+      "sha256": "1a195e2dc18f1ac2e965b7a27c289e4eeb1e21c869b3389c734454ce54a93596",
+      "bytes": 73252
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-18.webp",
+      "sha256": "b0976313ca92f24b6e238279c8301071a7a9ad8c49f2cf3d172a706195d59047",
+      "bytes": 78974
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-22.webp",
+      "sha256": "2d1d3ab07896b6e27f27c1bb6941f703d1e6b4350e52d97145334561ef2abec4",
+      "bytes": 65564
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-26.webp",
+      "sha256": "29d8b927a9fd8bcf46843454003bd99cb8103898e3bdda887851be98cc6fe22f",
+      "bytes": 78562
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2022-page-30.webp",
+      "sha256": "1732689fffe348702490de080744bb53de0ea77e86a2e77f04aaebc12e89fb95",
+      "bytes": 74178
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-02.webp",
+      "sha256": "9dfca949db4aed3fad7d0415e9c18ea75bb693d9b502c3c785590afc8a4201e5",
+      "bytes": 61938
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-04.webp",
+      "sha256": "426c89483008ade3ba3aa078fdf68e9dc0bd6938b0e551b753fb25fe1d744951",
+      "bytes": 65270
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-06.webp",
+      "sha256": "0ba000032d1711e115f0a4f9f88175ae748368bacc7617cf82c7453f443a6b68",
+      "bytes": 63340
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-08.webp",
+      "sha256": "d20145b0ab47227b922d2895dff035c53d69cd86d52896b196829afc91b4f69d",
+      "bytes": 65034
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-09.webp",
+      "sha256": "9d494e1ce19ead06b7b9a314cdce6c0b6291da1b7e78ad80deaeffe82f9e9cd5",
+      "bytes": 55474
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-10.webp",
+      "sha256": "f5c48f971a72e2fe75dfaf5622628a2cfccb2f3c2064fac94d876293687383bf",
+      "bytes": 60666
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-14.webp",
+      "sha256": "709e09b0497a652a5acef2f7e3d6b828d953c19edd1f9cc5f4a1666889d453e4",
+      "bytes": 65676
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-18.webp",
+      "sha256": "1eda7c38bafee2b24d77848e3cf4c3cc4e3402db6775c7fc0ede7f5adc8a76b6",
+      "bytes": 81364
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-22.webp",
+      "sha256": "bcc52a7a36f2e7b55757c3a43ffaa53aa246d71ef7aaa2432ee5398103f0fc6c",
+      "bytes": 69314
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-26.webp",
+      "sha256": "36b73daf3e5959abd60dd1e4a13930d0a244c285f035ccee774bbb71dee66b66",
+      "bytes": 72744
+    },
+    {
+      "path": "assets/past-pages/p3-jun-2023-page-30.webp",
+      "sha256": "5a43d4622b78f8a2fe6e56eefe15cc7783af444a4bb6b1145215ef6046b389ed",
+      "bytes": 66220
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-02.webp",
+      "sha256": "93e8aca3920e48cd2adcb4ecea4f6edeebde6faf0a9eb4881a9b6ca49a4def3f",
+      "bytes": 52972
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-04.webp",
+      "sha256": "1ed48a1c16429624d527f315ca47b11d4f0445077f2bfb7497e160e9a4de85a2",
+      "bytes": 63622
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-06.webp",
+      "sha256": "2fa8ade6e997663115a586e7322d0d66263db955e25fe0e1cab162d5c95f78a5",
+      "bytes": 55752
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-10.webp",
+      "sha256": "be5cc9def2dc7d54b6ad0851732b7dc0333bcbe977cba3528549f1c541d8a52c",
+      "bytes": 65348
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-14.webp",
+      "sha256": "88409ef89a684014d3c7f92d0b095e8ff7cb82eb64846029de45fa06b5927e4b",
+      "bytes": 48668
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-16.webp",
+      "sha256": "b02e49e26c55b60bd56f739e8016bb0ec888c6f3101edde87e3bf382fb3949e3",
+      "bytes": 72150
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-20.webp",
+      "sha256": "909df71bd1433d95fb8a8e5a8e5f75cfd0dfcd59cf37fa1788693d8a8581e6bf",
+      "bytes": 67784
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-24.webp",
+      "sha256": "a27bab469289dc53d3036981bc537a3d0f16b2155933168037e948bbe416bedd",
+      "bytes": 57676
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2020-page-28.webp",
+      "sha256": "af34a1c7c19aec3f9c594dfe6e15165070ed4229874189d0e772bb28caa724a6",
+      "bytes": 73366
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-02.webp",
+      "sha256": "857053e5b84c69449d60d8a4f47fb2875f72a9e20645adf1b265866b093fa9b0",
+      "bytes": 61188
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-06.webp",
+      "sha256": "f303b5d5a804fddeee68df4a14aec205966dec172dd68da2ab1e2df8effcfef1",
+      "bytes": 75178
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-10.webp",
+      "sha256": "d71b4426ba6e3dd9659dbd79cc50033fff35f55d0ca84c1837df44ea35464e3a",
+      "bytes": 74564
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-12.webp",
+      "sha256": "c8ca9f420990073a03663175e10d48b226eca5a15b4b0f869bea41c75bd78e61",
+      "bytes": 66242
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-16.webp",
+      "sha256": "8ddffe5ffb96655579cf08dc1318e21b3e0d1d9ddb11540ef0053bcd0cdf21e1",
+      "bytes": 56788
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-18.webp",
+      "sha256": "05b0cc43d6dc1fc73f00c92a0825a3e2ad3780405d1d84238d1fd464a8c6bb9b",
+      "bytes": 64900
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-20.webp",
+      "sha256": "c2530e05c0fed9664d6df81182c996bb2617116f177caa6069c9b4aa5cc3b59e",
+      "bytes": 68154
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-22.webp",
+      "sha256": "b2877792474f4eb83c05a8726ad446d9eede36d6b511ff11efcb4419db10f50f",
+      "bytes": 65546
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-26.webp",
+      "sha256": "29e2862e9c734bcebee8fdec31fa9a25353dd3a68bdf05dd4ca59b228976391f",
+      "bytes": 75230
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2021-page-30.webp",
+      "sha256": "194d94aceae9c37d59e5cd45c1eb072c68d8ab5354d78b38c4eed8b7780d2051",
+      "bytes": 74738
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-02.webp",
+      "sha256": "de08bd0129bcfa24747247690c1a7afc7b157dbc71068b27c84f7fccb635998d",
+      "bytes": 67532
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-06.webp",
+      "sha256": "f613a3d5ce16ba3fb60d0ec57aa956ac0d7a842becd624fe6f448af4376f3896",
+      "bytes": 59420
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-08.webp",
+      "sha256": "714d91082cc0fc044c6d8c67e19a410ab3645438d1eb2736fea7cc1405ce00b7",
+      "bytes": 75276
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-10.webp",
+      "sha256": "96350f55caa07d7e3bc23f1ebc4cfbf48b4f42806719106fbbfd683a08aad2cd",
+      "bytes": 55088
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-12.webp",
+      "sha256": "f381bd0eda940da106eafd60f94a2c8c9b8b2148ff8f35bd52db949f8412f745",
+      "bytes": 84020
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-16.webp",
+      "sha256": "93650314876c2e963bfd7a2ceaef32406434569dbf5393f6bdc573784b2e4405",
+      "bytes": 56238
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-20.webp",
+      "sha256": "daeb62c390dad57e11ab050eca493988c2c13ef1c30c9db6db1e343f997e4e5e",
+      "bytes": 76712
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-24.webp",
+      "sha256": "7ec9cf25cfc5dd4914f18b12ad43671c31af9b239b925ed0af8811e3c7e8b7ad",
+      "bytes": 77196
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2022-page-28.webp",
+      "sha256": "3d176c2392314919f1f0d1cac49972a24a6a3c5d5c28764e65ea1715ce43f90f",
+      "bytes": 66796
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-02.webp",
+      "sha256": "83ed7532e364e05f3708bbe3b5b55c9fb74bb7bdd0d56930bbb4e556de1c8200",
+      "bytes": 66242
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-04.webp",
+      "sha256": "ddb79f7195a368d55f83944ea2c5942db1803d5a6f67a7e21cd6ac4790a5e7a5",
+      "bytes": 60084
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-08.webp",
+      "sha256": "e05d318f0bd80d8b594bd644e8857a929dc03135d2800922a127441d746a2a39",
+      "bytes": 58974
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-10.webp",
+      "sha256": "d7dab5847fd4df79b5c571818d5aa293811bf34e93457463ebb0d98e8f37ec5a",
+      "bytes": 79954
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-14.webp",
+      "sha256": "5150b9c8b87c780464c0bfc3ef69b6b64aa83b0904d485bc3b4c0897e4d551b2",
+      "bytes": 67920
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-16.webp",
+      "sha256": "1b85042912b18683a1f8180be25ca663a8a04e3eb55767727463d3a7d66d7bd1",
+      "bytes": 70774
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-18.webp",
+      "sha256": "6d7530975a3d199dd8015db292e18a2986962b0f541b7c156ef4828b9d9fc60b",
+      "bytes": 71278
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-22.webp",
+      "sha256": "cef1b83db99830dccb7b2e71ae94904f3a5c4c8c02523c7c9ee9985c8825ddbe",
+      "bytes": 65270
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-26.webp",
+      "sha256": "1be0eddd7d7bac08efd02271939d0cbbec0dfce7e4102d980f055030022baa77",
+      "bytes": 78952
+    },
+    {
+      "path": "assets/past-pages/p3-oct-2023-page-30.webp",
+      "sha256": "6815a4d9b7ebe16655e06502732832123480fa32a085473c040816c8a7ab8afc",
+      "bytes": 76700
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2020-ms.pdf",
+      "sha256": "9865537b2f7a7b5497e01aa8ffa77c7888366df457ef68a4ec5b3b320818eabf",
+      "bytes": 571072
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2020.pdf",
+      "sha256": "9043ebf31de6f8ae124ef1aa1fcdb43bd38775f070b89a8b15a20870eec9edf4",
+      "bytes": 493338
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2021-ms.pdf",
+      "sha256": "dcfd02cc5b006d80ba3d2d8c575b8355a37f7a6a5b5c2efd01e6b75250ffbf0c",
+      "bytes": 741398
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2021.pdf",
+      "sha256": "a41cd8189bb98b0685b20dd1dbb94dc07ae041168ef3f6223036951092e794e7",
+      "bytes": 924871
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2022-ms.pdf",
+      "sha256": "a60e5ac7f16ec3d668c34b8d4356e6823e087981b9ee271015246c48180561ed",
+      "bytes": 919314
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2022.pdf",
+      "sha256": "7a5e99df0f1940553cdedc84f7330841466e32ea070864b1f918e9e8d5a76742",
+      "bytes": 1008982
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2023-ms.pdf",
+      "sha256": "4a2f302f1b15c1e909d90426787da1fee81e6a75497e54a5e1f03b7353ee9e5b",
+      "bytes": 571667
+    },
+    {
+      "path": "assets/past-papers/p1-jan-2023.pdf",
+      "sha256": "a275a2ac2254cd715c909d0da9b2bcf9d735b219ede333afc957bb9c8541327b",
+      "bytes": 1081290
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2021-ms.pdf",
+      "sha256": "585d4c639c78aa8b98c90eccf13b9263432405fb673f69f35396a741868d7da1",
+      "bytes": 533915
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2021.pdf",
+      "sha256": "584ed55afa425bbe432746b6d9ce04ba99ff2793e469b4f0d06b8780ac7c5c61",
+      "bytes": 989076
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2022-ms.pdf",
+      "sha256": "a1b6b4c1ae151fb2ad1e87cd8c62978264b30885025700ad814258c3d976d3bd",
+      "bytes": 661293
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2022.pdf",
+      "sha256": "b139a9faa20da5c9afb033db0d0117b8a5a8d5361d20d3f8e6b481442e1f4e02",
+      "bytes": 1145398
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2023-ms.pdf",
+      "sha256": "7f61d6414902c925183b6bf1901ab9569ad42c107996fcfad970c433bd09cf6b",
+      "bytes": 639272
+    },
+    {
+      "path": "assets/past-papers/p1-jun-2023.pdf",
+      "sha256": "3b911aeb89b0679ad572eb9c6b19935fb57f4b143e292d3b8ebcdf8932baef58",
+      "bytes": 1052089
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2020-ms.pdf",
+      "sha256": "ffc2636fc66d7fac9161d74e3fda7c606c4531aa454f83fb930d0a662704a2d9",
+      "bytes": 561816
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2020.pdf",
+      "sha256": "dd8759c5230aafc85f4605564afaee61a851cfa593c6879673898c20df03b76a",
+      "bytes": 922745
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2021-ms.pdf",
+      "sha256": "2717cbf3427a5ea0ddd05c17ceb592554d60754fdd8e30ed2c1fa826aa2d1cff",
+      "bytes": 699121
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2021.pdf",
+      "sha256": "72c32c76d8a62b99818c69bd360a93d68bbe510aa0120b2de53ad6df7b6e2207",
+      "bytes": 1107462
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2022-ms.pdf",
+      "sha256": "b67a586a161f41a1aaea71c7077a23b0dfa86f386c30f6ccf21a0309f4d46ab3",
+      "bytes": 633583
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2022.pdf",
+      "sha256": "45ba3354e26c0be74024e97fffb3b049054a224bd7c6196286f1aa4aa15430fd",
+      "bytes": 1086628
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2023-ms.pdf",
+      "sha256": "4b058092e2e0dd2f7cddd2d6c40a9836f9961f12d30d127cb01c567b90e03994",
+      "bytes": 740336
+    },
+    {
+      "path": "assets/past-papers/p1-oct-2023.pdf",
+      "sha256": "947397629abc4f7e9f4c78e4e215ac8bccebadc2283a6ddf663d2ef123228689",
+      "bytes": 783308
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2020-ms.pdf",
+      "sha256": "c4be188193e09cb09e1d1a0f0584a0e7738b48cd38dc5760db7943747a8c99c7",
+      "bytes": 508169
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2020.pdf",
+      "sha256": "5e3dd0f83d87df15d1af31f37ad4742e7b6b1d128b3a6ade50e8ef9fda427264",
+      "bytes": 778333
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2021-ms.pdf",
+      "sha256": "ac804337e81d0a411c4d865ae6133bfe97dfd990bc4174713175a64b4bdfcd5a",
+      "bytes": 558246
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2021.pdf",
+      "sha256": "af7e7b524d58ab5b8841a20233ee043cc781e8fb0420891aeb74a358dd39c31a",
+      "bytes": 958261
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2022-ms.pdf",
+      "sha256": "4a946f4254e7f27d5bd4ba66179f2fea3e71ed850422dfeb611493be6982e1b2",
+      "bytes": 561321
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2022.pdf",
+      "sha256": "95421c7683be0086f7c4811981b6930b710561167a28f2717d1b6a2fc9704aa8",
+      "bytes": 996696
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2023-ms.pdf",
+      "sha256": "7773a7f1ad10f55662ac8e5bf5d547548191fecfacef52ef360720d370e5bc5e",
+      "bytes": 582224
+    },
+    {
+      "path": "assets/past-papers/p2-jan-2023.pdf",
+      "sha256": "cd9168109964df91cc6691f25b383b38689be8c1d295510395e1a670b3a460c6",
+      "bytes": 994372
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2021-ms.pdf",
+      "sha256": "1427555392f057543d987921cadbcd3ce4bf06e60d6cb7963b9e4d2cbcfef815",
+      "bytes": 483580
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2021.pdf",
+      "sha256": "bd12bc40537cb50e909cdf88422218d98cecdf4b15b4240fa55cad07bfbda514",
+      "bytes": 2136027
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2022-ms.pdf",
+      "sha256": "80dc2cb3575ef2fcfda696382b4abcf42c0951010cee176909ec9b9eaa17ec3c",
+      "bytes": 675274
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2022.pdf",
+      "sha256": "8c6af286f0c00298ec088b0348cc3ee3eafe8fdecf078bde506f98b29c8adbb6",
+      "bytes": 963293
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2023-ms.pdf",
+      "sha256": "f098f9b852076ef86f56eebd2a5fea6f0bad0fee18e58e9efcb213b346b8626a",
+      "bytes": 571696
+    },
+    {
+      "path": "assets/past-papers/p2-jun-2023.pdf",
+      "sha256": "2e3d51328a0f69febb5d00a5abc5254cf68659239f28f6f09daab4f85a62f9ad",
+      "bytes": 521978
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2020-ms.pdf",
+      "sha256": "ce95868c439f0668e52970e3045ff05d0e824d9512a4281ab848d7908f146f22",
+      "bytes": 560034
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2020.pdf",
+      "sha256": "ed0e378c81fc8ba5f0a0c360cee05ad52009e9eb892a172ba1e4102ce63c468a",
+      "bytes": 904086
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2021-ms.pdf",
+      "sha256": "15a2a1d7725df228b5aa38b24c3dbb2d7b99ee11eb9bca40c221b11d0a8b84fe",
+      "bytes": 425751
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2021.pdf",
+      "sha256": "e10d2f11cb2b89161df6cd21e4771c1cd0f7ac9e583f789a11285eab90a397f5",
+      "bytes": 1066301
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2022-ms.pdf",
+      "sha256": "f22d2ce29ecb01f900ed2efe7d4211265ce388444d87543a7ead8ed8fcc31863",
+      "bytes": 495693
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2022.pdf",
+      "sha256": "da78976c74753e5887d1d3d6b5e1be14824d40094de6cdcc7fa09dfe073f888b",
+      "bytes": 1140059
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2023-ms.pdf",
+      "sha256": "765973eb9c896ce4543018fb3cce0d99086aa67473dcf522b282a5afd4098cb9",
+      "bytes": 620754
+    },
+    {
+      "path": "assets/past-papers/p2-oct-2023.pdf",
+      "sha256": "488bdbf9c8ee4a6a3f3c9d2f1f29923e328e63b3cab71fe20b77333e3b5c2cde",
+      "bytes": 583723
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "sha256": "60cc52c0f39ada2df43e0115fa6473195aafac2d7502d67806e13ac05ed6ca06",
+      "bytes": 503815
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2020.pdf",
+      "sha256": "930e1e7abc61e4d31ea491abc88d0fb30586477ae578c2954092d0d647dcee76",
+      "bytes": 960549
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "sha256": "7a2c0c0554a5a56bdea05d2601a5076219e2698145aa207d3ae91b6a101ae99a",
+      "bytes": 576343
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2021.pdf",
+      "sha256": "8ecbe0653acaa9b7ae6aa9b043e93ef695908a0324307244390cb10474e9e751",
+      "bytes": 1050979
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "sha256": "f2fb1b25dce9f55838324885078dbfcbb824cf07043667085c46d63e17e670f4",
+      "bytes": 594857
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2022.pdf",
+      "sha256": "ce6a80dfa3e8143d9ddaa818771b107480e5d7bbde41cdf59ad142c063bb494c",
+      "bytes": 1064300
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "sha256": "77f0075f0d92c840aab2e3b4445641e98b419e6ab89b130bece232acd6268ca4",
+      "bytes": 615828
+    },
+    {
+      "path": "assets/past-papers/p3-jan-2023.pdf",
+      "sha256": "0737ca29da5f6f3f5eb96e3329c439187513ae3c4f584e45f4fc3543808df6f7",
+      "bytes": 757275
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "sha256": "c19f8c46ee2912da41ea0d28176d8d94420a0c019ec8525d054ec5a8dc028f06",
+      "bytes": 594942
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2021.pdf",
+      "sha256": "790d666b0cbfc96f229a247d3a4413ba96e587abb4db80fd9c0ec6ee4ee399b3",
+      "bytes": 1054362
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "sha256": "d756e0dd2192d9f15b4bc1eb534ed4ef90e3eea968cdedea605377a1bf646462",
+      "bytes": 646707
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2022.pdf",
+      "sha256": "90fbf34808221dafc60015b013b3ea6c0be02626c7b4d9925ba87f1740a14144",
+      "bytes": 1178308
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "sha256": "86ad970aa81478c5dc33c3150cffceeb9abd2d37b9be1f6de4c427b8198408b3",
+      "bytes": 723589
+    },
+    {
+      "path": "assets/past-papers/p3-jun-2023.pdf",
+      "sha256": "7600eb4f80ae136f1160952e0cd777aab1a5ff114ae6ee1c548ecfca0aa8843c",
+      "bytes": 1261925
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "sha256": "4f8c80f167af7642680d11f6cad8a5804e448434c5c50bee7789359ea4f9258b",
+      "bytes": 481733
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2020.pdf",
+      "sha256": "53b9a3250d23e30d5ce1597b1ce9d9534daf0fa3bc34f0889ce9ffd9ac7a3735",
+      "bytes": 1141089
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "sha256": "a32c66719b8ae36db4f48007ae70ce7d8f911d3316c035f8ea349ada34d884ca",
+      "bytes": 647780
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2021.pdf",
+      "sha256": "0a5266cadff9eb3bc87e353c94ec66e6cb30db5eae8ddf746bbda82326342331",
+      "bytes": 1162212
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "sha256": "79bdd5540552a60a64a74b68e8de92ddd0b7f41640fc8a915d1ca4880f1b7a9b",
+      "bytes": 400411
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2022.pdf",
+      "sha256": "d394fd48e94e65e88f1f0177a6fe0dd13b9fcfa8a2a2471c7c1809261be12197",
+      "bytes": 1209249
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "sha256": "a06d240c0cc1345672b79c99105aed87c4a5dba0902d6207bbf3c7e9cad214b8",
+      "bytes": 577562
+    },
+    {
+      "path": "assets/past-papers/p3-oct-2023.pdf",
+      "sha256": "5206c3b9f755e34d925ac5852d2d6eb0df8ca15302fb53ef55efc64ab41d1e4c",
+      "bytes": 672638
+    },
+    {
       "path": "assets/pdfjs/LICENSE",
       "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
       "bytes": 10174
@@ -453,143 +2442,143 @@
     },
     {
       "path": "assets/rewrite-books/P1-C01.pdf",
-      "sha256": "b12e5153830a40c66341c9212d9d186aed355f2aecf8f3af0e4b58b41970a40b",
-      "bytes": 438437
+      "sha256": "95641d226aca8fe77e9ac161cb2d0feb7444e800a05c73f322e5597de4f0b6d5",
+      "bytes": 443557
     },
     {
       "path": "assets/rewrite-books/P1-C02.pdf",
-      "sha256": "7851c05e4e604f148e64d5501ef94c00dc346f9ccf209a0e3d85a862b0f6b424",
-      "bytes": 458823
+      "sha256": "92888b70ed95ca66b76040cefce0c03fde31f70edef613612261b91a3e641781",
+      "bytes": 457242
     },
     {
       "path": "assets/rewrite-books/P1-C03.pdf",
-      "sha256": "7394325a17da359b8592757a2a87200cc9855eca14f7425d7468acf43af3ecd5",
-      "bytes": 458744
+      "sha256": "40daa7fe803ae31ee5eca67d0db4c4e63ee032d744b347c3f52946e86f6ba1a5",
+      "bytes": 456424
     },
     {
       "path": "assets/rewrite-books/P1-C04.pdf",
-      "sha256": "182ee104ee2b00da907e5da8f2c28493e399bffa2e344781a49000a6f9dec740",
-      "bytes": 505652
+      "sha256": "4e18c7591345e3acd4d27689778d6b6be0707c5185dfa4ff7228d1510ae4efaf",
+      "bytes": 509213
     },
     {
       "path": "assets/rewrite-books/P1-C05.pdf",
-      "sha256": "100c40b1aa2ea2c51ad42646c9e78ec393f6c0411751336e7024b028fc638e45",
-      "bytes": 441695
+      "sha256": "b5edcc49bfd09c265e09bc002368e431834657cf93d34126fff65120edd944b8",
+      "bytes": 453039
     },
     {
       "path": "assets/rewrite-books/P1-C06.pdf",
-      "sha256": "7c5d42fa40832657f7698970d9e73c0375c7fbf556d986d422f38d830a353296",
-      "bytes": 530210
+      "sha256": "6bdaa9a7be18b3ac7f5b5c4219b737b64fdb8d31c5b872604837fac70b6ab0f4",
+      "bytes": 538188
     },
     {
       "path": "assets/rewrite-books/P1-C07.pdf",
-      "sha256": "4632e6569f0c49c8d5989b26c94f0f52cc3c2504031f97bdb96e390d50f0be8a",
-      "bytes": 657439
+      "sha256": "0cd16db2b03f36e24e094e1e49504b6b48086e63122134549f6c1aef0c4739ea",
+      "bytes": 647176
     },
     {
       "path": "assets/rewrite-books/P1-C08.pdf",
-      "sha256": "f40f7b79fee3961aeb6bcde5d25376437a13e76b2cb0b16f4bf9f0128da73807",
-      "bytes": 456363
+      "sha256": "32f500e68c2cb8c55c20d55ea013db3b93c5c2078d28eca9fc40b60f5bae0eab",
+      "bytes": 430420
     },
     {
       "path": "assets/rewrite-books/P1-C09.pdf",
-      "sha256": "6916f57efc2e645bbed276593b7dac93d6dc14b3ce2d1fb1a19dd4cb88de926d",
-      "bytes": 420945
+      "sha256": "925881ae94db096877fe338315d7f2704822ffa564199df1d825964118f65ec9",
+      "bytes": 429083
     },
     {
       "path": "assets/rewrite-books/P1.pdf",
-      "sha256": "5503acd65def457005a24abab80138dfc667caa8cef0d6bb4757b8f0322e7f8d",
-      "bytes": 2584541
+      "sha256": "cd725d26bccf358b3dfc7a4e1c3405224031393018ecc0e311e0856c1d7712ff",
+      "bytes": 2603824
     },
     {
       "path": "assets/rewrite-books/P2-C01.pdf",
-      "sha256": "d2454fb830b37c3d2bd55848f6ae5983ea131092b41bd2319b2282eca4960f41",
-      "bytes": 463790
+      "sha256": "5901ec85e200eee245ce21acf5c0c803a9ce2cb1fac83f0269af102a2479cf18",
+      "bytes": 479088
     },
     {
       "path": "assets/rewrite-books/P2-C02.pdf",
-      "sha256": "a283f159a8338fe5a8b91791933b2444bd982b41c73409ffb50f4bc79b031461",
-      "bytes": 443389
+      "sha256": "ba2afe36d1246b0b11837480a8b93c8ec7e7d4c335a64cbe89d8a1f5ff8f0591",
+      "bytes": 447235
     },
     {
       "path": "assets/rewrite-books/P2-C03.pdf",
-      "sha256": "59579c5bbb8b2791cc1d5f4bd0e14544cf11b9248c9db340884923a7a46ef492",
-      "bytes": 498842
+      "sha256": "ee62ded37f093c94b5b27da21a079089917b74bf7ebbe0a4360772fc242cc922",
+      "bytes": 490970
     },
     {
       "path": "assets/rewrite-books/P2-C04.pdf",
-      "sha256": "a36fb0cf4fe0000b650736c25d2f07cbcd7797eec3694d4771c5927b4ecf5a1d",
-      "bytes": 420866
+      "sha256": "be0a2e2678475d9f4a84107d394d9173680417ea4791562b6e4c537114b267d8",
+      "bytes": 428268
     },
     {
       "path": "assets/rewrite-books/P2-C05.pdf",
-      "sha256": "573731304527a865f034468095a3553315acd764f213fcc44018213c2e68b1ea",
-      "bytes": 464690
+      "sha256": "38d59ca7d87a986d6c66ded44619743cd9827f6b9f25ff567fb3d67b1c0039ff",
+      "bytes": 470616
     },
     {
       "path": "assets/rewrite-books/P2-C06.pdf",
-      "sha256": "f28964a5f1a2812865c56d622da0a4d4c651adb11165bdd62b0f80b1e882186f",
-      "bytes": 495045
+      "sha256": "23171a75dc5c1bc533c454091fbe1f82e48c685d2821a5ef76784d554a5fa456",
+      "bytes": 501790
     },
     {
       "path": "assets/rewrite-books/P2-C07.pdf",
-      "sha256": "2470cc1966b97f344a7437377dc563868f9eec1f9cf0d1188172774173689c32",
-      "bytes": 505778
+      "sha256": "c0d17a14efbdfdc68f4a5976a3ca1c6a7eab3c1c7cd0451060bd98dab9b70738",
+      "bytes": 516338
     },
     {
       "path": "assets/rewrite-books/P2-C08.pdf",
-      "sha256": "f39aedf9d8fbfebb6b2ac12fbf8a3e112eb7081a0bf7bd643668caa917a7ef9e",
-      "bytes": 880774
+      "sha256": "17fcbffc8d9df2b5d2384c60c1cb13f90b5ac971972588b9eb726dbb5466edfd",
+      "bytes": 856141
     },
     {
       "path": "assets/rewrite-books/P2.pdf",
-      "sha256": "e722f03626d95c7f9dfa49a8d3b45939d87f46f7b68f873d547213e3ef85954b",
-      "bytes": 2637076
+      "sha256": "3ff1fc775322b20f10734862faaade7561982ad9e0261e497fbe304bba81641b",
+      "bytes": 2642204
     },
     {
       "path": "assets/rewrite-books/P3-C01.pdf",
-      "sha256": "defafeb8e8d40e6d25268f09ceb60f1c06fb134b34aea374f570ff28de1671e6",
-      "bytes": 425073
+      "sha256": "2daae4818dcd4e4e89dd2d6a447c92d027b435f35ed67deb30907c52eb0a4ee1",
+      "bytes": 439210
     },
     {
       "path": "assets/rewrite-books/P3-C02.pdf",
-      "sha256": "964b7e2ee68a5ab9a8ad7688c4aaaa15998a353d88530843c25a5ff2e709a8c5",
-      "bytes": 705546
+      "sha256": "502806bfd35a4a1e664a354ce81044323614adedf19f7cfa30306038e781b4f4",
+      "bytes": 706460
     },
     {
       "path": "assets/rewrite-books/P3-C03.pdf",
-      "sha256": "9aeb3ed66bc0d8f61e924c1ef6f3a60ad916d4c42a3fdef0decd8fe1030eee9d",
-      "bytes": 507143
+      "sha256": "d279a3797a497a109e7c7e27dcf93c62f6245fccbeaa9bc762cf27abaa8fa5ba",
+      "bytes": 542006
     },
     {
       "path": "assets/rewrite-books/P3-C04.pdf",
-      "sha256": "71dfc2b515d4454ca055139833b95e27d975830c2f2839632bc60cf4ba017051",
-      "bytes": 503598
+      "sha256": "b6c5365f88caf25b72336300cd2b1b756013e64c560272ab648ce76b062a6900",
+      "bytes": 513133
     },
     {
       "path": "assets/rewrite-books/P3-C05.pdf",
-      "sha256": "ff3fe8be78f94e154cfd103246a3a1277f3bc2e231827a4e353e17c5a6adcf6f",
-      "bytes": 499585
+      "sha256": "cc557c288d27179a0c8884d15ab5ead5d6f420d2c71b2d8f048bb9db5205bea7",
+      "bytes": 503596
     },
     {
       "path": "assets/rewrite-books/P3-C06.pdf",
-      "sha256": "a377b280979224a4d3ceff464179f56eacd8e87c864b7e645dfc91601a17c9d1",
-      "bytes": 487199
+      "sha256": "d329c28b044f023c400e98b128d6a182473ea7fa89ac5b5ef737cc766791e04c",
+      "bytes": 503168
     },
     {
       "path": "assets/rewrite-books/P3-C07.pdf",
-      "sha256": "1673b6a36134c28d8d8644b202d81e549fb5ab9621453ecdec722e2a0ceae0e1",
-      "bytes": 487752
+      "sha256": "d5891072be4c965d7d39605bdccc8b9ee5c2218068de5e0213a42c0dd5a500b3",
+      "bytes": 492182
     },
     {
       "path": "assets/rewrite-books/P3-C08.pdf",
-      "sha256": "77227632b8a8bad9c89880959dd66ddfd1f5c7c7b1fac210454c482bd165ab0b",
-      "bytes": 552970
+      "sha256": "0eece4592bf347b566ad984bb29b48f53c5de299419915f39af75cf22a7b111d",
+      "bytes": 561656
     },
     {
       "path": "assets/rewrite-books/P3.pdf",
-      "sha256": "df3d82904e6261f98795edbc30f88f300a9129a384aaa02f5c7957374d2eef32",
-      "bytes": 2529919
+      "sha256": "552af20f96dc08b4194ec3d736d2f247d0f86904b7cd86b58ec5229e5eacd0af",
+      "bytes": 2598471
     },
     {
       "path": "assets/rewrite-books/sample.pdf",
@@ -1322,6 +3311,81 @@
       "bytes": 8619
     },
     {
+      "path": "assets/rewrite-figures/v4-p1-c4-polyline.svg",
+      "sha256": "8feec82dd7f42fb67e9fd0f76b52e26c34288c6cdad3cec381a7b65284cf144f",
+      "bytes": 11208
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p1-c6-bisector.svg",
+      "sha256": "17c87120877bfd5a0e1498db0c4c0bb125ccd4ba2d7cbcb79f4caabd689fae04",
+      "bytes": 3524
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p1-c6-cos.svg",
+      "sha256": "7568d191468c9994661970aa35dd6fea901047eb48957439da9187722c462455",
+      "bytes": 10426
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p1-c7-inset.svg",
+      "sha256": "08f7bed5f003eb35569e36f3e66bc0c40bb1df2d68088097afba1a2b71a73bd2",
+      "bytes": 8707
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p1-c7-roads.svg",
+      "sha256": "de2c17647138068f1806974da9ff022fe23dae906e757e526ce7190cd4156098",
+      "bytes": 10876
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p1-c7-threepoints.svg",
+      "sha256": "86ef16e0ca5b7c3a3f27c5621912339c94125030334f9a112667bc6dcaad81c2",
+      "bytes": 8780
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p2-c7-container.svg",
+      "sha256": "b72064fb1acaa8f6a27eb510c1573d07bee64d88be5b042f3d64dffd6ec246f4",
+      "bytes": 4402
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p2-c8-transformed.svg",
+      "sha256": "f9c83facc3ffe08e49c7c41c8645e184d3416f4a9d2e71da94ca4266366c51d5",
+      "bytes": 30745
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c2-absolute.svg",
+      "sha256": "769fca786a8ade739071a501176cf02cb3298a2276606f3489b0e57b113685e2",
+      "bytes": 7830
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c3-arcsin.svg",
+      "sha256": "3cfed37917f9e10b64082d4555e730da5859490df091ccef030e4725746e9fcf",
+      "bytes": 7891
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c3-inverse.svg",
+      "sha256": "c8e552b0094a7fa9fcdefde61373ad133c28abad80a8a15c1de84daf29b0b9f8",
+      "bytes": 13420
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c3-sec.svg",
+      "sha256": "3b77d5656ce6ff8c4ba24231213f886b278945819c1430c7d8788ff71da67965",
+      "bytes": 12515
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c4-aux.svg",
+      "sha256": "486b294bf6b634cd0551599ce586de52f37a65e7b7fbd9efcb60a44596b860f2",
+      "bytes": 9202
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c4-rods.svg",
+      "sha256": "0eb38144854796c3c7bb758146437c3d12f5dbb7c6e975a073aef43d1d958ae7",
+      "bytes": 3962
+    },
+    {
+      "path": "assets/rewrite-figures/v4-p3-c6-motion.svg",
+      "sha256": "f32bf978cb777c0591ead4d3614dcc2aa5ba659ebf8ec41336555a96a686a953",
+      "bytes": 12876
+    },
+    {
       "path": "assets/rewrite-figures/w-modulus.svg",
       "sha256": "a873829866cdf3f80c68b9426986a8b1462f0d795a25b7675dd78a3c10e2af18",
       "bytes": 8772
@@ -1357,19 +3421,39 @@
       "bytes": 5523
     },
     {
+      "path": "data/P1-exam-research.md",
+      "sha256": "1be89cdbf3450cbb7e08767a6cc85e61b528c1cc837c57f9c157917095c855a2",
+      "bytes": 4015
+    },
+    {
+      "path": "data/P2-exam-research.md",
+      "sha256": "71587ced69a5c074a698be57e2e656992eb66e483f6d3b8ebaed1f3df200831f",
+      "bytes": 5918
+    },
+    {
+      "path": "data/P3-exam-research.md",
+      "sha256": "89bcdf024a85ff40f3f7f519c774331b44d75b1f87e1cda8423e8e044f689bb4",
+      "bytes": 4477
+    },
+    {
       "path": "data/RESEARCH.md",
       "sha256": "c996cba7dc8818f05101007f4edeaa85e08377085c30156a87155fd44c6c37ab",
       "bytes": 7532
     },
     {
       "path": "data/bank.json",
-      "sha256": "0d2cdc779d37a74cb069ed03744021e9c318fe7b4433fdfdce2a748f20f09363",
-      "bytes": 1479728
+      "sha256": "2374c3bf613dcebd5c879134661c58c33714f69e04148e4bc1f136fd3a7f694b",
+      "bytes": 1538494
     },
     {
       "path": "data/browser-qa.json",
       "sha256": "c80eb1dc9622aacd48a0123fa7f3d79f530e095450d34b787a9b6bff00e1f1a0",
       "bytes": 613
+    },
+    {
+      "path": "data/exam-style-reference.json",
+      "sha256": "8b911e3c8675ce3fdfa2c2eb6b4203042420516c49468fcb483e354e1c7c7efe",
+      "bytes": 14290
     },
     {
       "path": "data/maths-verification.json",
@@ -1387,9 +3471,19 @@
       "bytes": 4736
     },
     {
+      "path": "data/past-bank.json",
+      "sha256": "b2d34986d37783dfdddafe637e50ae862a48f983d923c06cb16bd41abc8c6ec0",
+      "bytes": 552051
+    },
+    {
+      "path": "data/revision-record.json",
+      "sha256": "8dc026e79423720dd427b142bcd6ec9039972c40e3b0b09bbc3de89f41c80f33",
+      "bytes": 2768
+    },
+    {
       "path": "data/rewrite-source.json",
-      "sha256": "1b06800c27829ec1a01fed173a58e6c2a56a64e7e48705993b0238875a11015c",
-      "bytes": 1327522
+      "sha256": "aa6a401252f5caeacb9ce4d0b6cffd2075a9523e554b0cd4a04cfb670dd92851",
+      "bytes": 1371772
     },
     {
       "path": "data/source-inventory.json",
@@ -1398,18 +3492,34 @@
     },
     {
       "path": "index.html",
-      "sha256": "8dedd86f93bcd3568fcf16d7db71ccc3f384c4a351c3aba0857b6017c7f3d3d9",
-      "bytes": 4874
+      "sha256": "c532e133a1fd717d374937a41fa7818a39493624a43acd34af3d5762f4861d09",
+      "bytes": 4929
+    },
+    {
+      "path": "past.css",
+      "sha256": "133c21024172be1df7e647cfda4de137f5f0d7b34bd2e2ce3d574174c1be2fd9",
+      "bytes": 4431
+    },
+    {
+      "path": "past.html",
+      "sha256": "75a1c231135e85990d29bcb4cb94b2428bcdb2296144da74305a31e7d1712cdb",
+      "bytes": 4856
+    },
+    {
+      "path": "past.js",
+      "sha256": "43f7a7fcf793bc2c1ea5700003c5035e8118178b551916632ea2bbed7d6ae310",
+      "bytes": 11728
     },
     {
       "path": "research.html",
-      "sha256": "e473c9bec48cecabbea6626a6b3e93084ff976608d650bf0035795c71ee77211",
-      "bytes": 960
+      "sha256": "156b294538e2df6c31702079c7cb50a65aa9b64a57bbd068e3aa20946c91f31f",
+      "bytes": 6578
     },
     {
       "path": "style.css",
-      "sha256": "00a597be328d71c7e40f38809ea673174902ef49e9cee14fc064e9fd37d7bcaa",
-      "bytes": 21442
+      "sha256": "fc761584d348187b3649802ce34130e77445a6ae283a5168b4fda6e3e186b4a4",
+      "bytes": 21696
     }
-  ]
+  ],
+  "origin": "https://pure-maths-library-p123.merryhare20.chatgpt.site"
 }

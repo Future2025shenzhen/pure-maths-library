@@ -1,3 +1,4 @@
+import {account,mountAccountLink} from './account-client.js';
 import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],main=$('#main-view');
 const icons={search:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>'};
@@ -9,8 +10,13 @@ const opened=new Set();const PAGE_SIZE=6;
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('visible'),3500);}
 function math(el=main){if(window.renderMathInElement)window.renderMathInElement(el,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false,strict:'ignore',trust:false});}
 function safeRead(key,fallback){try{return JSON.parse(localStorage.getItem(key))??fallback;}catch{return fallback;}}
-function saveState(){try{localStorage.setItem(STORE_KEY,JSON.stringify(state));}catch{toast('浏览器未允许保存记录，请导出备份。');}$('#saved-count').textContent=state.saved.length;}
-function savePaper(){try{localStorage.setItem('pure-practice-paper-v1',JSON.stringify(paper));}catch{toast('当前试卷无法保存，建议打印留存。');}}
+let recordBusy=false;
+async function saveState(){
+ if(account.enabled){try{await account.commitState('original',state);}catch(e){state=cleanState(account.getState('original'),ids);render();throw e;}}
+ else try{localStorage.setItem(STORE_KEY,JSON.stringify(state));}catch{toast('浏览器未允许保存记录，请导出备份。');}
+ $('#saved-count').textContent=state.saved.length;
+}
+async function savePaper(){if(account.enabled){try{await account.setPaper(paper);}catch(e){paper=account.paper.value;throw e;}}else try{localStorage.setItem('pure-practice-paper-v1',JSON.stringify(paper));}catch{toast('当前试卷无法保存，建议打印留存。');}}
 function resetOrder(){order=data.questions.filter(q=>q.stage===stage).map(q=>q.id);page=1;}
 function chapterName(id){return data.chapters[stage].find(c=>c.id===id);}
 function setStage(value){if(!data.chapters[value])return;stage=value;chapters=data.chapters[stage].map(c=>c.id);kind='';resetOrder();renderSidebar();render();}
@@ -51,7 +57,7 @@ function renderPapers(){
 }
 function renderPaper(){
  const questions=paper.ids.map(id=>data.questions.find(q=>q.id===id));
- if(questions.some(q=>!q)){paper=null;savePaper();renderPapers();return;}
+ if(questions.some(q=>!q)){paper=null;savePaper().catch(e=>toast(e.message));renderPapers();return;}
  const total=questions.reduce((a,q)=>a+q.marks,0);
  main.innerHTML=`<div class="heading-line"><div class="breadcrumb">学习空间 <span>/ 已生成试卷</span></div><span class="stage-pill">${esc(paper.stage)} · ORIGINAL PRACTICE</span></div><div class="paper-heading"><div class="paper-label">PURE PRACTICE · ORIGINAL QUESTIONS</div><h2>Pure Mathematics ${paper.stage.slice(1)}<br>${paper.full?'Practice Examination':'Chapter Practice'}</h2><p>${paper.full?'Time allowed: 1 hour 30 minutes · ':''}Answer all questions. Show sufficient working.<br>${questions.length} questions · Total ${total} marks · ${esc(paper.date)}</p></div><div class="paper-tools"><div class="button-row"><button class="primary" data-action="paper-answers">${answersOpen?'收起整卷答案':'查看整卷答案与解析'}</button><button class="secondary" data-action="print">打印 / 存为 PDF</button></div><div class="button-row"><button class="secondary" data-action="paper-done">整卷标记已做</button><button class="secondary" data-action="new-paper">重新组卷</button></div></div><div class="paper">${questions.map((q,i)=>makeCard(q,i+1,{exam:true})).join('')}</div>${answersOpen?`<section class="paper-answers"><div class="paper-title">Answers and Suggested Mark Scheme</div>${questions.map((q,i)=>`<section class="question-card"><div class="card-head"><span class="q-number">Question ${i+1} · ${q.id} · ${q.marks} marks</span></div>${makeAnswer(q).replace(' hidden','')}</section>`).join('')}</section>`:''}`+foot();math();
 }
@@ -60,15 +66,16 @@ function render(){
  if(view==='library'||view==='saved')renderLibrary();else if(view==='books')renderBooks();else renderPapers();
  $('#saved-count').textContent=state.saved.length;
 }
-function navigate(v){view=v;page=1;history.replaceState(null,'',`#${v}`);render();window.scrollTo({top:0,behavior:'instant'});}
+function navigate(v){view=v;page=1;history.replaceState(null,'',`#${v}`);render();account.activity('visit',v==='library'?'original':v).catch(()=>{});window.scrollTo({top:0,behavior:'instant'});}
 function openFilters(){$('#sidebar').classList.add('open');$('#close-filters').focus();}
 function closeFilters(){$('#sidebar').classList.remove('open');}
 function resetFilters(){chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
- $('#quality-content').innerHTML=`<h3>全章节重写 · 750题内部复核稿</h3><p>P1共9章270题，P2共8章240题，P3共8章240题；每章30题。</p><p>本轮对全部750题作编辑扫描，实质重写68题，另校正歧义、精度与重复考法；按实际依赖关系设置(a)、(b)(i)(ii)等层级，题图和答案图分别展示。题库不提供在线作答或自动判分。</p><p>每题含至少两项主设问、标准答案、中文解析及建议评分细则。已检查题量、ID、逐级分值和公式渲染，并对可计算结果进行符号、数值及人工内部复核。</p><p>未完成外部教师逐题审阅。当前材料为原创练习稿，并非Pearson官方试题。真题区另有33套、323道2020—2023年原题，保留原图原页，附中文解答与官方评分标准。</p><p>收藏与已做记录保存在当前浏览器。</p>`;$('#report-dialog').showModal();
+ $('#quality-content').innerHTML=`<h3>全章节重写 · 750题内部复核稿</h3><p>P1共9章270题，P2共8章240题，P3共8章240题；每章30题。</p><p>本轮对全部750题作编辑扫描，实质重写68题，另校正歧义、精度与重复考法；按实际依赖关系设置(a)、(b)(i)(ii)等层级，题图和答案图分别展示。题库不提供在线作答或自动判分。</p><p>每题含至少两项主设问、标准答案、中文解析及建议评分细则。已检查题量、ID、逐级分值和公式渲染，并对可计算结果进行符号、数值及人工内部复核。</p><p>未完成外部教师逐题审阅。当前材料为原创练习稿，并非Pearson官方试题。真题区另有33套、323道2020—2023年原题，保留原图原页，附中文解答与官方评分标准。</p><p>${account.enabled?'收藏与已做记录保存在当前登录账户，可跨设备同步。':'收藏与已做记录保存在当前浏览器。'}</p>`;$('#report-dialog').showModal();
 }
 let pdfDoc=null,pdfPage=1,pdfScale=1,pdfLoading=0,pdfRenderTask=null,pdfSerial=0;
 async function openBook(u){
+ account.activity('book','books').catch(()=>{});
  const token=++pdfLoading;const dialog=$('#pdf-dialog');if(!dialog.open)dialog.showModal();$('#pdf-title').textContent=`${u} · Pure Mathematics ${u.slice(1)}`;$('#pdf-original').href=`assets/${u.toLowerCase()}.pdf`;$('#pdf-message').textContent='教材较大，首次加载请稍候…';$('#pdf-canvas').hidden=true;pdfScale=1;pdfPage=1;
  try{
   const pdfjs=await import('./assets/pdfjs/pdf.mjs');pdfjs.GlobalWorkerOptions.workerSrc=new URL('./assets/pdfjs/pdf.worker.mjs',import.meta.url).href;
@@ -96,9 +103,9 @@ async function fullscreenPdf(){
 }
 async function handleAction(action,el){
  const id=el.dataset.id;
- if(action==='answer'){if(opened.has(id))opened.delete(id);else opened.add(id);const panel=$(`#answer-${id}`);panel.hidden=!opened.has(id);el.setAttribute('aria-expanded',String(opened.has(id)));el.textContent=opened.has(id)?'收起答案与解析 −':'查看答案与解析 ＋';if(opened.has(id))math(panel);return;}
+ if(action==='answer'){if(opened.has(id))opened.delete(id);else opened.add(id);const panel=$(`#answer-${id}`);panel.hidden=!opened.has(id);el.setAttribute('aria-expanded',String(opened.has(id)));el.textContent=opened.has(id)?'收起答案与解析 −':'查看答案与解析 ＋';if(opened.has(id)){math(panel);account.activity('solution','original',id).catch(()=>{});}return;}
  if(action==='save'||action==='done'){
-  const key=action==='save'?'saved':'done';state[key]=state[key].includes(id)?state[key].filter(a=>a!==id):[...state[key],id];saveState();renderResults();return;
+  if(recordBusy)return;recordBusy=true;try{const key=action==='save'?'saved':'done';state[key]=state[key].includes(id)?state[key].filter(a=>a!==id):[...state[key],id];await saveState();renderResults();}finally{recordBusy=false;}return;
  }
  if(action==='refresh'){
   const pool=matches(),visible=$$('#results article[data-qid]').map(a=>a.dataset.qid),options=pool.filter(q=>!visible.includes(q.id));
@@ -116,18 +123,19 @@ async function handleAction(action,el){
   el.disabled=true;el.textContent='正在检查组合…';await new Promise(r=>setTimeout(r,30));
   const result=composePaper(data,{stage,chapters,count:Number($('#paper-count').value),full:$('input[name="paper-mode"]:checked').value==='full'},state);
   if(result.error){err.innerHTML=`<div class="error-box">${esc(result.error)}</div>`;el.disabled=false;el.textContent='生成新试卷 →';return;}
-  paper={stage,ids:result.questions.map(q=>q.id),full:result.full,date:new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())};answersOpen=false;savePaper();renderPaper();window.scrollTo({top:0,behavior:'smooth'});return;
+  paper={stage,ids:result.questions.map(q=>q.id),full:result.full,date:new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date())};answersOpen=false;try{await savePaper();}catch(e){el.disabled=false;el.textContent='生成新试卷 →';throw e;}renderPaper();window.scrollTo({top:0,behavior:'smooth'});return;
  }
  if(action==='paper-answers'){answersOpen=!answersOpen;renderPaper();return;}
- if(action==='new-paper'){paper=null;answersOpen=false;savePaper();renderPapers();return;}
- if(action==='paper-done'){state.done=[...new Set([...state.done,...paper.ids])];saveState();toast('整卷已标记为已做；不会被后续组卷抽取');return;}
+ if(action==='new-paper'){paper=null;answersOpen=false;await savePaper();renderPapers();return;}
+ if(action==='paper-done'){state.done=[...new Set([...state.done,...paper.ids])];await saveState();toast('整卷已标记为已做；不会被后续组卷抽取');return;}
  if(action==='print'){window.print();return;}
  if(action==='book'){await openBook(el.dataset.stage);return;}
 }
 async function init(){
  try{
-  const res=await fetch('data/bank.json?v=editorial-v4');if(!res.ok)throw Error(`HTTP ${res.status}`);data=validateBank(await res.json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(safeRead(STORE_KEY,{}),ids);
-  const old=safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
+  await account.requireUser();await mountAccountLink();
+  const res=await fetch('data/bank.json?v=editorial-v4');if(!res.ok)throw Error(`HTTP ${res.status}`);data=validateBank(await res.json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
+  const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;
   chapters=data.chapters[stage].map(c=>c.id);resetOrder();renderSidebar();render();
   $$('.topbar .nav').forEach(b=>b.addEventListener('click',()=>navigate(b.dataset.view)));
@@ -140,7 +148,8 @@ async function init(){
   document.addEventListener('click',e=>{const a=e.target.closest('[data-action]');if(a)handleAction(a.dataset.action,a).catch(err=>{console.error(err);toast('操作未完成，请稍后重试。');});const c=e.target.closest('[data-close]');if(c)$(`#${c.dataset.close}`).close();});
   $('#settings').addEventListener('click',()=>{$('#personal-stats').innerHTML=`<span><b>${state.saved.length}</b>收藏</span><span><b>${state.done.length}</b>已做 / ${data.questions.length} 道</span><span>完成进度 ${Math.round(state.done.length/data.questions.length*100)}%</span>`;$('#personal-dialog').showModal();});
   $('#export-state').addEventListener('click',()=>{const blob=new Blob([JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='pure-practice-backup.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
-  $('#import-file').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>1024*1024)throw Error('备份文件过大');const raw=JSON.parse(await file.text());if(raw.version!==1||!Array.isArray(raw.done)||!Array.isArray(raw.saved))throw Error('不是有效的题库备份');const incoming=cleanState(raw,ids);state=cleanState({saved:[...state.saved,...incoming.saved],done:[...state.done,...incoming.done]},ids);saveState();$('#personal-dialog').close();render();toast('备份已合并');}catch(err){toast(err.message||'无法读取备份');}finally{e.target.value='';}});
+  $('#import-file').addEventListener('change',async e=>{try{const file=e.target.files[0];if(!file)return;if(file.size>1024*1024)throw Error('备份文件过大');const raw=JSON.parse(await file.text());if(raw.version!==1||!Array.isArray(raw.done)||!Array.isArray(raw.saved))throw Error('不是有效的题库备份');const incoming=cleanState(raw,ids);state=cleanState({saved:[...state.saved,...incoming.saved],done:[...state.done,...incoming.done]},ids);await saveState();$('#personal-dialog').close();render();toast(account.enabled?'备份已合并到云端账户':'备份已合并');}catch(err){toast(err.message||'无法读取备份');}finally{e.target.value='';}});
+  if(account.enabled){document.querySelector('.local-note').textContent='收藏、已做与练习卷保存在你的云端账户';document.querySelector('#personal-dialog>p').textContent='这些记录保存在当前登录账户下，可在手机和电脑之间同步。也可以导出个人备份。';account.addEventListener('records',()=>{state=cleanState(account.getState('original'),ids);paper=account.paper.value;render();});account.activity('visit',view==='library'?'original':view).catch(()=>{});}
   $('#pdf-prev').addEventListener('click',()=>{if(pdfPage>1){pdfPage--;renderPdf();}});$('#pdf-next').addEventListener('click',()=>{if(pdfDoc&&pdfPage<pdfDoc.numPages){pdfPage++;renderPdf();}});$('#pdf-page').addEventListener('change',e=>{if(pdfDoc){const value=Number(e.target.value);if(!Number.isInteger(value)||value<1||value>pdfDoc.numPages){e.target.value=pdfPage;return;}pdfPage=value;renderPdf();}});
   $('#pdf-in').addEventListener('click',()=>{pdfScale=Math.min(3,pdfScale+.25);renderPdf();});$('#pdf-out').addEventListener('click',()=>{pdfScale=Math.max(.5,pdfScale-.25);renderPdf();});$('#pdf-fullscreen').addEventListener('click',fullscreenPdf);
   $('#pdf-dialog').addEventListener('close',()=>{pdfLoading++;$('#pdf-dialog').classList.remove('expanded');$('#pdf-fullscreen').textContent='全屏阅读';if(document.fullscreenElement)document.exitFullscreen().catch(()=>{});});

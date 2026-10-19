@@ -7,7 +7,17 @@ assert len(b['questions'])==323
 assert len(b['papers'])==33
 assert len({q['id'] for q in a['questions']+b['questions']})==1073
 for stage,chapters in a['chapters'].items():
- for c in chapters:assert sum(q['stage']==stage and c['id'] in q['chapters'] for q in a['questions'])==30
+ for c in chapters:
+  assert sum(q['stage']==stage and q['chapters'][0]==c['id'] for q in a['questions'])==30, (stage,c['id'],'primary count')
+  assert sum(q['stage']==stage and c['id'] in q['chapters'] for q in a['questions'])>=30, (stage,c['id'],'associated count')
+ for q in a['questions']:
+  if q['stage']==stage:assert q['chapters'] and len(q['chapters'])==len(set(q['chapters'])) and all(any(c['id']==n for c in chapters) for n in q['chapters']),q['id']
+index=json.loads((root/'data/classification.json').read_text())['questions']
+refs={q['id']:q for q in b['questions']}
+for q in a['questions']:
+ assert q['editorialRevision']==7 and q['sourceReferences'] and q['adaptationNote'],q['id']
+ assert index[q['id']]['stage']==q['stage'] and set(index[q['id']]['chapters'])==set(q['chapters']),q['id']
+ for r in q['sourceReferences']:assert r['questionId'] in refs and refs[r['questionId']]['stage']==q['stage'] and refs[r['questionId']]['year']==r['year']<2024,q['id']
 for q in b['questions']:
  assert q['year']<2024 and q['solutionZh'] and q['pages']
  for p in q['pages']:assert (root/p['image']).is_file()

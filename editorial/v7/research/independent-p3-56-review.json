@@ -1,0 +1,80 @@
+{
+  "reviewed": "All60 stems+tasks+answers/explanations P3C05/C06; read textual labels for all11 figures; compared against previous bank for near repeats.",
+  "symbolicChecksPassed": [
+    "C05R01 log-product target",
+    "C05R05 intersection quadratic",
+    "C05R10 cooling constant condition",
+    "C05R19 square lower bound",
+    "C05R21 sum upper bound",
+    "C05R26 complete square",
+    "C06R03 mixed trig derivative",
+    "C06R05 reverse derivative",
+    "C06R07 trig quotient derivative",
+    "C06R08 recovered curve",
+    "C06R18 tangent-origin condition",
+    "C06R22 recovered gradient",
+    "C06R24 trig derivative"
+  ],
+  "issues": [
+    {
+      "id": "P3-C06-R14",
+      "severity": "high",
+      "category": "incorrect target/answer",
+      "finding": "Part(c) asks gradient12 and claims x=3,y=8. Exact derivative there is24. Its explanation u(u²+1)²=2 then u=1 is false (left equals4).",
+      "verification": {
+        "exactDerivativeAtClaimedPoint": 24,
+        "numericActualXForGradient12": 2.777247770485703
+      },
+      "action": "Simplest coherent repair: ask gradient24, change equation to u(u²+1)²=4, keep x=3,y=8 and monotonic uniqueness proof. Alternatively genuinely solve different gradient target with permitted numerical-method instructions."
+    },
+    {
+      "id": "P3-C06-R27",
+      "severity": "high",
+      "category": "insufficient substantive rewrite",
+      "finding": "Exact same function x ln x−x, domain, derivative ln x and stationary point(1,−1) as deployed v4 P3-C06-R12. New positive-root/root-count tasks are additions, but core stem and first two results repeat oldbank.",
+      "action": "Replace by a substantially different conditional/parameter or composed-log problem with genuinely different proof target rather than append a part to the old item."
+    },
+    {
+      "id": "P3-C06-R24",
+      "severity": "medium",
+      "category": "near-old reflection variant",
+      "finding": "New (1−sinx)/cosx with derivative −1/(1+sinx) is reflection/sign counterpart of old P3-C06-R27 (1+sinx)/cosx, derivative1/(1−sinx). Old tangent at0 is y=x+1; new normal at0 also y=x+1. Overall proof/point workflow remains extremely close.",
+      "action": "Change relationship/target materially, e.g compare two reciprocal curves or derive a shared-gradient/normal condition at a nontrivial parameter, within scope; avoid only signflip plus tangent-to-normal swap."
+    },
+    {
+      "id": "P3-C06-R04",
+      "severity": "review",
+      "category": "near-old power variant",
+      "finding": "New ln x/x² and old P3-C06-R02 ln x/x have same derivative→stationary max workflow. Denominator exponent is numerical change; added tangent part is routine. This risks the user's explicit number-only prohibition.",
+      "action": "Strengthen through a substantively different condition or proof target (parameter reconstruction, gradient extremum or inverse/area connection), not simply changing exponent1 to2."
+    },
+    {
+      "id": "P3-C05-R20 / P3-C06-R25",
+      "severity": "low",
+      "category": "time units incomplete",
+      "finding": "Both models use t and request times/rates, but stem does not name time unit. Answers cannot supply physically named units consistently. C06R25 uses vague per time unit.",
+      "action": "State e.g t measured in days/hours, and use matching units in all answer rates/time."
+    },
+    {
+      "id": "P3-C06-R03 / R07 / R30",
+      "severity": "low",
+      "category": "figure axis precision",
+      "finding": "Trigonometric figure axis text uses approximate decimal endpoints such as3.1 and6.3 instead of π and2π. Mathematically approximate but less exam-like and can obscure exact boundary.",
+      "action": "Use exact π fraction ticklabels on trig plots. Delete bottom asset-production boilerplate from figure."
+    }
+  ],
+  "limitations": "No full pixel rendering of every SVG; screening similarity is diagnostic, not a claim of complete originality certification.",
+  "followup": {
+    "status": "All four principal findings resolved by rewritten R04,R24,R27 and correctedR14. New math checked independently, no remaining error found in replacements.",
+    "checks": [
+      "R04 derivative",
+      "R14 correct gradient",
+      "R27 derivative",
+      "R24 first derivative",
+      "R24 second derivative",
+      "R24 perpendicular product",
+      "R24 two minimum heights exact"
+    ],
+    "remainingMinor": "Figure precision/production caption cleanup separately assigned; user-facing units added by author."
+  }
+}

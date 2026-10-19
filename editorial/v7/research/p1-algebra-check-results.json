@@ -1,0 +1,675 @@
+{
+  "symbolicCases": 120,
+  "passed": 120,
+  "checks": [
+    {
+      "id": "P1-C01-R01",
+      "check": "fractional substitution and recovery",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R02",
+      "check": "negative real cube-root retained",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R03",
+      "check": "two exponent constraints",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R04",
+      "check": "surd area and ratio",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R05",
+      "check": "conjugate quotient identity",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R06",
+      "check": "coefficient constrained rationalisation",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R07",
+      "check": "squaring extraneous root",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R08",
+      "check": "identity expansion and real factors",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R09",
+      "check": "difference of squares factors",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R10",
+      "check": "cancellation valid-domain equation",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R11",
+      "check": "positive reciprocal roots",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R12",
+      "check": "rationalisation and sum squares",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R13",
+      "check": "inverse fractional scaling",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R14",
+      "check": "rectangle and equal perimeter square",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R15",
+      "check": "index base recovery and target",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R16",
+      "check": "fractional factorisation",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R17",
+      "check": "reciprocal square identity",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R18",
+      "check": "exponent recovery",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R19",
+      "check": "conjugate reciprocal difference",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R20",
+      "check": "geometric difference identity",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R21",
+      "check": "parameter square-difference identity",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R22",
+      "check": "radical equation check",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R23",
+      "check": "cubic identity and strictly positive quadratic",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R24",
+      "check": "symmetric cubic exact value",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R25",
+      "check": "strip dimensions",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R26",
+      "check": "fourth-root substitution",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R27",
+      "check": "parameter conjugate equations",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R28",
+      "check": "zero retained and strict inequality example",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R29",
+      "check": "contradiction and changed feasible target",
+      "passed": true
+    },
+    {
+      "id": "P1-C01-R30",
+      "check": "ordering and telescoping sum",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R01",
+      "check": "completed square and thresholds",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R02",
+      "check": "vertex reconstruction and chord",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R03",
+      "check": "axis coefficients",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R04",
+      "check": "exceptional parameter",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R05",
+      "check": "perfect square with free centre",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R06",
+      "check": "two tangent slopes",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R07",
+      "check": "positive family endpoints",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R08",
+      "check": "rocket model and physical ground root",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R09",
+      "check": "ticket revenue and thresholds",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R10",
+      "check": "repeated root branches",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R11",
+      "check": "translation and curve intersection",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R12",
+      "check": "factorised reconstruction and horizontal line",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R13",
+      "check": "parameter line tangency",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R14",
+      "check": "fixed no-root family and tangency",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R15",
+      "check": "rational completed square and intercepts",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R16",
+      "check": "restricted interval endpoints",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R17",
+      "check": "fixed family point and vertex zero",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R18",
+      "check": "nonunit square lower bound",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R19",
+      "check": "visitor difference",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R20",
+      "check": "root spacing reconstruction",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R21",
+      "check": "discriminant boundary",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R22",
+      "check": "perimeter area feasibility",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R23",
+      "check": "horizontal region gap",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R24",
+      "check": "positive-root parameter range",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R25",
+      "check": "maximum reconstruction",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R26",
+      "check": "perfect square parameter branches",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R27",
+      "check": "vertical difference from oblique line",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R28",
+      "check": "parameter completed-square existence",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R29",
+      "check": "symmetric input identity",
+      "passed": true
+    },
+    {
+      "id": "P1-C02-R30",
+      "check": "score model boundaries",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R01",
+      "check": "sum-product ordered pairs",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R02",
+      "check": "recover line from intersection separation",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R03",
+      "check": "reciprocal sum and ratio",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R04",
+      "check": "quartic reduction",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R05",
+      "check": "excluded root after multiplication",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R06",
+      "check": "intersection of linear and quadratic sets",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R07",
+      "check": "double threshold exact set",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R08",
+      "check": "fractional sign with both cutpoints",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R09",
+      "check": "rectangle feasible root",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R10",
+      "check": "internal path area",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R11",
+      "check": "difference-product solutions",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R12",
+      "check": "horizontal section of region",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R13",
+      "check": "radical system extraneous branch",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R14",
+      "check": "quartic inequality interval sign",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R15",
+      "check": "integer tariff budgets",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R16",
+      "check": "fractional equation exact roots",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R17",
+      "check": "parameter region section",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R18",
+      "check": "combined inequality grid",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R19",
+      "check": "cubic system all three points",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R20",
+      "check": "sum constraint upper bound",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R21",
+      "check": "four vertices satisfy constraints",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R22",
+      "check": "signed system and point distance",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R23",
+      "check": "integer allowed list",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R24",
+      "check": "two parabola gap",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R25",
+      "check": "double contact and nonnegative difference",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R26",
+      "check": "rational window",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R27",
+      "check": "sum of squares reduction",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R28",
+      "check": "zero branch retained",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R29",
+      "check": "trapezium area",
+      "passed": true
+    },
+    {
+      "id": "P1-C03-R30",
+      "check": "triangular region vertices",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R01",
+      "check": "landmark reflections",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R02",
+      "check": "cubic intercepts and vertical offset",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R03",
+      "check": "translated reciprocal line roots",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R04",
+      "check": "horizontal scaling points",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R05",
+      "check": "double root sign",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R06",
+      "check": "square root line solution and excluded one",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R07",
+      "check": "vertical constants",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R08",
+      "check": "cubic root compression and chord",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R09",
+      "check": "reciprocal square threshold",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R10",
+      "check": "reflected cubic intercept",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R11",
+      "check": "reciprocal line and distance",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R12",
+      "check": "horizontal root shift",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R13",
+      "check": "equivalent reciprocal scales",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R14",
+      "check": "shifted cubic intercept and threshold",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R15",
+      "check": "parabola shift and intersection",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R16",
+      "check": "asymptote coordinate scale",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R17",
+      "check": "square-root vertical transform",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R18",
+      "check": "reflected cubic sign",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R19",
+      "check": "reciprocal quadrant intercepts",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R20",
+      "check": "general graph translated intervals",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R21",
+      "check": "central line intersection condition",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R22",
+      "check": "translated reciprocal square chord",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R23",
+      "check": "cubic reconstructed scale",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R24",
+      "check": "two shifted radical intersection",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R25",
+      "check": "negative scale from point pairs",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R26",
+      "check": "horizontal stretch roots and chord",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R27",
+      "check": "cubic minus line",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R28",
+      "check": "hole domain retained",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R29",
+      "check": "endpoint reconstructed parameters",
+      "passed": true
+    },
+    {
+      "id": "P1-C04-R30",
+      "check": "four-intersection parameter identity",
+      "passed": true
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "questions": 30,
+      "figures": 3,
+      "parts": {
+        "3": 25,
+        "4": 2,
+        "2": 3
+      },
+      "marks": {
+        "7": 19,
+        "6": 6,
+        "8": 3,
+        "5": 2
+      }
+    },
+    {
+      "chapter": 2,
+      "questions": 30,
+      "figures": 4,
+      "parts": {
+        "3": 25,
+        "2": 3,
+        "4": 2
+      },
+      "marks": {
+        "7": 17,
+        "8": 7,
+        "6": 5,
+        "5": 1
+      }
+    },
+    {
+      "chapter": 3,
+      "questions": 30,
+      "figures": 3,
+      "parts": {
+        "3": 25,
+        "2": 3,
+        "4": 2
+      },
+      "marks": {
+        "8": 6,
+        "10": 1,
+        "5": 3,
+        "6": 2,
+        "7": 18
+      }
+    },
+    {
+      "chapter": 4,
+      "questions": 30,
+      "figures": 7,
+      "parts": {
+        "3": 25,
+        "4": 2,
+        "2": 3
+      },
+      "marks": {
+        "7": 13,
+        "8": 6,
+        "6": 9,
+        "9": 1,
+        "10": 1
+      }
+    }
+  ],
+  "limitations": "Symbolic verification of authored key identities and solution branches; internal author review, not independent teacher certification. General graph-shape claims additionally reviewed manually."
+}

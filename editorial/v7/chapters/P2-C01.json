@@ -1,0 +1,2515 @@
+[
+  {
+    "id": "P2-C01-R01",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "参数与唯一实根",
+    "stem": "$f(x)=x^3+ax^2+bx+12$. The polynomial has factor $(x+2)$ and leaves remainder $12$ when divided by $(x-1)$.",
+    "parts": [
+      {
+        "text": "Find $a$ and $b$.",
+        "marks": 3,
+        "answer": "$f(-2)=0\\Rightarrow2a-b=-2$；$f(1)=12\\Rightarrow a+b=-1$。联立得 $a=-1,b=0$。",
+        "explanation": "$f(-2)=0\\Rightarrow2a-b=-2$；$f(1)=12\\Rightarrow a+b=-1$。联立得 $a=-1,b=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$f(-2)=0\\Rightarrow2a-b=-2$；$f(1)=12\\Rightarrow a+b=-1$。联立得 $a=-1,b=0$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence prove that $f(x)=0$ has exactly one real root.",
+        "marks": 3,
+        "answer": "$f(x)=(x+2)(x^2-3x+6)$；二次式判别式 $9-24=-15<0$，所以唯一实根为 $-2$。",
+        "explanation": "$f(x)=(x+2)(x^2-3x+6)$；二次式判别式 $9-24=-15<0$，所以唯一实根为 $-2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$f(x)=(x+2)(x^2-3x+6)$；二次式判别式 $9-24=-15<0$，所以唯一实根为 $-2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find all real solutions of $f(2t-1)=0$.",
+        "marks": 2,
+        "answer": "$2t-1=-2$，故 $t=-\\frac12$。",
+        "explanation": "$2t-1=-2$，故 $t=-\\frac12$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$2t-1=-2$，故 $t=-\\frac12$。"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "因式定理",
+      "余式定理",
+      "判别式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q02",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：单一实根的证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将单因式给定改为因式与余式共同确定参数，增加仿射自变量方程。"
+  },
+  {
+    "id": "P2-C01-R02",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "恒等式与二次余式",
+    "stem": "A polynomial $P$ satisfies $P(x)=(x^2-x-2)Q(x)+rx+s$. Also $P(2)=7$ and $P(-1)=-5$.",
+    "parts": [
+      {
+        "text": "Find $r$ and $s$.",
+        "marks": 2,
+        "answer": "$2r+s=7,-r+s=-5$，所以 $r=4,s=-1$。",
+        "explanation": "$2r+s=7,-r+s=-5$，所以 $r=4,s=-1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$2r+s=7,-r+s=-5$，所以 $r=4,s=-1$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the remainder when $P(x)-3x$ is divided by $x+1$.",
+        "marks": 2,
+        "answer": "余式为 $P(-1)+3=-2$。",
+        "explanation": "余式为 $P(-1)+3=-2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "余式为 $P(-1)+3=-2$。"
+          }
+        ]
+      },
+      {
+        "text": "A student concludes that $P(0)=-1$. Give a polynomial satisfying the conditions for which this conclusion is false.",
+        "marks": 3,
+        "answer": "取 $Q(x)=1$，则 $P=x^2+3x-3$，满足两给定值，但 $P(0)=-3\\ne-1$。",
+        "explanation": "取 $Q(x)=1$，则 $P=x^2+3x-3$，满足两给定值，但 $P(0)=-3\\ne-1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "取 $Q(x)=1$，则 $P=x^2+3x-3$，满足两给定值，但 $P(0)=-3\\ne-1$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "二次除式的余式",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q01",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-01",
+        "note": "参考真题考查结构：余式定理与联立方程；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "用未知商与线性余式替换常规三次求参，并检验对未知商的错误推断。"
+  },
+  {
+    "id": "P2-C01-R03",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "偶多项式与因式",
+    "stem": "$F(x)=x^4+ax^2+b$. The remainders on division by $x-1$ and $x-3$ are $0$ and $40$ respectively.",
+    "parts": [
+      {
+        "text": "Find $a$ and $b$.",
+        "marks": 3,
+        "answer": "$1+a+b=0,81+9a+b=40$，得 $a=-5,b=4$。",
+        "explanation": "$1+a+b=0,81+9a+b=40$，得 $a=-5,b=4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$1+a+b=0,81+9a+b=40$，得 $a=-5,b=4$。"
+          }
+        ]
+      },
+      {
+        "text": "Using your values of $a$ and $b$,",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "Factorise $F(x)$ completely.",
+            "marks": 2,
+            "answer": "$F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。",
+            "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "按解析列式、使用所需条件或组织证明。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。"
+              }
+            ]
+          },
+          {
+            "text": "Hence solve $F(\\sqrt{u+1})=0$ for $u\\ge-1$.",
+            "marks": 2,
+            "answer": "$\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。",
+            "explanation": "$\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "按解析列式、使用所需条件或组织证明。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。"
+              }
+            ]
+          }
+        ],
+        "answer": "$F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。 $\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。 $\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$F=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2)$。"
+          },
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$\\sqrt{u+1}$ 非负，只能为 $1,2$，故 $u=0,3$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "余式定理",
+      "二次型四次方程"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q05",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：余式与指定一次因式；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "通过两个非零余式与偶次结构建立四次式，再以根号代换约束根。"
+  },
+  {
+    "id": "P2-C01-R04",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "线性余式与参数",
+    "stem": "$G(x)=2x^3+kx^2-7x+6$. When $G$ is divided by $2x-1$, the remainder is $3$.",
+    "parts": [
+      {
+        "text": "Find $k$.",
+        "marks": 2,
+        "answer": "$G(\\frac12)=\\frac14+\\frac{k}{4}-\\frac72+6=3$，故 $k=1$。",
+        "explanation": "$G(\\frac12)=\\frac14+\\frac{k}{4}-\\frac72+6=3$，故 $k=1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$G(\\frac12)=\\frac14+\\frac{k}{4}-\\frac72+6=3$，故 $k=1$。"
+          }
+        ]
+      },
+      {
+        "text": "Divide $G(x)-3$ by $2x-1$.",
+        "marks": 3,
+        "answer": "$G-3=2x^3+x^2-7x+3=(2x-1)(x^2+x-3)$；商为 $x^2+x-3$，余式为 $0$。",
+        "explanation": "$G-3=2x^3+x^2-7x+3=(2x-1)(x^2+x-3)$；商为 $x^2+x-3$，余式为 $0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$G-3=2x^3+x^2-7x+3=(2x-1)(x^2+x-3)$；商为 $x^2+x-3$，余式为 $0$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve $G(x)=3$ exactly.",
+        "marks": 2,
+        "answer": "$x=\\frac12$ 或 $x^2+x-3=0$；故 $x=\\frac12,\\frac{-1\\pm\\sqrt{13}}2$。",
+        "explanation": "$x=\\frac12$ 或 $x^2+x-3=0$；故 $x=\\frac12,\\frac{-1\\pm\\sqrt{13}}2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x=\\frac12$ 或 $x^2+x-3=0$；故 $x=\\frac12,\\frac{-1\\pm\\sqrt{13}}2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "非首一除式",
+      "精确根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-10-Q04",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-10",
+        "note": "参考真题考查结构：因式与余式确定三次多项式；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "余式不为零且除式非首一，目标改为水平线交点而非原函数零点。"
+  },
+  {
+    "id": "P2-C01-R05",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "余式与函数变换",
+    "stem": "A polynomial $f$ satisfies $f(-2)=5$ and $f(3)=-10$. Let $g(x)=f(1-2x)+kx$.",
+    "parts": [
+      {
+        "text": "Find the remainder when $f(x)$ is divided by $x+2$.",
+        "marks": 1,
+        "answer": "由余式定理，余式为 $5$。",
+        "explanation": "由余式定理，余式为 $5$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "由余式定理，余式为 $5$。"
+          }
+        ]
+      },
+      {
+        "text": "Find $k$ so that $x+1$ is a factor of $g(x)$.",
+        "marks": 2,
+        "answer": "$g(-1)=f(3)-k=-10-k=0$，故 $k=-10$。",
+        "explanation": "$g(-1)=f(3)-k=-10-k=0$，故 $k=-10$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$g(-1)=f(3)-k=-10-k=0$，故 $k=-10$。"
+          }
+        ]
+      },
+      {
+        "text": "For this value of $k$, find the remainder when $g(x)$ is divided by $2x-3$.",
+        "marks": 3,
+        "answer": "代入 $x=\\frac32$，内层为 $-2$，所以余式 $f(-2)-15=-10$。",
+        "explanation": "代入 $x=\\frac32$，内层为 $-2$，所以余式 $f(-2)-15=-10$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "代入 $x=\\frac32$，内层为 $-2$，所以余式 $f(-2)-15=-10$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "余式定理",
+      "线性变换"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q01",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-01",
+        "note": "参考真题考查结构：余式定理与联立方程；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将已知两函数值连接到复合自变量和非首一除式，参数出现在附加一次项。"
+  },
+  {
+    "id": "P2-C01-R06",
+    "stage": "P2",
+    "chapters": [
+      1,
+      7
+    ],
+    "type": "因式与微分",
+    "stem": "A student describes the curve $y=x^3+ax^2+bx-4$ as follows: “It crosses the $x$-axis at $x=1$ and has a horizontal tangent there.” Treat the zero value and horizontal tangent as conditions in parts (a) and (b), then assess the word “crosses” in part (c).",
+    "parts": [
+      {
+        "text": "Form two equations in $a,b$ and find their values.",
+        "marks": 3,
+        "answer": "$a+b=3$；$y\\prime(1)=3+2a+b=0$。得 $a=-6,b=9$。",
+        "explanation": "$a+b=3$；$y\\prime(1)=3+2a+b=0$。得 $a=-6,b=9$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$a+b=3$；$y\\prime(1)=3+2a+b=0$。得 $a=-6,b=9$。"
+          }
+        ]
+      },
+      {
+        "text": "Factorise the expression for $y$ completely.",
+        "marks": 2,
+        "answer": "$y=x^3-6x^2+9x-4=(x-1)^2(x-4)$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $y=x^3-6x^2+9x-4=(x-1)^2(x-4)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$y=x^3-6x^2+9x-4=(x-1)^2(x-4)$。"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the description “crosses the $x$-axis at $x=1$” is incorrect.",
+        "marks": 2,
+        "answer": "在 $1$ 附近，$(x-1)^2\\ge0$，$x-4<0$，曲线在轴下两侧相接；$1$ 是二重根，只相切不穿过。",
+        "explanation": "在 $1$ 附近，$(x-1)^2\\ge0$，$x-4<0$，曲线在轴下两侧相接；$1$ 是二重根，只相切不穿过。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "在 $1$ 附近，$(x-1)^2\\ge0$，$x-4<0$，曲线在轴下两侧相接；$1$ 是二重根，只相切不穿过。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "因式定理",
+      "切线",
+      "重根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "Edexcel IAL P2 2020-10",
+        "note": "参考真题考查结构：余式与因式条件后求驻点；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "以一段可被检验的曲线描述确定多项式，并要求纠正交轴性质。"
+  },
+  {
+    "id": "P2-C01-R07",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "整除证明与反例",
+    "stem": "Let $n$ be an odd integer that is not divisible by $3$.",
+    "parts": [
+      {
+        "text": "Show that $n^2-1$ is divisible by $8$.",
+        "marks": 2,
+        "answer": "设 $n=2k+1$，则 $n^2-1=4k(k+1)$；连续整数乘积为偶数，故可被 $8$ 整除。",
+        "explanation": "设 $n=2k+1$，则 $n^2-1=4k(k+1)$；连续整数乘积为偶数，故可被 $8$ 整除。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "设 $n=2k+1$，则 $n^2-1=4k(k+1)$；连续整数乘积为偶数，故可被 $8$ 整除。"
+          }
+        ]
+      },
+      {
+        "text": "Hence prove that $n^2-1$ is divisible by $24$.",
+        "marks": 2,
+        "answer": "$n$ 不被 $3$ 整除，故 $n=3j\\pm1$，得 $n^2-1$ 可被 $3$ 整除；$3,8$ 互质，结合(a)可被 $24$ 整除。",
+        "explanation": "$n$ 不被 $3$ 整除，故 $n=3j\\pm1$，得 $n^2-1$ 可被 $3$ 整除；$3,8$ 互质，结合(a)可被 $24$ 整除。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$n$ 不被 $3$ 整除，故 $n=3j\\pm1$，得 $n^2-1$ 可被 $3$ 整除；$3,8$ 互质，结合(a)可被 $24$ 整除。"
+          }
+        ]
+      },
+      {
+        "text": "Disprove the claim that $n^2-1$ must be divisible by $48$.",
+        "marks": 1,
+        "answer": "$n=5$ 满足全部条件，$n^2-1=24$ 不被 $48$ 整除。",
+        "explanation": "$n=5$ 满足全部条件，$n^2-1=24$ 不被 $48$ 整除。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$n=5$ 满足全部条件，$n^2-1=24$ 不被 $48$ 整除。"
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "奇偶分类",
+      "整除",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q10",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：反例与奇偶分类证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "增加不被3整除的条件，把平方差的两个独立整除结论合成为24并检验加强命题。"
+  },
+  {
+    "id": "P2-C01-R08",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "有限穷举证明",
+    "stem": "Positive integers $a,b,c$ satisfy $c=2a+1$ and $a+b+c=12$.",
+    "parts": [
+      {
+        "text": "Show that $a$ can take only the values $1,2,3$.",
+        "marks": 2,
+        "answer": "$b=11-3a>0$，故 $0<a<\\frac{11}3$；整数 $a=1,2,3$。",
+        "explanation": "$b=11-3a>0$，故 $0<a<\\frac{11}3$；整数 $a=1,2,3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$b=11-3a>0$，故 $0<a<\\frac{11}3$；整数 $a=1,2,3$。"
+          }
+        ]
+      },
+      {
+        "text": "Prove by exhaustion that $abc$ is even.",
+        "marks": 3,
+        "answer": "全部三组为 $(1,8,3),(2,5,5),(3,2,7)$，乘积依次为 $24,50,42$，均为偶数。",
+        "explanation": "全部三组为 $(1,8,3),(2,5,5),(3,2,7)$，乘积依次为 $24,50,42$，均为偶数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "全部三组为 $(1,8,3),(2,5,5),(3,2,7)$，乘积依次为 $24,50,42$，均为偶数。"
+          }
+        ]
+      },
+      {
+        "text": "Is $abc$ always a multiple of $4$? Justify your answer.",
+        "marks": 1,
+        "answer": "不是；$(2,5,5)$ 的乘积为 $50$，不被 $4$ 整除。",
+        "explanation": "不是；$(2,5,5)$ 的乘积为 $50$，不被 $4$ 整除。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "不是；$(2,5,5)$ 的乘积为 $50$，不被 $4$ 整除。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "穷举",
+      "正整数约束",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-10-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-10",
+        "note": "参考真题考查结构：三元整数的穷举整除证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "更换线性约束使可行组和整除目标均改变，先证明穷举范围再反驳更强结论。"
+  },
+  {
+    "id": "P2-C01-R09",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "充分条件与奇偶证明",
+    "stem": "A student claims: “If integers $u,v$ have the same parity, then $u^2+v^2$ is divisible by $4$.”",
+    "parts": [
+      {
+        "text": "Give a counterexample.",
+        "marks": 1,
+        "answer": "$u=v=1$，平方和 $2$ 不被 $4$ 整除。",
+        "explanation": "$u=v=1$，平方和 $2$ 不被 $4$ 整除。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$u=v=1$，平方和 $2$ 不被 $4$ 整除。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that the claim is true when both integers are even.",
+        "marks": 2,
+        "answer": "设 $u=2r,v=2s$，则 $u^2+v^2=4(r^2+s^2)$。",
+        "explanation": "设 $u=2r,v=2s$，则 $u^2+v^2=4(r^2+s^2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "设 $u=2r,v=2s$，则 $u^2+v^2=4(r^2+s^2)$。"
+          }
+        ]
+      },
+      {
+        "text": "Show that when both integers are odd, $u^2+v^2$ leaves remainder $2$ on division by $4$.",
+        "marks": 3,
+        "answer": "设 $u=2r+1,v=2s+1$，平方和为 $4[r(r+1)+s(s+1)]+2$，所以余式为 $2$。",
+        "explanation": "设 $u=2r+1,v=2s+1$，平方和为 $4[r(r+1)+s(s+1)]+2$，所以余式为 $2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "设 $u=2r+1,v=2s+1$，平方和为 $4[r(r+1)+s(s+1)]+2$，所以余式为 $2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "反例",
+      "奇偶证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-01",
+        "note": "参考真题考查结构：平方非负证明与反例；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "从单变量平方不等式转为双整数条件，分开充分条件与失败情形。"
+  },
+  {
+    "id": "P2-C01-R10",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "平方非负与定义域",
+    "stem": "For real $x$, let $H(x)=4x^2-12x+9$.",
+    "parts": [
+      {
+        "text": "Prove that $4x^2+9\\ge12x$, stating when equality holds.",
+        "marks": 2,
+        "answer": "$H=(2x-3)^2\\ge0$；等号当且仅当 $x=\\frac32$。",
+        "explanation": "$H=(2x-3)^2\\ge0$；等号当且仅当 $x=\\frac32$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$H=(2x-3)^2\\ge0$；等号当且仅当 $x=\\frac32$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence prove that $x+\\frac{9}{4x}\\ge3$ for $x>0$.",
+        "marks": 2,
+        "answer": "将(a)两边除以正数 $4x$，得目标不等式；等号仍在 $x=\\frac32$。",
+        "explanation": "将(a)两边除以正数 $4x$，得目标不等式；等号仍在 $x=\\frac32$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "将(a)两边除以正数 $4x$，得目标不等式；等号仍在 $x=\\frac32$。"
+          }
+        ]
+      },
+      {
+        "text": "For $x<0$, determine whether the inequality in part (b) is true or false, with justification.",
+        "marks": 2,
+        "answer": "除以负数 $4x$ 需反向，得 $x+\\frac{9}{4x}\\le3$；且左侧两项均负，所以原不等式对所有 $x<0$ 均假。",
+        "explanation": "除以负数 $4x$ 需反向，得 $x+\\frac{9}{4x}\\le3$；且左侧两项均负，所以原不等式对所有 $x<0$ 均假。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "除以负数 $4x$ 需反向，得 $x+\\frac{9}{4x}\\le3$；且左侧两项均负，所以原不等式对所有 $x<0$ 均假。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "平方非负",
+      "不等式条件"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q09",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-10",
+        "note": "参考真题考查结构：均值不等式及条件必要性；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "把平方证明递进到含倒数的最值并比较正负定义域，不仅给反例。"
+  },
+  {
+    "id": "P2-C01-R11",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "整除证明的加强",
+    "stem": "Let $N=n^4-n^2$, where $n$ is an integer.",
+    "parts": [
+      {
+        "text": "Factorise $N$.",
+        "marks": 1,
+        "answer": "$N=n^2(n-1)(n+1)$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $N=n^2(n-1)(n+1)$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$N=n^2(n-1)(n+1)$。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $N$ is divisible by $3$.",
+        "marks": 1,
+        "answer": "在 $n-1,n,n+1$ 三个连续整数中必有3的倍数，而 $N=n^2(n-1)(n+1)$ 包含该因子。",
+        "explanation": "在 $n-1,n,n+1$ 三个连续整数中必有3的倍数，而 $N=n^2(n-1)(n+1)$ 包含该因子。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "在 $n-1,n,n+1$ 三个连续整数中必有3的倍数，而 $N=n^2(n-1)(n+1)$ 包含该因子。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $N$ is divisible by $4$ and hence by $12$.",
+        "marks": 2,
+        "answer": "若n偶，则 $n^2$ 被4整除；若n奇，则 $n-1,n+1$ 均偶，乘积被4整除。又3与4互质，结合(b)得被12整除。",
+        "explanation": "若n偶，则 $n^2$ 被4整除；若n奇，则 $n-1,n+1$ 均偶，乘积被4整除。又3与4互质，结合(b)得被12整除。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "若n偶，则 $n^2$ 被4整除；若n奇，则 $n-1,n+1$ 均偶，乘积被4整除。又3与4互质，结合(b)得被12整除。"
+          }
+        ]
+      },
+      {
+        "text": "Give a counterexample to “$N$ is always a multiple of $24$”.",
+        "marks": 1,
+        "answer": "$n=2$ 时 $N=12$，不被24整除。",
+        "explanation": "$n=2$ 时 $N=12$，不被24整除。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$n=2$ 时 $N=12$，不被24整除。"
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "因式分解",
+      "分情况证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q10",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：反例与奇偶分类证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将三次连续乘积目标变为四次差，通过n奇偶分别证明4的整除性。"
+  },
+  {
+    "id": "P2-C01-R12",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "整数命题与因式分解",
+    "stem": "For integer $n$, define $T=n^2+5n+6$.",
+    "parts": [
+      {
+        "text": "Factorise $T$.",
+        "marks": 1,
+        "answer": "$T=(n+2)(n+3)$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $T=(n+2)(n+3)$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$T=(n+2)(n+3)$。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $T$ is composite for every positive integer $n$.",
+        "marks": 2,
+        "answer": "若 $n\\ge1$，两整数因子 $n+2\\ge3,n+3\\ge4$ 均大于1，因此为合数。",
+        "explanation": "若 $n\\ge1$，两整数因子 $n+2\\ge3,n+3\\ge4$ 均大于1，因此为合数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "若 $n\\ge1$，两整数因子 $n+2\\ge3,n+3\\ge4$ 均大于1，因此为合数。"
+          }
+        ]
+      },
+      {
+        "text": "Find all integer values of $n$ for which $T$ is prime.",
+        "marks": 3,
+        "answer": "两相邻整数乘积为正素数时只能是 $1\\cdot2$ 或 $(-2)(-1)$。故 $n=-1$ 或 $-4$，均得 $T=2$。",
+        "explanation": "两相邻整数乘积为正素数时只能是 $1\\cdot2$ 或 $(-2)(-1)$。故 $n=-1$ 或 $-4$，均得 $T=2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "两相邻整数乘积为正素数时只能是 $1\\cdot2$ 或 $(-2)(-1)$。故 $n=-1$ 或 $-4$，均得 $T=2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "因式分解",
+      "素数",
+      "定义域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q08",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：反例与有限穷举证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "从否定全称命题进到完整刻画允许的整数，并含负因子情形。"
+  },
+  {
+    "id": "P2-C01-R13",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "三次根数与反例",
+    "stem": "$f(x)=x^3+x^2-3x+1$.",
+    "parts": [
+      {
+        "text": "Use the factor theorem to show that $x-1$ is a factor of $f(x)$.",
+        "marks": 1,
+        "answer": "$f(1)=1+1-3+1=0$，由因式定理得结论。",
+        "explanation": "$f(1)=1+1-3+1=0$，由因式定理得结论。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$f(1)=1+1-3+1=0$，由因式定理得结论。"
+          }
+        ]
+      },
+      {
+        "text": "Factorise $f(x)$ and find all its real zeros.",
+        "marks": 3,
+        "answer": "$f=(x-1)(x^2+2x-1)$，所以根为 $1,-1\\pm\\sqrt2$。",
+        "explanation": "$f=(x-1)(x^2+2x-1)$，所以根为 $1,-1\\pm\\sqrt2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$f=(x-1)(x^2+2x-1)$，所以根为 $1,-1\\pm\\sqrt2$。"
+          }
+        ]
+      },
+      {
+        "text": "A student claims that a cubic with a factor $x-1$ has only one real root. Explain how your result disproves this claim.",
+        "marks": 1,
+        "answer": "本题三根互异且均实，满足有因式 $x-1$ 的条件，却并非只有一个实根，因此是反例。",
+        "explanation": "本题三根互异且均实，满足有因式 $x-1$ 的条件，却并非只有一个实根，因此是反例。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "本题三根互异且均实，满足有因式 $x-1$ 的条件，却并非只有一个实根，因此是反例。"
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "因式定理",
+      "判别式",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q02",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：单一实根的证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "反转原卷唯一实根目标，用同一先决条件得出三根并质疑错误推广。"
+  },
+  {
+    "id": "P2-C01-R14",
+    "stage": "P2",
+    "chapters": [
+      1,
+      8
+    ],
+    "type": "积分条件确定多项式",
+    "stem": "$f(x)=x^3+ax+b$. It is given that $x-2$ is a factor of $f(x)$ and $\\int_0^2 f(x)\\,dx=-4$.",
+    "parts": [
+      {
+        "text": "Show that $a+b=-4$.",
+        "marks": 2,
+        "answer": "积分为 $4+2a+2b=-4$，故 $a+b=-4$。",
+        "explanation": "积分为 $4+2a+2b=-4$，故 $a+b=-4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "积分为 $4+2a+2b=-4$，故 $a+b=-4$。"
+          }
+        ]
+      },
+      {
+        "text": "For the polynomial determined by the factor and integral conditions,",
+        "marks": 5,
+        "subparts": [
+          {
+            "text": "Find $a,b$ and factorise $f(x)$.",
+            "marks": 3,
+            "answer": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。",
+            "explanation": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "按解析列式、使用所需条件或组织证明。"
+              },
+              {
+                "code": "A2",
+                "marks": 2,
+                "text": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。"
+              }
+            ]
+          },
+          {
+            "text": "Explain why the area between $y=f(x)$ and the $x$-axis for $0\\le x\\le2$ is $4$.",
+            "marks": 2,
+            "answer": "在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。",
+            "explanation": "在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "按解析列式、使用所需条件或组织证明。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。"
+              }
+            ]
+          }
+        ],
+        "answer": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。 在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。",
+        "explanation": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。 在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$8+2a+b=0$；与(a)联立得 $a=-4,b=0$。故 $f=x(x-2)(x+2)$。"
+          },
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "在 $0<x<2$，$x>0,x-2<0,x+2>0$，故 $f<0$。面积为 $-\\int_0^2f=4$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "因式定理",
+      "定积分",
+      "面积符号"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q07",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-06",
+        "note": "参考真题考查结构：因式条件与定积分确定参数；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "改用无二次项结构和有向积分约束，后问要求证明面积符号。"
+  },
+  {
+    "id": "P2-C01-R15",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "余式差与对称结构",
+    "stem": "$P(x)=x^3+ax^2+bx+c$. For every real $t$, $P(t)-P(-t)=2t^3-8t$. Also $P(1)=0$ and $P(2)=6$.",
+    "parts": [
+      {
+        "text": "Find $b$.",
+        "marks": 1,
+        "answer": "差为 $2t^3+2bt$，比较系数得 $b=-4$。",
+        "explanation": "差为 $2t^3+2bt$，比较系数得 $b=-4$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "差为 $2t^3+2bt$，比较系数得 $b=-4$。"
+          }
+        ]
+      },
+      {
+        "text": "Find $a$ and $c$.",
+        "marks": 3,
+        "answer": "$1+a-4+c=0\\Rightarrow a+c=3$；$8+4a-8+c=6\\Rightarrow4a+c=6$。故 $a=1,c=2$。",
+        "explanation": "$1+a-4+c=0\\Rightarrow a+c=3$；$8+4a-8+c=6\\Rightarrow4a+c=6$。故 $a=1,c=2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$1+a-4+c=0\\Rightarrow a+c=3$；$8+4a-8+c=6\\Rightarrow4a+c=6$。故 $a=1,c=2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the quotient when $P(x)$ is divided by $x-1$.",
+        "marks": 2,
+        "answer": "$P=x^3+x^2-4x+2=(x-1)(x^2+2x-2)$，商为 $x^2+2x-2$。",
+        "explanation": "$P=x^3+x^2-4x+2=(x-1)(x^2+2x-2)$，商为 $x^2+2x-2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$P=x^3+x^2-4x+2=(x-1)(x^2+2x-2)$，商为 $x^2+2x-2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "恒等式",
+      "余式",
+      "多项式除法"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q01",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-01",
+        "note": "参考真题考查结构：余式定理与联立方程；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "通过对称函数恒等式识别奇次项，再以两函数值恢复剩余项。"
+  },
+  {
+    "id": "P2-C01-R16",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "穷举与三角形整数边",
+    "stem": "A triangle has integer side lengths $a,b,7$, with $a\\le b$ and perimeter $18$.",
+    "parts": [
+      {
+        "text": "Show that $a+b=11$ and $3\\le a\\le5$.",
+        "marks": 2,
+        "answer": "周长给 $a+b=11$。$a\\le b$ 给 $a\\le5$；三角不等式 $a+7>b=11-a$ 给 $a>2$。",
+        "explanation": "周长给 $a+b=11$。$a\\le b$ 给 $a\\le5$；三角不等式 $a+7>b=11-a$ 给 $a>2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "周长给 $a+b=11$。$a\\le b$ 给 $a\\le5$；三角不等式 $a+7>b=11-a$ 给 $a>2$。"
+          }
+        ]
+      },
+      {
+        "text": "List all possible pairs $(a,b)$ and hence prove that the product $ab$ is even.",
+        "marks": 2,
+        "answer": "全部为 $(3,8),(4,7),(5,6)$，乘积为 $24,28,30$，均偶。",
+        "explanation": "全部为 $(3,8),(4,7),(5,6)$，乘积为 $24,28,30$，均偶。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "全部为 $(3,8),(4,7),(5,6)$，乘积为 $24,28,30$，均偶。"
+          }
+        ]
+      },
+      {
+        "text": "A student also allows $(2,9)$. Explain why this case is inadmissible.",
+        "marks": 1,
+        "answer": "$2+7=9$，两边之和不大于第三边，为退化情形，不构成三角形。",
+        "explanation": "$2+7=9$，两边之和不大于第三边，为退化情形，不构成三角形。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$2+7=9$，两边之和不大于第三边，为退化情形，不构成三角形。"
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "穷举",
+      "三角形不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q08",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：反例与有限穷举证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "穷举范围由几何非退化条件产生，而非直接列给有限整数。"
+  },
+  {
+    "id": "P2-C01-R17",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "根的条件与证明",
+    "stem": "$P(x)=x^3+px+q$. Two roots of $P$ are $r$ and $-r$, where $r\\ne0$.",
+    "parts": [
+      {
+        "text": "Show that $q=0$.",
+        "marks": 2,
+        "answer": "$P(r)+P(-r)=2q=0$，故 $q=0$。",
+        "explanation": "$P(r)+P(-r)=2q=0$，故 $q=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$P(r)+P(-r)=2q=0$，故 $q=0$。"
+          }
+        ]
+      },
+      {
+        "text": "Express $p$ in terms of $r$ and factorise $P(x)$.",
+        "marks": 2,
+        "answer": "$r^3+pr=0$ 且 $r\\ne0$，得 $p=-r^2$；$P=x(x-r)(x+r)$。",
+        "explanation": "$r^3+pr=0$ 且 $r\\ne0$，得 $p=-r^2$；$P=x(x-r)(x+r)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$r^3+pr=0$ 且 $r\\ne0$，得 $p=-r^2$；$P=x(x-r)(x+r)$。"
+          }
+        ]
+      },
+      {
+        "text": "Given that $P(1)=-8$, find all roots of $P$.",
+        "marks": 2,
+        "answer": "$1-r^2=-8\\Rightarrow r^2=9$，故根为 $-3,0,3$。",
+        "explanation": "$1-r^2=-8\\Rightarrow r^2=9$，故根为 $-3,0,3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1-r^2=-8\\Rightarrow r^2=9$，故根为 $-3,0,3$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "因式定理",
+      "对称根",
+      "符号参数证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q04",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-10",
+        "note": "参考真题考查结构：乘积形式多项式及唯一实根；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "用两对称根导出整类三次式结构，非给定具体根的常规因式分解。"
+  },
+  {
+    "id": "P2-C01-R18",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "线性组合与余式",
+    "stem": "A polynomial $f$ leaves remainders $4$ and $-2$ when divided by $x-1$ and $x+2$ respectively. Define $h(x)=f(x)+ax+b$.",
+    "parts": [
+      {
+        "text": "Find $a,b$ so that $(x-1)(x+2)$ is a factor of $h(x)$.",
+        "marks": 3,
+        "answer": "$4+a+b=0,-2-2a+b=0$，得 $a=-2,b=-2$。两个不同根确保该乘积为因式。",
+        "explanation": "$4+a+b=0,-2-2a+b=0$，得 $a=-2,b=-2$。两个不同根确保该乘积为因式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$4+a+b=0,-2-2a+b=0$，得 $a=-2,b=-2$。两个不同根确保该乘积为因式。"
+          }
+        ]
+      },
+      {
+        "text": "Express $f(x)$ in the form $(x-1)(x+2)Q(x)+R(x)$, where $R$ is linear.",
+        "marks": 2,
+        "answer": "$h=f-2x-2=(x-1)(x+2)Q$，所以 $R(x)=2x+2$。",
+        "explanation": "$h=f-2x-2=(x-1)(x+2)Q$，所以 $R(x)=2x+2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$h=f-2x-2=(x-1)(x+2)Q$，所以 $R(x)=2x+2$。"
+          }
+        ]
+      },
+      {
+        "text": "If $Q(x)=x-3$, find $f(0)$.",
+        "marks": 1,
+        "answer": "$f(0)=(-1)(2)(-3)+2=8$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $f(0)=(-1)(2)(-3)+2=8$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$f(0)=(-1)(2)(-3)+2=8$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "因式定理",
+      "线性余式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q05",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：余式与指定一次因式；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "从两个独立余式构造需同时补偿的线性项，再解释二次除式余式。"
+  },
+  {
+    "id": "P2-C01-R19",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "整数平方的余式",
+    "stem": "Let $n$ be an integer.",
+    "parts": [
+      {
+        "text": "By considering even and odd $n$, show that $n^2$ leaves remainder $0$ or $1$ on division by $4$.",
+        "marks": 3,
+        "answer": "若 $n=2k$，$n^2=4k^2$；若 $n=2k+1$，$n^2=4k(k+1)+1$。两类穷尽全部整数。",
+        "explanation": "若 $n=2k$，$n^2=4k^2$；若 $n=2k+1$，$n^2=4k(k+1)+1$。两类穷尽全部整数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "若 $n=2k$，$n^2=4k^2$；若 $n=2k+1$，$n^2=4k(k+1)+1$。两类穷尽全部整数。"
+          }
+        ]
+      },
+      {
+        "text": "Hence prove that $n^2+2$ cannot be the square of an integer.",
+        "marks": 2,
+        "answer": "$n^2+2$ 除4余2或3，而整数平方只能余0或1，矛盾。",
+        "explanation": "$n^2+2$ 除4余2或3，而整数平方只能余0或1，矛盾。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$n^2+2$ 除4余2或3，而整数平方只能余0或1，矛盾。"
+          }
+        ]
+      },
+      {
+        "text": "Disprove the statement that $n^2+3$ cannot be a square.",
+        "marks": 1,
+        "answer": "$n=1$ 时 $n^2+3=4=2^2$。",
+        "explanation": "$n=1$ 时 $n^2+3=4=2^2$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$n=1$ 时 $n^2+3=4=2^2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "分类证明",
+      "平方余式",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q10",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：反例与奇偶分类证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "以模4分类为中间结果排除另一平方，再测试常数改变后的命题。"
+  },
+  {
+    "id": "P2-C01-R20",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "连续整数与立方差",
+    "stem": "Let $n$ be a positive integer and $D=(n+2)^3-n^3$.",
+    "parts": [
+      {
+        "text": "Show that $D=2(3n^2+6n+4)$.",
+        "marks": 2,
+        "answer": "展开 $(n+2)^3=n^3+6n^2+12n+8$，相减即得。",
+        "explanation": "展开 $(n+2)^3=n^3+6n^2+12n+8$，相减即得。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "展开 $(n+2)^3=n^3+6n^2+12n+8$，相减即得。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $D$ is even but is not divisible by $3$.",
+        "marks": 2,
+        "answer": "表达式含因子2；同时 $D=6n^2+12n+8=3(2n^2+4n+2)+2$，除3余2。",
+        "explanation": "表达式含因子2；同时 $D=6n^2+12n+8=3(2n^2+4n+2)+2$，除3余2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "表达式含因子2；同时 $D=6n^2+12n+8=3(2n^2+4n+2)+2$，除3余2。"
+          }
+        ]
+      },
+      {
+        "text": "Find all $n$ for which $D<100$.",
+        "marks": 2,
+        "answer": "$6n^2+12n+8<100\\Rightarrow3(n+1)^2<49$；正整数得 $n=1,2,3$。",
+        "explanation": "$6n^2+12n+8<100\\Rightarrow3(n+1)^2<49$；正整数得 $n=1,2,3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$6n^2+12n+8<100\\Rightarrow3(n+1)^2<49$；正整数得 $n=1,2,3$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "展开",
+      "整除证明",
+      "二次不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q03",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-06",
+        "note": "参考真题考查结构：穷举证明与相邻立方差；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将相邻立方差改为间隔两项，连接两个不同整除结论和有限范围。"
+  },
+  {
+    "id": "P2-C01-R21",
+    "stage": "P2",
+    "chapters": [
+      1,
+      7
+    ],
+    "type": "参数多项式与重根",
+    "stem": "$P(x)=x^3-3x^2+kx+m$. The line $y=4$ meets $y=P(x)$ at $x=-1$ and is tangent to the curve at $x=2$. The diagram shows the curve; it is not to scale.",
+    "parts": [
+      {
+        "text": "Show that $k=0$.",
+        "marks": 2,
+        "answer": "水平切线给 $P\\prime(2)=12-12+k=0$，所以 $k=0$。",
+        "explanation": "水平切线给 $P\\prime(2)=12-12+k=0$，所以 $k=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "水平切线给 $P\\prime(2)=12-12+k=0$，所以 $k=0$。"
+          }
+        ]
+      },
+      {
+        "text": "Find $m$ and factorise $P(x)-4$.",
+        "marks": 3,
+        "answer": "$P(2)=4\\Rightarrow8-12+m=4$，故 $m=8$；$P-4=x^3-3x^2+4=(x+1)(x-2)^2$。",
+        "explanation": "$P(2)=4\\Rightarrow8-12+m=4$，故 $m=8$；$P-4=x^3-3x^2+4=(x+1)(x-2)^2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$P(2)=4\\Rightarrow8-12+m=4$，故 $m=8$；$P-4=x^3-3x^2+4=(x+1)(x-2)^2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the number of distinct real solutions of $P(x)=4$, explaining the repeated intersection.",
+        "marks": 2,
+        "answer": "只有 $x=-1,2$ 两个不同解；$x=2$ 是二重根，对应相切。",
+        "explanation": "只有 $x=-1,2$ 两个不同解；$x=2$ 是二重根，对应相切。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "只有 $x=-1,2$ 两个不同解；$x=2$ 是二重根，对应相切。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "微分",
+      "因式",
+      "重根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "Edexcel IAL P2 2020-10",
+        "note": "参考真题考查结构：余式与因式条件后求驻点；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "把余式水平值与切线条件结合，而非直接要求多项式零点。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"New graph of y = P(x); not to scale\"><rect width=\"480\" height=\"330\" fill=\"#fffdf8\"/><path d=\"M40,209.41176470588235 H450\" stroke=\"#667\"/><text x=\"445\" y=\"203.41176470588235\">x</text><path d=\"M181.66666666666669,290 V20\" stroke=\"#667\"/><text x=\"189.66666666666669\" y=\"25\">y</text><path d=\"M77.17,275.19 L78.75,268.89 L80.33,262.72 L81.92,256.69 L83.50,250.80 L85.08,245.04 L86.67,239.41 L88.25,233.92 L89.83,228.56 L91.42,223.32 L93.00,218.22 L94.58,213.24 L96.17,208.39 L97.75,203.67 L99.33,199.06 L100.92,194.58 L102.50,190.22 L104.08,185.98 L105.67,181.85 L107.25,177.85 L108.83,173.95 L110.42,170.17 L112.00,166.51 L113.58,162.95 L115.17,159.51 L116.75,156.17 L118.33,152.94 L119.92,149.82 L121.50,146.80 L123.08,143.88 L124.67,141.07 L126.25,138.35 L127.83,135.74 L129.42,133.22 L131.00,130.80 L132.58,128.48 L134.17,126.25 L135.75,124.11 L137.33,122.07 L138.92,120.11 L140.50,118.24 L142.08,116.46 L143.67,114.77 L145.25,113.16 L146.83,111.63 L148.42,110.19 L150.00,108.82 L151.58,107.54 L153.17,106.33 L154.75,105.20 L156.33,104.15 L157.92,103.17 L159.50,102.26 L161.08,101.43 L162.67,100.66 L164.25,99.97 L165.83,99.34 L167.42,98.78 L169.00,98.28 L170.58,97.84 L172.17,97.47 L173.75,97.16 L175.33,96.91 L176.92,96.71 L178.50,96.58 L180.08,96.50 L181.67,96.47 L183.25,96.50 L184.83,96.57 L186.42,96.70 L188.00,96.88 L189.58,97.10 L191.17,97.38 L192.75,97.69 L194.33,98.05 L195.92,98.45 L197.50,98.90 L199.08,99.38 L200.67,99.90 L202.25,100.46 L203.83,101.05 L205.42,101.68 L207.00,102.34 L208.58,103.04 L210.17,103.76 L211.75,104.51 L213.33,105.29 L214.92,106.10 L216.50,106.93 L218.08,107.79 L219.67,108.67 L221.25,109.57 L222.83,110.49 L224.42,111.43 L226.00,112.38 L227.58,113.35 L229.17,114.34 L230.75,115.34 L232.33,116.35 L233.92,117.37 L235.50,118.40 L237.08,119.44 L238.67,120.48 L240.25,121.54 L241.83,122.59 L243.42,123.65 L245.00,124.71 L246.58,125.76 L248.17,126.82 L249.75,127.88 L251.33,128.93 L252.92,129.97 L254.50,131.01 L256.08,132.04 L257.67,133.06 L259.25,134.07 L260.83,135.07 L262.42,136.06 L264.00,137.03 L265.58,137.99 L267.17,138.92 L268.75,139.84 L270.33,140.74 L271.92,141.62 L273.50,142.48 L275.08,143.31 L276.67,144.12 L278.25,144.90 L279.83,145.65 L281.42,146.37 L283.00,147.07 L284.58,147.73 L286.17,148.36 L287.75,148.95 L289.33,149.51 L290.92,150.03 L292.50,150.51 L294.08,150.96 L295.67,151.36 L297.25,151.72 L298.83,152.04 L300.42,152.31 L302.00,152.53 L303.58,152.71 L305.17,152.84 L306.75,152.91 L308.33,152.94 L309.92,152.91 L311.50,152.83 L313.08,152.70 L314.67,152.50 L316.25,152.25 L317.83,151.94 L319.42,151.57 L321.00,151.13 L322.58,150.64 L324.17,150.07 L325.75,149.44 L327.33,148.75 L328.92,147.98 L330.50,147.15 L332.08,146.24 L333.67,145.26 L335.25,144.21 L336.83,143.08 L338.42,141.87 L340.00,140.59 L341.58,139.22 L343.17,137.78 L344.75,136.25 L346.33,134.64 L347.92,132.95 L349.50,131.17 L351.08,129.30 L352.67,127.35 L354.25,125.30 L355.83,123.16 L357.42,120.93 L359.00,118.61 L360.58,116.19 L362.17,113.67 L363.75,111.06 L365.33,108.34 L366.92,105.53 L368.50,102.61 L370.08,99.59 L371.67,96.47 L373.25,93.24 L374.83,89.90 L376.42,86.46 L378.00,82.90 L379.58,79.24 L381.17,75.46 L382.75,71.57 L384.33,67.56 L385.92,63.43 L387.50,59.19 L389.08,54.83 L390.67,50.35 L392.25,45.74 L393.83,41.02\" stroke=\"#20584c\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"20\" y=\"315\" font-size=\"13\">y = P(x); sketch not to scale</text></svg>"
+  },
+  {
+    "id": "P2-C01-R22",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "恒等式与误用消去",
+    "stem": "$A(x)=x^3-4x$ and $B(x)=x^2-4$. A student solves $A(x)=B(x)$ by cancelling $B(x)$ and obtains $x=1$.",
+    "parts": [
+      {
+        "text": "Factorise $A(x)-B(x)$.",
+        "marks": 2,
+        "answer": "$A-B=x(x^2-4)-(x^2-4)=(x-1)(x-2)(x+2)$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $A-B=x(x^2-4)-(x^2-4)=(x-1)(x-2)(x+2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$A-B=x(x^2-4)-(x^2-4)=(x-1)(x-2)(x+2)$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the complete set of solutions.",
+        "marks": 2,
+        "answer": "乘积为零给 $x=-2,1,2$。",
+        "explanation": "乘积为零给 $x=-2,1,2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "乘积为零给 $x=-2,1,2$。"
+          }
+        ]
+      },
+      {
+        "text": "Explain why cancellation lost two solutions.",
+        "marks": 2,
+        "answer": "$A=xB$，只有 $B\\ne0$ 时才能两边除 $B$；$x=\\pm2$ 使 $B=0$，原等式两边都零，必须保留。",
+        "explanation": "$A=xB$，只有 $B\\ne0$ 时才能两边除 $B$；$x=\\pm2$ 使 $B=0$，原等式两边都零，必须保留。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$A=xB$，只有 $B\\ne0$ 时才能两边除 $B$；$x=\\pm2$ 使 $B=0$，原等式两边都零，必须保留。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "因式分解",
+      "等价变形",
+      "遗漏根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q02",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：单一实根的证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "证明目标为解集完整性并分析除以变量表达式的条件，不是机械分解。"
+  },
+  {
+    "id": "P2-C01-R23",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "参数与整数根限制",
+    "stem": "$f(x)=x^3-2x^2-kx+6$, where $k$ is an integer. It is given that $x-3$ is a factor.",
+    "parts": [
+      {
+        "text": "Find $k$ and the quadratic quotient.",
+        "marks": 3,
+        "answer": "$f(3)=27-18-3k+6=0$，得 $k=5$；商为 $x^2+x-2$。",
+        "explanation": "$f(3)=27-18-3k+6=0$，得 $k=5$；商为 $x^2+x-2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$f(3)=27-18-3k+6=0$，得 $k=5$；商为 $x^2+x-2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find every integer $m$ for which $f(m)=0$.",
+        "marks": 2,
+        "answer": "$f=(x-3)(x+2)(x-1)$，所以 $m=-2,1,3$。",
+        "explanation": "$f=(x-3)(x+2)(x-1)$，所以 $m=-2,1,3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$f=(x-3)(x+2)(x-1)$，所以 $m=-2,1,3$。"
+          }
+        ]
+      },
+      {
+        "text": "Find every real $t$ for which $f(t^2)=0$.",
+        "marks": 2,
+        "answer": "$t^2\\ge0$，排除 $-2$；$t^2=1,3$，得 $t=\\pm1,\\pm\\sqrt3$。",
+        "explanation": "$t^2\\ge0$，排除 $-2$；$t^2=1,3$，得 $t=\\pm1,\\pm\\sqrt3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$t^2\\ge0$，排除 $-2$；$t^2=1,3$，得 $t=\\pm1,\\pm\\sqrt3$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "因式定理",
+      "代换",
+      "非负限制"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q05",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-01",
+        "note": "参考真题考查结构：余式与指定一次因式；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "根变量二次代换使根数量增加且需排除负目标，不是仅线性替换。"
+  },
+  {
+    "id": "P2-C01-R24",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "参数不等式的证明",
+    "stem": "For real $x$, let $E(x)=x^2-6x+k$.",
+    "parts": [
+      {
+        "text": "Write $E(x)$ in completed-square form.",
+        "marks": 1,
+        "answer": "$E=(x-3)^2+k-9$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $E=(x-3)^2+k-9$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$E=(x-3)^2+k-9$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the least value of $k$ for which $E(x)\\ge0$ for every real $x$, proving that your value works.",
+        "marks": 3,
+        "answer": "取 $x=3$ 得必要条件 $k\\ge9$；当 $k=9$，$E=(x-3)^2\\ge0$，故最小为9。",
+        "explanation": "取 $x=3$ 得必要条件 $k\\ge9$；当 $k=9$，$E=(x-3)^2\\ge0$，故最小为9。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "取 $x=3$ 得必要条件 $k\\ge9$；当 $k=9$，$E=(x-3)^2\\ge0$，故最小为9。"
+          }
+        ]
+      },
+      {
+        "text": "For $k=8$, find the full interval of counterexamples to $E(x)\\ge0$.",
+        "marks": 2,
+        "answer": "$E=(x-3)^2-1<0$ 等价于 $(x-3)^2<1$，即 $-1<x-3<1$；所以完整反例区间为 $2<x<4$。",
+        "explanation": "$E=(x-3)^2-1<0$ 等价于 $(x-3)^2<1$，即 $-1<x-3<1$；所以完整反例区间为 $2<x<4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$E=(x-3)^2-1<0$ 等价于 $(x-3)^2<1$，即 $-1<x-3<1$；所以完整反例区间为 $2<x<4$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "配方证明",
+      "全称条件",
+      "反例区间"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-01",
+        "note": "参考真题考查结构：平方非负证明与反例；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将点反例改成完整反例区间，并区分必要性与充分性。"
+  },
+  {
+    "id": "P2-C01-R25",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "穷举与数字问题",
+    "stem": "A two-digit positive integer has tens digit $a$ and units digit $b$. Its digit sum is $9$, and $a<b$.",
+    "parts": [
+      {
+        "text": "List all possible pairs $(a,b)$.",
+        "marks": 2,
+        "answer": "$a+b=9,1\\le a<b\\le9$，故 $(1,8),(2,7),(3,6),(4,5)$。",
+        "explanation": "$a+b=9,1\\le a<b\\le9$，故 $(1,8),(2,7),(3,6),(4,5)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$a+b=9,1\\le a<b\\le9$，故 $(1,8),(2,7),(3,6),(4,5)$。"
+          }
+        ]
+      },
+      {
+        "text": "Prove by exhaustion that the product of the digits is even.",
+        "marks": 2,
+        "answer": "四个乘积为 $8,14,18,20$，均为偶数；(a)已列完全部可行情况。",
+        "explanation": "四个乘积为 $8,14,18,20$，均为偶数；(a)已列完全部可行情况。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "四个乘积为 $8,14,18,20$，均为偶数；(a)已列完全部可行情况。"
+          }
+        ]
+      },
+      {
+        "text": "Prove algebraically that the original number is divisible by $9$.",
+        "marks": 2,
+        "answer": "$10a+b=9a+(a+b)=9(a+1)$，所以被9整除。",
+        "explanation": "$10a+b=9a+(a+b)=9(a+1)$，所以被9整除。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$10a+b=9a+(a+b)=9(a+1)$，所以被9整除。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "穷举",
+      "代数证明",
+      "数字约束"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q08",
+        "year": 2023,
+        "paper": "Edexcel IAL P2 2023-06",
+        "note": "参考真题考查结构：反例与有限穷举证明；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "将有限正整数约束嵌入十进制数，比较穷举与结构性证明两种用途。"
+  },
+  {
+    "id": "P2-C01-R26",
+    "stage": "P2",
+    "chapters": [
+      1,
+      6
+    ],
+    "type": "因式与三角方程",
+    "stem": "$f(u)=2u^3-u^2-2u+1$.",
+    "parts": [
+      {
+        "text": "Show that $u-1$ is a factor and factorise $f(u)$ completely.",
+        "marks": 3,
+        "answer": "$f(1)=0$；商为 $2u^2+u-1=(2u-1)(u+1)$，故 $f=(u-1)(2u-1)(u+1)$。",
+        "explanation": "$f(1)=0$；商为 $2u^2+u-1=(2u-1)(u+1)$，故 $f=(u-1)(2u-1)(u+1)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$f(1)=0$；商为 $2u^2+u-1=(2u-1)(u+1)$，故 $f=(u-1)(2u-1)(u+1)$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve $f(\\sin\\theta)=0$ for $0\\le\\theta<360^\\circ$.",
+        "marks": 3,
+        "answer": "$\\sin\\theta=1,\\frac12,-1$，得 $\\theta=90^\\circ,30^\\circ,150^\\circ,270^\\circ$。",
+        "explanation": "$\\sin\\theta=1,\\frac12,-1$，得 $\\theta=90^\\circ,30^\\circ,150^\\circ,270^\\circ$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$\\sin\\theta=1,\\frac12,-1$，得 $\\theta=90^\\circ,30^\\circ,150^\\circ,270^\\circ$。"
+          }
+        ]
+      },
+      {
+        "text": "Explain why $f(2\\sin\\theta)=0$ has no solution with $\\theta=90^\\circ$.",
+        "marks": 1,
+        "answer": "$2\\sin90^\\circ=2$，不是 $f$ 的根；实际 $f(2)=9\\ne0$。",
+        "explanation": "$2\\sin90^\\circ=2$，不是 $f$ 的根；实际 $f(2)=9\\ne0$。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$2\\sin90^\\circ=2$，不是 $f$ 的根；实际 $f(2)=9\\ne0$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "多项式因式",
+      "三角方程",
+      "代换"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q03",
+        "year": 2020,
+        "paper": "Edexcel IAL P2 2020-01",
+        "note": "参考真题考查结构：因式定理连接三角方程；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "新多项式具有边界三角值和内部值，后问检验自变量缩放不能照抄根。"
+  },
+  {
+    "id": "P2-C01-R27",
+    "stage": "P2",
+    "chapters": [
+      1,
+      3
+    ],
+    "type": "对数代换与代数证明",
+    "stem": "$p(t)=t^3-4t^2-t+4$.",
+    "parts": [
+      {
+        "text": "Use the factor theorem to show that $t+1$ is a factor, then factorise $p$.",
+        "marks": 3,
+        "answer": "$p(-1)=-1-4+1+4=0$；商为 $t^2-5t+4=(t-1)(t-4)$，所以 $p=(t+1)(t-1)(t-4)$。",
+        "explanation": "$p(-1)=-1-4+1+4=0$；商为 $t^2-5t+4=(t-1)(t-4)$，所以 $p=(t+1)(t-1)(t-4)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$p(-1)=-1-4+1+4=0$；商为 $t^2-5t+4=(t-1)(t-4)$，所以 $p=(t+1)(t-1)(t-4)$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve $p(\\log_2x)=0$, for $x>0$.",
+        "marks": 2,
+        "answer": "$\\log_2x=-1,1,4$，故 $x=\\frac12,2,16$。",
+        "explanation": "$\\log_2x=-1,1,4$，故 $x=\\frac12,2,16$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$\\log_2x=-1,1,4$，故 $x=\\frac12,2,16$。"
+          }
+        ]
+      },
+      {
+        "text": "Explain why $p(2^x)=0$ has fewer real solutions, and find them.",
+        "marks": 2,
+        "answer": "$2^x>0$，不能等于 $-1$；只能为 $1,4$，故 $x=0,2$，共两个。",
+        "explanation": "$2^x>0$，不能等于 $-1$；只能为 $1,4$，故 $x=0,2$，共两个。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$2^x>0$，不能等于 $-1$；只能为 $1,4$，故 $x=0,2$，共两个。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "因式定理",
+      "对数",
+      "指数值域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q07",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-06",
+        "note": "参考真题考查结构：对数方程导出三次多项式；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "把相同三次式用于逆向的指数和对数代换，比较正值限制产生的解数差。"
+  },
+  {
+    "id": "P2-C01-R28",
+    "stage": "P2",
+    "chapters": [
+      1,
+      8
+    ],
+    "type": "余式与积分重建",
+    "stem": "A polynomial $F$ has derivative $F\\prime(x)=3x^2-4x-3$. The remainder when $F$ is divided by $x+1$ is $4$.",
+    "parts": [
+      {
+        "text": "Find $F(x)$.",
+        "marks": 3,
+        "answer": "积分得 $F=x^3-2x^2-3x+C$；$F(-1)=-1-2+3+C=C=4$，故常数4。",
+        "explanation": "积分得 $F=x^3-2x^2-3x+C$；$F(-1)=-1-2+3+C=C=4$，故常数4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "积分得 $F=x^3-2x^2-3x+C$；$F(-1)=-1-2+3+C=C=4$，故常数4。"
+          }
+        ]
+      },
+      {
+        "text": "Show that $x-1$ is a factor and find the other two real roots.",
+        "marks": 3,
+        "answer": "$F(1)=0$；$F=(x-1)(x^2-x-4)$；另两根为 $\\frac{1\\pm\\sqrt{17}}2$。",
+        "explanation": "$F(1)=0$；$F=(x-1)(x^2-x-4)$；另两根为 $\\frac{1\\pm\\sqrt{17}}2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$F(1)=0$；$F=(x-1)(x^2-x-4)$；另两根为 $\\frac{1\\pm\\sqrt{17}}2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find the remainder when $F(x)+F(-x)$ is divided by $x-2$.",
+        "marks": 2,
+        "answer": "$F(x)+F(-x)=-4x^2+8$，代入2得 $-8$。",
+        "explanation": "$F(x)+F(-x)=-4x^2+8$，代入2得 $-8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$F(x)+F(-x)=-4x^2+8$，代入2得 $-8$。"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "积分常数",
+      "余式",
+      "因式定理"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q07",
+        "year": 2022,
+        "paper": "Edexcel IAL P2 2022-06",
+        "note": "参考真题考查结构：因式条件与定积分确定参数；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "用余式作为积分常数条件，并通过奇偶消项求另一余式。"
+  },
+  {
+    "id": "P2-C01-R29",
+    "stage": "P2",
+    "chapters": [
+      1
+    ],
+    "type": "乘积不等式与等号条件",
+    "stem": "$a,b$ are positive real numbers with $a+b=10$.",
+    "parts": [
+      {
+        "text": "Show that $(a-b)^2=100-4ab$.",
+        "marks": 2,
+        "answer": "$(a-b)^2=(a+b)^2-4ab=100-4ab$。",
+        "explanation": "将多项式条件转为代数等式，按因式或余式关系计算，并保留所给变量条件。 $(a-b)^2=(a+b)^2-4ab=100-4ab$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(a-b)^2=(a+b)^2-4ab=100-4ab$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence prove that $ab\\le25$, stating when equality holds.",
+        "marks": 2,
+        "answer": "平方非负给 $100-4ab\\ge0$，所以 $ab\\le25$；等号当且仅当 $a=b=5$。",
+        "explanation": "平方非负给 $100-4ab\\ge0$，所以 $ab\\le25$；等号当且仅当 $a=b=5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "平方非负给 $100-4ab\\ge0$，所以 $ab\\le25$；等号当且仅当 $a=b=5$。"
+          }
+        ]
+      },
+      {
+        "text": "A student claims that $a^2+b^2\\le50$. Disprove the claim and state the correct inequality.",
+        "marks": 2,
+        "answer": "$a=1,b=9$ 时平方和82，反例成立。正确为 $a^2+b^2=100-2ab\\ge50$，等号 $a=b=5$。",
+        "explanation": "$a=1,b=9$ 时平方和82，反例成立。正确为 $a^2+b^2=100-2ab\\ge50$，等号 $a=b=5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$a=1,b=9$ 时平方和82，反例成立。正确为 $a^2+b^2=100-2ab\\ge50$，等号 $a=b=5$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "平方证明",
+      "约束最值",
+      "反例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q09",
+        "year": 2021,
+        "paper": "Edexcel IAL P2 2021-10",
+        "note": "参考真题考查结构：均值不等式及条件必要性；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "用固定和将乘积上界与平方和下界连成递进证明，并包含方向纠错。"
+  },
+  {
+    "id": "P2-C01-R30",
+    "stage": "P2",
+    "chapters": [
+      1,
+      8
+    ],
+    "type": "多项式除法与面积",
+    "stem": "$f(x)=x^3-5x^2+6x$. A region is bounded by $y=f(x)$, the $x$-axis, and $x=0,x=2$. The diagram shows the curve.",
+    "parts": [
+      {
+        "text": "Show that $f(x)=x(x-2)(x-3)$.",
+        "marks": 1,
+        "answer": "$(x-2)(x-3)=x^2-5x+6$，乘 $x$ 即得。",
+        "explanation": "$(x-2)(x-3)=x^2-5x+6$，乘 $x$ 即得。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$(x-2)(x-3)=x^2-5x+6$，乘 $x$ 即得。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $f(x)\\ge0$ throughout $0\\le x\\le2$.",
+        "marks": 2,
+        "answer": "区间内 $x\\ge0,x-2\\le0,x-3<0$，乘积非负，两端为零。",
+        "explanation": "区间内 $x\\ge0,x-2\\le0,x-3<0$，乘积非负，两端为零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "区间内 $x\\ge0,x-2\\le0,x-3<0$，乘积非负，两端为零。"
+          }
+        ]
+      },
+      {
+        "text": "Hence find the exact area of the region.",
+        "marks": 3,
+        "answer": "面积为 $\\int_0^2f\\,dx=[\\frac{x^4}{4}-\\frac{5x^3}{3}+3x^2]_0^2=\\frac83$。",
+        "explanation": "面积为 $\\int_0^2f\\,dx=[\\frac{x^4}{4}-\\frac{5x^3}{3}+3x^2]_0^2=\\frac83$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按解析列式、使用所需条件或组织证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "面积为 $\\int_0^2f\\,dx=[\\frac{x^4}{4}-\\frac{5x^3}{3}+3x^2]_0^2=\\frac83$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "因式符号",
+      "面积",
+      "定积分"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q06",
+        "year": 2020,
+        "paper": "Edexcel IAL P2 2020-10",
+        "note": "参考真题考查结构：三次曲线与抛物线围成面积；本题为全新实质改编，并非原卷题。"
+      }
+    ],
+    "adaptationNote": "以因式符号证明积分等于面积，边界和多项式结构均重新设计。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"New graph of y = f(x); not to scale\"><rect width=\"480\" height=\"330\" fill=\"#fffdf8\"/><path d=\"M40,184.0 H450\" stroke=\"#667\"/><text x=\"445\" y=\"178.0\">x</text><path d=\"M86.66666666666667,290 V20\" stroke=\"#667\"/><text x=\"94.66666666666667\" y=\"25\">y</text><path d=\"M59.75,273.84 L61.33,267.61 L62.92,261.50 L64.50,255.51 L66.08,249.64 L67.67,243.90 L69.25,238.27 L70.83,232.76 L72.42,227.37 L74.00,222.10 L75.58,216.94 L77.17,211.90 L78.75,206.97 L80.33,202.15 L81.92,197.45 L83.50,192.86 L85.08,188.37 L86.67,184.00 L88.25,179.73 L89.83,175.57 L91.42,171.52 L93.00,167.57 L94.58,163.73 L96.17,159.99 L97.75,156.35 L99.33,152.81 L100.92,149.38 L102.50,146.04 L104.08,142.80 L105.67,139.66 L107.25,136.61 L108.83,133.66 L110.42,130.80 L112.00,128.04 L113.58,125.37 L115.17,122.79 L116.75,120.30 L118.33,117.90 L119.92,115.59 L121.50,113.37 L123.08,111.23 L124.67,109.18 L126.25,107.22 L127.83,105.34 L129.42,103.54 L131.00,101.82 L132.58,100.18 L134.17,98.63 L135.75,97.15 L137.33,95.75 L138.92,94.42 L140.50,93.18 L142.08,92.00 L143.67,90.91 L145.25,89.88 L146.83,88.93 L148.42,88.04 L150.00,87.23 L151.58,86.49 L153.17,85.81 L154.75,85.21 L156.33,84.66 L157.92,84.19 L159.50,83.78 L161.08,83.43 L162.67,83.14 L164.25,82.91 L165.83,82.75 L167.42,82.64 L169.00,82.60 L170.58,82.61 L172.17,82.67 L173.75,82.80 L175.33,82.97 L176.92,83.20 L178.50,83.49 L180.08,83.82 L181.67,84.21 L183.25,84.64 L184.83,85.13 L186.42,85.66 L188.00,86.24 L189.58,86.86 L191.17,87.53 L192.75,88.24 L194.33,89.00 L195.92,89.80 L197.50,90.63 L199.08,91.51 L200.67,92.43 L202.25,93.39 L203.83,94.38 L205.42,95.41 L207.00,96.47 L208.58,97.57 L210.17,98.70 L211.75,99.86 L213.33,101.06 L214.92,102.28 L216.50,103.53 L218.08,104.82 L219.67,106.13 L221.25,107.46 L222.83,108.82 L224.42,110.21 L226.00,111.62 L227.58,113.05 L229.17,114.50 L230.75,115.98 L232.33,117.47 L233.92,118.98 L235.50,120.51 L237.08,122.06 L238.67,123.62 L240.25,125.19 L241.83,126.78 L243.42,128.39 L245.00,130.00 L246.58,131.63 L248.17,133.26 L249.75,134.90 L251.33,136.56 L252.92,138.21 L254.50,139.88 L256.08,141.55 L257.67,143.22 L259.25,144.90 L260.83,146.58 L262.42,148.26 L264.00,149.94 L265.58,151.62 L267.17,153.29 L268.75,154.97 L270.33,156.64 L271.92,158.30 L273.50,159.96 L275.08,161.62 L276.67,163.26 L278.25,164.90 L279.83,166.53 L281.42,168.15 L283.00,169.75 L284.58,171.34 L286.17,172.92 L287.75,174.49 L289.33,176.04 L290.92,177.57 L292.50,179.09 L294.08,180.58 L295.67,182.06 L297.25,183.52 L298.83,184.96 L300.42,186.37 L302.00,187.76 L303.58,189.13 L305.17,190.47 L306.75,191.78 L308.33,193.07 L309.92,194.33 L311.50,195.56 L313.08,196.76 L314.67,197.93 L316.25,199.07 L317.83,200.18 L319.42,201.25 L321.00,202.29 L322.58,203.29 L324.17,204.25 L325.75,205.18 L327.33,206.06 L328.92,206.91 L330.50,207.72 L332.08,208.48 L333.67,209.20 L335.25,209.88 L336.83,210.52 L338.42,211.11 L340.00,211.65 L341.58,212.14 L343.17,212.59 L344.75,212.98 L346.33,213.33 L347.92,213.63 L349.50,213.87 L351.08,214.06 L352.67,214.19 L354.25,214.27 L355.83,214.29 L357.42,214.26 L359.00,214.17 L360.58,214.02 L362.17,213.80 L363.75,213.53 L365.33,213.20 L366.92,212.80 L368.50,212.34 L370.08,211.81 L371.67,211.22 L373.25,210.56 L374.83,209.83 L376.42,209.03 L378.00,208.16 L379.58,207.23 L381.17,206.22 L382.75,205.14 L384.33,203.98 L385.92,202.75 L387.50,201.44 L389.08,200.06 L390.67,198.60 L392.25,197.06 L393.83,195.44 L395.42,193.74 L397.00,191.96 L398.58,190.10 L400.17,188.15 L401.75,186.12 L403.33,184.00 L404.92,181.80 L406.50,179.51 L408.08,177.13 L409.67,174.66 L411.25,172.10 L412.83,169.45 L414.42,166.71 L416.00,163.87 L417.58,160.94 L419.17,157.92 L420.75,154.80 L422.33,151.58 L423.92,148.26 L425.50,144.85 L427.08,141.33 L428.67,137.72 L430.25,134.00 L431.83,130.18 L433.42,126.25 L435.00,122.22\" stroke=\"#20584c\" stroke-width=\"2.5\" fill=\"none\"/><text x=\"20\" y=\"315\" font-size=\"13\">y = f(x); sketch not to scale</text></svg>"
+  }
+]

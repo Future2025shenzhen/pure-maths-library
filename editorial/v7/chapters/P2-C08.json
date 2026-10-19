@@ -1,0 +1,2536 @@
+[
+  {
+    "id": "P2-C08-R01",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "梯形估计与反射面积",
+    "stem": "The table gives values of a positive function $f$. Its graph stays below $y=10$ on $0\\le x\\le4$. $\\begin{array}{c|ccccc}x&0&1&2&3&4\\\\\\hline f(x)&2.0&2.4&3.6&5.2&7.4\\end{array}$",
+    "parts": [
+      {
+        "text": "Use the trapezium rule with four strips to estimate $I=\\int_0^4 f(x)\\,dx$.",
+        "marks": 3,
+        "answer": "$I\\approx15.9$.",
+        "explanation": "步长1，$T=\\frac12[2+7.4+2(2.4+3.6+5.2)]=15.9$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "步长1，$T=\\frac12[2+7.4+2(2.4+3.6+5.2)]=15.9$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Use your estimate to find the area under $y=20-2f(x)$ from $x=0$ to $x=4$.",
+        "marks": 2,
+        "answer": "约48.2平方单位。",
+        "explanation": "由所给上界，新曲线非负；面积$80-2I\\approx48.2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由所给上界，新曲线非负；面积$80-2I\\approx48.2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the estimated mean height of $f$ on this interval.",
+        "marks": 2,
+        "answer": "$3.975$.",
+        "explanation": "平均高度为面积除以区间长度，$15.9/4=3.975$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "平均高度为面积除以区间长度，$15.9/4=3.975$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯形估计与反射面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q01",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "梯形估计与纵向变换"
+      }
+    ],
+    "adaptationNote": "给独立测量表及上界，梯形结果用于纵反射与面积均高而非原对数目标。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Four trapezia beneath a rising measured curve\"><title>Four trapezia beneath a rising measured curve</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M45 220H465 M45 230V25 M45 185L135 178 225 150 315 110 405 55 M135 178V220 M225 150V220 M315 110V220 M405 55V220\"/><text x=\"120\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">1</text><text x=\"220\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">2</text><text x=\"310\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">3</text><text x=\"400\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">4</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R02",
+    "stage": "P2",
+    "chapters": [
+      8,
+      3
+    ],
+    "type": "对数律与数值面积",
+    "stem": "The table gives values of $f(x)=\\log_{10}x$, rounded to 3 decimal places. $\\begin{array}{c|ccccc}x&1&2&3&4&5\\\\\\hline f(x)&0&0.301&0.477&0.602&0.699\\end{array}$",
+    "parts": [
+      {
+        "text": "Use all the table values to estimate $I=\\int_1^5\\log_{10}x\\,dx$ by the trapezium rule.",
+        "marks": 3,
+        "answer": "$I\\approx1.7295$.",
+        "explanation": "表中相邻横坐标差为1，端点只计一次、内部纵坐标计两次：$h=1$，$T=\\frac12[0+0.699+2(0.301+0.477+0.602)]$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "表中相邻横坐标差为1，端点只计一次、内部纵坐标计两次：$h=1$，$T=\\frac12[0+0.699+2(0.301+0.477+0.602)]$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Using your estimate from part (a), estimate",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "$\\int_1^5\\log_{10}(100/x)\\,dx$,",
+            "marks": 2,
+            "answer": "$6.2705$.",
+            "explanation": "对数律给$8-I$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "对数律给$8-I$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "the area under $y=\\frac13\\log_{10}(x^2)$ for $1\\le x\\le5$.",
+            "marks": 2,
+            "answer": "$1.153$.",
+            "explanation": "函数非负，面积为$2I/3$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "函数非负，面积为$2I/3$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "对数律与数值面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q01",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "梯形法与对数积分变换"
+      }
+    ],
+    "adaptationNote": "改变数据域、底数和变换；用两种对数律解释面积而非机械倍数。"
+  },
+  {
+    "id": "P2-C08-R03",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "梯形表与水平平移",
+    "stem": "A continuous positive function $f$ has values $\\begin{array}{c|cccc}x&0&2&4&6\\\\\\hline f(x)&1&1.732&2.236&2.646\\end{array}$. It satisfies $f(x)<4$ on $[0,6]$.",
+    "parts": [
+      {
+        "text": "Estimate $I=\\int_0^6f(x)\\,dx$ using three trapezia.",
+        "marks": 3,
+        "answer": "$I\\approx11.582$.",
+        "explanation": "$h=2$，所以$T=1+2.646+2(1.732+2.236)=11.582$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$h=2$，所以$T=1+2.646+2(1.732+2.236)=11.582$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Estimate the area between $y=4$ and $y=f(x)$ on $[0,6]$.",
+        "marks": 2,
+        "answer": "$12.418$.",
+        "explanation": "矩形面积24减曲线下面积，$24-I$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "矩形面积24减曲线下面积，$24-I$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "The graph is translated 3 units to the right. State an estimate for the area under the translated graph on $3\\le x\\le9$.",
+        "marks": 2,
+        "answer": "$11.582$.",
+        "explanation": "水平平移不改变对应区域面积，边界同时移3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "水平平移不改变对应区域面积，边界同时移3。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯形表与水平平移"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q01",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "梯形法与函数平移"
+      }
+    ],
+    "adaptationNote": "数值估计同时用于补集面积和带边界平移，不需超纲根式积分。"
+  },
+  {
+    "id": "P2-C08-R04",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "缺失纵坐标反推",
+    "stem": "The trapezium rule with four equal strips gives the estimate 42 for $\\int_0^8f(x)\\,dx$. The table used is $\\begin{array}{c|ccccc}x&0&2&4&6&8\\\\\\hline f(x)&3&5&k&7&9\\end{array}$.",
+    "parts": [
+      {
+        "text": "Find $k$.",
+        "marks": 2,
+        "answer": "$k=3$.",
+        "explanation": "把已知估计值和全部表值代入梯形公式，再解关于未知纵坐标的方程：$42=1[3+9+2(5+k+7)]=36+2k$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "把已知估计值和全部表值代入梯形公式，再解关于未知纵坐标的方程：$42=1[3+9+2(5+k+7)]=36+2k$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Use the table to estimate $\\int_0^4f(x)\\,dx$.",
+        "marks": 2,
+        "answer": "$16$.",
+        "explanation": "两条梯形，$T=1[3+3+2(5)]=16$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "两条梯形，$T=1[3+3+2(5)]=16$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Estimate $\\int_0^8[f(x)+x]dx$, treating the integral of $x$ exactly.",
+        "marks": 2,
+        "answer": "$74$.",
+        "explanation": "前一积分约42，$\\int_0^8x\\,dx=32$，相加74。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "前一积分约42，$\\int_0^8x\\,dx=32$，相加74。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "缺失纵坐标反推"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q02",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "补全表格与梯形积分"
+      }
+    ],
+    "adaptationNote": "由估计反求表值，分段复用再加可解析部分。"
+  },
+  {
+    "id": "P2-C08-R05",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "梯形估计的上下界",
+    "stem": "The curve $y=f(x)$ is positive, stays below $y=6$, and curves downwards throughout $0\\le x\\le4$. Values are $f(0)=1,f(2)=3,f(4)=4$.",
+    "parts": [
+      {
+        "text": "Find a two-strip trapezium estimate for the area under the curve.",
+        "marks": 2,
+        "answer": "$11$.",
+        "explanation": "两个梯形的宽均为2，中间纵坐标需要计算两次：$h=2$，$T=1[1+4+2(3)]=11$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "两个梯形的宽均为2，中间纵坐标需要计算两次：$h=2$，$T=1[1+4+2(3)]=11$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "State whether the estimate is an overestimate or an underestimate, with a geometric reason.",
+        "marks": 2,
+        "answer": "低估。",
+        "explanation": "向下弯曲的图像在连接各端点的弦上方，因此梯形面积较小。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "向下弯曲的图像在连接各端点的弦上方，因此梯形面积较小。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For $g(x)=6-f(x)$, decide whether using $24-11$ overestimates or underestimates its area.",
+        "marks": 3,
+        "answer": "高估。",
+        "explanation": "真实$I>11$，所以$24-I<13$；纵向反射使误差方向反转。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "真实$I>11$，所以$24-I<13$；纵向反射使误差方向反转。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯形估计的上下界"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q01",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "梯形估计与纵向变换"
+      }
+    ],
+    "adaptationNote": "加入凹向所给几何条件，追踪反射后误差方向而非只有估计数值。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Downward-curving graph above its trapezium chords\"><title>Downward-curving graph above its trapezium chords</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M50 220H455 M50 230V25 M50 195Q200 60 420 45 M50 195L235 85 420 45 M235 85V220 M420 45V220\"/><text x=\"155\" y=\"55\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">curve</text><text x=\"310\" y=\"115\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">chords</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R06",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "河流横截面流量",
+    "stem": "At equally spaced points across a 12 m wide river, depths in metres are $0,1.2,2.1,2.4,1.8,0$. The river banks are the first and last points. Water speed is modelled as uniform at $0.7\\text{ m s}^{-1}$.",
+    "parts": [
+      {
+        "text": "Use the trapezium rule to estimate the cross-sectional area.",
+        "marks": 3,
+        "answer": "$18\\text{ m}^2$.",
+        "explanation": "5条梯形，$h=12/5=2.4$；面积$1.2[0+0+2(1.2+2.1+2.4+1.8)]=18$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "5条梯形，$h=12/5=2.4$；面积$1.2[0+0+2(1.2+2.1+2.4+1.8)]=18$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Estimate the volume passing in 3 minutes.",
+        "marks": 2,
+        "answer": "$2268\\text{ m}^3$.",
+        "explanation": "流量$18(0.7)=12.6$立方米每秒，乘180秒。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "流量$18(0.7)=12.6$立方米每秒，乘180秒。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "The water level rises by 0.3 m without changing the width. Estimate the new cross-sectional area under this model.",
+        "marks": 2,
+        "answer": "$21.6\\text{ m}^2$.",
+        "explanation": "每个深度统一加0.3，增加矩形面积$12(0.3)=3.6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "每个深度统一加0.3，增加矩形面积$12(0.3)=3.6$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "河流横截面流量"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-10-Q06",
+        "year": 2023,
+        "paper": "p2-oct-2023",
+        "note": "河流横截面与流量"
+      }
+    ],
+    "adaptationNote": "不同横截面采样数、时段流量与统一水位变化相连，图表重绘。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"River cross-section with six equally spaced depth measurements\"><title>River cross-section with six equally spaced depth measurements</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M40 65H460 M40 65Q130 220 250 220T460 65 M124 65V135 M208 65V205 M292 65V220 M376 65V170\"/><text x=\"155\" y=\"45\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">12 m water surface</text><text x=\"55\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">depths measured vertically</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R07",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "功率表与单位",
+    "stem": "A device has power $P$ watts at time $t$ minutes: $\\begin{array}{c|ccccc}t&0&3&6&9&12\\\\\\hline P&20&36&42&30&12\\end{array}$. Energy in joules is 60 times the integral of power with respect to $t$.",
+    "parts": [
+      {
+        "text": "Use the trapezium rule to estimate $\\int_0^{12}P\\,dt$.",
+        "marks": 3,
+        "answer": "$372$ W·min。",
+        "explanation": "每条梯形的宽为3分钟，使用端点加两倍内部纵坐标：$T=\\frac32[20+12+2(36+42+30)]=372$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "每条梯形的宽为3分钟，使用端点加两倍内部纵坐标：$T=\\frac32[20+12+2(36+42+30)]=372$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Estimate the energy used in joules.",
+        "marks": 2,
+        "answer": "$22320$ J。",
+        "explanation": "分钟转秒，$60(372)=22320$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分钟转秒，$60(372)=22320$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "A second device uses $P+8$ watts at each time. Estimate its energy use over the same interval.",
+        "marks": 2,
+        "answer": "$28080$ J。",
+        "explanation": "多用$8\\cdot12=96$ W·min；总能量$60(372+96)=28080$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "多用$8\\cdot12=96$ W·min；总能量$60(372+96)=28080$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "功率表与单位"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q07",
+        "year": 2021,
+        "paper": "p2-jan-2021",
+        "note": "光伏功率与梯形法能量"
+      }
+    ],
+    "adaptationNote": "换成有明确分钟换算的电器并积分常数附加功率，避免只换光伏数据。"
+  },
+  {
+    "id": "P2-C08-R08",
+    "stage": "P2",
+    "chapters": [
+      8,
+      3
+    ],
+    "type": "对数图像变换面积",
+    "stem": "For $x\\in[1,9]$, let $f(x)=\\log_3x$. The table is $\\begin{array}{c|ccccc}x&1&3&5&7&9\\\\\\hline f(x)&0&1&1.465&1.771&2\\end{array}$.",
+    "parts": [
+      {
+        "text": "Use four trapezia to estimate $I=\\int_1^9f(x)\\,dx$.",
+        "marks": 3,
+        "answer": "$I\\approx10.472$.",
+        "explanation": "四条梯形的宽均为2，将所有内部纵坐标乘2后与端点相加：$h=2$，$T=0+2+2(1+1.465+1.771)=10.472$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "四条梯形的宽均为2，将所有内部纵坐标乘2后与端点相加：$h=2$，$T=0+2+2(1+1.465+1.771)=10.472$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Use $I$ to estimate the area under $y=\\log_3(27x^2)$ on the same interval.",
+        "marks": 2,
+        "answer": "$44.944$（约）。",
+        "explanation": "$\\log_3(27x^2)=3+2f(x)$，面积$3(8)+2I$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\log_3(27x^2)=3+2f(x)$，面积$3(8)+2I$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Estimate the area under $y=\\log_3x$ from $x=3$ to $x=9$ using only the relevant table values.",
+        "marks": 2,
+        "answer": "$9.472$（约）。",
+        "explanation": "3条梯形，$T=1+2+2(1.465+1.771)=9.472$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "3条梯形，$T=1+2+2(1.465+1.771)=9.472$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "对数图像变换面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q03",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "梯形对数积分与函数变换"
+      }
+    ],
+    "adaptationNote": "同时比较全区间纵变换与子区间不能直接按长度比例缩放。"
+  },
+  {
+    "id": "P2-C08-R09",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "抛物线与直线面积",
+    "stem": "The curves $y=6x-x^2$ and $y=2x$ meet at $O$ and $A$.",
+    "parts": [
+      {
+        "text": "Find the coordinates of $A$, where $A\\ne O$.",
+        "marks": 2,
+        "answer": "$A=(4,8)$.",
+        "explanation": "$6x-x^2=2x$给$x(4-x)=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$6x-x^2=2x$给$x(4-x)=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area enclosed by the two curves.",
+        "marks": 3,
+        "answer": "$\\frac{32}{3}$.",
+        "explanation": "上减下为$4x-x^2$；$\\int_0^4(4x-x^2)dx=32/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "上减下为$4x-x^2$；$\\int_0^4(4x-x^2)dx=32/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "The line $x=2$ divides this region. Find the ratio of the two resulting areas.",
+        "marks": 2,
+        "answer": "$1:1$.",
+        "explanation": "$\\int_0^2(4x-x^2)dx=16/3$，与总面积一半相等。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\int_0^2(4x-x^2)dx=16/3$，与总面积一半相等。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "抛物线与直线面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q04",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "直线与抛物线围成的面积"
+      }
+    ],
+    "adaptationNote": "新交点和对称分割目标，明确用上减下计算。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Parabola y equals six x minus x squared and line y equals two x\"><title>Parabola y equals six x minus x squared and line y equals two x</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,220.00 57.00,217.58 59.00,215.18 61.00,212.79 63.00,210.43 65.00,208.08 67.00,205.75 69.00,203.44 71.00,201.14 73.00,198.87 75.00,196.61 77.00,194.37 79.00,192.15 81.00,189.95 83.00,187.77 85.00,185.60 87.00,183.45 89.00,181.32 91.00,179.21 93.00,177.12 95.00,175.05 97.00,172.99 99.00,170.95 101.00,168.93 103.00,166.93 105.00,164.95 107.00,162.98 109.00,161.03 111.00,159.10 113.00,157.19 115.00,155.30 117.00,153.43 119.00,151.57 121.00,149.73 123.00,147.91 125.00,146.11 127.00,144.33 129.00,142.57 131.00,140.82 133.00,139.09 135.00,137.38 137.00,135.69 139.00,134.01 141.00,132.36 143.00,130.72 145.00,129.10 147.00,127.50 149.00,125.92 151.00,124.36 153.00,122.81 155.00,121.28 157.00,119.77 159.00,118.28 161.00,116.81 163.00,115.35 165.00,113.92 167.00,112.50 169.00,111.10 171.00,109.71 173.00,108.35 175.00,107.00 177.00,105.68 179.00,104.37 181.00,103.08 183.00,101.80 185.00,100.55 187.00,99.31 189.00,98.10 191.00,96.90 193.00,95.71 195.00,94.55 197.00,93.41 199.00,92.28 201.00,91.17 203.00,90.08 205.00,89.01 207.00,87.95 209.00,86.92 211.00,85.90 213.00,84.90 215.00,83.92 217.00,82.96 219.00,82.01 221.00,81.09 223.00,80.18 225.00,79.29 227.00,78.42 229.00,77.56 231.00,76.73 233.00,75.91 235.00,75.11 237.00,74.33 239.00,73.57 241.00,72.82 243.00,72.10 245.00,71.39 247.00,70.70 249.00,70.03 251.00,69.38 253.00,68.74 255.00,68.12 257.00,67.53 259.00,66.95 261.00,66.38 263.00,65.84 265.00,65.32 267.00,64.81 269.00,64.32 271.00,63.85 273.00,63.40 275.00,62.96 277.00,62.55 279.00,62.15 281.00,61.77 283.00,61.41 285.00,61.06 287.00,60.74 289.00,60.43 291.00,60.14 293.00,59.87 295.00,59.62 297.00,59.39 299.00,59.17 301.00,58.97 303.00,58.79 305.00,58.63 307.00,58.49 309.00,58.37 311.00,58.26 313.00,58.17 315.00,58.10 317.00,58.05 319.00,58.02 321.00,58.00 323.00,58.00 325.00,58.03 327.00,58.06 329.00,58.12 331.00,58.20 333.00,58.29 335.00,58.41 337.00,58.54 339.00,58.68 341.00,58.85 343.00,59.04 345.00,59.24 347.00,59.46 349.00,59.70 351.00,59.96 353.00,60.24 355.00,60.53 357.00,60.84 359.00,61.18 361.00,61.52 363.00,61.89 365.00,62.28 367.00,62.68 369.00,63.10 371.00,63.54 373.00,64.00 375.00,64.48 377.00,64.98 379.00,65.49 381.00,66.02 383.00,66.57 385.00,67.14 387.00,67.72 389.00,68.33 391.00,68.95 393.00,69.59 395.00,70.25 397.00,70.93 399.00,71.62 401.00,72.34 403.00,73.07 405.00,73.82 407.00,74.59 409.00,75.38 411.00,76.18 413.00,77.00 415.00,77.85 417.00,78.70 419.00,79.58 421.00,80.48 423.00,81.39 425.00,82.33 427.00,83.28 429.00,84.25 431.00,85.23 433.00,86.24 435.00,87.26 437.00,88.30 439.00,89.36 441.00,90.44 443.00,91.54 445.00,92.65 447.00,93.79 449.00,94.94 451.00,96.11 453.00,97.29 455.00,98.50\" stroke=\"#234b45\"/><polyline points=\"55.00,220.00 57.00,219.19 59.00,218.38 61.00,217.57 63.00,216.76 65.00,215.95 67.00,215.14 69.00,214.33 71.00,213.52 73.00,212.71 75.00,211.90 77.00,211.09 79.00,210.28 81.00,209.47 83.00,208.66 85.00,207.85 87.00,207.04 89.00,206.23 91.00,205.42 93.00,204.61 95.00,203.80 97.00,202.99 99.00,202.18 101.00,201.37 103.00,200.56 105.00,199.75 107.00,198.94 109.00,198.13 111.00,197.32 113.00,196.51 115.00,195.70 117.00,194.89 119.00,194.08 121.00,193.27 123.00,192.46 125.00,191.65 127.00,190.84 129.00,190.03 131.00,189.22 133.00,188.41 135.00,187.60 137.00,186.79 139.00,185.98 141.00,185.17 143.00,184.36 145.00,183.55 147.00,182.74 149.00,181.93 151.00,181.12 153.00,180.31 155.00,179.50 157.00,178.69 159.00,177.88 161.00,177.07 163.00,176.26 165.00,175.45 167.00,174.64 169.00,173.83 171.00,173.02 173.00,172.21 175.00,171.40 177.00,170.59 179.00,169.78 181.00,168.97 183.00,168.16 185.00,167.35 187.00,166.54 189.00,165.73 191.00,164.92 193.00,164.11 195.00,163.30 197.00,162.49 199.00,161.68 201.00,160.87 203.00,160.06 205.00,159.25 207.00,158.44 209.00,157.63 211.00,156.82 213.00,156.01 215.00,155.20 217.00,154.39 219.00,153.58 221.00,152.77 223.00,151.96 225.00,151.15 227.00,150.34 229.00,149.53 231.00,148.72 233.00,147.91 235.00,147.10 237.00,146.29 239.00,145.48 241.00,144.67 243.00,143.86 245.00,143.05 247.00,142.24 249.00,141.43 251.00,140.62 253.00,139.81 255.00,139.00 257.00,138.19 259.00,137.38 261.00,136.57 263.00,135.76 265.00,134.95 267.00,134.14 269.00,133.33 271.00,132.52 273.00,131.71 275.00,130.90 277.00,130.09 279.00,129.28 281.00,128.47 283.00,127.66 285.00,126.85 287.00,126.04 289.00,125.23 291.00,124.42 293.00,123.61 295.00,122.80 297.00,121.99 299.00,121.18 301.00,120.37 303.00,119.56 305.00,118.75 307.00,117.94 309.00,117.13 311.00,116.32 313.00,115.51 315.00,114.70 317.00,113.89 319.00,113.08 321.00,112.27 323.00,111.46 325.00,110.65 327.00,109.84 329.00,109.03 331.00,108.22 333.00,107.41 335.00,106.60 337.00,105.79 339.00,104.98 341.00,104.17 343.00,103.36 345.00,102.55 347.00,101.74 349.00,100.93 351.00,100.12 353.00,99.31 355.00,98.50 357.00,97.69 359.00,96.88 361.00,96.07 363.00,95.26 365.00,94.45 367.00,93.64 369.00,92.83 371.00,92.02 373.00,91.21 375.00,90.40 377.00,89.59 379.00,88.78 381.00,87.97 383.00,87.16 385.00,86.35 387.00,85.54 389.00,84.73 391.00,83.92 393.00,83.11 395.00,82.30 397.00,81.49 399.00,80.68 401.00,79.87 403.00,79.06 405.00,78.25 407.00,77.44 409.00,76.63 411.00,75.82 413.00,75.01 415.00,74.20 417.00,73.39 419.00,72.58 421.00,71.77 423.00,70.96 425.00,70.15 427.00,69.34 429.00,68.53 431.00,67.72 433.00,66.91 435.00,66.10 437.00,65.29 439.00,64.48 441.00,63.67 443.00,62.86 445.00,62.05 447.00,61.24 449.00,60.43 451.00,59.62 453.00,58.81 455.00,58.00\" stroke=\"#99633d\"/><path d=\"M232.78 148.00V76.00\" stroke-dasharray=\"5 4\"/><circle cx=\"410.56\" cy=\"76.00\" r=\"3\" fill=\"#234b45\"/><text x=\"415.55555555555554\" y=\"68.0\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">A</text><text x=\"270\" y=\"28\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">green: 6x − x²</text><text x=\"280\" y=\"253\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">brown: 2x</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R10",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "有向积分与几何面积",
+    "stem": "The curve $y=x^2-4$ crosses the $x$-axis at $x=-2$ and $x=2$.",
+    "parts": [
+      {
+        "text": "Find $\\int_{-3}^3(x^2-4)\\,dx$.",
+        "marks": 2,
+        "answer": "$-6$.",
+        "explanation": "原函数$x^3/3-4x$，代边界得$-6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "原函数$x^3/3-4x$，代边界得$-6$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the total area between the curve and the $x$-axis for $-3\\le x\\le3$.",
+        "marks": 3,
+        "answer": "$\\frac{46}{3}$.",
+        "explanation": "中间在轴下，面积$-\\int_{-2}^2f+2\\int_2^3f=32/3+14/3=46/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "中间在轴下，面积$-\\int_{-2}^2f+2\\int_2^3f=32/3+14/3=46/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the two answers differ.",
+        "marks": 2,
+        "answer": "定积分保留正负号，面积各部分均取正。",
+        "explanation": "在$(-2,2)$曲线低于横轴，不能把整个积分的绝对值当总面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在$(-2,2)$曲线低于横轴，不能把整个积分的绝对值当总面积。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "有向积分与几何面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q04",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "直线与抛物线围成的面积"
+      }
+    ],
+    "adaptationNote": "用跨轴三段区域区分净积分和总面积，不沿用两曲线单区间。"
+  },
+  {
+    "id": "P2-C08-R11",
+    "stage": "P2",
+    "chapters": [
+      8,
+      1
+    ],
+    "type": "三次曲线双区域",
+    "stem": "The curve is $y=x(x-2)(x-4)$.",
+    "parts": [
+      {
+        "text": "Expand $y$ and state its three $x$-intercepts.",
+        "marks": 2,
+        "answer": "$y=x^3-6x^2+8x$；$0,2,4$。",
+        "explanation": "先展开二次乘积再乘$x$；各线性因子为零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先展开二次乘积再乘$x$；各线性因子为零。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between the curve and the $x$-axis on $0\\le x\\le2$.",
+        "marks": 3,
+        "answer": "$4$.",
+        "explanation": "该段函数正，原函数$x^4/4-2x^3+4x^2$在2处为4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "该段函数正，原函数$x^4/4-2x^3+4x^2$在2处为4。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the total enclosed area on $0\\le x\\le4$.",
+        "marks": 2,
+        "answer": "$8$.",
+        "explanation": "$\\int_2^4f=-4$，几何面积为4；加前一段4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\int_2^4f=-4$，几何面积为4；加前一段4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "三次曲线双区域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q06",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "三次曲线与抛物线围成面积"
+      }
+    ],
+    "adaptationNote": "相同三次函数两异号区域，考符号分段而非抛物线间单块面积。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Cubic curve enclosing one positive and one negative lobe\"><title>Cubic curve enclosing one positive and one negative lobe</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M45 145H465 M45 235V20 M45 145C105 -15 155 10 225 145S350 270 425 145\"/><text x=\"38\" y=\"165\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">0</text><text x=\"218\" y=\"165\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">2</text><text x=\"420\" y=\"165\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">4</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R12",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7
+    ],
+    "type": "由面积确定系数",
+    "stem": "For $0\\le x\\le3$, the curve $y=kx(3-x)$ lies above the $x$-axis, where $k>0$. Its enclosed area is 18.",
+    "parts": [
+      {
+        "text": "Find $k$.",
+        "marks": 3,
+        "answer": "$k=4$.",
+        "explanation": "面积$k[3x^2/2-x^3/3]_0^3=9k/2=18$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "面积$k[3x^2/2-x^3/3]_0^3=9k/2=18$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the maximum height of the curve.",
+        "marks": 2,
+        "answer": "$9$.",
+        "explanation": "取$k=4$，$y\\prime=12-8x=0$给$x=3/2$，$y=9$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "取$k=4$，$y\\prime=12-8x=0$给$x=3/2$，$y=9$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area under the curve for $0\\le x\\le1$.",
+        "marks": 2,
+        "answer": "$\\frac{14}{3}$.",
+        "explanation": "曲线在此区间高于横轴，对展开后的二次式逐项积分：$\\int_0^1(12x-4x^2)dx=6-4/3=14/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "曲线在此区间高于横轴，对展开后的二次式逐项积分：$\\int_0^1(12x-4x^2)dx=6-4/3=14/3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "由面积确定系数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q09",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "参数直线分割抛物线面积"
+      }
+    ],
+    "adaptationNote": "以整段面积先反求系数，再联微分最大高度与局部面积。"
+  },
+  {
+    "id": "P2-C08-R13",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "参数直线的分割面积",
+    "stem": "The region under $y=4-x^2$ and above the $x$-axis, for $0\\le x\\le2$, is divided by the vertical line $x=a$, where $0<a<2$. The area to the left of this line is 3.",
+    "parts": [
+      {
+        "text": "Show that $a^3-12a+9=0$.",
+        "marks": 2,
+        "answer": "$a^3-12a+9=0$.",
+        "explanation": "$\\int_0^a(4-x^2)dx=4a-a^3/3=3$，乘3后移项。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\int_0^a(4-x^2)dx=4a-a^3/3=3$，乘3后移项。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area to the right of the line.",
+        "marks": 2,
+        "answer": "$\\frac73$.",
+        "explanation": "总面积$[4x-x^3/3]_0^2=16/3$，减3得7/3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "总面积$[4x-x^3/3]_0^2=16/3$，减3得7/3。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why there is exactly one permissible value of $a$.",
+        "marks": 3,
+        "answer": "累计面积在$0<a<2$严格递增。",
+        "explanation": "被积函数$4-x^2$在此范围正，所以左面积随$a$严格增；0到总面积之间只可取得3一次。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "被积函数$4-x^2$在此范围正，所以左面积随$a$严格增；0到总面积之间只可取得3一次。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "参数直线的分割面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q09",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "抛物线与两直线的面积比"
+      }
+    ],
+    "adaptationNote": "用垂线部分面积建立三次证明目标与唯一性，不要求P3数值方法。"
+  },
+  {
+    "id": "P2-C08-R14",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7
+    ],
+    "type": "相交曲线的参数",
+    "stem": "The line $y=mx$ meets $y=x^2$ at $O$ and $A$, where $m>0$. The area enclosed by the line and curve is $\\frac92$.",
+    "parts": [
+      {
+        "text": "Express the coordinates of $A$ in terms of $m$.",
+        "marks": 2,
+        "answer": "$A=(m,m^2)$.",
+        "explanation": "$x^2=mx$给$x=0,m$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$x^2=mx$给$x=0,m$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Show that the enclosed area is $\\frac{m^3}{6}$ and hence find $m$.",
+        "marks": 3,
+        "answer": "$m=3$.",
+        "explanation": "直线在两交点之间位于抛物线上方，所以用直线减曲线积分，再应用给定面积：$\\int_0^m(mx-x^2)dx=m^3/2-m^3/3=m^3/6=9/2$，$m^3=27$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "直线在两交点之间位于抛物线上方，所以用直线减曲线积分，再应用给定面积：$\\int_0^m(mx-x^2)dx=m^3/2-m^3/3=m^3/6=9/2$，$m^3=27$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the equation of the tangent to the curve at $A$.",
+        "marks": 2,
+        "answer": "$y=6x-9$.",
+        "explanation": "$A=(3,9)$，曲线导数$2x$在3处为6，写点斜式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$A=(3,9)$，曲线导数$2x$在3处为6，写点斜式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "相交曲线的参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q09",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "参数直线分割抛物线面积"
+      }
+    ],
+    "adaptationNote": "以面积反推直线斜率，再确定相交点切线，自然联微分。"
+  },
+  {
+    "id": "P2-C08-R15",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "根式与弦的面积",
+    "stem": "The points $O=(0,0)$ and $A=(4,2)$ lie on $y=\\sqrt{x}$. The line $OA$ and the curve enclose a region.",
+    "parts": [
+      {
+        "text": "Find the equation of $OA$.",
+        "marks": 2,
+        "answer": "$y=\\frac12x$.",
+        "explanation": "斜率$2/4=1/2$且过原点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "斜率$2/4=1/2$且过原点。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact enclosed area.",
+        "marks": 3,
+        "answer": "$\\frac43$.",
+        "explanation": "根式曲线位于弦上方，先作纵坐标差，再用幂法则积分：$\\int_0^4(x^{1/2}-x/2)dx=[\\frac23x^{3/2}-x^2/4]_0^4=16/3-4=4/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "根式曲线位于弦上方，先作纵坐标差，再用幂法则积分：$\\int_0^4(x^{1/2}-x/2)dx=[\\frac23x^{3/2}-x^2/4]_0^4=16/3-4=4/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the part of this region between $x=1$ and $x=4$.",
+        "marks": 2,
+        "answer": "$\\frac{11}{12}$.",
+        "explanation": "全区域减$\\int_0^1(\\sqrt{x}-x/2)dx=2/3-1/4=5/12$，得11/12。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "全区域减$\\int_0^1(\\sqrt{x}-x/2)dx=2/3-1/4=5/12$，得11/12。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "根式与弦的面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q10",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "根式曲线与梯形之间面积"
+      }
+    ],
+    "adaptationNote": "新根式弦区域与局部区域差，不复制原卷梯形组合图。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Square root curve above its chord from the origin to A\"><title>Square root curve above its chord from the origin to A</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,220.00 57.00,208.66 59.00,203.96 61.00,200.36 63.00,197.32 65.00,194.64 67.00,192.22 69.00,189.99 71.00,187.92 73.00,185.98 75.00,184.14 77.00,182.39 79.00,180.71 81.00,179.11 83.00,177.57 85.00,176.08 87.00,174.64 89.00,173.24 91.00,171.88 93.00,170.57 95.00,169.28 97.00,168.03 99.00,166.81 101.00,165.61 103.00,164.44 105.00,163.29 107.00,162.17 109.00,161.07 111.00,159.99 113.00,158.93 115.00,157.88 117.00,156.86 119.00,155.85 121.00,154.85 123.00,153.87 125.00,152.91 127.00,151.95 129.00,151.01 131.00,150.09 133.00,149.17 135.00,148.27 137.00,147.38 139.00,146.50 141.00,145.63 143.00,144.77 145.00,143.92 147.00,143.08 149.00,142.25 151.00,141.43 153.00,140.61 155.00,139.81 157.00,139.01 159.00,138.22 161.00,137.44 163.00,136.66 165.00,135.89 167.00,135.13 169.00,134.38 171.00,133.63 173.00,132.89 175.00,132.15 177.00,131.42 179.00,130.70 181.00,129.98 183.00,129.27 185.00,128.57 187.00,127.86 189.00,127.17 191.00,126.48 193.00,125.79 195.00,125.11 197.00,124.44 199.00,123.77 201.00,123.10 203.00,122.44 205.00,121.78 207.00,121.13 209.00,120.48 211.00,119.84 213.00,119.20 215.00,118.56 217.00,117.93 219.00,117.30 221.00,116.68 223.00,116.06 225.00,115.44 227.00,114.83 229.00,114.22 231.00,113.61 233.00,113.01 235.00,112.41 237.00,111.81 239.00,111.22 241.00,110.63 243.00,110.04 245.00,109.46 247.00,108.88 249.00,108.30 251.00,107.73 253.00,107.16 255.00,106.59 257.00,106.02 259.00,105.46 261.00,104.90 263.00,104.34 265.00,103.79 267.00,103.24 269.00,102.69 271.00,102.14 273.00,101.60 275.00,101.05 277.00,100.51 279.00,99.98 281.00,99.44 283.00,98.91 285.00,98.38 287.00,97.85 289.00,97.33 291.00,96.80 293.00,96.28 295.00,95.76 297.00,95.25 299.00,94.73 301.00,94.22 303.00,93.71 305.00,93.20 307.00,92.70 309.00,92.19 311.00,91.69 313.00,91.19 315.00,90.69 317.00,90.20 319.00,89.70 321.00,89.21 323.00,88.72 325.00,88.23 327.00,87.74 329.00,87.26 331.00,86.77 333.00,86.29 335.00,85.81 337.00,85.33 339.00,84.86 341.00,84.38 343.00,83.91 345.00,83.44 347.00,82.97 349.00,82.50 351.00,82.03 353.00,81.56 355.00,81.10 357.00,80.64 359.00,80.18 361.00,79.72 363.00,79.26 365.00,78.80 367.00,78.35 369.00,77.90 371.00,77.44 373.00,76.99 375.00,76.55 377.00,76.10 379.00,75.65 381.00,75.21 383.00,74.76 385.00,74.32 387.00,73.88 389.00,73.44 391.00,73.00 393.00,72.57 395.00,72.13 397.00,71.70 399.00,71.26 401.00,70.83 403.00,70.40 405.00,69.97 407.00,69.54 409.00,69.12 411.00,68.69 413.00,68.27 415.00,67.84 417.00,67.42 419.00,67.00 421.00,66.58 423.00,66.16 425.00,65.74 427.00,65.33 429.00,64.91 431.00,64.50 433.00,64.09 435.00,63.67 437.00,63.26 439.00,62.85 441.00,62.44 443.00,62.04 445.00,61.63 447.00,61.22 449.00,60.82 451.00,60.42 453.00,60.01 455.00,59.61\" stroke=\"#234b45\"/><polyline points=\"55.00,220.00 57.00,219.18 59.00,218.36 61.00,217.53 63.00,216.71 65.00,215.89 67.00,215.07 69.00,214.25 71.00,213.43 73.00,212.60 75.00,211.78 77.00,210.96 79.00,210.14 81.00,209.32 83.00,208.50 85.00,207.67 87.00,206.85 89.00,206.03 91.00,205.21 93.00,204.39 95.00,203.57 97.00,202.74 99.00,201.92 101.00,201.10 103.00,200.28 105.00,199.46 107.00,198.63 109.00,197.81 111.00,196.99 113.00,196.17 115.00,195.35 117.00,194.53 119.00,193.70 121.00,192.88 123.00,192.06 125.00,191.24 127.00,190.42 129.00,189.60 131.00,188.77 133.00,187.95 135.00,187.13 137.00,186.31 139.00,185.49 141.00,184.67 143.00,183.84 145.00,183.02 147.00,182.20 149.00,181.38 151.00,180.56 153.00,179.73 155.00,178.91 157.00,178.09 159.00,177.27 161.00,176.45 163.00,175.63 165.00,174.80 167.00,173.98 169.00,173.16 171.00,172.34 173.00,171.52 175.00,170.70 177.00,169.87 179.00,169.05 181.00,168.23 183.00,167.41 185.00,166.59 187.00,165.77 189.00,164.94 191.00,164.12 193.00,163.30 195.00,162.48 197.00,161.66 199.00,160.83 201.00,160.01 203.00,159.19 205.00,158.37 207.00,157.55 209.00,156.73 211.00,155.90 213.00,155.08 215.00,154.26 217.00,153.44 219.00,152.62 221.00,151.80 223.00,150.97 225.00,150.15 227.00,149.33 229.00,148.51 231.00,147.69 233.00,146.87 235.00,146.04 237.00,145.22 239.00,144.40 241.00,143.58 243.00,142.76 245.00,141.93 247.00,141.11 249.00,140.29 251.00,139.47 253.00,138.65 255.00,137.83 257.00,137.00 259.00,136.18 261.00,135.36 263.00,134.54 265.00,133.72 267.00,132.90 269.00,132.07 271.00,131.25 273.00,130.43 275.00,129.61 277.00,128.79 279.00,127.97 281.00,127.14 283.00,126.32 285.00,125.50 287.00,124.68 289.00,123.86 291.00,123.03 293.00,122.21 295.00,121.39 297.00,120.57 299.00,119.75 301.00,118.93 303.00,118.10 305.00,117.28 307.00,116.46 309.00,115.64 311.00,114.82 313.00,114.00 315.00,113.17 317.00,112.35 319.00,111.53 321.00,110.71 323.00,109.89 325.00,109.07 327.00,108.24 329.00,107.42 331.00,106.60 333.00,105.78 335.00,104.96 337.00,104.13 339.00,103.31 341.00,102.49 343.00,101.67 345.00,100.85 347.00,100.03 349.00,99.20 351.00,98.38 353.00,97.56 355.00,96.74 357.00,95.92 359.00,95.10 361.00,94.27 363.00,93.45 365.00,92.63 367.00,91.81 369.00,90.99 371.00,90.17 373.00,89.34 375.00,88.52 377.00,87.70 379.00,86.88 381.00,86.06 383.00,85.23 385.00,84.41 387.00,83.59 389.00,82.77 391.00,81.95 393.00,81.13 395.00,80.30 397.00,79.48 399.00,78.66 401.00,77.84 403.00,77.02 405.00,76.20 407.00,75.37 409.00,74.55 411.00,73.73 413.00,72.91 415.00,72.09 417.00,71.27 419.00,70.44 421.00,69.62 423.00,68.80 425.00,67.98 427.00,67.16 429.00,66.33 431.00,65.51 433.00,64.69 435.00,63.87 437.00,63.05 439.00,62.23 441.00,61.40 443.00,60.58 445.00,59.76 447.00,58.94 449.00,58.12 451.00,57.30 453.00,56.47 455.00,55.65\" stroke=\"#99633d\"/><path d=\"M150.24 180.87V141.74\" stroke-dasharray=\"5 4\"/><circle cx=\"435.95\" cy=\"63.48\" r=\"3\" fill=\"#234b45\"/><text x=\"440.9523809523809\" y=\"55.47826086956519\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">A(4, 2)</text><text x=\"270\" y=\"30\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">green: y = √x</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R16",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "负幂与直线围域",
+    "stem": "The curve $y=\\frac{4}{x^2}$, the horizontal line $y=1$ and the vertical line $x=4$ enclose a region in the first quadrant.",
+    "parts": [
+      {
+        "text": "Find the intersection of the curve with $y=1$.",
+        "marks": 2,
+        "answer": "$(2,1)$.",
+        "explanation": "$4/x^2=1$给$x=\\pm2$，第一象限取2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$4/x^2=1$给$x=\\pm2$，第一象限取2。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the region.",
+        "marks": 3,
+        "answer": "$1$.",
+        "explanation": "在右边界所在区间，水平线高于负幂曲线，因此面积为上减下的积分：$\\int_2^4(1-4x^{-2})dx=[x+4/x]_2^4=5-4=1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在右边界所在区间，水平线高于负幂曲线，因此面积为上减下的积分：$\\int_2^4(1-4x^{-2})dx=[x+4/x]_2^4=5-4=1$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Replace $x=4$ by $x=b$, where $b>2$. Show that the area is $b+\\frac4b-4$.",
+        "marks": 2,
+        "answer": "$A=b+\\frac4b-4$.",
+        "explanation": "同一原函数代2与$b$；下边曲线始终低于1。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "同一原函数代2与$b$；下边曲线始终低于1。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "负幂与直线围域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q10",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "根式曲线与梯形之间面积"
+      }
+    ],
+    "adaptationNote": "以负二次幂取代根式，加入可变边界面积公式，无对数积分。"
+  },
+  {
+    "id": "P2-C08-R17",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7,
+      1
+    ],
+    "type": "由导数与面积求常数",
+    "stem": "A curve has gradient $\\frac{dy}{dx}=6x-4$. The signed integral of $y$ from $x=0$ to $x=2$ is 6.",
+    "parts": [
+      {
+        "text": "Find $y$ in terms of a constant $c$.",
+        "marks": 2,
+        "answer": "$y=3x^2-4x+c$.",
+        "explanation": "逐项积分梯度并加常数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "逐项积分梯度并加常数。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $c$.",
+        "marks": 2,
+        "answer": "$c=3$.",
+        "explanation": "用含常数的曲线方程进行定积分，令结果等于所给有向积分：$\\int_0^2y\\,dx=[x^3-2x^2+cx]_0^2=2c=6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用含常数的曲线方程进行定积分，令结果等于所给有向积分：$\\int_0^2y\\,dx=[x^3-2x^2+cx]_0^2=2c=6$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Prove that the curve lies above the $x$-axis for every real $x$.",
+        "marks": 3,
+        "answer": "$y=3(x-\\frac23)^2+\\frac53>0$.",
+        "explanation": "配方，平方项非负且常数$5/3$正，因此签名积分也是面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "配方，平方项非负且常数$5/3$正，因此签名积分也是面积。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "由导数与面积求常数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q07",
+        "year": 2022,
+        "paper": "p2-jun-2022",
+        "note": "因式条件与定积分确定参数"
+      }
+    ],
+    "adaptationNote": "积分常数由定积分约束而非过点确定，并以配方证明正性。"
+  },
+  {
+    "id": "P2-C08-R18",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7
+    ],
+    "type": "梯度积分与总变化",
+    "stem": "The gradient of a curve is $\\frac{dy}{dx}=6x^2-30x+24$. The curve passes through $(0,3)$.",
+    "parts": [
+      {
+        "text": "Find the equation of the curve.",
+        "marks": 2,
+        "answer": "$y=2x^3-15x^2+24x+3$.",
+        "explanation": "逐项积分给定梯度，再用纵截距确定常数3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "逐项积分给定梯度，再用纵截距确定常数3。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the stationary $x$-coordinates.",
+        "marks": 2,
+        "answer": "$x=1,4$.",
+        "explanation": "$6x^2-30x+24=6(x-1)(x-4)$，分别令两个因子为零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$6x^2-30x+24=6(x-1)(x-4)$，分别令两个因子为零。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the total vertical distance travelled by a point moving along the curve from $x=0$ to $x=5$.",
+        "marks": 3,
+        "answer": "$49$.",
+        "explanation": "纵坐标依次为$3,14,-13,-2$；先上升11，下降27，再上升11，总计49。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "纵坐标依次为$3,14,-13,-2$；先上升11，下降27，再上升11，总计49。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯度积分与总变化"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q08",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "驻点条件增长区间及切线围面积"
+      }
+    ],
+    "adaptationNote": "将积分重建连接总竖向变化而非单一有向差，自然解释驻点必要性。"
+  },
+  {
+    "id": "P2-C08-R19",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7
+    ],
+    "type": "切线与常数恢复",
+    "stem": "A curve satisfies $\\frac{dy}{dx}=4x^3-6x$. Its tangent at $x=1$ has equation $y=-2x+5$.",
+    "parts": [
+      {
+        "text": "Find the point of tangency.",
+        "marks": 2,
+        "answer": "$(1,3)$.",
+        "explanation": "将$x=1$代入所给切线。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "将$x=1$代入所给切线。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the equation of the curve.",
+        "marks": 2,
+        "answer": "$y=x^4-3x^2+5$.",
+        "explanation": "积分得$x^4-3x^2+c$，代$(1,3)$给$c=5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "积分得$x^4-3x^2+c$，代$(1,3)$给$c=5$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area under the curve for $0\\le x\\le1$.",
+        "marks": 3,
+        "answer": "$\\frac{21}{5}$.",
+        "explanation": "该段函数至少2，非负；积分$[x^5/5-x^3+5x]_0^1=21/5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "该段函数至少2，非负；积分$[x^5/5-x^3+5x]_0^1=21/5$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "切线与常数恢复"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q07",
+        "year": 2022,
+        "paper": "p2-jun-2022",
+        "note": "因式条件与定积分确定参数"
+      }
+    ],
+    "adaptationNote": "切线提供点值再定积分面积，保持幂法则范围。"
+  },
+  {
+    "id": "P2-C08-R20",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "积分函数的参数",
+    "stem": "The curve $y=ax^2+bx$ passes through $(2,4)$. The area under the curve from $x=0$ to $x=2$ is $\\frac83$.",
+    "parts": [
+      {
+        "text": "Form two equations in $a,b$.",
+        "marks": 2,
+        "answer": "$4a+2b=4,\\ \\frac83a+2b=\\frac83$.",
+        "explanation": "过点条件给第一式；积分$ax^3/3+bx^2/2$代2给第二式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "过点条件给第一式；积分$ax^3/3+bx^2/2$代2给第二式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $a,b$.",
+        "marks": 2,
+        "answer": "$a=1,b=0$.",
+        "explanation": "两式相减得$4a/3=4/3$，再回代。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "两式相减得$4a/3=4/3$，再回代。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the line through the origin that divides the area between $y=x^2$ and $y=2x$ into two equal pieces.",
+        "marks": 4,
+        "answer": "$y=\\sqrt[3]4\\,x$.",
+        "explanation": "斜率设$m\\in(0,2)$，其与抛物线之间面积$m^3/6$；总区域面积$4/3$，一半2/3，故$m^3=4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "斜率设$m\\in(0,2)$，其与抛物线之间面积$m^3/6$；总区域面积$4/3$，一半2/3，故$m^3=4$。"
+          },
+          {
+            "code": "A3",
+            "marks": 3,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "积分函数的参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q09",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "参数直线分割抛物线面积"
+      }
+    ],
+    "adaptationNote": "点值和积分共同定系数后建立新分割线问题，非只反求常数。"
+  },
+  {
+    "id": "P2-C08-R21",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "相邻区间积分的线性组合",
+    "stem": "A function $f$ satisfies $\\int_0^2 f(x)\\,dx=5$ and $\\int_2^5 f(x)\\,dx=11$.",
+    "parts": [
+      {
+        "text": "Find $\\int_0^5[2f(x)-3]dx$.",
+        "marks": 2,
+        "answer": "$17$.",
+        "explanation": "总积分$5+11=16$，所以$2(16)-3(5)=17$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "总积分$5+11=16$，所以$2(16)-3(5)=17$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $\\int_5^2 f(x)\\,dx$.",
+        "marks": 2,
+        "answer": "$-11$.",
+        "explanation": "积分反转上下限变号。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "积分反转上下限变号。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Given that $f(x)>0$ on $[0,5]$, find the difference between its mean heights on $[0,2]$ and $[2,5]$.",
+        "marks": 3,
+        "answer": "$\\frac76$，后段较高。",
+        "explanation": "均高分别$5/2,11/3$，后减前$11/3-5/2=7/6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "均高分别$5/2,11/3$，后减前$11/3-5/2=7/6$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "相邻区间积分的线性组合"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q01",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "梯形法与函数平移"
+      }
+    ],
+    "adaptationNote": "无解析函数时利用可加性、上下限及均高，而非反复套梯形。"
+  },
+  {
+    "id": "P2-C08-R22",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "梯形和精确积分比较",
+    "stem": "For $0\\le x\\le2$, $f(x)=x^2+1$.",
+    "parts": [
+      {
+        "text": "Find the exact area under the graph.",
+        "marks": 2,
+        "answer": "$\\frac{14}{3}$.",
+        "explanation": "逐项求原函数，代入两个边界得到精确面积：$\\int_0^2(x^2+1)dx=[x^3/3+x]_0^2=14/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "逐项求原函数，代入两个边界得到精确面积：$\\int_0^2(x^2+1)dx=[x^3/3+x]_0^2=14/3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the trapezium estimate using two strips and calculate its error.",
+        "marks": 3,
+        "answer": "估计5；高估$1/3$。",
+        "explanation": "表值1、2、5，$T=\\frac12[1+5+2(2)]=5$；减精确值。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "表值1、2、5，$T=\\frac12[1+5+2(2)]=5$；减精确值。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For $g(x)=7-2f(x)$ on the same interval, find",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "the corresponding trapezium estimate of its signed integral,",
+            "marks": 2,
+            "answer": "$4$.",
+            "explanation": "用线性关系$14-2T=14-10$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "用线性关系$14-2T=14-10$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "the size and direction of the error.",
+            "marks": 2,
+            "answer": "低估$2/3$。",
+            "explanation": "真实值$14-2(14/3)=14/3$，与4相差$2/3$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "真实值$14-2(14/3)=14/3$，与4相差$2/3$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "梯形和精确积分比较"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q05",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "数值积分与解析积分结合"
+      }
+    ],
+    "adaptationNote": "精确与近似比较并追踪反射误差，明确变换后跨轴须说有向积分。"
+  },
+  {
+    "id": "P2-C08-R23",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "花坛边界面积",
+    "stem": "A flower bed is bounded by $y=2x-x^2$ and the $x$-axis. A path occupies the part under the same curve between $x=0$ and $x=\\frac12$. Coordinates are in metres.",
+    "parts": [
+      {
+        "text": "Find the total bed area before the path is removed.",
+        "marks": 2,
+        "answer": "$\\frac43\\text{ m}^2$.",
+        "explanation": "根0与2；$\\int_0^2(2x-x^2)dx=4/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "根0与2；$\\int_0^2(2x-x^2)dx=4/3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the path area.",
+        "marks": 2,
+        "answer": "$\\frac5{24}\\text{ m}^2$.",
+        "explanation": "积分$[x^2-x^3/3]_0^{1/2}=1/4-1/24=5/24$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "积分$[x^2-x^3/3]_0^{1/2}=1/4-1/24=5/24$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the percentage of the bed remaining for plants.",
+        "marks": 3,
+        "answer": "$84.375\\%$.",
+        "explanation": "剩余$4/3-5/24=9/8$，比例$(9/8)/(4/3)\\cdot100=84.375\\%$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "剩余$4/3-5/24=9/8$，比例$(9/8)/(4/3)\\cdot100=84.375\\%$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "花坛边界面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q06",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "商标设计中的数值面积占比"
+      }
+    ],
+    "adaptationNote": "解析抛物线花坛与局部通道、可种植比例，不复用商标图。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Parabolic flower bed with a shaded end strip for a path\"><title>Parabolic flower bed with a shaded end strip for a path</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M45 220H460 M45 230V25 M45 220Q245 -115 445 220 M145 220V95\"/><path d=\"M45 220Q85 150 145 95V220Z\" fill=\"#b8d4c7\"/><text x=\"125\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">1/2</text><text x=\"432\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">2</text><text x=\"55\" y=\"130\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">path</text></g></svg>"
+  },
+  {
+    "id": "P2-C08-R24",
+    "stage": "P2",
+    "chapters": [
+      8,
+      7
+    ],
+    "type": "两根式曲线间面积",
+    "stem": "The curves $y=4\\sqrt{x}$ and $y=x^{3/2}$ meet in the first quadrant and at the origin.",
+    "parts": [
+      {
+        "text": "Find the non-zero intersection.",
+        "marks": 2,
+        "answer": "$(4,8)$.",
+        "explanation": "对$x>0$除以$\\sqrt{x}$得$4=x$，代入$y=8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "对$x>0$除以$\\sqrt{x}$得$4=x$，代入$y=8$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area enclosed by the curves.",
+        "marks": 3,
+        "answer": "$\\frac{128}{15}$.",
+        "explanation": "在两个交点之间，四倍根式在三次半幂上方，积分其差：$\\int_0^4(4x^{1/2}-x^{3/2})dx=[\\frac83x^{3/2}-\\frac25x^{5/2}]_0^4=128/15$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在两个交点之间，四倍根式在三次半幂上方，积分其差：$\\int_0^4(4x^{1/2}-x^{3/2})dx=[\\frac83x^{3/2}-\\frac25x^{5/2}]_0^4=128/15$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the maximum vertical distance between the curves.",
+        "marks": 3,
+        "answer": "$\\frac{16}{3\\sqrt3}$.",
+        "explanation": "差$d=4\\sqrt{x}-x^{3/2}$，$d\\prime=(4-3x)/(2\\sqrt{x})=0$给$x=4/3$；代得$16/(3\\sqrt3)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "差$d=4\\sqrt{x}-x^{3/2}$，$d\\prime=(4-3x)/(2\\sqrt{x})=0$给$x=4/3$；代得$16/(3\\sqrt3)$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "两根式曲线间面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q10",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "根式曲线与梯形之间面积"
+      }
+    ],
+    "adaptationNote": "根式与三次半幂相交，面积后求最大间距的微积分综合。"
+  },
+  {
+    "id": "P2-C08-R25",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "参数积分与对称性",
+    "stem": "For $a>0$, let $f(x)=a^2-x^2$ on $-a\\le x\\le a$.",
+    "parts": [
+      {
+        "text": "Show that the enclosed area above the $x$-axis is $\\frac43a^3$.",
+        "marks": 2,
+        "answer": "$A=\\frac43a^3$.",
+        "explanation": "偶函数，$2\\int_0^a(a^2-x^2)dx=2(a^3-a^3/3)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "偶函数，$2\\int_0^a(a^2-x^2)dx=2(a^3-a^3/3)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $a$ when the enclosed area is 36.",
+        "marks": 2,
+        "answer": "$a=3$.",
+        "explanation": "$4a^3/3=36$给$a^3=27$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$4a^3/3=36$给$a^3=27$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For this value of $a$, find the area lying above $y=5$.",
+        "marks": 3,
+        "answer": "$\\frac{32}{3}$.",
+        "explanation": "$9-x^2=5$给$x=\\pm2$；面积$\\int_{-2}^2(4-x^2)dx=32/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$9-x^2=5$给$x=\\pm2$；面积$\\int_{-2}^2(4-x^2)dx=32/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "参数积分与对称性"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q09",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "抛物线与两直线的面积比"
+      }
+    ],
+    "adaptationNote": "先证任意参数面积，再定参数并截取水平线以上区域。"
+  },
+  {
+    "id": "P2-C08-R26",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "梯形分段与缩放",
+    "stem": "A positive function has values $\\begin{array}{c|ccccc}x&0&1&2&3&4\\\\\\hline f(x)&2&3&6&8&10\\end{array}$.",
+    "parts": [
+      {
+        "text": "Estimate its area on $[0,4]$ using four trapezia.",
+        "marks": 3,
+        "answer": "$23$.",
+        "explanation": "使用宽为1的四条梯形，中间三项的权重都是2：$T=\\frac12[2+10+2(3+6+8)]=23$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "使用宽为1的四条梯形，中间三项的权重都是2：$T=\\frac12[2+10+2(3+6+8)]=23$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Use only the endpoints and midpoint to make a two-strip estimate.",
+        "marks": 2,
+        "answer": "$24$.",
+        "explanation": "这里只取横坐标0、2、4，因此每条梯形宽为2：$h=2$，$T=1[2+10+2(6)]=24$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "这里只取横坐标0、2、4，因此每条梯形宽为2：$h=2$，$T=1[2+10+2(6)]=24$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the closer agreement of two estimates alone does not prove either is exact.",
+        "marks": 2,
+        "answer": "有限表值不能确定各点之间的曲线。",
+        "explanation": "不同曲线可经过同一组点但具有不同面积；还需函数信息或误差分析。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "不同曲线可经过同一组点但具有不同面积；还需函数信息或误差分析。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯形分段与缩放"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q01",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "梯形法六个纵坐标"
+      }
+    ],
+    "adaptationNote": "同一数据比较粗细划分并指出证据局限，不把估计当精确值。"
+  },
+  {
+    "id": "P2-C08-R27",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "定积分确定未知边界",
+    "stem": "The curve $y=3x^2$ is considered for $x\\ge0$. A vertical line $x=b$ encloses area 64 with the curve and the coordinate axes.",
+    "parts": [
+      {
+        "text": "Find $b$.",
+        "marks": 2,
+        "answer": "$b=4$.",
+        "explanation": "从原点累积到未知右边界，定积分等于所给面积：$\\int_0^b3x^2dx=b^3=64$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "从原点累积到未知右边界，定积分等于所给面积：$\\int_0^b3x^2dx=b^3=64$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $c$ so that the area from $x=0$ to $x=c$ is one eighth of the total.",
+        "marks": 2,
+        "answer": "$c=2$.",
+        "explanation": "所需面积8，$c^3=8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "所需面积8，$c^3=8$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the ratio of the heights of the curve at $x=c$ and $x=b$.",
+        "marks": 2,
+        "answer": "$1:4$.",
+        "explanation": "高度分别$3(2)^2=12$、$3(4)^2=48$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "高度分别$3(2)^2=12$、$3(4)^2=48$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "定积分确定未知边界"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q09",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "参数直线分割抛物线面积"
+      }
+    ],
+    "adaptationNote": "由立方累计面积反推边界，再对比线性尺度和高度比。"
+  },
+  {
+    "id": "P2-C08-R28",
+    "stage": "P2",
+    "chapters": [
+      8,
+      1
+    ],
+    "type": "积分反推多项式因子",
+    "stem": "The polynomial is $f(x)=x^2+ax+b$. It has factor $(x-1)$ and satisfies $\\int_0^2f(x)dx=\\frac23$.",
+    "parts": [
+      {
+        "text": "Find two equations for $a,b$.",
+        "marks": 2,
+        "answer": "$1+a+b=0,\\ \\frac83+2a+2b=\\frac23$.",
+        "explanation": "因式定理和积分分别给方程；两式实际上相同。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "因式定理和积分分别给方程；两式实际上相同。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why these conditions do not determine $a$ and $b$ uniquely.",
+        "marks": 3,
+        "answer": "两条方程都只给$a+b=-1$。",
+        "explanation": "第二式减$8/3$后为$2a+2b=-2$，与第一式等价。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "第二式减$8/3$后为$2a+2b=-2$，与第一式等价。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Given also that $f(0)=2$, find $f(x)$.",
+        "marks": 2,
+        "answer": "$f=x^2-3x+2$.",
+        "explanation": "$b=2$且$a+b=-1$，所以$a=-3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$b=2$且$a+b=-1$，所以$a=-3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the total area between the graph and the $x$-axis on $[0,2]$.",
+        "marks": 3,
+        "answer": "$1$.",
+        "explanation": "根为1、2，分段面积$5/6+1/6=1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "根为1、2，分段面积$5/6+1/6=1$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 10,
+    "topics": [
+      "积分反推多项式因子"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q07",
+        "year": 2022,
+        "paper": "p2-jun-2022",
+        "note": "因式条件与定积分确定参数"
+      }
+    ],
+    "adaptationNote": "刻意设置相关约束考是否充分，再给额外条件完成分段面积。"
+  },
+  {
+    "id": "P2-C08-R29",
+    "stage": "P2",
+    "chapters": [
+      8,
+      4
+    ],
+    "type": "积分与二项式展开",
+    "stem": "Let $f(x)=(1+2x)^3$, for $0\\le x\\le1$.",
+    "parts": [
+      {
+        "text": "Expand $f(x)$.",
+        "marks": 2,
+        "answer": "$1+6x+12x^2+8x^3$.",
+        "explanation": "使用正整数二项式展开。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "使用正整数二项式展开。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area under the curve on $[0,1]$ by integrating your expansion.",
+        "marks": 3,
+        "answer": "$10$.",
+        "explanation": "展开后逐项使用幂函数积分法则，再在0与1之间求差：$[x+3x^2+4x^3+2x^4]_0^1=10$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "展开后逐项使用幂函数积分法则，再在0与1之间求差：$[x+3x^2+4x^3+2x^4]_0^1=10$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "The line joining the two endpoints is $y=1+26x$. Find the area between this line and the curve.",
+        "marks": 2,
+        "answer": "$4$.",
+        "explanation": "弦下梯形面积$(1+27)/2=14$，曲线向上弯故弦在上；差14减10。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "弦下梯形面积$(1+27)/2=14$，曲线向上弯故弦在上；差14减10。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "积分与二项式展开"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q05",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "数值积分与解析积分结合"
+      }
+    ],
+    "adaptationNote": "通过展开保持P2积分范围，比较真实曲线面积与一条大梯形。"
+  },
+  {
+    "id": "P2-C08-R30",
+    "stage": "P2",
+    "chapters": [
+      8
+    ],
+    "type": "测量截面和精确中央部分",
+    "stem": "A cross-section has measured heights $2,3,5,4,2$ metres at $x=0,2,4,6,8$ metres. A rectangular opening of width 2 m and height 1.5 m must be excluded from its area.",
+    "parts": [
+      {
+        "text": "Use the trapezium rule to estimate the whole cross-sectional area.",
+        "marks": 3,
+        "answer": "$28\\text{ m}^2$.",
+        "explanation": "相邻横坐标差为2，将五个测量高度代入四条梯形公式：$h=2$，$T=2+2+2(3+5+4)=28$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "相邻横坐标差为2，将五个测量高度代入四条梯形公式：$h=2$，$T=2+2+2(3+5+4)=28$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "After excluding the rectangular opening, estimate",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "the usable cross-sectional area,",
+            "marks": 2,
+            "answer": "$25\\text{ m}^2$.",
+            "explanation": "整面积28减开口3。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "整面积28减开口3。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "the usable volume when this cross-section extends uniformly for 6 m.",
+            "marks": 2,
+            "answer": "$150\\text{ m}^3$.",
+            "explanation": "柱体体积为净截面25乘长度6。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "柱体体积为净截面25乘长度6。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "测量截面和精确中央部分"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q06",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "商标设计中的数值面积占比"
+      }
+    ],
+    "adaptationNote": "实测面积、精确孔洞、均匀体积的组合，题面明确开口属于截面内。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Measured roof profile with a rectangular opening to be excluded\"><title>Measured roof profile with a rectangular opening to be excluded</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M45 220H455 M45 165L140 135 235 75 330 105 425 165V220 M45 165V220 M190 220V180H280V220\"/><text x=\"185\" y=\"170\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">opening</text><text x=\"310\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x / m</text></g></svg>"
+  }
+]

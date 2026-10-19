@@ -1,1 +1,12 @@
-{"name":"pure-maths-library","version":"1.0.0","private":true,"type":"module","scripts":{"start":"node server.mjs"}}
+{
+  "name": "pure-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "check": "node scripts/check-bank.mjs && node scripts/check-adaptations.mjs && node scripts/check-browsing.mjs",
+    "test": "node scripts/test-core.mjs && node scripts/test-stopwatch.mjs"
+  }
+}

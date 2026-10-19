@@ -1,0 +1,75 @@
+{
+  "scope": "P1 chapters1–4,120questions",
+  "authoring": "Each problem specification separately written; helper performs schema construction only, not parameter sampling. Stable existing IDs reused, contents replaced.",
+  "sourceFilesRead": [
+    "p1-jan-2020-layout.txt Q2,Q5,Q10",
+    "p1-jan-2021-layout.txt Q6,Q8",
+    "p1-jan-2022-layout.txt full",
+    "p1-jan-2023-layout.txt full",
+    "p1-jun-2021-layout.txt Q2,Q5",
+    "p1-jun-2022-layout.txt full",
+    "p1-oct-2021-layout.txt Q3,Q9"
+  ],
+  "references": [
+    "P1-2020-01-Q02",
+    "P1-2021-01-Q08",
+    "P1-2021-06-Q02",
+    "P1-2021-06-Q05",
+    "P1-2021-10-Q03",
+    "P1-2021-10-Q09",
+    "P1-2022-01-Q02",
+    "P1-2022-01-Q04",
+    "P1-2022-01-Q10",
+    "P1-2022-06-Q03",
+    "P1-2022-06-Q04",
+    "P1-2022-06-Q06",
+    "P1-2023-01-Q04",
+    "P1-2023-01-Q07",
+    "P1-2023-06-Q01"
+  ],
+  "adaptationPrinciples": [
+    "Exact reference identifies a type/method/wording model, never asserts that the new question was an official examination question.",
+    "Surd and exponent items include domains, missing-zero branches, coefficient constraints, conjugates, comparison proofs and applied geometry.",
+    "Quadratics include reconstruction, restricted intervals, parameter exceptions, variable-line contact, positivity proofs and model feasibility.",
+    "Equations and inequalities balance simultaneous systems, fractions, quartic-in-square substitution, regions, integer constraints and modelling.",
+    "Graphs include cubic simple/double roots, reciprocal and reciprocal-square branches, square-root endpoints, feature mappings, source-to-image point constraints and parameter intersection counts.",
+    "No calculus used in chapters1–4; maxima/minima proved by completing squares. No logarithm solving, root-coefficient theorem, inverse-function machinery or factor/remainder theorem used.",
+    "Rational inequality P1C03R08 matches actual P1Oct2021Q03(i); signs established directly, not relying on P3 methods."
+  ],
+  "distribution": {
+    "eachChapter": {
+      "twoPart": 3,
+      "threePart": 25,
+      "fourPart": 2
+    },
+    "figuresByChapter": [
+      3,
+      4,
+      3,
+      7
+    ],
+    "realNestedSubpartsByChapter": [
+      4,
+      6,
+      6,
+      6
+    ]
+  },
+  "verification": {
+    "mathCases": 120,
+    "passed": 120,
+    "independentReview": "P3functionsagent reviewed all60C03/C04; see independent-p1-34-review.json. Reported graph answer-label and TeX-tab issues fixed; no definite mathematics errors found.",
+    "rootReview": "Parent spot-reviewed C01/C02 and requested meaningful classifications, varied weights and natural subparts; incorporated."
+  },
+  "limitations": [
+    "Internal author and agent peer review; no independent qualified teacher sign-off.",
+    "Balanced by substantive families, not a mathematically exact quota per fine-grained topic.",
+    "Schemes are concise suggested marking guidance, not official Pearson mark schemes."
+  ],
+  "finalNoveltyRevision": {
+    "id": "P1-C03-R02",
+    "reason": "Root comparison against old bank found original first-pass too near an existing question.",
+    "change": "Replaced entire mathematical condition/first proof goal with unknown-slope reconstruction from root separation; positive-gradient branch and chord-midpoint membership checks.",
+    "verification": "New symbolic parameter identity, both parameter roots, chosen intersections and midpoint curve value verified."
+  }
+}

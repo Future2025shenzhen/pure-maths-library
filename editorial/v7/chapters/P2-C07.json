@@ -1,0 +1,2564 @@
+[
+  {
+    "id": "P2-C07-R01",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "驻点与水平围面积",
+    "stem": "The curve $C$ has equation $y=x^3-6x^2+9x+2$.",
+    "parts": [
+      {
+        "text": "Find the coordinates of both stationary points.",
+        "marks": 3,
+        "answer": "$(1,6),(3,2)$.",
+        "explanation": "$y\\prime=3(x-1)(x-3)$，令导数为零并代回函数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=3(x-1)(x-3)$，令导数为零并代回函数。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Determine the nature of each stationary point.",
+        "marks": 2,
+        "answer": "$(1,6)$为极大点；$(3,2)$为极小点。",
+        "explanation": "$y\\prime\\prime=6x-12$，在1处负，在3处正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime\\prime=6x-12$，在1处负，在3处正。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "The line $y=6$, the $y$-axis and $C$ enclose a region for $0\\le x\\le1$. Find its exact area.",
+        "marks": 3,
+        "answer": "$\\frac54$.",
+        "explanation": "面积$\\int_0^1[6-(x^3-6x^2+9x+2)]\\,dx=6-(1/4-2+9/2+2)=5/4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "面积$\\int_0^1[6-(x^3-6x^2+9x+2)]\\,dx=6-(1/4-2+9/2+2)=5/4$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "驻点与水平围面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q08",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "驻点条件增长区间及切线围面积"
+      }
+    ],
+    "adaptationNote": "使用独立三次式，要求两驻点性质后取极大水平线一侧面积。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Cubic with stationary maximum M and minimum N and horizontal y equals six\"><title>Cubic with stationary maximum M and minimum N and horizontal y equals six</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,168.57 57.00,164.00 59.00,159.56 61.00,155.24 63.00,151.03 65.00,146.95 67.00,142.98 69.00,139.12 71.00,135.39 73.00,131.76 75.00,128.25 77.00,124.85 79.00,121.56 81.00,118.38 83.00,115.30 85.00,112.33 87.00,109.47 89.00,106.71 91.00,104.05 93.00,101.50 95.00,99.04 97.00,96.68 99.00,94.42 101.00,92.26 103.00,90.19 105.00,88.21 107.00,86.33 109.00,84.54 111.00,82.84 113.00,81.23 115.00,79.70 117.00,78.26 119.00,76.91 121.00,75.64 123.00,74.46 125.00,73.35 127.00,72.33 129.00,71.38 131.00,70.51 133.00,69.72 135.00,69.01 137.00,68.36 139.00,67.79 141.00,67.30 143.00,66.87 145.00,66.51 147.00,66.22 149.00,66.00 151.00,65.84 153.00,65.75 155.00,65.71 157.00,65.74 159.00,65.84 161.00,65.99 163.00,66.19 165.00,66.46 167.00,66.78 169.00,67.16 171.00,67.58 173.00,68.06 175.00,68.59 177.00,69.17 179.00,69.80 181.00,70.48 183.00,71.20 185.00,71.96 187.00,72.77 189.00,73.62 191.00,74.51 193.00,75.44 195.00,76.41 197.00,77.42 199.00,78.46 201.00,79.53 203.00,80.64 205.00,81.79 207.00,82.96 209.00,84.16 211.00,85.39 213.00,86.65 215.00,87.93 217.00,89.24 219.00,90.57 221.00,91.92 223.00,93.30 225.00,94.69 227.00,96.11 229.00,97.54 231.00,98.98 233.00,100.45 235.00,101.92 237.00,103.41 239.00,104.91 241.00,106.41 243.00,107.93 245.00,109.45 247.00,110.98 249.00,112.52 251.00,114.06 253.00,115.60 255.00,117.14 257.00,118.69 259.00,120.23 261.00,121.77 263.00,123.30 265.00,124.83 267.00,126.36 269.00,127.87 271.00,129.38 273.00,130.88 275.00,132.37 277.00,133.84 279.00,135.30 281.00,136.75 283.00,138.18 285.00,139.59 287.00,140.99 289.00,142.36 291.00,143.71 293.00,145.05 295.00,146.35 297.00,147.64 299.00,148.90 301.00,150.13 303.00,151.33 305.00,152.50 307.00,153.64 309.00,154.75 311.00,155.83 313.00,156.87 315.00,157.87 317.00,158.84 319.00,159.77 321.00,160.66 323.00,161.51 325.00,162.32 327.00,163.09 329.00,163.81 331.00,164.48 333.00,165.11 335.00,165.69 337.00,166.22 339.00,166.70 341.00,167.13 343.00,167.51 345.00,167.83 347.00,168.09 349.00,168.30 351.00,168.45 353.00,168.54 355.00,168.57 357.00,168.54 359.00,168.45 361.00,168.29 363.00,168.06 365.00,167.77 367.00,167.42 369.00,166.99 371.00,166.49 373.00,165.92 375.00,165.28 377.00,164.56 379.00,163.77 381.00,162.90 383.00,161.96 385.00,160.93 387.00,159.83 389.00,158.64 391.00,157.37 393.00,156.02 395.00,154.58 397.00,153.06 399.00,151.45 401.00,149.75 403.00,147.95 405.00,146.07 407.00,144.10 409.00,142.03 411.00,139.86 413.00,137.60 415.00,135.25 417.00,132.79 419.00,130.23 421.00,127.58 423.00,124.82 425.00,121.95 427.00,118.98 429.00,115.91 431.00,112.73 433.00,109.43 435.00,106.03 437.00,102.52 439.00,98.90 441.00,95.16 443.00,91.31 445.00,87.34 447.00,83.25 449.00,79.05 451.00,74.73 453.00,70.28 455.00,65.71\" stroke=\"#234b45\"/><path d=\"M155.00 220.00V65.71\" stroke-dasharray=\"5 4\"/><path d=\"M55 65.71H455\" stroke-dasharray=\"5 4\"/><circle cx=\"155.00\" cy=\"65.71\" r=\"3\" fill=\"#234b45\"/><text x=\"160.0\" y=\"57.71428571428572\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">M</text><circle cx=\"355.00\" cy=\"168.57\" r=\"3\" fill=\"#234b45\"/><text x=\"360.0\" y=\"160.57142857142858\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">N</text><text x=\"75\" y=\"40\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = 6</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R02",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "梯度信息确定曲线",
+    "stem": "A curve has gradient $\\frac{dy}{dx}=k(x-1)(x-4)$, where $k>0$. At $x=0$ its gradient is 8, and the curve passes through $(0,3)$.",
+    "parts": [
+      {
+        "text": "Find $k$ and the equation of the curve.",
+        "marks": 3,
+        "answer": "$k=2,\\ y=\\frac23x^3-5x^2+8x+3$.",
+        "explanation": "$4k=8$；积分$2x^2-10x+8$并由纵截距得常数3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$4k=8$；积分$2x^2-10x+8$并由纵截距得常数3。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the intervals on which the curve is decreasing.",
+        "marks": 2,
+        "answer": "$1<x<4$.",
+        "explanation": "$k>0$，两个一次因子异号时导数负。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$k>0$，两个一次因子异号时导数负。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the change in $y$ as $x$ increases from 1 to 4.",
+        "marks": 3,
+        "answer": "$-9$.",
+        "explanation": "$\\Delta y=\\int_1^4(2x^2-10x+8)dx=-9$，下降9。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\Delta y=\\int_1^4(2x^2-10x+8)dx=-9$，下降9。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "梯度信息确定曲线"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q08",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "驻点条件增长区间及切线围面积"
+      }
+    ],
+    "adaptationNote": "由梯度因子和点值重建曲线，最后算有向变化而非面积。"
+  },
+  {
+    "id": "P2-C07-R03",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "无盖方底容器",
+    "stem": "An open-topped tank has a square base of side $x$ metres and height $h$ metres. Exactly $48\\text{ m}^2$ of material is available for its base and four sides. Material thickness is negligible.",
+    "parts": [
+      {
+        "text": "Show that its capacity is $V=12x-\\frac14x^3$, and state the permissible interval for $x$.",
+        "marks": 3,
+        "answer": "$V=12x-\\frac14x^3,\\ 0<x<4\\sqrt3$.",
+        "explanation": "材料约束$x^2+4xh=48$，所以$h=(48-x^2)/(4x)>0$；体积$x^2h$代入化简。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "材料约束$x^2+4xh=48$，所以$h=(48-x^2)/(4x)>0$；体积$x^2h$代入化简。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the tank dimensions giving greatest capacity.",
+        "marks": 3,
+        "answer": "底边4 m，高2 m。",
+        "explanation": "$V\\prime=12-3x^2/4=0$给$x=4$；$h=(48-16)/16=2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$V\\prime=12-3x^2/4=0$给$x=4$；$h=(48-16)/16=2$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For the dimensions found in part (b),",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "justify that the capacity is a maximum,",
+            "marks": 2,
+            "answer": "是最大容量。",
+            "explanation": "$V\\prime\\prime=-3x/2<0$对所有可行的$x$成立；两端容量趋于0。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$V\\prime\\prime=-3x/2<0$对所有可行的$x$成立；两端容量趋于0。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "find this maximum capacity.",
+            "marks": 2,
+            "answer": "$32\\text{ m}^3$.",
+            "explanation": "将最优底边代入容量式，$V(4)=48-16=32$，单位为立方米。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "将最优底边代入容量式，$V(4)=48-16=32$，单位为立方米。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 10,
+    "topics": [
+      "无盖方底容器"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q09",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "无盖方底容器最小材料面积"
+      }
+    ],
+    "adaptationNote": "将原卷固定体积最小表面积改为固定材料最大容量；改变约束方向、目标函数与可行区间，并重绘几何图。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"An open-topped square-base tank, dimensions x, x and h\"><title>An open-topped square-base tank, dimensions x, x and h</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M90 80L285 45 400 105 205 140Z M90 80V195L205 245 400 210V105 M205 140V245 M285 45V155L400 210 M90 195L285 155\"/><text x=\"135\" y=\"225\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"315\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"410\" y=\"165\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">h</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R04",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "不同材料成本的容器",
+    "stem": "An open box has rectangular base $2x$ cm by $x$ cm and volume $36\\text{ cm}^3$. Material costs 2 units per $\\text{cm}^2$ for the base and 1 unit per $\\text{cm}^2$ for the sides.",
+    "parts": [
+      {
+        "text": "Show that the cost is $C=4x^2+\\frac{108}{x}$.",
+        "marks": 3,
+        "answer": "$C=4x^2+108/x$.",
+        "explanation": "$h=18/x^2$；底成本$2(2x^2)$，四侧总面积$6xh=108/x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$h=18/x^2$；底成本$2(2x^2)$，四侧总面积$6xh=108/x$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the value of $x$ that minimises cost, giving an exact answer.",
+        "marks": 2,
+        "answer": "$x=\\frac3{\\sqrt[3]2}$ cm。",
+        "explanation": "$C\\prime=8x-108/x^2=0$给$x^3=27/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$C\\prime=8x-108/x^2=0$给$x^3=27/2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "At the minimum, find the ratio of the base cost to the side cost.",
+        "marks": 3,
+        "answer": "$1:2$.",
+        "explanation": "驻点条件$8x^2=108/x$，即侧成本等于两倍底成本$4x^2$；$C\\prime\\prime>0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "驻点条件$8x^2=108/x$，即侧成本等于两倍底成本$4x^2$；$C\\prime\\prime>0$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "不同材料成本的容器"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q02",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "长方体面积最优化"
+      }
+    ],
+    "adaptationNote": "不同底边比例与材料单价使优化目标为成本，末问求成本比例。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Open rectangular box with unequal base sides and side height\"><title>Open rectangular box with unequal base sides and side height</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M70 75L290 40 420 100 200 135Z M70 75V185L200 235 420 200V100 M200 135V235\"/><text x=\"100\" y=\"218\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">2x</text><text x=\"325\" y=\"235\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"430\" y=\"160\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">h</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R05",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "抛物线内接矩形",
+    "stem": "A rectangle has its lower vertices on the $x$-axis and its upper vertices on $y=12-x^2$. Its upper right vertex has $x$-coordinate $t>0$ and the rectangle is symmetric about the $y$-axis.",
+    "parts": [
+      {
+        "text": "State the permissible interval for $t$ and show that its area is $A=24t-2t^3$.",
+        "marks": 3,
+        "answer": "$0<t<2\\sqrt3,\\ A=24t-2t^3$.",
+        "explanation": "高$12-t^2>0$，宽$2t$，故相乘。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "高$12-t^2>0$，宽$2t$，故相乘。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the maximum area.",
+        "marks": 2,
+        "answer": "$32$平方单位。",
+        "explanation": "$A\\prime=24-6t^2=0$给$t=2$，高8宽4，面积32。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$A\\prime=24-6t^2=0$给$t=2$，高8宽4，面积32。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the stationary value gives the greatest area on the permissible interval.",
+        "marks": 2,
+        "answer": "导数在$t=2$前正后负，且两端面积趋于0。",
+        "explanation": "$A\\prime=6(4-t^2)$；$t>0$时二阶导数$-12t<0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$A\\prime=6(4-t^2)$；$t>0$时二阶导数$-12t<0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "抛物线内接矩形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q07",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "分数幂高度模型的最大值"
+      }
+    ],
+    "adaptationNote": "由几何约束形成三次面积而非直接给高度函数，图形必须用于宽度。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Rectangle with corners on the parabola y equals twelve minus x squared\"><title>Rectangle with corners on the parabola y equals twelve minus x squared</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><path d=\"M255.00 25V225\"/><polyline points=\"59.00,216.74 61.00,213.44 63.00,210.16 65.00,206.92 67.00,203.72 69.00,200.55 71.00,197.41 73.00,194.30 75.00,191.23 77.00,188.20 79.00,185.20 81.00,182.23 83.00,179.29 85.00,176.39 87.00,173.53 89.00,170.69 91.00,167.90 93.00,165.13 95.00,162.40 97.00,159.70 99.00,157.04 101.00,154.41 103.00,151.82 105.00,149.25 107.00,146.73 109.00,144.23 111.00,141.77 113.00,139.35 115.00,136.96 117.00,134.60 119.00,132.28 121.00,129.99 123.00,127.73 125.00,125.51 127.00,123.32 129.00,121.17 131.00,119.05 133.00,116.96 135.00,114.91 137.00,112.89 139.00,110.90 141.00,108.95 143.00,107.04 145.00,105.15 147.00,103.31 149.00,101.49 151.00,99.71 153.00,97.96 155.00,96.25 157.00,94.57 159.00,92.93 161.00,91.31 163.00,89.74 165.00,88.19 167.00,86.68 169.00,85.21 171.00,83.77 173.00,82.36 175.00,80.98 177.00,79.64 179.00,78.34 181.00,77.07 183.00,75.83 185.00,74.62 187.00,73.45 189.00,72.32 191.00,71.21 193.00,70.15 195.00,69.11 197.00,68.11 199.00,67.14 201.00,66.21 203.00,65.31 205.00,64.45 207.00,63.62 209.00,62.82 211.00,62.06 213.00,61.33 215.00,60.63 217.00,59.97 219.00,59.34 221.00,58.75 223.00,58.19 225.00,57.66 227.00,57.17 229.00,56.71 231.00,56.29 233.00,55.90 235.00,55.54 237.00,55.22 239.00,54.93 241.00,54.68 243.00,54.46 245.00,54.27 247.00,54.12 249.00,54.00 251.00,53.91 253.00,53.86 255.00,53.85 257.00,53.86 259.00,53.91 261.00,54.00 263.00,54.12 265.00,54.27 267.00,54.46 269.00,54.68 271.00,54.93 273.00,55.22 275.00,55.54 277.00,55.90 279.00,56.29 281.00,56.71 283.00,57.17 285.00,57.66 287.00,58.19 289.00,58.75 291.00,59.34 293.00,59.97 295.00,60.63 297.00,61.33 299.00,62.06 301.00,62.82 303.00,63.62 305.00,64.45 307.00,65.31 309.00,66.21 311.00,67.14 313.00,68.11 315.00,69.11 317.00,70.15 319.00,71.21 321.00,72.32 323.00,73.45 325.00,74.62 327.00,75.83 329.00,77.07 331.00,78.34 333.00,79.64 335.00,80.98 337.00,82.36 339.00,83.77 341.00,85.21 343.00,86.68 345.00,88.19 347.00,89.74 349.00,91.31 351.00,92.93 353.00,94.57 355.00,96.25 357.00,97.96 359.00,99.71 361.00,101.49 363.00,103.31 365.00,105.15 367.00,107.04 369.00,108.95 371.00,110.90 373.00,112.89 375.00,114.91 377.00,116.96 379.00,119.05 381.00,121.17 383.00,123.32 385.00,125.51 387.00,127.73 389.00,129.99 391.00,132.28 393.00,134.60 395.00,136.96 397.00,139.35 399.00,141.77 401.00,144.23 403.00,146.73 405.00,149.25 407.00,151.82 409.00,154.41 411.00,157.04 413.00,159.70 415.00,162.40 417.00,165.13 419.00,167.90 421.00,170.69 423.00,173.53 425.00,176.39 427.00,179.29 429.00,182.23 431.00,185.20 433.00,188.20 435.00,191.23 437.00,194.30 439.00,197.41 441.00,200.55 443.00,203.72 445.00,206.92 447.00,210.16 449.00,213.44 451.00,216.74\" stroke=\"#234b45\"/><path d=\"M140.71 220.00V109.23\" stroke-dasharray=\"5 4\"/><path d=\"M369.29 220.00V109.23\" stroke-dasharray=\"5 4\"/><circle cx=\"369.29\" cy=\"109.23\" r=\"3\" fill=\"#234b45\"/><text x=\"374.2857142857143\" y=\"101.23076923076923\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">(t, 12 − t²)</text><text x=\"300\" y=\"30\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = 12 − x²</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><path d=\"M140.714 109.231H369.286\"/></g></svg>"
+  },
+  {
+    "id": "P2-C07-R06",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "固定周长的半圆窗",
+    "stem": "A window consists of a rectangle of width $2r$ and height $h$, topped by a semicircle of radius $r$. Its outside perimeter is 12 m.",
+    "parts": [
+      {
+        "text": "Show that its area is $A=12r-(2+\\frac\\pi2)r^2$.",
+        "marks": 3,
+        "answer": "$A=12r-(2+\\frac\\pi2)r^2$.",
+        "explanation": "周长$2h+2r+\\pi r=12$，面积$2rh+\\pi r^2/2$，代入$h$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "周长$2h+2r+\\pi r=12$，面积$2rh+\\pi r^2/2$，代入$h$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact value of $r$ for maximum area.",
+        "marks": 2,
+        "answer": "$r=\\frac{12}{4+\\pi}$ m。",
+        "explanation": "对面积关于半径求导，令导数为零：$A\\prime=12-(4+\\pi)r=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "对面积关于半径求导，令导数为零：$A\\prime=12-(4+\\pi)r=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $h$ at the maximum and prove that $h=r$.",
+        "marks": 3,
+        "answer": "$h=\\frac{12}{4+\\pi}=r$.",
+        "explanation": "$h=6-(1+\\pi/2)r$，代入$r$化简；$A\\prime\\prime=-(4+\\pi)<0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$h=6-(1+\\pi/2)r$，代入$r$化简；$A\\prime\\prime=-(4+\\pi)<0$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "固定周长的半圆窗"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q09",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "无盖方底容器最小材料面积"
+      }
+    ],
+    "adaptationNote": "用半圆窗周长约束取代体积约束，导出最优几何相等关系。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"A semicircle of radius r above a rectangle of width two r and height h\"><title>A semicircle of radius r above a rectangle of width two r and height h</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M150 220V140A90 90 0 0 1 330 140V220Z M150 140H330\"/><text x=\"337\" y=\"190\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">h</text><text x=\"222\" y=\"245\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">2r</text><text x=\"230\" y=\"125\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">r</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R07",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "分数幂的驻点",
+    "stem": "For $x>0$, $f(x)=x^{3/2}-6x^{1/2}+5$.",
+    "parts": [
+      {
+        "text": "Find $f\\prime(x)$ in factorised form.",
+        "marks": 2,
+        "answer": "$f\\prime(x)=\\frac{3(x-2)}{2\\sqrt{x}}$.",
+        "explanation": "逐项求导$\\frac32\\sqrt{x}-3/\\sqrt{x}$，提取公共分母。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "逐项求导$\\frac32\\sqrt{x}-3/\\sqrt{x}$，提取公共分母。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the stationary point and its nature.",
+        "marks": 3,
+        "answer": "$(2,5-4\\sqrt2)$为极小点。",
+        "explanation": "分母正，导数在2前负后正，代$f(2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分母正，导数在2前负后正，代$f(2)$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the equation of the tangent at $x=1$.",
+        "marks": 2,
+        "answer": "$y=-\\frac32(x-1)$.",
+        "explanation": "$f(1)=0$，$f\\prime(1)=-3/2$，点斜式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f(1)=0$，$f\\prime(1)=-3/2$，点斜式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "分数幂的驻点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q02",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "分数幂驻点"
+      }
+    ],
+    "adaptationNote": "分数幂极值连接切线与局部符号而非原卷单纯驻点。"
+  },
+  {
+    "id": "P2-C07-R08",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "负幂全域下界与切线",
+    "stem": "The curve $y=x+\\frac{9}{x}$ is defined for $x>0$.",
+    "parts": [
+      {
+        "text": "Find its stationary point.",
+        "marks": 2,
+        "answer": "$(3,6)$.",
+        "explanation": "$y\\prime=1-9/x^2=0$得$x=3$，代回$y=6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=1-9/x^2=0$得$x=3$，代回$y=6$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Prove that $y\\ge6$ for $x>0$ by using differentiation.",
+        "marks": 3,
+        "answer": "$y\\ge6$.",
+        "explanation": "$y\\prime<0$在$(0,3)$，$>0$在$(3,\\infty)$，所以全域最小为6。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime<0$在$(0,3)$，$>0$在$(3,\\infty)$，所以全域最小为6。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the tangent at $x=1$ and its $x$-intercept.",
+        "marks": 2,
+        "answer": "$y=-8x+18$；横截距$9/4$。",
+        "explanation": "$y(1)=10,y\\prime(1)=-8$，写切线后令$y=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y(1)=10,y\\prime(1)=-8$，写切线后令$y=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "负幂极值与面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q10",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "含负幂曲线的两个驻点"
+      }
+    ],
+    "adaptationNote": "将两驻点负幂题改为单支全局下界证明及切线截距，避免对x^-1积分。"
+  },
+  {
+    "id": "P2-C07-R09",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "平稳拐点辨识",
+    "stem": "The curve has equation $y=(x-2)^3+1$.",
+    "parts": [
+      {
+        "text": "Find its stationary point.",
+        "marks": 2,
+        "answer": "$(2,1)$.",
+        "explanation": "$y\\prime=3(x-2)^2$，唯一零点$x=2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=3(x-2)^2$，唯一零点$x=2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the stationary point is neither a maximum nor a minimum.",
+        "marks": 3,
+        "answer": "导数在两侧都为正，函数继续递增。",
+        "explanation": "$3(x-2)^2>0$对$x\\ne2$；二阶导数为零本身不能断定极值。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$3(x-2)^2>0$对$x\\ne2$；二阶导数为零本身不能断定极值。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between the curve, the line $y=1$ and $x=0$, for $0\\le x\\le2$.",
+        "marks": 3,
+        "answer": "$4$.",
+        "explanation": "面积$\\int_0^2[1-((x-2)^3+1)]dx=-[(x-2)^4/4]_0^2=4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "面积$\\int_0^2[1-((x-2)^3+1)]dx=-[(x-2)^4/4]_0^2=4$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "平稳拐点辨识"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q02",
+        "year": 2021,
+        "paper": "p2-jan-2021",
+        "note": "驻点与二阶导数判别"
+      }
+    ],
+    "adaptationNote": "构造二阶判别失效的水平点并连定积分面积，图像性质不同。"
+  },
+  {
+    "id": "P2-C07-R10",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "由驻点约束反求参数",
+    "stem": "The curve $y=x^3+px^2+qx+4$ has stationary points at $x=-1$ and $x=3$.",
+    "parts": [
+      {
+        "text": "Find $p$ and $q$.",
+        "marks": 3,
+        "answer": "$p=-3,q=-9$.",
+        "explanation": "导数$3x^2+2px+q=3(x+1)(x-3)=3x^2-6x-9$，比较系数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "导数$3x^2+2px+q=3(x+1)(x-3)=3x^2-6x-9$，比较系数。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the difference between the stationary $y$-values.",
+        "marks": 2,
+        "answer": "$32$.",
+        "explanation": "$y(-1)=9,y(3)=-23$，两值差32。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y(-1)=9,y(3)=-23$，两值差32。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the range of $x$ for which the curve is increasing.",
+        "marks": 2,
+        "answer": "$x<-1$或$x>3$。",
+        "explanation": "正系数二次导数在两个根外为正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正系数二次导数在两个根外为正。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "由驻点约束反求参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q08",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "驻点条件增长区间及切线围面积"
+      }
+    ],
+    "adaptationNote": "以两个未知系数由驻点共同确定，再比较纵坐标。"
+  },
+  {
+    "id": "P2-C07-R11",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "指定切线梯度的点",
+    "stem": "The curve is $y=\\frac13x^3-2x^2+3x+1$.",
+    "parts": [
+      {
+        "text": "Find $\\frac{dy}{dx}$ and the stationary $x$-coordinates.",
+        "marks": 2,
+        "answer": "$y\\prime=x^2-4x+3$；$x=1,3$。",
+        "explanation": "逐项求导再分解$(x-1)(x-3)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "逐项求导再分解$(x-1)(x-3)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the coordinates of the points where the tangent has gradient 3.",
+        "marks": 3,
+        "answer": "$(0,1),(4,\\frac73)$.",
+        "explanation": "$x^2-4x+3=3$给$x=0,4$；代回函数$y(4)=7/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$x^2-4x+3=3$给$x=0,4$；代回函数$y(4)=7/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the equation of the normal at the point with $x=0$.",
+        "marks": 2,
+        "answer": "$y=1-\\frac13x$.",
+        "explanation": "切线斜率3，法线斜率$-1/3$，过$(0,1)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "切线斜率3，法线斜率$-1/3$，过$(0,1)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "指定切线梯度的点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "余式与因式条件后求驻点"
+      }
+    ],
+    "adaptationNote": "将因式与驻点连接改为指定非零梯度的两点及法线。"
+  },
+  {
+    "id": "P2-C07-R12",
+    "stage": "P2",
+    "chapters": [
+      7,
+      1
+    ],
+    "type": "参数曲线的恒单调条件",
+    "stem": "For a real constant $k$, $f(x)=x^3-3x^2+kx$.",
+    "parts": [
+      {
+        "text": "Write $f\\prime(x)$ in completed-square form.",
+        "marks": 2,
+        "answer": "$f\\prime(x)=3(x-1)^2+k-3$.",
+        "explanation": "先提出二次项系数3，再在括号内加1减1完成配方：$3x^2-6x+k=3(x^2-2x+1)+k-3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先提出二次项系数3，再在括号内加1减1完成配方：$3x^2-6x+k=3(x^2-2x+1)+k-3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the values of $k$ for which $f\\prime(x)>0$ for every real $x$.",
+        "marks": 2,
+        "answer": "$k>3$.",
+        "explanation": "平方项最小0且在$x=1$取得，故最小导数$k-3$须严格正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "平方项最小0且在$x=1$取得，故最小导数$k-3$须严格正。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "When $k=3$, state whether $f$ is increasing and explain what happens at $x=1$.",
+        "marks": 3,
+        "answer": "仍严格递增，$x=1$为水平驻点而非极值。",
+        "explanation": "$f\\prime=3(x-1)^2\\ge0$且只在一点为0；$f=(x-1)^3+1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f\\prime=3(x-1)^2\\ge0$且只在一点为0；$f=(x-1)^3+1$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "参数曲线的恒单调条件"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q02",
+        "year": 2021,
+        "paper": "p2-jan-2021",
+        "note": "驻点与二阶导数判别"
+      }
+    ],
+    "adaptationNote": "参数二次导数与全域单调、临界水平点，强化严格不等号区别。"
+  },
+  {
+    "id": "P2-C07-R13",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "三次模型区间最大值",
+    "stem": "The height of a moving platform is modelled by $H(t)=t^3-9t^2+24t+2$ metres, for $0\\le t\\le5$, where $t$ is in seconds.",
+    "parts": [
+      {
+        "text": "Find the times when the platform is instantaneously stationary.",
+        "marks": 2,
+        "answer": "$t=2,4$ s。",
+        "explanation": "瞬时静止表示高度的导数为零，将导数因式分解后求根：$H\\prime=3(t-2)(t-4)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "瞬时静止表示高度的导数为零，将导数因式分解后求根：$H\\prime=3(t-2)(t-4)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "On $0\\le t\\le5$, find",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "the greatest height, including all times when it is attained,",
+            "marks": 2,
+            "answer": "22 m，在$t=2,5$秒。",
+            "explanation": "比较端点与驻点：$H(0)=2,H(2)=22,H(4)=18,H(5)=22$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "比较端点与驻点：$H(0)=2,H(2)=22,H(4)=18,H(5)=22$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "the least height.",
+            "marks": 2,
+            "answer": "2 m，在$t=0$秒。",
+            "explanation": "同一组候选值中最小为2。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "同一组候选值中最小为2。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Find the intervals in which the platform is moving downwards.",
+        "marks": 2,
+        "answer": "$2<t<4$ s。",
+        "explanation": "速度即导数，在根之间为负。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "速度即导数，在根之间为负。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "三次模型区间最大值"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q07",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "分数幂高度模型的最大值"
+      }
+    ],
+    "adaptationNote": "有界物理模型要求比较端点和驻点，且最大值在两时刻取得。"
+  },
+  {
+    "id": "P2-C07-R14",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "切线围三角形优化",
+    "stem": "For $t>0$, the tangent to $y=\\frac4x$ at $(t,\\frac4t)$ meets the positive coordinate axes at $A$ and $B$.",
+    "parts": [
+      {
+        "text": "Find the tangent equation.",
+        "marks": 2,
+        "answer": "$y=-\\frac4{t^2}x+\\frac8t$.",
+        "explanation": "导数$-4/x^2$，过指定点写点斜式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "导数$-4/x^2$，过指定点写点斜式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of triangle $OAB$.",
+        "marks": 3,
+        "answer": "$8$平方单位，与$t$无关。",
+        "explanation": "横截距$2t$，纵截距$8/t$，面积$\\frac12(2t)(8/t)=8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "横截距$2t$，纵截距$8/t$，面积$\\frac12(2t)(8/t)=8$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the value of $t$ that minimises $OA+OB$.",
+        "marks": 3,
+        "answer": "$t=2$.",
+        "explanation": "$L=2t+8/t$，$L\\prime=2-8/t^2=0$得$t=2$；$L\\prime\\prime=16/t^3>0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$L=2t+8/t$，$L\\prime=2-8/t^2=0$得$t=2$；$L\\prime\\prime=16/t^3>0$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "切线围三角形优化"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q10",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "含负幂曲线的两个驻点"
+      }
+    ],
+    "adaptationNote": "负幂切线与截距不变量、长度和最优化三层结合。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Reciprocal curve with an illustrative tangent; not to scale for the unknown t\"><title>Reciprocal curve with an illustrative tangent; not to scale for the unknown t</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><polyline points=\"55.00,40.00 57.00,47.75 59.00,54.86 61.00,61.41 63.00,67.46 65.00,73.06 67.00,78.27 69.00,83.12 71.00,87.65 73.00,91.89 75.00,95.86 77.00,99.60 79.00,103.12 81.00,106.44 83.00,109.57 85.00,112.54 87.00,115.35 89.00,118.02 91.00,120.55 93.00,122.96 95.00,125.26 97.00,127.46 99.00,129.55 101.00,131.55 103.00,133.46 105.00,135.29 107.00,137.05 109.00,138.74 111.00,140.35 113.00,141.91 115.00,143.40 117.00,144.84 119.00,146.23 121.00,147.57 123.00,148.85 125.00,150.10 127.00,151.30 129.00,152.46 131.00,153.58 133.00,154.66 135.00,155.71 137.00,156.73 139.00,157.72 141.00,158.67 143.00,159.60 145.00,160.50 147.00,161.37 149.00,162.22 151.00,163.04 153.00,163.84 155.00,164.62 157.00,165.37 159.00,166.11 161.00,166.82 163.00,167.52 165.00,168.20 167.00,168.86 169.00,169.51 171.00,170.14 173.00,170.75 175.00,171.35 177.00,171.94 179.00,172.51 181.00,173.06 183.00,173.61 185.00,174.14 187.00,174.66 189.00,175.17 191.00,175.67 193.00,176.15 195.00,176.63 197.00,177.09 199.00,177.55 201.00,177.99 203.00,178.43 205.00,178.86 207.00,179.28 209.00,179.69 211.00,180.09 213.00,180.48 215.00,180.87 217.00,181.25 219.00,181.62 221.00,181.99 223.00,182.34 225.00,182.69 227.00,183.04 229.00,183.38 231.00,183.71 233.00,184.04 235.00,184.36 237.00,184.67 239.00,184.98 241.00,185.28 243.00,185.58 245.00,185.88 247.00,186.17 249.00,186.45 251.00,186.73 253.00,187.00 255.00,187.27 257.00,187.54 259.00,187.80 261.00,188.06 263.00,188.31 265.00,188.56 267.00,188.80 269.00,189.05 271.00,189.28 273.00,189.52 275.00,189.75 277.00,189.97 279.00,190.20 281.00,190.42 283.00,190.64 285.00,190.85 287.00,191.06 289.00,191.27 291.00,191.47 293.00,191.68 295.00,191.88 297.00,192.07 299.00,192.27 301.00,192.46 303.00,192.64 305.00,192.83 307.00,193.01 309.00,193.19 311.00,193.37 313.00,193.55 315.00,193.72 317.00,193.89 319.00,194.06 321.00,194.23 323.00,194.40 325.00,194.56 327.00,194.72 329.00,194.88 331.00,195.03 333.00,195.19 335.00,195.34 337.00,195.49 339.00,195.64 341.00,195.79 343.00,195.94 345.00,196.08 347.00,196.22 349.00,196.36 351.00,196.50 353.00,196.64 355.00,196.77 357.00,196.91 359.00,197.04 361.00,197.17 363.00,197.30 365.00,197.43 367.00,197.56 369.00,197.68 371.00,197.81 373.00,197.93 375.00,198.05 377.00,198.17 379.00,198.29 381.00,198.40 383.00,198.52 385.00,198.64 387.00,198.75 389.00,198.86 391.00,198.97 393.00,199.08 395.00,199.19 397.00,199.30 399.00,199.41 401.00,199.51 403.00,199.61 405.00,199.72 407.00,199.82 409.00,199.92 411.00,200.02 413.00,200.12 415.00,200.22 417.00,200.32 419.00,200.41 421.00,200.51 423.00,200.60 425.00,200.70 427.00,200.79 429.00,200.88 431.00,200.97 433.00,201.06 435.00,201.15 437.00,201.24 439.00,201.33 441.00,201.41 443.00,201.50 445.00,201.59 447.00,201.67 449.00,201.75 451.00,201.84 453.00,201.92 455.00,202.00\" stroke=\"#234b45\"/><polyline points=\"55.00,120.00 57.00,120.90 59.00,121.80 61.00,122.70 63.00,123.60 65.00,124.50 67.00,125.40 69.00,126.30 71.00,127.20 73.00,128.10 75.00,129.00 77.00,129.90 79.00,130.80 81.00,131.70 83.00,132.60 85.00,133.50 87.00,134.40 89.00,135.30 91.00,136.20 93.00,137.10 95.00,138.00 97.00,138.90 99.00,139.80 101.00,140.70 103.00,141.60 105.00,142.50 107.00,143.40 109.00,144.30 111.00,145.20 113.00,146.10 115.00,147.00 117.00,147.90 119.00,148.80 121.00,149.70 123.00,150.60 125.00,151.50 127.00,152.40 129.00,153.30 131.00,154.20 133.00,155.10 135.00,156.00 137.00,156.90 139.00,157.80 141.00,158.70 143.00,159.60 145.00,160.50 147.00,161.40 149.00,162.30 151.00,163.20 153.00,164.10 155.00,165.00 157.00,165.90 159.00,166.80 161.00,167.70 163.00,168.60 165.00,169.50 167.00,170.40 169.00,171.30 171.00,172.20 173.00,173.10 175.00,174.00 177.00,174.90 179.00,175.80 181.00,176.70 183.00,177.60 185.00,178.50 187.00,179.40 189.00,180.30 191.00,181.20 193.00,182.10 195.00,183.00 197.00,183.90 199.00,184.80 201.00,185.70 203.00,186.60 205.00,187.50 207.00,188.40 209.00,189.30 211.00,190.20 213.00,191.10 215.00,192.00 217.00,192.90 219.00,193.80 221.00,194.70 223.00,195.60 225.00,196.50 227.00,197.40 229.00,198.30 231.00,199.20 233.00,200.10 235.00,201.00 237.00,201.90 239.00,202.80 241.00,203.70 243.00,204.60 245.00,205.50 247.00,206.40 249.00,207.30 251.00,208.20 253.00,209.10 255.00,210.00 257.00,210.90 259.00,211.80 261.00,212.70 263.00,213.60 265.00,214.50 267.00,215.40 269.00,216.30 271.00,217.20 273.00,218.10 275.00,219.00 277.00,219.90\" stroke=\"#99633d\"/><circle cx=\"143.89\" cy=\"160.00\" r=\"3\" fill=\"#234b45\"/><text x=\"148.88888888888889\" y=\"152.0\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">(t, 4/t)</text><circle cx=\"277.22\" cy=\"220.00\" r=\"3\" fill=\"#234b45\"/><text x=\"282.22222222222223\" y=\"212.0\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">A</text><text x=\"270\" y=\"30\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = 4/x</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R15",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "固定面积围栏",
+    "stem": "A rectangular enclosure of area $72\\text{ m}^2$ is divided into three equal strips by two fences parallel to its side of length $x$ metres. All four outside sides are fenced.",
+    "parts": [
+      {
+        "text": "Show that the total fence length is $L=4x+\\frac{144}{x}$.",
+        "marks": 2,
+        "answer": "$L=4x+144/x$。",
+        "explanation": "另一边$72/x$；四条长$x$的围栏及两条另一边，总长$4x+2(72/x)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "另一边$72/x$；四条长$x$的围栏及两条另一边，总长$4x+2(72/x)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the dimensions that minimise the fence length.",
+        "marks": 3,
+        "answer": "$x=6$ m，另一边12 m。",
+        "explanation": "$L\\prime=4-144/x^2=0$得$x=6$，代面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$L\\prime=4-144/x^2=0$得$x=6$，代面积。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the minimum fence length and justify it is a minimum.",
+        "marks": 2,
+        "answer": "$48$ m。",
+        "explanation": "二阶导数在正数域为正，确认极小，再代最优边长求长度：$L\\prime\\prime=288/x^3>0$；$L(6)=24+24=48$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "二阶导数在正数域为正，确认极小，再代最优边长求长度：$L\\prime\\prime=288/x^3>0$；$L(6)=24+24=48$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "固定面积围栏"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q09",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "无盖方底容器最小材料面积"
+      }
+    ],
+    "adaptationNote": "把容器面积问题转为含内部隔栏的周长优化，计数依赖新图。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Rectangle split into three strips by two fences parallel to side x\"><title>Rectangle split into three strips by two fences parallel to side x</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M90 65H390V205H90Z M190 65V205 M290 65V205\"/><text x=\"400\" y=\"145\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"195\" y=\"235\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">72/x</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R16",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "折边水槽截面",
+    "stem": "A metal strip 30 cm wide is bent along two lines to form a rectangular gutter. Each vertical side has height $x$ cm, and the remaining width forms the base.",
+    "parts": [
+      {
+        "text": "Find the permissible interval for $x$ and the cross-sectional area $A$.",
+        "marks": 2,
+        "answer": "$0<x<15,\\ A=x(30-2x)$.",
+        "explanation": "底宽$30-2x$须正，高为$x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "底宽$30-2x$须正，高为$x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the value of $x$ that maximises the area.",
+        "marks": 2,
+        "answer": "$x=7.5$ cm。",
+        "explanation": "令面积的一阶导数为零，并用负的二阶导数确认极大值：$A\\prime=30-4x=0$；$A\\prime\\prime=-4<0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "令面积的一阶导数为零，并用负的二阶导数确认极大值：$A\\prime=30-4x=0$；$A\\prime\\prime=-4<0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "A length of gutter is 2 m. Find its greatest capacity in litres.",
+        "marks": 3,
+        "answer": "$22.5$ L。",
+        "explanation": "最大截面112.5平方厘米，乘200厘米得22500立方厘米，即22.5升。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "最大截面112.5平方厘米，乘200厘米得22500立方厘米，即22.5升。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "折边水槽截面"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q02",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "长方体面积最优化"
+      }
+    ],
+    "adaptationNote": "以折边几何及单位换算形成新截面优化，不沿用方底容器。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Rectangular gutter cross-section formed from a strip of width 30\"><title>Rectangular gutter cross-section formed from a strip of width 30</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M110 65V205H390V65\"/><text x=\"65\" y=\"140\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"400\" y=\"140\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text><text x=\"190\" y=\"235\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">30 − 2x</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R17",
+    "stage": "P2",
+    "chapters": [
+      7,
+      1,
+      8
+    ],
+    "type": "乘积展开后求驻点",
+    "stem": "For all real $x$, $f(x)=(x+1)^2(4-x)$.",
+    "parts": [
+      {
+        "text": "Expand $f(x)$ and find $f\\prime(x)$.",
+        "marks": 2,
+        "answer": "$f=-x^3+2x^2+7x+4,\\ f\\prime=-3x^2+4x+7$.",
+        "explanation": "先展开后逐项求导，不需要乘积法则。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先展开后逐项求导，不需要乘积法则。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the stationary points and their nature.",
+        "marks": 3,
+        "answer": "$(-1,0)$为极小点；$(\\frac73,\\frac{500}{27})$为极大点。",
+        "explanation": "$f\\prime=-(3x-7)(x+1)$；$f\\prime\\prime=-6x+4$分别为10与$-10$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f\\prime=-(3x-7)(x+1)$；$f\\prime\\prime=-6x+4$分别为10与$-10$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between the curve and the $x$-axis on $-1\\le x\\le4$.",
+        "marks": 3,
+        "answer": "$\\frac{625}{12}$.",
+        "explanation": "在$-1\\le x\\le4$，$(x+1)^2(4-x)\\ge0$。直接积分展开式，面积$[-x^4/4+2x^3/3+7x^2/2+4x]_{-1}^{4}=625/12$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在$-1\\le x\\le4$，$(x+1)^2(4-x)\\ge0$。直接积分展开式，面积$[-x^4/4+2x^3/3+7x^2/2+4x]_{-1}^{4}=625/12$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "乘积展开后求驻点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q07",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "根式化简后求三个驻点"
+      }
+    ],
+    "adaptationNote": "以重根几何、展开导数和整段面积综合，限定P2可用幂法则。"
+  },
+  {
+    "id": "P2-C07-R18",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "最小值确定参数",
+    "stem": "The function $f(x)=x^2+\\frac{a}{x^2}$ is defined for $x>0$, with $a>0$. Its minimum occurs at $x=3$.",
+    "parts": [
+      {
+        "text": "Find $a$.",
+        "marks": 2,
+        "answer": "$a=81$.",
+        "explanation": "$f\\prime=2x-2a/x^3$，在$x=3$处为零，$6-2a/27=0$得$a=81$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f\\prime=2x-2a/x^3$，在$x=3$处为零，$6-2a/27=0$得$a=81$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the minimum value of $f$.",
+        "marks": 2,
+        "answer": "$18$.",
+        "explanation": "代入极小点，$f(3)=9+81/9=18$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代入极小点，$f(3)=9+81/9=18$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area under this curve from $x=1$ to $x=3$.",
+        "marks": 3,
+        "answer": "$\\frac{188}{3}$.",
+        "explanation": "函数为正，面积$\\int_1^3(x^2+81x^{-2})dx=[x^3/3-81/x]_1^3=188/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "函数为正，面积$\\int_1^3(x^2+81x^{-2})dx=[x^3/3-81/x]_1^3=188/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "最小值确定参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q10",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "含负幂曲线的两个驻点"
+      }
+    ],
+    "adaptationNote": "由指定极小位置反求负二次幂项参数，继而求同一曲线面积；无超纲对数积分或人为换曲线。"
+  },
+  {
+    "id": "P2-C07-R19",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "断裂定义域与局部极值",
+    "stem": "For $x\\ne0$, $f(x)=x^2+\\frac{16}{x}$.",
+    "parts": [
+      {
+        "text": "Find $f\\prime(x)$ and show that there is exactly one real stationary point.",
+        "marks": 2,
+        "answer": "$f\\prime=2x-16/x^2$；$x=2$唯一。",
+        "explanation": "$2x^3=16$给唯一实根2，零点不属定义域。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$2x^3=16$给唯一实根2，零点不属定义域。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Determine its coordinates and nature.",
+        "marks": 2,
+        "answer": "$(2,12)$为极小点。",
+        "explanation": "$f(2)=12$；$f\\prime\\prime=2+32/x^3$在2处为6。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f(2)=12$；$f\\prime\\prime=2+32/x^3$在2处为6。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why 12 is not the least value of $f$ on its whole domain.",
+        "marks": 3,
+        "answer": "负半轴上无下界。",
+        "explanation": "当$x\\to0^-$，$16/x\\to-\\infty$，所以局部极小值不等于全域最小。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "当$x\\to0^-$，$16/x\\to-\\infty$，所以局部极小值不等于全域最小。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "负幂曲线两驻点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q10",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "含负幂曲线的两个驻点"
+      }
+    ],
+    "adaptationNote": "设问标题不泄漏，关键为断裂定义域下局部与整体极值区别。"
+  },
+  {
+    "id": "P2-C07-R20",
+    "stage": "P2",
+    "chapters": [
+      7,
+      1,
+      8
+    ],
+    "type": "二次导数与参数",
+    "stem": "The gradient of a curve is $\\frac{dy}{dx}=3x^2-2kx+12$, where $k>0$. The gradient is zero at exactly one real value of $x$.",
+    "parts": [
+      {
+        "text": "Find $k$.",
+        "marks": 3,
+        "answer": "$k=6$.",
+        "explanation": "二次式重根须判别式$4k^2-144=0$，取正根6。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "二次式重根须判别式$4k^2-144=0$，取正根6。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For this value of $k$,",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "find the stationary x-coordinate and explain why it is not a turning point,",
+            "marks": 2,
+            "answer": "$x=2$，非转向。",
+            "explanation": "导数$3(x-2)^2$两侧均为正。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "导数$3(x-2)^2$两侧均为正。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "find the curve equation given that it passes through $(0,5)$.",
+            "marks": 2,
+            "answer": "$y=x^3-6x^2+12x+5$.",
+            "explanation": "积分导数，再代过点。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "积分导数，再代过点。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "二次导数与参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q02",
+        "year": 2021,
+        "paper": "p2-jan-2021",
+        "note": "驻点与二阶导数判别"
+      }
+    ],
+    "adaptationNote": "重根判别式连水平驻点及积分重建，改变给定二阶判别的常规路径。"
+  },
+  {
+    "id": "P2-C07-R21",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "梯度差、驻点与两曲线面积",
+    "stem": "The curves $C_1:y=x^3-3x$ and $C_2:y=x^2+1$ are considered.",
+    "parts": [
+      {
+        "text": "Find the $x$-coordinates at which the two curves have equal gradients.",
+        "marks": 3,
+        "answer": "$x=-\\frac{\\sqrt{10}-1}{3},\\ \\frac{1+\\sqrt{10}}3$.",
+        "explanation": "$3x^2-3=2x$，解$3x^2-2x-3=0$得$(1\\pm\\sqrt{10})/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$3x^2-3=2x$，解$3x^2-2x-3=0$得$(1\\pm\\sqrt{10})/3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Let $D(x)$ be the $y$-coordinate on $C_1$ minus that on $C_2$. Classify the stationary values of $D$ at the two $x$-coordinates found in part (a).",
+        "marks": 3,
+        "answer": "较小横坐标为极大，较大横坐标为极小。",
+        "explanation": "$D=x^3-x^2-3x-1$，$D\\prime=3x^2-2x-3$，正好为梯度差；$D\\prime\\prime=6x-2$在两根处分别为$-2\\sqrt{10}$及$2\\sqrt{10}$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$D=x^3-x^2-3x-1$，$D\\prime=3x^2-2x-3$，正好为梯度差；$D\\prime\\prime=6x-2$在两根处分别为$-2\\sqrt{10}$及$2\\sqrt{10}$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area between the two curves for $0\\le x\\le1$.",
+        "marks": 3,
+        "answer": "$\\frac{31}{12}$.",
+        "explanation": "此区间$C_2$在上，差$-x^3+x^2+3x+1>0$；积分$[-x^4/4+x^3/3+3x^2/2+x]_0^1=31/12$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "此区间$C_2$在上，差$-x^3+x^2+3x+1>0$；积分$[-x^4/4+x^3/3+3x^2/2+x]_0^1=31/12$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "两曲线相同梯度"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "余式与因式条件后求驻点"
+      }
+    ],
+    "adaptationNote": "从相同梯度建立两曲线的纵向间距函数，分类间距驻点，再计算同两曲线间面积。"
+  },
+  {
+    "id": "P2-C07-R22",
+    "stage": "P2",
+    "chapters": [
+      7,
+      1
+    ],
+    "type": "切线条件反求系数",
+    "stem": "The line $y=5x-4$ is tangent to $y=x^3+ax+b$ at a point whose $x$-coordinate is 1.",
+    "parts": [
+      {
+        "text": "Use the tangent gradient to find $a$.",
+        "marks": 2,
+        "answer": "$a=2$.",
+        "explanation": "在$x=1$处$3+a=5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在$x=1$处$3+a=5$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Use the point of tangency to find $b$.",
+        "marks": 2,
+        "answer": "$b=-2$.",
+        "explanation": "切线上$x=1$给$y=1$；代$1+2+b=1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "切线上$x=1$给$y=1$；代$1+2+b=1$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Prove that the curve is increasing for every real $x$.",
+        "marks": 2,
+        "answer": "全域递增。",
+        "explanation": "$y\\prime=3x^2+2>0$对所有实$x$成立。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=3x^2+2>0$对所有实$x$成立。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all intersections of the curve and its tangent.",
+        "marks": 3,
+        "answer": "$(1,1),(-2,-14)$.",
+        "explanation": "相等给$x^3-3x+2=(x-1)^2(x+2)=0$，代入直线。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "相等给$x^3-3x+2=(x-1)^2(x+2)=0$，代入直线。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "切线条件反求系数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "余式与因式条件后求驻点"
+      }
+    ],
+    "adaptationNote": "切线确定参数后全域单调证明、切线二重交点与另交点整合。"
+  },
+  {
+    "id": "P2-C07-R23",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "矩形纸张留白优化",
+    "stem": "A poster has printed area $200\\text{ cm}^2$. The printed rectangle is $x$ cm wide. Margins are 2 cm on each side and 1 cm at the top and bottom.",
+    "parts": [
+      {
+        "text": "Show that the total paper area is $A=208+2x+\\frac{800}{x}$, where $x>0$.",
+        "marks": 2,
+        "answer": "$A=(x+4)(200/x+2)=208+2x+800/x$.",
+        "explanation": "印刷高为$200/x$；纸张宽高需分别增加4和2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "印刷高为$200/x$；纸张宽高需分别增加4和2。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the printed dimensions for minimum paper use.",
+        "marks": 3,
+        "answer": "宽20 cm，高10 cm。",
+        "explanation": "$A\\prime=2-800/x^2=0$给$x=20$；$A\\prime\\prime>0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$A\\prime=2-800/x^2=0$给$x=20$；$A\\prime\\prime>0$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the percentage of the paper that is printed at the minimum.",
+        "marks": 2,
+        "answer": "$\\frac{625}{9}\\%\\approx69.4\\%$.",
+        "explanation": "纸张面积$24\\cdot12=288$，印刷占$200/288\\cdot100=625/9\\%$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "纸张面积$24\\cdot12=288$，印刷占$200/288\\cdot100=625/9\\%$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "矩形纸张留白优化"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q09",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "无盖方底容器最小材料面积"
+      }
+    ],
+    "adaptationNote": "优化纸张总面积而非体积材料，并区分印刷与外部尺寸。"
+  },
+  {
+    "id": "P2-C07-R24",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "平均变化与瞬时梯度",
+    "stem": "A curve is given by $y=x^3-4x^2+2$.",
+    "parts": [
+      {
+        "text": "Find the gradient of the chord joining the points with $x=0$ and $x=3$.",
+        "marks": 2,
+        "answer": "$-3$.",
+        "explanation": "$y(0)=2,y(3)=-7$，割线斜率$(-7-2)/3=-3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y(0)=2,y(3)=-7$，割线斜率$(-7-2)/3=-3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find both $x$-coordinates where the tangent is parallel to this chord.",
+        "marks": 3,
+        "answer": "$x=\\frac{4-\\sqrt7}{3},\\frac{4+\\sqrt7}{3}$.",
+        "explanation": "$3x^2-8x=-3$，解二次式$3x^2-8x+3=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$3x^2-8x=-3$，解二次式$3x^2-8x+3=0$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Show that both points lie between $x=0$ and $x=3$.",
+        "marks": 2,
+        "answer": "两根均在$(0,3)$。",
+        "explanation": "$2<\\sqrt7<3$给$0<(4-\\sqrt7)/3<1$且$2<(4+\\sqrt7)/3<7/3<3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$2<\\sqrt7<3$给$0<(4-\\sqrt7)/3<1$且$2<(4+\\sqrt7)/3<7/3<3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平均变化与瞬时梯度"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q03",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "余式与因式条件后求驻点"
+      }
+    ],
+    "adaptationNote": "割线与切线平行条件、精确根及位置证明，避免超纲平均值定理。"
+  },
+  {
+    "id": "P2-C07-R25",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "根式曲线与水平线",
+    "stem": "For $x>0$, $y=8\\sqrt{x}-x^{3/2}$.",
+    "parts": [
+      {
+        "text": "Find the stationary $x$-coordinate.",
+        "marks": 2,
+        "answer": "$x=\\frac83$.",
+        "explanation": "$y\\prime=4x^{-1/2}-\\frac32x^{1/2}=0$，乘$2\\sqrt{x}$得$8-3x=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=4x^{-1/2}-\\frac32x^{1/2}=0$，乘$2\\sqrt{x}$得$8-3x=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Show that the stationary value is a maximum.",
+        "marks": 2,
+        "answer": "是极大值。",
+        "explanation": "$y\\prime=(8-3x)/(2\\sqrt{x})$，过$8/3$从正变负。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=(8-3x)/(2\\sqrt{x})$，过$8/3$从正变负。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area between the curve and the $x$-axis from $x=0$ to its positive intercept.",
+        "marks": 3,
+        "answer": "$\\frac{512\\sqrt2}{15}$.",
+        "explanation": "正截距$x=8$；面积$[\\frac{16}{3}x^{3/2}-\\frac25x^{5/2}]_0^8=512\\sqrt2/15$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正截距$x=8$；面积$[\\frac{16}{3}x^{3/2}-\\frac25x^{5/2}]_0^8=512\\sqrt2/15$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "根式曲线与水平线"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-10-Q09",
+        "year": 2023,
+        "paper": "p2-oct-2023",
+        "note": "根式曲线增长及切线分割面积"
+      }
+    ],
+    "adaptationNote": "根式函数最大高度与完整曲线下面积连接，新截距和面积目标。"
+  },
+  {
+    "id": "P2-C07-R26",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "有限区间负幂最值",
+    "stem": "For $1\\le x\\le4$, $f(x)=x^2+\\frac8x$.",
+    "parts": [
+      {
+        "text": "Find the stationary $x$-coordinate in the interval.",
+        "marks": 2,
+        "answer": "$x=\\sqrt[3]4$.",
+        "explanation": "$f\\prime=2x-8/x^2=0$给$x^3=4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$f\\prime=2x-8/x^2=0$给$x^3=4$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact minimum value.",
+        "marks": 3,
+        "answer": "$3\\sqrt[3]{16}$.",
+        "explanation": "在驻点$8/x=2x^2$，故$f=3x^2=3\\sqrt[3]{16}$；导数前负后正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在驻点$8/x=2x^2$，故$f=3x^2=3\\sqrt[3]{16}$；导数前负后正。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the greatest value on the interval.",
+        "marks": 2,
+        "answer": "$18$.",
+        "explanation": "比较两端$f(1)=9,f(4)=18$与驻点最小值，最大18。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "比较两端$f(1)=9,f(4)=18$与驻点最小值，最大18。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "有限区间负幂最值"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q10",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "含负幂曲线的两个驻点"
+      }
+    ],
+    "adaptationNote": "边界受限优化，要求精确幂式最小值和不同端点最大值。"
+  },
+  {
+    "id": "P2-C07-R27",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "抛物线切线与面积",
+    "stem": "The tangent to $y=x^2$ at $x=t>0$ meets the $x$-axis at $A$. Point $B=(t,0)$.",
+    "parts": [
+      {
+        "text": "Find the tangent equation and the coordinates of $A$.",
+        "marks": 2,
+        "answer": "$y=2tx-t^2,\\ A=(t/2,0)$.",
+        "explanation": "斜率$2t$，过$(t,t^2)$；令$y=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "斜率$2t$，过$(t,t^2)$；令$y=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Let $P=(t,t^2)$ and $O=(0,0)$. Find the area enclosed by the curve from $O$ to $P$, the tangent segment $PA$ and the $x$-axis segment $AO$.",
+        "marks": 3,
+        "answer": "$\\frac{t^3}{12}$.",
+        "explanation": "曲线下总面积$t^3/3$减切线下三角形$(1/2)(t/2)t^2=t^3/4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "曲线下总面积$t^3/3$减切线下三角形$(1/2)(t/2)t^2=t^3/4$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "This area is 18. Find $t$.",
+        "marks": 2,
+        "answer": "$t=6$.",
+        "explanation": "$t^3/12=18$给$t^3=216$，取正根6。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$t^3/12=18$给$t^3=216$，取正根6。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "抛物线切线与面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-10-Q09",
+        "year": 2023,
+        "paper": "p2-oct-2023",
+        "note": "根式曲线增长及切线分割面积"
+      }
+    ],
+    "adaptationNote": "以可变切点建立面积参数再反求，图形与原根式完全不同。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Parabola and tangent at a positive t, shown at t equals two\"><title>Parabola and tangent at a positive t, shown at t equals two</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 220.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,220.00 57.00,220.00 59.00,219.98 61.00,219.96 63.00,219.92 65.00,219.88 67.00,219.83 69.00,219.77 71.00,219.70 73.00,219.61 75.00,219.52 77.00,219.42 79.00,219.31 81.00,219.20 83.00,219.07 85.00,218.93 87.00,218.78 89.00,218.62 91.00,218.46 93.00,218.28 95.00,218.10 97.00,217.90 99.00,217.70 101.00,217.48 103.00,217.26 105.00,217.02 107.00,216.78 109.00,216.53 111.00,216.27 113.00,216.00 115.00,215.72 117.00,215.42 119.00,215.12 121.00,214.82 123.00,214.50 125.00,214.17 127.00,213.83 129.00,213.48 131.00,213.13 133.00,212.76 135.00,212.38 137.00,212.00 139.00,211.60 141.00,211.20 143.00,210.78 145.00,210.36 147.00,209.93 149.00,209.48 151.00,209.03 153.00,208.57 155.00,208.10 157.00,207.62 159.00,207.13 161.00,206.63 163.00,206.12 165.00,205.60 167.00,205.07 169.00,204.53 171.00,203.98 173.00,203.43 175.00,202.86 177.00,202.28 179.00,201.70 181.00,201.10 183.00,200.50 185.00,199.88 187.00,199.26 189.00,198.63 191.00,197.99 193.00,197.33 195.00,196.67 197.00,196.00 199.00,195.32 201.00,194.63 203.00,193.93 205.00,193.22 207.00,192.50 209.00,191.77 211.00,191.03 213.00,190.29 215.00,189.53 217.00,188.76 219.00,187.99 221.00,187.20 223.00,186.41 225.00,185.60 227.00,184.79 229.00,183.96 231.00,183.13 233.00,182.29 235.00,181.44 237.00,180.57 239.00,179.70 241.00,178.82 243.00,177.93 245.00,177.03 247.00,176.12 249.00,175.20 251.00,174.28 253.00,173.34 255.00,172.39 257.00,171.43 259.00,170.47 261.00,169.49 263.00,168.51 265.00,167.51 267.00,166.51 269.00,165.49 271.00,164.47 273.00,163.43 275.00,162.39 277.00,161.34 279.00,160.28 281.00,159.21 283.00,158.13 285.00,157.04 287.00,155.94 289.00,154.83 291.00,153.71 293.00,152.58 295.00,151.44 297.00,150.29 299.00,149.14 301.00,147.97 303.00,146.79 305.00,145.61 307.00,144.41 309.00,143.21 311.00,142.00 313.00,140.77 315.00,139.54 317.00,138.30 319.00,137.04 321.00,135.78 323.00,134.51 325.00,133.23 327.00,131.94 329.00,130.64 331.00,129.33 333.00,128.01 335.00,126.68 337.00,125.35 339.00,124.00 341.00,122.64 343.00,121.28 345.00,119.90 347.00,118.51 349.00,117.12 351.00,115.72 353.00,114.30 355.00,112.88 357.00,111.44 359.00,110.00 361.00,108.55 363.00,107.09 365.00,105.62 367.00,104.14 369.00,102.65 371.00,101.15 373.00,99.64 375.00,98.12 377.00,96.59 379.00,95.05 381.00,93.50 383.00,91.95 385.00,90.38 387.00,88.81 389.00,87.22 391.00,85.63 393.00,84.02 395.00,82.41 397.00,80.78 399.00,79.15 401.00,77.51 403.00,75.86 405.00,74.19 407.00,72.52 409.00,70.84 411.00,69.15 413.00,67.45 415.00,65.74 417.00,64.02 419.00,62.30 421.00,60.56 423.00,58.81 425.00,57.05 427.00,55.29 429.00,53.51 431.00,51.73 433.00,49.93 435.00,48.13 437.00,46.31 439.00,44.49 441.00,42.66 443.00,40.82\" stroke=\"#234b45\"/><polyline points=\"229.00,219.93 231.00,218.27 233.00,216.62 235.00,214.96 237.00,213.30 239.00,211.65 241.00,209.99 243.00,208.34 245.00,206.68 247.00,205.02 249.00,203.37 251.00,201.71 253.00,200.06 255.00,198.40 257.00,196.74 259.00,195.09 261.00,193.43 263.00,191.78 265.00,190.12 267.00,188.46 269.00,186.81 271.00,185.15 273.00,183.50 275.00,181.84 277.00,180.18 279.00,178.53 281.00,176.87 283.00,175.22 285.00,173.56 287.00,171.90 289.00,170.25 291.00,168.59 293.00,166.94 295.00,165.28 297.00,163.62 299.00,161.97 301.00,160.31 303.00,158.66 305.00,157.00 307.00,155.34 309.00,153.69 311.00,152.03 313.00,150.38 315.00,148.72 317.00,147.06 319.00,145.41 321.00,143.75 323.00,142.10 325.00,140.44 327.00,138.78 329.00,137.13 331.00,135.47 333.00,133.82 335.00,132.16 337.00,130.50 339.00,128.85 341.00,127.19 343.00,125.54 345.00,123.88 347.00,122.22 349.00,120.57 351.00,118.91 353.00,117.26 355.00,115.60 357.00,113.94 359.00,112.29 361.00,110.63 363.00,108.98 365.00,107.32 367.00,105.66 369.00,104.01 371.00,102.35 373.00,100.70 375.00,99.04 377.00,97.38 379.00,95.73 381.00,94.07 383.00,92.42 385.00,90.76 387.00,89.10 389.00,87.45 391.00,85.79 393.00,84.14 395.00,82.48 397.00,80.82 399.00,79.17 401.00,77.51 403.00,75.86 405.00,74.20 407.00,72.54 409.00,70.89 411.00,69.23 413.00,67.58 415.00,65.92 417.00,64.26 419.00,62.61 421.00,60.95 423.00,59.30 425.00,57.64 427.00,55.98 429.00,54.33 431.00,52.67 433.00,51.02 435.00,49.36 437.00,47.70 439.00,46.05 441.00,44.39 443.00,42.74 445.00,41.08\" stroke=\"#99633d\"/><path d=\"M402.83 220.00V76.00\" stroke-dasharray=\"5 4\"/><circle cx=\"228.91\" cy=\"220.00\" r=\"3\" fill=\"#234b45\"/><text x=\"233.91304347826087\" y=\"212.0\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">A</text><circle cx=\"402.83\" cy=\"76.00\" r=\"3\" fill=\"#234b45\"/><text x=\"407.82608695652175\" y=\"68.0\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">(t, t²)</text><text x=\"275\" y=\"30\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = x²</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C07-R28",
+    "stage": "P2",
+    "chapters": [
+      7
+    ],
+    "type": "优化参数反推",
+    "stem": "A cost model is $C(x)=ax^2+\\frac{b}{x}$ for $x>0$, where $a,b>0$. The minimum cost is 54 and occurs at $x=3$.",
+    "parts": [
+      {
+        "text": "Use the stationary condition to show that $b=54a$.",
+        "marks": 2,
+        "answer": "$b=54a$.",
+        "explanation": "$C\\prime=2ax-b/x^2$，在$x=3$得$6a-b/9=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$C\\prime=2ax-b/x^2$，在$x=3$得$6a-b/9=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Using the minimum value and stationary condition,",
+        "marks": 5,
+        "subparts": [
+          {
+            "text": "find $a$ and $b$,",
+            "marks": 2,
+            "answer": "$a=2,b=108$.",
+            "explanation": "$54=9a+b/3=27a$，得$a=2$及$b=108$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$54=9a+b/3=27a$，得$a=2$及$b=108$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "prove that this minimum is global for $x>0$.",
+            "marks": 3,
+            "answer": "全域最小。",
+            "explanation": "$C\\prime\\prime=4+216/x^3>0$，导数在3前负后正。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$C\\prime\\prime=4+216/x^3>0$，导数在3前负后正。"
+              },
+              {
+                "code": "A2",
+                "marks": 2,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "优化参数反推"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q02",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "长方体面积最优化"
+      }
+    ],
+    "adaptationNote": "从最优位置与最优值同时反推成本系数，区别正向套模型。"
+  },
+  {
+    "id": "P2-C07-R29",
+    "stage": "P2",
+    "chapters": [
+      7,
+      2
+    ],
+    "type": "最短连线的平方",
+    "stem": "A point $P=(x,x^2)$ lies on $y=x^2$. The fixed point is $A=(0,2)$.",
+    "parts": [
+      {
+        "text": "Show that $AP^2=x^4-3x^2+4$.",
+        "marks": 2,
+        "answer": "$AP^2=x^2+(x^2-2)^2=x^4-3x^2+4$.",
+        "explanation": "使用两点距离平方并展开。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "使用两点距离平方并展开。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the $x$-coordinates of the points on the curve closest to $A$.",
+        "marks": 3,
+        "answer": "$x=\\pm\\sqrt{\\frac32}$.",
+        "explanation": "对距离平方求导$4x^3-6x=2x(2x^2-3)$；$x=0$为极大，两侧驻点为极小。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "对距离平方求导$4x^3-6x=2x(2x^2-3)$；$x=0$为极大，两侧驻点为极小。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact shortest distance.",
+        "marks": 2,
+        "answer": "$\\frac{\\sqrt7}{2}$.",
+        "explanation": "当$x^2=3/2$，距离平方$9/4-9/2+4=7/4$；开正平方根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "当$x^2=3/2$，距离平方$9/4-9/2+4=7/4$；开正平方根。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "最短连线的平方"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q09",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "曲线驻点作为圆心的综合题"
+      }
+    ],
+    "adaptationNote": "由圆心几何综合转为点到抛物线距离平方优化，不使用链式法则。"
+  },
+  {
+    "id": "P2-C07-R30",
+    "stage": "P2",
+    "chapters": [
+      7,
+      8
+    ],
+    "type": "曲率符号与导数积分",
+    "stem": "The curve passes through $(1,4)$ and satisfies $\\frac{dy}{dx}=6x^2-12x$.",
+    "parts": [
+      {
+        "text": "Find the equation of the curve.",
+        "marks": 2,
+        "answer": "$y=2x^3-6x^2+8$.",
+        "explanation": "积分得$2x^3-6x^2+c$，代$(1,4)$得$c=8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "积分得$2x^3-6x^2+c$，代$(1,4)$得$c=8$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find and classify both stationary points.",
+        "marks": 3,
+        "answer": "$(0,8)$极大，$(2,0)$极小。",
+        "explanation": "$y\\prime=6x(x-2)$；$y\\prime\\prime=12x-12$在0负、2正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$y\\prime=6x(x-2)$；$y\\prime\\prime=12x-12$在0负、2正。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the area under the curve for $0\\le x\\le2$.",
+        "marks": 3,
+        "answer": "$8$.",
+        "explanation": "曲线该段非负；$[x^4/2-2x^3+8x]_0^2=8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "曲线该段非负；$[x^4/2-2x^3+8x]_0^2=8$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "曲率符号与导数积分"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q08",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "驻点条件增长区间及切线围面积"
+      }
+    ],
+    "adaptationNote": "给梯度与中间点重建函数，驻点含横轴接触再面积。"
+  }
+]

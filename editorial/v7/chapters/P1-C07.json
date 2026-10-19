@@ -1,0 +1,2591 @@
+[
+  {
+    "id": "P1-C07-R01",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "弧与弦",
+    "stem": "All angles in this question are measured in radians. A sector $OAB$ has radius 8 cm and angle $\\angle AOB=1.2$ radians. The chord $AB$ divides the sector into a triangle and a minor segment.",
+    "parts": [
+      {
+        "text": "Find the arc length $AB$.",
+        "marks": 2,
+        "answer": "$9.6$ cm。",
+        "explanation": "$s=r\\theta$，角已用弧度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the chord length $AB$.",
+        "marks": 3,
+        "answer": "$16\\sin0.6\\approx 9.03$ cm。",
+        "explanation": "把等腰三角形平分为两个直角三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the minor segment.",
+        "marks": 3,
+        "answer": "$32(1.2-\\sin1.2)\\approx 8.57\\text{ cm}^2$.",
+        "explanation": "扇形面积减三角形面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "弧长",
+      "弦",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "弧长与弦长区分并合并扇形三角形面积"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：弧长与弦长区分并合并扇形三角形面积；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 203.48293053720084 88.15530968393284Z M280 200L203.48293053720084 88.15530968393284\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"191.48293053720084\" y=\"78.15530968393284\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R02",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "周长确定半径",
+    "stem": "All angles in this question are measured in radians. A minor sector has angle $\\pi/3$ and perimeter $18+3\\pi$ cm.",
+    "parts": [
+      {
+        "text": "Find its radius.",
+        "marks": 2,
+        "answer": "$r=9$ cm。",
+        "explanation": "周长由两条半径及圆弧组成，角使用弧度：$2r+r\\pi/3=18+3\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the chord joining the arc endpoints.",
+        "marks": 2,
+        "answer": "$9$ cm。",
+        "explanation": "夹角60°，三角形为等边三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area between the chord and the arc.",
+        "marks": 3,
+        "answer": "$\\frac{27\\pi}{2}-\\frac{81\\sqrt3}{4}\\text{ cm}^2$.",
+        "explanation": "扇形减等边三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "周长",
+      "弓形",
+      "精确值"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "周长先确定尺度再求弓形精确值"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：周长先确定尺度再求弓形精确值；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 220.0 96.07695154586737Z M280 200L220.0 96.07695154586737\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"208.0\" y=\"86.07695154586737\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R03",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "面积比反求角",
+    "stem": "All angles in this question are measured in radians. A sector of radius $r$ has angle $\\theta$, where $0<\\theta<\\pi$. Its area is three times the area of the triangle formed by its radii and chord.",
+    "parts": [
+      {
+        "text": "Show that $\\theta=3\\sin\\theta$.",
+        "marks": 2,
+        "answer": "两面积分别为$\\frac12r^2\\theta$及$\\frac12r^2\\sin\\theta$。",
+        "explanation": "代入三倍关系并约去正因子。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Given $\\theta=2.27886$ to 5 decimal places, find the ratio arc length:chord length to 3 significant figures.",
+        "marks": 2,
+        "answer": "$1.25:1$.",
+        "explanation": "比值$\\theta/(2\\sin(\\theta/2))$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "If $r=5$, find the segment area to 3 significant figures.",
+        "marks": 3,
+        "answer": "$19.0$.",
+        "explanation": "段面积$\\frac12r^2(\\theta-\\sin\\theta)$；由前问可写$r^2\\theta/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "扇形三角形面积比",
+      "弧弦比"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "面积关系导出三角证明目标并利用给定根，避免超纲求根法"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：面积关系导出三角证明目标并利用给定根，避免超纲求根法；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 81.95630637536588 108.84528599450138Z M280 200L81.95630637536588 108.84528599450138\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"69.95630637536588\" y=\"98.84528599450138\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R04",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "组合周界",
+    "stem": "All angles in this question are measured in radians. A sector $OAB$ has radius 6 and angle $\\pi/2$. An equilateral triangle $OAC$ lies on the opposite side of $OA$ from $B$ and shares radius $OA$ with the sector.",
+    "parts": [
+      {
+        "text": "Find $AB$.",
+        "marks": 2,
+        "answer": "$6\\sqrt2$.",
+        "explanation": "半径成直角，用勾股。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of the union.",
+        "marks": 2,
+        "answer": "$18+3\\pi$.",
+        "explanation": "共同边OA不在外边界；保留OB、AC、CO三条长6的线段及弧AB长$3\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact area of the union.",
+        "marks": 2,
+        "answer": "$18\\pi+9\\sqrt3$.",
+        "explanation": "扇形与等边三角形在OA两侧，内域不重叠；扇形$18\\pi$加边长6的等边三角形面积$9\\sqrt3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "组合周长",
+      "扇形",
+      "三角形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "扇形外接三角形边界判定及联合面积"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：扇形外接三角形边界判定及联合面积；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Sector OAB above radius OA; equilateral triangle OAC below OA\"><path d=\"M80 120L180 120A100 100 0 0 0 80 20L80 120L130 206.603L180 120 M180 120L80 20\" fill=\"none\" stroke=\"#244b48\"/><text x=\"60\" y=\"135\">O</text><text x=\"185\" y=\"135\">A</text><text x=\"70\" y=\"15\">B</text><text x=\"125\" y=\"225\">C</text><text x=\"20\" y=\"250\">Not to scale; OA=OB=6</text></svg>"
+  },
+  {
+    "id": "P1-C07-R05",
+    "stage": "P1",
+    "chapters": [
+      7,
+      2
+    ],
+    "type": "环形扇区",
+    "stem": "All angles in this question are measured in radians. An annular sector has angle $0.8$, outer radius $R$ and inner radius $R-3$, where $R>3$. Its area is $15.6$.",
+    "parts": [
+      {
+        "text": "Show that $2R-3=13$.",
+        "marks": 2,
+        "answer": "$0.4[R^2-(R-3)^2]\\approx 15.6$。",
+        "explanation": "展开差平方并约去1.2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the inner and outer radii.",
+        "marks": 2,
+        "answer": "内半径5，外半径8。",
+        "explanation": "解前问所得线性关系，再用半径相差3确定内半径：$2R=16$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the full perimeter of the annular sector.",
+        "marks": 3,
+        "answer": "$16.4$.",
+        "explanation": "两弧长$0.8(8+5)$，加两条径向短边$2\\times3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "环形扇区",
+      "差平方"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-10-Q09",
+        "year": 2023,
+        "paper": "WMA11/01 2023-10",
+        "note": "面积差约束反求两半径再识别短边周界"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：面积差约束反求两半径再识别短边周界；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 270\" role=\"img\" aria-label=\"Annular sector with concentric inner and outer arcs\"><path d=\"M213.0,210.0 A128,128 0 0 0 174.17845879643716,118.17842036486108 L140.73653674777324,152.61151272803818 A80,80 0 0 1 165.0,210.0 Z\" fill=\"#e4efeb\" stroke=\"#244b48\" stroke-width=\"2\"/><path d=\"M85,210L213.0,210.0 M85,210L174.17845879643716,118.17842036486108\" stroke=\"#8a9995\" stroke-dasharray=\"4 4\" fill=\"none\"/><text x=\"65\" y=\"230\">O</text><text x=\"20\" y=\"258\">Inner and outer arcs; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R06",
+    "stage": "P1",
+    "chapters": [
+      7
+    ],
+    "type": "弧长比例",
+    "stem": "All angles in this question are measured in radians. Two concentric arcs subtend the same angle $\\theta$. Their radii differ by 4 cm and their arc lengths are 15 cm and 9 cm.",
+    "parts": [
+      {
+        "text": "Find $\\theta$.",
+        "marks": 2,
+        "answer": "$1.5$ radians。",
+        "explanation": "弧长差为$4\\theta=6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find both radii.",
+        "marks": 2,
+        "answer": "10 cm与6 cm。",
+        "explanation": "用$s=r\\theta$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between the arcs and the two radial edges.",
+        "marks": 3,
+        "answer": "$48\\text{ cm}^2$.",
+        "explanation": "用共同弧度角乘外圆与内圆半径平方差的一半：$\\frac12(100-36)(1.5)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弧长",
+      "环形面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-10-Q09",
+        "year": 2023,
+        "paper": "WMA11/01 2023-10",
+        "note": "以弧长差先确定共同弧度角"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：以弧长差先确定共同弧度角；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 270\" role=\"img\" aria-label=\"Annular sector with concentric inner and outer arcs\"><path d=\"M245.0,210.0 A160,160 0 0 0 96.31795226683246,50.400802143351285 L91.79077136009948,114.24048128601078 A96,96 0 0 1 181.0,210.0 Z\" fill=\"#e4efeb\" stroke=\"#244b48\" stroke-width=\"2\"/><path d=\"M85,210L245.0,210.0 M85,210L96.31795226683246,50.400802143351285\" stroke=\"#8a9995\" stroke-dasharray=\"4 4\" fill=\"none\"/><text x=\"65\" y=\"230\">O</text><text x=\"20\" y=\"258\">Inner and outer arcs; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R07",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "三角形确定弧度",
+    "stem": "All angles in this question are measured in radians. Triangle $OAB$ has $OA=OB=10$ and $AB=12$. A minor circular arc with centre $O$ joins $A$ to $B$.",
+    "parts": [
+      {
+        "text": "Show that $\\cos\\angle AOB=7/25$.",
+        "marks": 2,
+        "answer": "$\\cos\\theta=(100+100-144)/200=7/25$。",
+        "explanation": "用余弦定理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the length of the minor arc, using radians.",
+        "marks": 2,
+        "answer": "$12.9$（3位有效数字）。",
+        "explanation": "$\\theta=\\arccos(7/25)\\approx 1.28700\\ldots$，弧长$10\\theta$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the minor segment.",
+        "marks": 3,
+        "answer": "$16.4$（3位有效数字）。",
+        "explanation": "三角形高8，面积48；扇形$50\\theta$，作差。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "余弦定理",
+      "弧度",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "由三边求弧度角再求弧和段面积"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：由三边求弧度角再求弧和段面积；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 193.60025546589011 84.80007451119197Z M280 200L193.60025546589011 84.80007451119197\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"181.60025546589011\" y=\"74.80007451119197\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R08",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "折线替换弧线",
+    "stem": "All angles in this question are measured in radians. A path consists of the minor arc $AB$ of a circle of radius 20 m and angle $0.9$. A proposed shortcut is the chord $AB$.",
+    "parts": [
+      {
+        "text": "Find the curved path length.",
+        "marks": 2,
+        "answer": "$18$ m。",
+        "explanation": "用半径乘弧度角计算沿弧的长度：$20(0.9)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the saving in length using the shortcut.",
+        "marks": 2,
+        "answer": "$18-40\\sin0.45\\approx 0.601$ m。",
+        "explanation": "弦长$2r\\sin(\\theta/2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area enclosed by the path and the shortcut.",
+        "marks": 3,
+        "answer": "$200(0.9-\\sin0.9)\\approx 23.3\\text{ m}^2$.",
+        "explanation": "段面积为扇形减等腰三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弧弦比较",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "长度节省和空间面积属于同一几何模型"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：长度节省和空间面积属于同一几何模型；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 234.59319619247972 106.00077084470199Z M280 200L234.59319619247972 106.00077084470199\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"222.59319619247972\" y=\"96.00077084470199\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R09",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "切线三角形",
+    "stem": "All angles in this question are measured in radians. A sector $OAB$ has radius 4 and angle $\\pi/3$. Tangents at $A$ and $B$ meet at $T$ outside the circle.",
+    "parts": [
+      {
+        "text": "Find $\\angle ATB$.",
+        "marks": 2,
+        "answer": "$2\\pi/3$.",
+        "explanation": "四边形OATB在A、B均为直角。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find $AT$.",
+        "marks": 3,
+        "answer": "$4/\\sqrt3$.",
+        "explanation": "OT平分中心角，$AT=4\\tan(\\pi/6)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area bounded by $TA$, $TB$ and the minor arc $AB$.",
+        "marks": 3,
+        "answer": "$16/\\sqrt3-8\\pi/3$.",
+        "explanation": "两直角三角形总面积$OA\\times AT$，减扇形面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "弧度",
+      "切线",
+      "组合面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "切线性质转入弧形封闭区域"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：切线性质转入弧形封闭区域；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Original composite sector diagram; not to scale\"><path d=\"M55 190L235 190L235 85L145 34L55 190 M235 190 A180 180 0 0 0 145 34\" fill=\"none\" stroke=\"#244b48\"/><text x=\"35\" y=\"210\">O</text><text x=\"240\" y=\"210\">A</text><text x=\"135\" y=\"25\">B</text><text x=\"245\" y=\"78\">T</text><text x=\"120\" y=\"210\">r=4</text><text x=\"15\" y=\"250\">Not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R10",
+    "stage": "P1",
+    "chapters": [
+      7
+    ],
+    "type": "同弧长比较",
+    "stem": "All angles in this question are measured in radians. Two sectors have the same arc length 12 cm. Their angles are $0.8$ and $1.5$ radians.",
+    "parts": [
+      {
+        "text": "Find their radii.",
+        "marks": 2,
+        "answer": "15 cm与8 cm。",
+        "explanation": "固定弧长条件先给半径；面积可写为半径与弧长乘积的一半：$r=s/\\theta$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find their areas and state which is larger.",
+        "marks": 2,
+        "answer": "90与48平方厘米；角0.8的扇形较大。",
+        "explanation": "固定弧长条件先给半径；面积可写为半径与弧长乘积的一半：$A=rs/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Show that for fixed arc length $s$, sector area is $s^2/(2\\theta)$.",
+        "marks": 2,
+        "answer": "$A=\\frac12(s/\\theta)^2\\theta=s^2/(2\\theta)$。",
+        "explanation": "替换半径，说明$\\theta>0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "弧长",
+      "面积关系",
+      "证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "固定弧长对面积的反比关系证明"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：固定弧长对面积的反比关系证明；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R11",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "共享边复合图形",
+    "stem": "All angles in this question are measured in radians. Triangle $ABC$ has $AB=6$, $AC=8$ and $\\angle BAC=\\pi/3$. Points $E$ and $D$ lie on $AB$ and $AC$ with $AE=AD=3$. A sector $AED$ is drawn inside triangle $ABC$.",
+    "parts": [
+      {
+        "text": "Find $BC$.",
+        "marks": 2,
+        "answer": "$2\\sqrt{13}$.",
+        "explanation": "余弦定理$36+64-96/2=52$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the triangle outside sector $AED$.",
+        "marks": 3,
+        "answer": "$12\\sqrt3-3\\pi/2$.",
+        "explanation": "三角形面积$12\\sqrt3$，扇形面积$9\\pi/6$；半径3小于A到BC距离，故扇形内含。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of this remaining region.",
+        "marks": 3,
+        "answer": "$8+2\\sqrt{13}+\\pi$.",
+        "explanation": "边界EB=3，BC=$2\\sqrt{13}$，CD=5及内弧长$3\\pi/3=\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "余弦定理",
+      "扇形",
+      "包含性"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "检验几何包含关系，避免未经验证相减"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：检验几何包含关系，避免未经验证相减；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangle ABC with radius3 sector AED inside angle A\"><path d=\"M40 240L340 240L160 32.154Z M140 240A100 100 0 0 0 90 153.397\" fill=\"none\" stroke=\"#244b48\"/><text x=\"20\" y=\"255\">A</text><text x=\"345\" y=\"255\">B</text><text x=\"155\" y=\"25\">C</text><text x=\"135\" y=\"255\">E</text><text x=\"75\" y=\"150\">D</text><text x=\"55\" y=\"220\">π/3</text><text x=\"20\" y=\"275\">Not to scale; AE=AD=3</text></svg>"
+  },
+  {
+    "id": "P1-C07-R12",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "等周扇形",
+    "stem": "All angles in this question are measured in radians. A sector has perimeter 20 cm, radius $r$ and angle $\\theta$. Its arc has the same length as one radius.",
+    "parts": [
+      {
+        "text": "Find $\\theta$.",
+        "marks": 2,
+        "answer": "$1$ radian。",
+        "explanation": "$r\\theta=r$且$r>0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find $r$ and the area.",
+        "marks": 2,
+        "answer": "$r=20/3$；面积$200/9\\text{ cm}^2$。",
+        "explanation": "周长$3r=20$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the ratio of its triangle area to its sector area.",
+        "marks": 2,
+        "answer": "$\\sin1:1$.",
+        "explanation": "两面积公共因子$r^2/2$消去。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "一弧度",
+      "周长",
+      "面积比"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "弧长等于半径解释一弧度并连接面积比"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：弧长等于半径解释一弧度并连接面积比；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 224.83627670417678 99.02348182305242Z M280 200L224.83627670417678 99.02348182305242\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"212.83627670417678\" y=\"89.02348182305242\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R13",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "圆弓形与周界",
+    "stem": "All angles in this question are measured in radians. A minor segment is cut from a circle of radius 13 by a chord of length 10.",
+    "parts": [
+      {
+        "text": "Using the chord and radius, find",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "Find the distance from the centre to the chord.",
+            "marks": 2,
+            "answer": "$12$.",
+            "explanation": "半弦5，勾股$13^2-5^2=144$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "采用解析所述方法并正确代入条件"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "得到所列结果，并满足题目范围及精度要求"
+              }
+            ]
+          },
+          {
+            "text": "Find the angle subtended at the centre, in radians.",
+            "marks": 2,
+            "answer": "$2\\arcsin(5/13)\\approx 0.78958\\ldots$.",
+            "explanation": "半角直角三角形。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "采用解析所述方法并正确代入条件"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "得到所列结果，并满足题目范围及精度要求"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Find the segment perimeter and area to 3 significant figures.",
+        "marks": 3,
+        "answer": "周长20.3；面积6.72。",
+        "explanation": "周长$13\\theta+10$；面积$169\\theta/2-60$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弦",
+      "弧度",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "已知弦由勾股导出弧度而非给角直接代入"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：已知弦由勾股导出弧度而非给角直接代入；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 244.4972322326469 114.79308863113194Z M280 200L244.4972322326469 114.79308863113194\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"232.4972322326469\" y=\"104.79308863113194\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R14",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "扇形面积与弧长联立",
+    "stem": "All angles in this question are measured in radians. A sector has area $42\\text{ cm}^2$ and arc length 12 cm. Its angle is less than $\\pi$.",
+    "parts": [
+      {
+        "text": "Find its radius.",
+        "marks": 2,
+        "answer": "$7$ cm。",
+        "explanation": "将扇形面积写成半径乘弧长的一半，先反求半径，再由弧长除以半径得弧度角：$A=rs/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find its angle in radians.",
+        "marks": 2,
+        "answer": "$12/7$.",
+        "explanation": "将扇形面积写成半径乘弧长的一半，先反求半径，再由弧长除以半径得弧度角：$\\theta=s/r$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the triangle formed by the radii.",
+        "marks": 2,
+        "answer": "$\\frac{49}{2}\\sin(12/7)\\approx 24.2\\text{ cm}^2$.",
+        "explanation": "用夹角面积，计算器设弧度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "面积弧长联立",
+      "三角形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "由面积弧长两条件反求尺度与角"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：由面积弧长两条件反求尺度与角；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R15",
+    "stage": "P1",
+    "chapters": [
+      7
+    ],
+    "type": "线性径向变化",
+    "stem": "All angles in this question are measured in radians. An annular sector has outer radius 9 cm, inner radius 6 cm and angle $\\theta$. Its perimeter is 24 cm.",
+    "parts": [
+      {
+        "text": "For the annular sector, find",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "Find $\\theta$.",
+            "marks": 2,
+            "answer": "$6/5$。",
+            "explanation": "周界包含内外两条弧和两条径向短边；面积则为同角两扇形之差：$15\\theta+6=24$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "采用解析所述方法并正确代入条件"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "得到所列结果，并满足题目范围及精度要求"
+              }
+            ]
+          },
+          {
+            "text": "Find the area of the annular sector.",
+            "marks": 2,
+            "answer": "$27\\text{ cm}^2$.",
+            "explanation": "周界包含内外两条弧和两条径向短边；面积则为同角两扇形之差：$\\frac12(81-36)(6/5)$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "采用解析所述方法并正确代入条件"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "得到所列结果，并满足题目范围及精度要求"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "A radial line bisects the angle. Find the perimeter of either half.",
+        "marks": 2,
+        "answer": "$15$ cm。",
+        "explanation": "半角$3/5$，两弧长和9，径向边共6。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "环形扇区",
+      "切割周界"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-10-Q09",
+        "year": 2023,
+        "paper": "WMA11/01 2023-10",
+        "note": "切分新增边界意味着周长不按比例分割"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：切分新增边界意味着周长不按比例分割；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 270\" role=\"img\" aria-label=\"Annular sector with concentric inner and outer arcs\"><path d=\"M229.0,210.0 A144,144 0 0 0 137.179516644641,75.78637162071942 L119.78634442976067,120.52424774714628 A96,96 0 0 1 181.0,210.0 Z\" fill=\"#e4efeb\" stroke=\"#244b48\" stroke-width=\"2\"/><path d=\"M85,210L229.0,210.0 M85,210L137.179516644641,75.78637162071942\" stroke=\"#8a9995\" stroke-dasharray=\"4 4\" fill=\"none\"/><text x=\"65\" y=\"230\">O</text><text x=\"20\" y=\"258\">Inner and outer arcs; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R16",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "三角形附加大扇形",
+    "stem": "All angles in this question are measured in radians. An equilateral triangle $OAB$ has side 5 cm. The major arc from $A$ to $B$ has centre $O$ and radius 5 cm.",
+    "parts": [
+      {
+        "text": "Find the angle of the major sector in radians.",
+        "marks": 2,
+        "answer": "$5\\pi/3$.",
+        "explanation": "整周$2\\pi$减$\\pi/3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of the region consisting of the major sector and triangle $OAB$.",
+        "marks": 2,
+        "answer": "$25\\pi/3+5$.",
+        "explanation": "共同半径不在外边界，只余大弧与弦AB。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of this region exactly.",
+        "marks": 3,
+        "answer": "$125\\pi/6+25\\sqrt3/4$.",
+        "explanation": "大扇形加不重叠等边三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "大扇形",
+      "面积",
+      "周长"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-10-Q07",
+        "year": 2021,
+        "paper": "WMA11/01 2021-10",
+        "note": "大扇形加三角形的非重叠复合边界"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：大扇形加三角形的非重叠复合边界；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Major sector of angle five pi over three and equilateral triangle OAB in minor wedge\"><path d=\"M195 145L305 145A110 110 0 1 1 250 49.737Z\" fill=\"#e4efeb\" stroke=\"#244b48\" stroke-width=\"2\"/><path d=\"M195 145L305 145L250 49.737Z\" fill=\"none\" stroke=\"#244b48\"/><text x=\"175\" y=\"160\">O</text><text x=\"310\" y=\"155\">A</text><text x=\"250\" y=\"40\">B</text><text x=\"100\" y=\"150\">5π/3</text><text x=\"220\" y=\"120\">π/3</text><text x=\"20\" y=\"280\">Major sector and triangle; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R17",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "周长比和尺度",
+    "stem": "All angles in this question are measured in radians. Sector $S$ has radius 4 and angle 2 radians. Sector $T$ is similar to $S$ and has perimeter 24.",
+    "parts": [
+      {
+        "text": "Find the perimeter of $S$.",
+        "marks": 2,
+        "answer": "$16$.",
+        "explanation": "两半径8加弧长8。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the scale factor from $S$ to $T$.",
+        "marks": 2,
+        "answer": "$3/2$.",
+        "explanation": "周长比24/16。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the radius and angle of $T$.",
+        "marks": 2,
+        "answer": "半径6，角2弧度。",
+        "explanation": "长度乘比例，角不变。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the segment area of $T$.",
+        "marks": 2,
+        "answer": "$18(2-\\sin2)\\approx 19.6$.",
+        "explanation": "扇形减对应等腰三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "相似",
+      "弧度",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "相似保持角度但改变弧度长度尺度"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：相似保持角度但改变弧度长度尺度；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R18",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "绳围扇形约束",
+    "stem": "All angles in this question are measured in radians. A wire of length 30 cm forms the perimeter of a sector. The arc is twice as long as either straight side.",
+    "parts": [
+      {
+        "text": "Find the sector angle in radians.",
+        "marks": 2,
+        "answer": "$\\theta=2$.",
+        "explanation": "弧长$2r=r\\theta$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the sector radius and area.",
+        "marks": 2,
+        "answer": "$r\\approx 7.5$ cm；面积$56.25\\text{ cm}^2$。",
+        "explanation": "周长$4r=30$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "The two straight sides are replaced by the chord. Find the new enclosed area.",
+        "marks": 3,
+        "answer": "$28.125(2-\\sin2)\\approx 30.7\\text{ cm}^2$.",
+        "explanation": "形成弓形，面积减三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "周长",
+      "弧度意义",
+      "边界变化"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "等长条件确定弧度并改变边界成弓形"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：等长条件确定弧度并改变边界成弓形；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 110.06237961434292 90.88430878091819Z M280 200L110.06237961434292 90.88430878091819\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"98.06237961434292\" y=\"80.88430878091819\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R19",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "由弦面积反求半径",
+    "stem": "All angles in this question are measured in radians. A sector has angle $\\pi/2$. The triangle formed by its radii has area $32\\text{ cm}^2$.",
+    "parts": [
+      {
+        "text": "Find the radius.",
+        "marks": 2,
+        "answer": "$8$ cm。",
+        "explanation": "半径构成直角三角形，由给定三角形面积反求正半径：$r^2/2=32$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the sector area and the segment area.",
+        "marks": 2,
+        "answer": "扇形$16\\pi$；弓形$16\\pi-32$。",
+        "explanation": "$\\frac12r^2\\theta$再减三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the ratio of segment area to sector area.",
+        "marks": 2,
+        "answer": "$(\\pi-2):\\pi$。",
+        "explanation": "约去16。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "扇形",
+      "三角形",
+      "比"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "面积给定先确定半径再表达无量纲比例"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：面积给定先确定半径再表达无量纲比例；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R20",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "扇形外三角形",
+    "stem": "All angles in this question are measured in radians. A sector $OAB$ has radius 10 and angle $0.7$. Point $C$ lies on ray $OB$ beyond $B$ with $OC=16$.",
+    "parts": [
+      {
+        "text": "Find $AC$.",
+        "marks": 2,
+        "answer": "$\\sqrt{356-320\\cos0.7}\\approx 10.5$.",
+        "explanation": "余弦定理，包含角0.7弧度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of triangle $OAC$.",
+        "marks": 2,
+        "answer": "$80\\sin0.7\\approx 51.5$.",
+        "explanation": "夹角面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of the region bounded by $AC$, $CB$ and arc $BA$.",
+        "marks": 3,
+        "answer": "$\\sqrt{356-320\\cos0.7}+13\\approx 23.5$.",
+        "explanation": "CB=6，弧BA=7，另加AC。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "余弦定理",
+      "弧长",
+      "周界"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "弧边区域与不等长两射线三角形连接"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：弧边区域与不等长两射线三角形连接；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Original composite sector diagram; not to scale\"><path d=\"M40 210L210 210 A170 170 0 0 0 170 100 L40 210 M170 100L250 35L210 210\" fill=\"none\" stroke=\"#244b48\"/><text x=\"20\" y=\"230\">O</text><text x=\"215\" y=\"230\">A</text><text x=\"165\" y=\"90\">B</text><text x=\"250\" y=\"27\">C</text><text x=\"78\" y=\"190\">0.7</text><text x=\"15\" y=\"250\">Not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R21",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "弓形角互补",
+    "stem": "All angles in this question are measured in radians. A chord of a circle of radius 6 subtends a minor angle $\\theta=1.4$.",
+    "parts": [
+      {
+        "text": "Find the minor segment area.",
+        "marks": 2,
+        "answer": "$18(1.4-\\sin1.4)\\approx 7.46$.",
+        "explanation": "扇形减三角形。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the major segment area in terms of $\\pi$ and $\\sin1.4$.",
+        "marks": 2,
+        "answer": "$36\\pi-25.2+18\\sin1.4$.",
+        "explanation": "全圆面积减小段。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Show that the difference between their perimeters is $12(\\pi-1.4)$.",
+        "marks": 2,
+        "answer": "两段共同弦消去，弧长差$6[(2\\pi-1.4)-1.4]$。",
+        "explanation": "不能将共同弦计入差两次。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "大弓形",
+      "周界差"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "同弦大小弓形面积与周长差"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：同弦大小弓形面积与周长差；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 180.39605714802892 81.74603240138478Z M280 200L180.39605714802892 81.74603240138478\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"168.39605714802892\" y=\"71.74603240138478\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R22",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "圆周分段",
+    "stem": "All angles in this question are measured in radians. Three non-overlapping sectors with a common centre fill a circle. Their angles are in the ratio $2:3:5$. The circle radius is 12.",
+    "parts": [
+      {
+        "text": "Find the largest angle in radians.",
+        "marks": 2,
+        "answer": "$\\pi$.",
+        "explanation": "最大占整周一半。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of the smallest sector.",
+        "marks": 2,
+        "answer": "$24+24\\pi/5$.",
+        "explanation": "小角$2\\pi/5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of the triangle formed by the radii of the middle sector.",
+        "marks": 2,
+        "answer": "$72\\sin(3\\pi/5)\\approx 68.5$.",
+        "explanation": "中角$3\\pi/5$，用夹角面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "整周",
+      "比",
+      "三角面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-06",
+        "note": "整周分配连接不同扇形的弧与三角形"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：整周分配连接不同扇形的弧与三角形；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R23",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "扇形面积比例",
+    "stem": "All angles in this question are measured in radians. Two sectors with the same radius have angles $\\theta$ and $\\theta+0.4$. The larger sector has area $7/5$ of the smaller.",
+    "parts": [
+      {
+        "text": "Find $\\theta$.",
+        "marks": 2,
+        "answer": "$1$ radian。",
+        "explanation": "同半径扇形的面积比等于角度比；再用弧长等于半径乘弧度角确定长度：$(\\theta+0.4)/\\theta=7/5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "The shorter arc is 9 cm long. Find the radius and larger arc.",
+        "marks": 2,
+        "answer": "半径9 cm，大弧12.6 cm。",
+        "explanation": "同半径扇形的面积比等于角度比；再用弧长等于半径乘弧度角确定长度：$r\\theta=9$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the difference between the triangle areas formed in the two sectors.",
+        "marks": 3,
+        "answer": "$\\frac{81}{2}(\\sin1.4-\\sin1)\\approx 5.83\\text{ cm}^2$.",
+        "explanation": "三角形面积不与角成正比，分别用正弦。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "扇形比例",
+      "面积差"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "比较扇形线性角关系与三角形非线性角关系"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：比较扇形线性角关系与三角形非线性角关系；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R24",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "直角三角形内扇形",
+    "stem": "All angles in this question are measured in radians. A right-angled triangle $OAB$ has $OA=12$, $OB=5$ and $\\angle AOB=\\pi/2$. A sector with centre $O$ and radius 4 lies inside the triangle angle.",
+    "parts": [
+      {
+        "text": "Find $AB$ and the perpendicular distance from $O$ to $AB$.",
+        "marks": 2,
+        "answer": "$AB=13$；垂距$60/13$。",
+        "explanation": "勾股；面积30等于$13h/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the entire sector lies inside the triangle and find the remaining area.",
+        "marks": 2,
+        "answer": "$4<60/13$；面积$30-4\\pi$。",
+        "explanation": "半径小于O到斜边的最短距离，扇形内含。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of the remaining region.",
+        "marks": 3,
+        "answer": "$22+2\\pi$.",
+        "explanation": "外边OA、OB各去4，余$8+1$，再加AB=13和四分之一圆弧$2\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "包含条件",
+      "直角三角形",
+      "组合面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "先证明内含才作面积相减并识别新内边界"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：先证明内含才作面积相减并识别新内边界；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Original composite sector diagram; not to scale\"><path d=\"M35 210L355 210L35 40Z M135 210 A100 100 0 0 0 35 110\" fill=\"none\" stroke=\"#244b48\"/><text x=\"15\" y=\"230\">O</text><text x=\"355\" y=\"230\">A</text><text x=\"20\" y=\"30\">B</text><text x=\"150\" y=\"230\">12</text><text x=\"15\" y=\"90\">5</text><text x=\"65\" y=\"175\">r=4</text><text x=\"15\" y=\"250\">Not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R25",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "半圆中的弦",
+    "stem": "All angles in this question are measured in radians. A semicircle has centre $O$, radius 7 and diameter $AB$. A point $C$ on the arc satisfies $\\angle AOC=0.8$.",
+    "parts": [
+      {
+        "text": "Find $\\angle COB$.",
+        "marks": 2,
+        "answer": "$\\pi-0.8$.",
+        "explanation": "半圆角为$\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find $AC$ and $CB$.",
+        "marks": 3,
+        "answer": "$AC=14\\sin0.4\\approx 5.45$；$CB=14\\cos0.4\\approx 12.9$。",
+        "explanation": "分别平分圆心角求弦。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between arc $ACB$ and chords $AC,CB$.",
+        "marks": 3,
+        "answer": "$49\\pi/2-49\\sin0.8\\approx 41.8$. ",
+        "explanation": "半圆面积$49\\pi/2$；$ACB$为直角，面积$\\frac12(14\\sin0.4)(14\\cos0.4)=49\\sin0.8$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "半圆",
+      "弦",
+      "面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "两个相邻弓形合并为半圆减直角三角形"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：两个相邻弓形合并为半圆减直角三角形；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Original composite sector diagram; not to scale\"><path d=\"M35 200A160 160 0 0 1 355 200L35 200 M35 200L85 85L355 200 M195 200L85 85\" fill=\"none\" stroke=\"#244b48\"/><text x=\"15\" y=\"220\">A</text><text x=\"355\" y=\"220\">B</text><text x=\"190\" y=\"220\">O</text><text x=\"75\" y=\"78\">C</text><text x=\"15\" y=\"250\">Not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R26",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "扇形面积差约束",
+    "stem": "All angles in this question are measured in radians. A sector of radius $r$ and angle $1.1$ has area 22 more than a sector of the same radius and angle $0.6$.",
+    "parts": [
+      {
+        "text": "Find $r^2$.",
+        "marks": 2,
+        "answer": "$88$.",
+        "explanation": "同半径扇形相减保留角差；弧长差也等于半径乘该角差：$\\frac12r^2(0.5)=22$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the difference between the arc lengths.",
+        "marks": 2,
+        "answer": "$\\sqrt{22}$.",
+        "explanation": "同半径扇形相减保留角差；弧长差也等于半径乘该角差：$r(0.5)=\\sqrt{88}/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the difference between the triangle areas within the sectors.",
+        "marks": 2,
+        "answer": "$44(\\sin1.1-\\sin0.6)\\approx 14.4$.",
+        "explanation": "保持相同半径，分别用夹角面积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "角差",
+      "弧长差",
+      "三角面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "同半径角差连接线性弧差与非线性三角面积差"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：同半径角差连接线性弧差与非线性三角面积差；重新构造条件关系、证明目标及递进设问，非原题。"
+  },
+  {
+    "id": "P1-C07-R27",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "圆弧围栏",
+    "stem": "All angles in this question are measured in radians. A field boundary consists of two radii of length 15 m and their minor arc. The arc is 6 m longer than the chord.",
+    "parts": [
+      {
+        "text": "Show that its angle $\\theta$ satisfies $\\theta-2\\sin(\\theta/2)=0.4$.",
+        "marks": 2,
+        "answer": "$15\\theta-30\\sin(\\theta/2)=6$。",
+        "explanation": "弧长减弦长。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Given $\\theta=2.16738$ to 5 decimal places, find the field area to 3 significant figures.",
+        "marks": 2,
+        "answer": "$244\\text{ m}^2$.",
+        "explanation": "将给定近似根代入扇形面积公式，最后才按要求取三位有效数字：$\\frac12(15)^2\\theta\\approx 243.83025$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area between the chord and the arc to 3 significant figures.",
+        "marks": 3,
+        "answer": "$151\\text{ m}^2$.",
+        "explanation": "$112.5(2.16738-\\sin2.16738)\\approx 150.7636\\ldots$，取3位有效数字。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弧弦差",
+      "证明",
+      "弓形"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q05",
+        "year": 2022,
+        "paper": "WMA11/01 2022-01",
+        "note": "弧弦差导出条件方程后给根用于后续计算"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：弧弦差导出条件方程后给根用于后续计算；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Sector OAB with chord AB; centre O\"><path d=\"M160 200L280 200A120 120 0 0 0 92.58165188148179 100.72882423900535Z M280 200L92.58165188148179 100.72882423900535\" fill=\"none\" stroke=\"#244b48\" stroke-width=\"2\"/><text x=\"140\" y=\"220\">O</text><text x=\"285\" y=\"220\">A</text><text x=\"80.58165188148179\" y=\"90.72882423900535\">B</text><text x=\"175\" y=\"185\">θ</text><text x=\"15\" y=\"255\">Not to scale; angles in radians</text></svg>"
+  },
+  {
+    "id": "P1-C07-R28",
+    "stage": "P1",
+    "chapters": [
+      7
+    ],
+    "type": "复合旋转",
+    "stem": "All angles in this question are measured in radians. A circular fan has four identical blades. Each blade is an annular sector of angle $0.45$, inner radius 3 cm and outer radius 11 cm. The blades do not overlap. All four blades have the same centre.",
+    "parts": [
+      {
+        "text": "Find the total area of the blades.",
+        "marks": 2,
+        "answer": "$100.8\\text{ cm}^2$.",
+        "explanation": "每片面积为同角内外扇形之差，再乘互不重叠的叶片数：$4\\times\\frac12(121-9)(0.45)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the total length of all blade boundaries.",
+        "marks": 2,
+        "answer": "$89.2$ cm。",
+        "explanation": "每片周长$(11+3)0.45+2(8)\\approx 22.3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "The four gaps have equal angles. Find each gap angle in radians.",
+        "marks": 3,
+        "answer": "$\\pi/2-0.45$.",
+        "explanation": "剩余角$2\\pi-4(0.45)$均分4份。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "重复扇区",
+      "周界",
+      "整周"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-06",
+        "note": "重复环形叶片与真实内外边界及整周空隙"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：重复环形叶片与真实内外边界及整周空隙；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Four identical annular sector blades about common centre O\"><path d=\"M305.0 140.0 A105 105 0 0 0 294.5469457470311 94.32861891832083 L225.7855306582812 127.54416879590568 A28.636363636363637 28.636363636363637 0 0 1 228.63636363636363 140.0Z\" fill=\"#e4efeb\" stroke=\"#244b48\"/><path d=\"M200.0 35.0 A105 105 0 0 0 154.3286189183208 45.453054252968926 L187.54416879590568 114.2144693417188 A28.636363636363637 28.636363636363637 0 0 1 200.0 111.36363636363636Z\" fill=\"#e4efeb\" stroke=\"#244b48\"/><path d=\"M95.0 140.0 A105 105 0 0 0 105.45305425296893 185.67138108167916 L174.2144693417188 152.45583120409432 A28.636363636363637 28.636363636363637 0 0 1 171.36363636363637 140.0Z\" fill=\"#e4efeb\" stroke=\"#244b48\"/><path d=\"M199.99999999999997 245.0 A105 105 0 0 0 245.67138108167916 234.5469457470311 L212.45583120409432 165.7855306582812 A28.636363636363637 28.636363636363637 0 0 1 200.0 168.63636363636363Z\" fill=\"#e4efeb\" stroke=\"#244b48\"/><circle cx=\"200\" cy=\"140\" r=\"2\" fill=\"#244b48\"/><text x=\"185\" y=\"160\">O</text><text x=\"20\" y=\"285\">Four blades: inner radius 3, outer radius 11; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R29",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "弧度与等边三角形",
+    "stem": "All angles in this question are measured in radians. An equilateral triangle of side 12 cm contains three non-overlapping sectors of radius 3 cm, one at each vertex.",
+    "parts": [
+      {
+        "text": "State the angle of each sector in radians.",
+        "marks": 2,
+        "answer": "$\\pi/3$.",
+        "explanation": "等边三角形每角60°。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area inside the triangle but outside all three sectors.",
+        "marks": 2,
+        "answer": "$36\\sqrt3-9\\pi/2$.",
+        "explanation": "三角形面积$36\\sqrt3$减三份$9\\pi/6$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the perimeter of this remaining region.",
+        "marks": 3,
+        "answer": "$18+3\\pi$.",
+        "explanation": "三条边各余6，三段弧各长$\\pi$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弧度转换",
+      "复合区域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2020-01-Q04",
+        "year": 2020,
+        "paper": "WMA11/01 2020-01",
+        "note": "多处局部扇形切角的面积及周界共同建模"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：多处局部扇形切角的面积及周界共同建模；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Equilateral triangle ABC with three radius3 vertex sectors\"><path d=\"M80 235L320 235L200 27.154Z\" fill=\"none\" stroke=\"#244b48\"/><path d=\"M140 235A60 60 0 0 0 110 183.038 M290 183.038A60 60 0 0 0 260 235 M170 79.116A60 60 0 0 0 230 79.116\" fill=\"none\" stroke=\"#244b48\"/><text x=\"60\" y=\"255\">A</text><text x=\"320\" y=\"255\">B</text><text x=\"195\" y=\"20\">C</text><text x=\"15\" y=\"280\">Each sector radius 3; side 12; not to scale</text></svg>"
+  },
+  {
+    "id": "P1-C07-R30",
+    "stage": "P1",
+    "chapters": [
+      7,
+      6
+    ],
+    "type": "不等边弦三角形",
+    "stem": "All angles in this question are measured in radians. Points $A,B,C$ lie on a circle of radius 5 centred at $O$. The adjacent minor arcs $AB$ and $BC$ subtend angles $0.9$ and $1.3$, and $B$ lies on the minor arc $AC$.",
+    "parts": [
+      {
+        "text": "Find the length of arc $AC$ through $B$.",
+        "marks": 2,
+        "answer": "$11$.",
+        "explanation": "总角2.2，弧长$5(2.2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find $AB$, $BC$ and $AC$ in terms of sines.",
+        "marks": 3,
+        "answer": "$10\\sin0.45,\\ 10\\sin0.65,\\ 10\\sin1.1$。",
+        "explanation": "各弦用半圆心角。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      },
+      {
+        "text": "Find the area of triangle $ABC$ to 3 significant figures.",
+        "marks": 3,
+        "answer": "$11.7$.",
+        "explanation": "三角形ABC为OAB与OBC面积和减OAC：$12.5(\\sin0.9+\\sin1.3-\\sin2.2)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "采用解析所述方法并正确代入条件"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "得到所列结果，并满足题目范围及精度要求"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "圆弦",
+      "组合三角形面积"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-10-Q08",
+        "year": 2022,
+        "paper": "WMA11/01 2022-10",
+        "note": "相邻圆心角连接三角形拆分并正确带符号"
+      }
+    ],
+    "adaptationNote": "2026年实质改编：相邻圆心角连接三角形拆分并正确带符号；重新构造条件关系、证明目标及递进设问，非原题。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 290\" role=\"img\" aria-label=\"Adjacent arcs AB and BC subtend 0.9 and 1.3 radians; O is centre\"><path d=\"M345.0 205.0 A140 140 0 0 0 122.60984358425159 91.81050346525738 M345.0 205.0L292.02539555789303 95.33423265215232L122.60984358425159 91.81050346525738Z M205 205L345.0 205.0 M205 205L292.02539555789303 95.33423265215232 M205 205L122.60984358425159 91.81050346525738\" fill=\"none\" stroke=\"#244b48\"/><text x=\"195\" y=\"225\">O</text><text x=\"350\" y=\"220\">A</text><text x=\"296.02539555789303\" y=\"87.33423265215232\">B</text><text x=\"107.60984358425159\" y=\"83.81050346525738\">C</text><text x=\"245\" y=\"190\">0.9</text><text x=\"200\" y=\"160\">1.3</text><text x=\"15\" y=\"275\">OA=OB=OC=5; not to scale</text></svg>"
+  }
+]

@@ -1,0 +1,1057 @@
+{
+  "method": "150 targeted independent coordinate/trigonometric/calculus computations; not external academic approval",
+  "results": [
+    {
+      "id": "P1-C05-R01",
+      "check": "AB与BC垂直且长度平方40",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C05-R02",
+      "check": "中心到A距离平方",
+      "passed": true,
+      "actual": "533/25",
+      "expected": "533/25"
+    },
+    {
+      "id": "P1-C05-R03",
+      "check": "坐标行列式为面积两倍",
+      "passed": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "id": "P1-C05-R04",
+      "check": "截距三角形面积",
+      "passed": true,
+      "actual": "49/4",
+      "expected": "49/4"
+    },
+    {
+      "id": "P1-C05-R05",
+      "check": "垂足长度平方",
+      "passed": true,
+      "actual": "841/25",
+      "expected": "841/25"
+    },
+    {
+      "id": "P1-C05-R06",
+      "check": "由反求顶点求BC斜率",
+      "passed": true,
+      "actual": "16/3",
+      "expected": "16/3"
+    },
+    {
+      "id": "P1-C05-R07",
+      "check": "两容积相交时刻",
+      "passed": true,
+      "actual": "240",
+      "expected": "240"
+    },
+    {
+      "id": "P1-C05-R08",
+      "check": "参数直角判定",
+      "passed": true,
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "id": "P1-C05-R09",
+      "check": "共线两段斜率",
+      "passed": true,
+      "actual": "-1/2",
+      "expected": "-1/2"
+    },
+    {
+      "id": "P1-C05-R10",
+      "check": "反射中点在镜面",
+      "passed": true,
+      "actual": "2.0",
+      "expected": "2"
+    },
+    {
+      "id": "P1-C05-R11",
+      "check": "中线两段比例",
+      "passed": true,
+      "actual": "6/5",
+      "expected": "6/5"
+    },
+    {
+      "id": "P1-C05-R12",
+      "check": "修订后截距三角形面积",
+      "passed": true,
+      "actual": "1/3",
+      "expected": "1/3"
+    },
+    {
+      "id": "P1-C05-R13",
+      "check": "有界三角形底高面积",
+      "passed": true,
+      "actual": "6.0",
+      "expected": "6"
+    },
+    {
+      "id": "P1-C05-R14",
+      "check": "参数点代回垂直线",
+      "passed": true,
+      "actual": "19",
+      "expected": "19"
+    },
+    {
+      "id": "P1-C05-R15",
+      "check": "菱形两条垂直对角线面积",
+      "passed": true,
+      "actual": "40",
+      "expected": "40"
+    },
+    {
+      "id": "P1-C05-R16",
+      "check": "垂线截距面积",
+      "passed": true,
+      "actual": "9.0",
+      "expected": "9"
+    },
+    {
+      "id": "P1-C05-R17",
+      "check": "同底同侧两三角形面积",
+      "passed": true,
+      "actual": "10.0",
+      "expected": "10"
+    },
+    {
+      "id": "P1-C05-R18",
+      "check": "B到交点所需时间并非A的13/5",
+      "passed": true,
+      "actual": "14/5",
+      "expected": "14/5"
+    },
+    {
+      "id": "P1-C05-R19",
+      "check": "垂足分段比",
+      "passed": true,
+      "actual": "7/13",
+      "expected": "7/13"
+    },
+    {
+      "id": "P1-C05-R20",
+      "check": "修订交点代回平分线",
+      "passed": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "id": "P1-C05-R21",
+      "check": "正方形构造垂直方向",
+      "passed": true,
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "id": "P1-C05-R22",
+      "check": "垂线横截距",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C05-R23",
+      "check": "平行四边形对角线中点",
+      "passed": true,
+      "actual": "3.0",
+      "expected": "3"
+    },
+    {
+      "id": "P1-C05-R24",
+      "check": "直角边区域面积",
+      "passed": true,
+      "actual": "8.0",
+      "expected": "8"
+    },
+    {
+      "id": "P1-C05-R25",
+      "check": "等腰点定位距离平方",
+      "passed": true,
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "id": "P1-C05-R26",
+      "check": "线性费率",
+      "passed": true,
+      "actual": "5/4",
+      "expected": "5/4"
+    },
+    {
+      "id": "P1-C05-R27",
+      "check": "第二直角三角形面积",
+      "passed": true,
+      "actual": "10.0",
+      "expected": "10"
+    },
+    {
+      "id": "P1-C05-R28",
+      "check": "中心到第三顶点距离平方",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "P1-C05-R29",
+      "check": "轴上三角形面积",
+      "passed": true,
+      "actual": "75/4",
+      "expected": "75/4"
+    },
+    {
+      "id": "P1-C05-R30",
+      "check": "距离约束第二分支",
+      "passed": true,
+      "actual": "25",
+      "expected": "25"
+    },
+    {
+      "id": "P1-C06-R01",
+      "check": "二次正根与边长",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C06-R02",
+      "check": "二义性第二面积3有效数字9.40",
+      "passed": true,
+      "actual": "9.403186380695082",
+      "expected": "9.403186380695082"
+    },
+    {
+      "id": "P1-C06-R03",
+      "check": "钝角余弦",
+      "passed": true,
+      "actual": "-13/35",
+      "expected": "-13/35"
+    },
+    {
+      "id": "P1-C06-R04",
+      "check": "屋架内斜杆4.51",
+      "passed": true,
+      "actual": "4.514076758504616",
+      "expected": "4.514076758504616"
+    },
+    {
+      "id": "P1-C06-R05",
+      "check": "两个面积角对应第一边",
+      "passed": true,
+      "actual": "97",
+      "expected": "97"
+    },
+    {
+      "id": "P1-C06-R06",
+      "check": "独立审核纠正从A看B方位349度",
+      "passed": true,
+      "actual": "349.1066053508691",
+      "expected": "349.1066053508691"
+    },
+    {
+      "id": "P1-C06-R07",
+      "check": "相似尺度直角证明",
+      "passed": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "id": "P1-C06-R08",
+      "check": "四边形第一三角角",
+      "passed": true,
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "id": "P1-C06-R09",
+      "check": "二义性存在下界",
+      "passed": true,
+      "actual": "6.882917236212553",
+      "expected": "6.882917236212553"
+    },
+    {
+      "id": "P1-C06-R10",
+      "check": "保留二次中间量用于面积",
+      "passed": true,
+      "actual": "(-1/2 + sqrt(65)/2)*(1/2 + sqrt(65)/2)",
+      "expected": "16"
+    },
+    {
+      "id": "P1-C06-R11",
+      "check": "三倍频率周期",
+      "passed": true,
+      "actual": "120.0",
+      "expected": "120"
+    },
+    {
+      "id": "P1-C06-R12",
+      "check": "负振幅极大",
+      "passed": true,
+      "actual": "5.0",
+      "expected": "5.0"
+    },
+    {
+      "id": "P1-C06-R13",
+      "check": "右移峰值",
+      "passed": true,
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "id": "P1-C06-R14",
+      "check": "正切解集代表解",
+      "passed": true,
+      "actual": "0.9999999999999999",
+      "expected": "1.0"
+    },
+    {
+      "id": "P1-C06-R15",
+      "check": "中线含两端点三解",
+      "passed": true,
+      "actual": "1.0000000000000002",
+      "expected": "1.0"
+    },
+    {
+      "id": "P1-C06-R16",
+      "check": "余弦零点",
+      "passed": true,
+      "actual": "8.881784197001252e-16",
+      "expected": "0.0"
+    },
+    {
+      "id": "P1-C06-R17",
+      "check": "横向压缩点映射",
+      "passed": true,
+      "actual": "60",
+      "expected": "60"
+    },
+    {
+      "id": "P1-C06-R18",
+      "check": "反求角交点",
+      "passed": true,
+      "actual": "4.0",
+      "expected": "4.0"
+    },
+    {
+      "id": "P1-C06-R19",
+      "check": "钝角第三边平方",
+      "passed": true,
+      "actual": "170.99999999999997",
+      "expected": "171.0"
+    },
+    {
+      "id": "P1-C06-R20",
+      "check": "共用高度整体面积",
+      "passed": true,
+      "actual": "14.999999999999998",
+      "expected": "15.0"
+    },
+    {
+      "id": "P1-C06-R21",
+      "check": "已修正第三边平方153",
+      "passed": true,
+      "actual": "153",
+      "expected": "153"
+    },
+    {
+      "id": "P1-C06-R22",
+      "check": "不存在三角形正弦超1",
+      "passed": true,
+      "actual": "1.126982031308532",
+      "expected": "1.1269820313085317"
+    },
+    {
+      "id": "P1-C06-R23",
+      "check": "对应邻边修正及面积",
+      "passed": true,
+      "actual": "6*sqrt(5)",
+      "expected": "6*sqrt(5)"
+    },
+    {
+      "id": "P1-C06-R24",
+      "check": "图像区间边界",
+      "passed": true,
+      "actual": "-0.49999999999999933",
+      "expected": "-0.5"
+    },
+    {
+      "id": "P1-C06-R25",
+      "check": "方位直角模型内角",
+      "passed": true,
+      "actual": "28.072486935852957",
+      "expected": "28.072486935852957"
+    },
+    {
+      "id": "P1-C06-R26",
+      "check": "非整数频率",
+      "passed": true,
+      "actual": "1.5",
+      "expected": "1.5"
+    },
+    {
+      "id": "P1-C06-R27",
+      "check": "正弦定理后面积",
+      "passed": true,
+      "actual": "49.32510969947246",
+      "expected": "49.32510969947246"
+    },
+    {
+      "id": "P1-C06-R28",
+      "check": "开区间正切非零水平线",
+      "passed": true,
+      "actual": "-1.0000000000000002",
+      "expected": "-1.0"
+    },
+    {
+      "id": "P1-C06-R29",
+      "check": "三边确定垂高",
+      "passed": true,
+      "actual": "144",
+      "expected": "144"
+    },
+    {
+      "id": "P1-C06-R30",
+      "check": "信号模型第二阈值交点",
+      "passed": true,
+      "actual": "150",
+      "expected": "150"
+    },
+    {
+      "id": "P1-C07-R01",
+      "check": "弓形精确式数值",
+      "passed": true,
+      "actual": "8.574749249048757",
+      "expected": "8.574749249048757"
+    },
+    {
+      "id": "P1-C07-R02",
+      "check": "给定周长反求r",
+      "passed": true,
+      "actual": "27.42477796076938",
+      "expected": "27.42477796076938"
+    },
+    {
+      "id": "P1-C07-R03",
+      "check": "给定近似根误差",
+      "passed": true,
+      "actual": "2.27886",
+      "expected": "2.27886"
+    },
+    {
+      "id": "P1-C07-R04",
+      "check": "外接等边三角形面积",
+      "passed": true,
+      "actual": "9*sqrt(3)",
+      "expected": "9*sqrt(3)"
+    },
+    {
+      "id": "P1-C07-R05",
+      "check": "环形面积条件",
+      "passed": true,
+      "actual": "15.600000000000001",
+      "expected": "15.6"
+    },
+    {
+      "id": "P1-C07-R06",
+      "check": "共角环形面积",
+      "passed": true,
+      "actual": "48.0",
+      "expected": "48.0"
+    },
+    {
+      "id": "P1-C07-R07",
+      "check": "弦12与半径10的弓形",
+      "passed": true,
+      "actual": "16.35011087932844",
+      "expected": "16.35011087932844"
+    },
+    {
+      "id": "P1-C07-R08",
+      "check": "弧长替换为弦节省",
+      "passed": true,
+      "actual": "0.6013786355507911",
+      "expected": "0.6013786355507913"
+    },
+    {
+      "id": "P1-C07-R09",
+      "check": "切线四边形减扇形",
+      "passed": true,
+      "actual": "-8*pi/3 + 16*sqrt(3)/3",
+      "expected": "-8*pi/3 + 16*sqrt(3)/3"
+    },
+    {
+      "id": "P1-C07-R10",
+      "check": "固定弧长反角面积",
+      "passed": true,
+      "actual": "90.0",
+      "expected": "90.0"
+    },
+    {
+      "id": "P1-C07-R11",
+      "check": "半径3确保内含的剩余面积",
+      "passed": true,
+      "actual": "-3*pi/2 + 12*sqrt(3)",
+      "expected": "-3*pi/2 + 12*sqrt(3)"
+    },
+    {
+      "id": "P1-C07-R12",
+      "check": "一弧度扇形面积",
+      "passed": true,
+      "actual": "200/9",
+      "expected": "200/9"
+    },
+    {
+      "id": "P1-C07-R13",
+      "check": "13-5-12弓形面积",
+      "passed": true,
+      "actual": "6.719699229259703",
+      "expected": "6.719699229259703"
+    },
+    {
+      "id": "P1-C07-R14",
+      "check": "面积等于半径乘弧长除2",
+      "passed": true,
+      "actual": "42.0",
+      "expected": "42"
+    },
+    {
+      "id": "P1-C07-R15",
+      "check": "径向短边周长",
+      "passed": true,
+      "actual": "24.0",
+      "expected": "24.0"
+    },
+    {
+      "id": "P1-C07-R16",
+      "check": "大扇形角",
+      "passed": true,
+      "actual": "5*pi/3",
+      "expected": "5*pi/3"
+    },
+    {
+      "id": "P1-C07-R17",
+      "check": "相似后的弓形面积",
+      "passed": true,
+      "actual": "19.63264631713773",
+      "expected": "19.63264631713773"
+    },
+    {
+      "id": "P1-C07-R18",
+      "check": "弧边替换后弓形",
+      "passed": true,
+      "actual": "30.6760098705277",
+      "expected": "30.6760098716402"
+    },
+    {
+      "id": "P1-C07-R19",
+      "check": "直角半径三角形面积",
+      "passed": true,
+      "actual": "32.0",
+      "expected": "32.0"
+    },
+    {
+      "id": "P1-C07-R20",
+      "check": "不等长半径延伸三角形边",
+      "passed": true,
+      "actual": "10.547535260380203",
+      "expected": "10.547535260380203"
+    },
+    {
+      "id": "P1-C07-R21",
+      "check": "大小弓形共享弦",
+      "passed": true,
+      "actual": "7.461904860207715",
+      "expected": "7.461904860207717"
+    },
+    {
+      "id": "P1-C07-R22",
+      "check": "整周比例中角三角形",
+      "passed": true,
+      "actual": "68.47606917325106",
+      "expected": "68.47606917325106"
+    },
+    {
+      "id": "P1-C07-R23",
+      "check": "扇形比例不能套三角面积",
+      "passed": true,
+      "actual": "5.831139179812827",
+      "expected": "5.831139179812827"
+    },
+    {
+      "id": "P1-C07-R24",
+      "check": "内含最短距检验",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "P1-C07-R25",
+      "check": "半圆减直角三角形",
+      "passed": true,
+      "actual": "41.81857155887331",
+      "expected": "41.81857155887331"
+    },
+    {
+      "id": "P1-C07-R26",
+      "check": "角差对应三角面积差",
+      "passed": true,
+      "actual": "14.368855013321602",
+      "expected": "14.368855013321602"
+    },
+    {
+      "id": "P1-C07-R27",
+      "check": "纠正给定数值根与条件一致到5dp",
+      "passed": true,
+      "actual": "0.3999979996082803",
+      "expected": "0.3999979903263837"
+    },
+    {
+      "id": "P1-C07-R28",
+      "check": "叶片所有外边界长度",
+      "passed": true,
+      "actual": "89.2",
+      "expected": "89.2"
+    },
+    {
+      "id": "P1-C07-R29",
+      "check": "等边三角形三扇形切角周长",
+      "passed": true,
+      "actual": "27.42477796076938",
+      "expected": "27.42477796076938"
+    },
+    {
+      "id": "P1-C07-R30",
+      "check": "三段圆心三角形面积有向组合",
+      "passed": true,
+      "actual": "11.729858640313578",
+      "expected": "11.729858640313578"
+    },
+    {
+      "id": "P1-C08-R01",
+      "check": "切线交点分解",
+      "passed": true,
+      "actual": "x**3 - 12*x + 16",
+      "expected": "x**3 - 12*x + 16"
+    },
+    {
+      "id": "P1-C08-R02",
+      "check": "根式负幂导数",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "P1-C08-R03",
+      "check": "参数恢复后指定切线",
+      "passed": true,
+      "actual": "14",
+      "expected": "14"
+    },
+    {
+      "id": "P1-C08-R04",
+      "check": "先展开求导",
+      "passed": true,
+      "actual": "(x - 1)**2 + (x + 2)*(2*x - 2)",
+      "expected": "3*x**2 - 3"
+    },
+    {
+      "id": "P1-C08-R05",
+      "check": "二阶条件曲线水平切线",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C08-R06",
+      "check": "已修正互相垂直两曲线",
+      "passed": true,
+      "actual": "-1/4",
+      "expected": "-1/4"
+    },
+    {
+      "id": "P1-C08-R07",
+      "check": "兼任切法线点条件",
+      "passed": true,
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "id": "P1-C08-R08",
+      "check": "二阶根式精确值",
+      "passed": true,
+      "actual": "359/16",
+      "expected": "359/16"
+    },
+    {
+      "id": "P1-C08-R09",
+      "check": "指定梯度代换方程分解",
+      "passed": true,
+      "actual": "x**3 - 5*x + 2",
+      "expected": "x**3 - 5*x + 2"
+    },
+    {
+      "id": "P1-C08-R10",
+      "check": "切线截距面积",
+      "passed": true,
+      "actual": "16.0",
+      "expected": "16.0"
+    },
+    {
+      "id": "P1-C08-R11",
+      "check": "外点切线截距为0",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C08-R12",
+      "check": "法线轴上点值",
+      "passed": true,
+      "actual": "3/2",
+      "expected": "3/2"
+    },
+    {
+      "id": "P1-C08-R13",
+      "check": "平行切线垂距分母",
+      "passed": true,
+      "actual": "sqrt(26)",
+      "expected": "sqrt(26)"
+    },
+    {
+      "id": "P1-C08-R14",
+      "check": "反推负整数幂二阶导",
+      "passed": true,
+      "actual": "18/x**4",
+      "expected": "18/x**4"
+    },
+    {
+      "id": "P1-C08-R15",
+      "check": "弦切平行",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "P1-C08-R16",
+      "check": "正域水平切线",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C08-R17",
+      "check": "次切线常数核对",
+      "passed": true,
+      "actual": "-12",
+      "expected": "-12"
+    },
+    {
+      "id": "P1-C08-R18",
+      "check": "精确根式零梯度",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C08-R19",
+      "check": "水平条件定参数",
+      "passed": true,
+      "actual": "9",
+      "expected": "9"
+    },
+    {
+      "id": "P1-C08-R20",
+      "check": "商式先除开",
+      "passed": true,
+      "actual": "x + 2 + 1/x",
+      "expected": "x + 2 + 1/x"
+    },
+    {
+      "id": "P1-C08-R21",
+      "check": "重根验证切线",
+      "passed": true,
+      "actual": "x**2 - 2*x + 1",
+      "expected": "(x - 1)**2"
+    },
+    {
+      "id": "P1-C08-R22",
+      "check": "梯度不可达3",
+      "passed": true,
+      "actual": "3 + 1/sqrt(x)",
+      "expected": "3 + 1/sqrt(x)"
+    },
+    {
+      "id": "P1-C08-R23",
+      "check": "法线两截距距离",
+      "passed": true,
+      "actual": "5*sqrt(5)/2",
+      "expected": "5*sqrt(5)/2"
+    },
+    {
+      "id": "P1-C08-R24",
+      "check": "二参数二阶条件",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "P1-C08-R25",
+      "check": "同横坐标两曲线梯度",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "P1-C08-R26",
+      "check": "法线截距参数根",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C08-R27",
+      "check": "图给切线梯度定参数",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "P1-C08-R28",
+      "check": "精确根式平移导数",
+      "passed": true,
+      "actual": "2*sqrt(3)",
+      "expected": "2*sqrt(3)"
+    },
+    {
+      "id": "P1-C08-R29",
+      "check": "两垂直切线点值",
+      "passed": true,
+      "actual": "-sqrt(2)/3",
+      "expected": "-sqrt(2)/3"
+    },
+    {
+      "id": "P1-C08-R30",
+      "check": "切法线三角形面积",
+      "passed": true,
+      "actual": "45/4",
+      "expected": "45/4"
+    },
+    {
+      "id": "P1-C09-R01",
+      "check": "重建后法线再交点",
+      "passed": true,
+      "actual": "x**3 - 5*x + 4",
+      "expected": "x**3 - 5*x + 4"
+    },
+    {
+      "id": "P1-C09-R02",
+      "check": "根式积分反向求导",
+      "passed": true,
+      "actual": "6*sqrt(x) - 2/x**2",
+      "expected": "6*sqrt(x) - 2/x**2"
+    },
+    {
+      "id": "P1-C09-R03",
+      "check": "二阶还原反向核对",
+      "passed": true,
+      "actual": "4*(3*x - 1)",
+      "expected": "12*x - 4"
+    },
+    {
+      "id": "P1-C09-R04",
+      "check": "两点积分条件",
+      "passed": true,
+      "actual": "12",
+      "expected": "12"
+    },
+    {
+      "id": "P1-C09-R05",
+      "check": "展开积分精确点值",
+      "passed": true,
+      "actual": "370/21",
+      "expected": "370/21"
+    },
+    {
+      "id": "P1-C09-R06",
+      "check": "法线反求初始值",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "P1-C09-R07",
+      "check": "共同导数两积分常数差",
+      "passed": true,
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "id": "P1-C09-R08",
+      "check": "给定切线第一次常数",
+      "passed": true,
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "P1-C09-R09",
+      "check": "符号错误校验",
+      "passed": true,
+      "actual": "4*x - 3/x**2",
+      "expected": "4*x - 3/x**2"
+    },
+    {
+      "id": "P1-C09-R10",
+      "check": "导数两参数恢复后核对",
+      "passed": true,
+      "actual": "1/2",
+      "expected": "1/2"
+    },
+    {
+      "id": "P1-C09-R11",
+      "check": "积分结果重根分解",
+      "passed": true,
+      "actual": "x**3 - 3*x**2 + 4",
+      "expected": "x**3 - 3*x**2 + 4"
+    },
+    {
+      "id": "P1-C09-R12",
+      "check": "梯度差参数积分",
+      "passed": true,
+      "actual": "3*x**2 - 2",
+      "expected": "3*x**2 - 2"
+    },
+    {
+      "id": "P1-C09-R13",
+      "check": "根式水平线交点",
+      "passed": true,
+      "actual": "2",
+      "expected": "2"
+    },
+    {
+      "id": "P1-C09-R14",
+      "check": "切线外点反求曲线点值",
+      "passed": true,
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "id": "P1-C09-R15",
+      "check": "相切后全局相对位置",
+      "passed": true,
+      "actual": "x**2 - 8*x + 16",
+      "expected": "(x - 4)**2"
+    },
+    {
+      "id": "P1-C09-R16",
+      "check": "负幂积分精确值",
+      "passed": true,
+      "actual": "139/4",
+      "expected": "139/4"
+    },
+    {
+      "id": "P1-C09-R17",
+      "check": "双积分两点定函数",
+      "passed": true,
+      "actual": "-1",
+      "expected": "-1"
+    },
+    {
+      "id": "P1-C09-R18",
+      "check": "根式平方积分常数",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C09-R19",
+      "check": "二阶参数还原",
+      "passed": true,
+      "actual": "8*x",
+      "expected": "8*x"
+    },
+    {
+      "id": "P1-C09-R20",
+      "check": "相容性修正参数8",
+      "passed": true,
+      "actual": "0",
+      "expected": "0"
+    },
+    {
+      "id": "P1-C09-R21",
+      "check": "曲线线性点值约束",
+      "passed": true,
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "id": "P1-C09-R22",
+      "check": "四次方程因式分解",
+      "passed": true,
+      "actual": "2*x**4 - 7*x**2 - 4",
+      "expected": "2*x**4 - 7*x**2 - 4"
+    },
+    {
+      "id": "P1-C09-R23",
+      "check": "法线参数求零梯度点值",
+      "passed": true,
+      "actual": "71/27",
+      "expected": "71/27"
+    },
+    {
+      "id": "P1-C09-R24",
+      "check": "二阶恢复偶函数",
+      "passed": true,
+      "actual": "4*(3*x**2 - 1)",
+      "expected": "12*x**2 - 4"
+    },
+    {
+      "id": "P1-C09-R25",
+      "check": "分根式积分点值",
+      "passed": true,
+      "actual": "10",
+      "expected": "10"
+    },
+    {
+      "id": "P1-C09-R26",
+      "check": "区分导函数常数差与平移",
+      "passed": true,
+      "actual": "2*x",
+      "expected": "2*x"
+    },
+    {
+      "id": "P1-C09-R27",
+      "check": "切线截距并非曲线零点",
+      "passed": true,
+      "actual": "40/27",
+      "expected": "40/27"
+    },
+    {
+      "id": "P1-C09-R28",
+      "check": "精确法线截距",
+      "passed": true,
+      "actual": "38*sqrt(3)/7",
+      "expected": "38*sqrt(3)/7"
+    },
+    {
+      "id": "P1-C09-R29",
+      "check": "积分展开后重组成平移",
+      "passed": true,
+      "actual": "x**3 - 6*x**2 + 12*x - 9",
+      "expected": "x**3 - 6*x**2 + 12*x - 9"
+    },
+    {
+      "id": "P1-C09-R30",
+      "check": "方向初始条件二阶恢复",
+      "passed": true,
+      "actual": "2*x",
+      "expected": "2*x"
+    }
+  ],
+  "passed": 150,
+  "total": 150
+}

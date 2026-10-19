@@ -1,0 +1,431 @@
+{
+  "checks": [
+    {
+      "check": "C01R01 cancelled rational",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R02 cubic division",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R03 unknown coefficient identity",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R04 quotient",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R05 common numerator",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R06 quadratic divisor",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R07 removable hole",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R08 lower bound",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R09 slant line",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R10 sign structure",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R11 symmetric rational",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R12 cube difference",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R13 t substitution",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R14 identity critique",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R15 contradiction cleared",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R16 divisors",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C01R17 inverse rational",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R18 polynomial quotient",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R19 positive radical solution",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R20 even cancellation",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R21 finite chord",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R22 common denominator",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R23 division and sign",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R24 composition",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R25 quadratic product",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R26 square difference",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R27 range expression",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R28 panel area",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R29 opposite input",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01R30 curve difference",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R01 fixed point",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R02 composite root",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R03 exact abs roots",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R04 minimum and mapped point",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R05 no solution via bound",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R06 abs composite roots",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R07 self inverse",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R08 four roots",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R09 candidate outside composite domain",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R10 abs quadratic roots",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R11 removed input/output",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R12 point map",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R13 piecewise composite",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R14 parameter flat segment",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R15 composite root",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R16 commuting equation",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R17 coordinate zeros",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R18 no fixed point discriminant",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R19 vertex-only branches",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R20 involution",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R21 modulus roots",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R22 domain sample solution",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R23 inverse coordinate map",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R24 only abs level solution",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R25 inverse linear",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R26 completed square",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R27 mapped inequality",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R28 fixed point",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C02R29 isolated root and ray",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02R30 composite difference",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C03 cot identity",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C03 sec identity",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C03 conjugate sec",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C03 conjugate csc",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C03 tan cot sum",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C04 fourth power",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C04 triple angle",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C04 square",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C04 combined angle identity",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C04 final derivative",
+      "passed": true,
+      "method": "SymPy trigsimp"
+    },
+    {
+      "check": "C03R01 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C03R02 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C03R15 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R07 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R23 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R25 all listed roots residual",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R08 path geometry",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R21 triangle area",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04R28 new unknown-angle product proof",
+      "passed": true,
+      "method": "SymPy expand_trig/trigsimp"
+    },
+    {
+      "check": "C04R28 observed value at recovered angle",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C04R28 exact nonnegative area",
+      "passed": true,
+      "method": "SymPy exact simplification"
+    },
+    {
+      "check": "C01 schema30 records and no drafting markers",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C02 schema30 records and no drafting markers",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C03 schema30 records and no drafting markers",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    },
+    {
+      "check": "C04 schema30 records and no drafting markers",
+      "passed": true,
+      "method": "exact arithmetic / branch or interval check"
+    }
+  ],
+  "passed": 85,
+  "limitations": "内部符号与分支校验；非外部教师审定。未用参数循环生成题干。"
+}

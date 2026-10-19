@@ -1,0 +1,2524 @@
+[
+  {
+    "id": "P2-C06-R01",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "二次恒等式与端点",
+    "stem": "Solve the following equation without dividing by a trigonometric expression: $2\\sin^2x+3\\cos x=3$, for $0^\\circ\\le x\\le360^\\circ$.",
+    "parts": [
+      {
+        "text": "Show that $(2\\cos x-1)(\\cos x-1)=0$.",
+        "marks": 2,
+        "answer": "$(2\\cos x-1)(\\cos x-1)=0$.",
+        "explanation": "用$\\sin^2x=1-\\cos^2x$，整理为$2\\cos^2x-3\\cos x+1=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用$\\sin^2x=1-\\cos^2x$，整理为$2\\cos^2x-3\\cos x+1=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all the solutions.",
+        "marks": 3,
+        "answer": "$x=0^\\circ,60^\\circ,300^\\circ,360^\\circ$.",
+        "explanation": "分别解$\\cos x=1$和$\\cos x=1/2$，保留两端点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别解$\\cos x=1$和$\\cos x=1/2$，保留两端点。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "How many solutions would there be on $0^\\circ<x<720^\\circ$?",
+        "marks": 2,
+        "answer": "5个。",
+        "explanation": "每周另有60与300两解，区间内$\\cos x=1$只有360；合计$4+1=5$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "每周另有60与300两解，区间内$\\cos x=1$只有360；合计$4+1=5$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "二次恒等式与端点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q05",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "恒等式化二次与双根三角方程"
+      }
+    ],
+    "adaptationNote": "改为余弦二次式及开闭区间解数，强调端点而非单纯替换常数。"
+  },
+  {
+    "id": "P2-C06-R02",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "恒等式化单一三角比",
+    "stem": "The equation $\\cos^2\\theta=\\sin\\theta+\\frac14$ is to be solved for $-180^\\circ<\\theta\\le360^\\circ$.",
+    "parts": [
+      {
+        "text": "Show that $4\\sin^2\\theta+4\\sin\\theta-3=0$.",
+        "marks": 2,
+        "answer": "$4\\sin^2\\theta+4\\sin\\theta-3=0$.",
+        "explanation": "$\\cos^2\\theta=1-\\sin^2\\theta$，移项后乘4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\cos^2\\theta=1-\\sin^2\\theta$，移项后乘4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why one root of the quadratic gives no real value of $\\theta$.",
+        "marks": 2,
+        "answer": "$\\sin\\theta=-\\frac32$不可能。",
+        "explanation": "因式分解$(2s-1)(2s+3)=0$，且正弦值必须属于$[-1,1]$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "因式分解$(2s-1)(2s+3)=0$，且正弦值必须属于$[-1,1]$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all values of $\\theta$ in the stated interval.",
+        "marks": 2,
+        "answer": "$30^\\circ,150^\\circ$.",
+        "explanation": "有效根$s=1/2$；在给定一周半范围中，负角段正弦非正，没有额外根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "有效根$s=1/2$；在给定一周半范围中，负角段正弦非正，没有额外根。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "恒等式化单一三角比"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-01-Q06",
+        "year": 2021,
+        "paper": "p2-jan-2021",
+        "note": "三角分式与三次方程"
+      }
+    ],
+    "adaptationNote": "以平方余弦与正弦的等式建立二次方程，加入不可行根解释及负角边界。"
+  },
+  {
+    "id": "P2-C06-R03",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "保留零因子",
+    "stem": "Consider $2\\sin x\\cos x=\\cos x$, for $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "Write the equation in factorised form.",
+        "marks": 2,
+        "answer": "$\\cos x(2\\sin x-1)=0$.",
+        "explanation": "先把两项移到同一侧，提取$\\cos x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先把两项移到同一侧，提取$\\cos x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions.",
+        "marks": 3,
+        "answer": "$30^\\circ,90^\\circ,150^\\circ,270^\\circ$.",
+        "explanation": "分别解$\\cos x=0$及$\\sin x=1/2$，不能先约去余弦。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别解$\\cos x=0$及$\\sin x=1/2$，不能先约去余弦。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "A student divides by $\\cos x$ at the start. State which solutions are lost.",
+        "marks": 2,
+        "answer": "$90^\\circ,270^\\circ$.",
+        "explanation": "这两点余弦为零，除法无定义；原方程两边均为零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "这两点余弦为零，除法无定义；原方程两边均为零。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "保留零因子"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q08",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "三角方程与保留零因子"
+      }
+    ],
+    "adaptationNote": "聚焦非法约分的具体遗漏解，构造独立乘积方程及错误分析。"
+  },
+  {
+    "id": "P2-C06-R04",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "含零正弦的二次式",
+    "stem": "For $0^\\circ\\le x\\le360^\\circ$, $2\\cos^2x+\\sin x=2$.",
+    "parts": [
+      {
+        "text": "Show that $\\sin x(2\\sin x-1)=0$.",
+        "marks": 2,
+        "answer": "$\\sin x(2\\sin x-1)=0$.",
+        "explanation": "用余弦平方换为$1-\\sin^2x$，移项。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用余弦平方换为$1-\\sin^2x$，移项。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all values of $x$.",
+        "marks": 3,
+        "answer": "$0^\\circ,30^\\circ,150^\\circ,180^\\circ,360^\\circ$.",
+        "explanation": "正弦为0时含0、180、360；正弦为1/2时为30、150。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正弦为0时含0、180、360；正弦为1/2时为30、150。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the sum of the solutions strictly between $0^\\circ$ and $180^\\circ$.",
+        "marks": 2,
+        "answer": "$180^\\circ$.",
+        "explanation": "严格区间内只有30与150，两者相加。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "严格区间内只有30与150，两者相加。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "含零正弦的二次式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q08",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "三角方程与保留零因子"
+      }
+    ],
+    "adaptationNote": "保留零根并考闭区间后再取严格子区间，条件层次不同。"
+  },
+  {
+    "id": "P2-C06-R05",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "正切二次方程",
+    "stem": "The function $f(x)=2\\tan^2x+\\tan x-1$ is defined where $\\cos x\\ne0$. Angles are in degrees.",
+    "parts": [
+      {
+        "text": "Factorise $f(x)$ as an expression in $\\tan x$.",
+        "marks": 2,
+        "answer": "$(2\\tan x-1)(\\tan x+1)$.",
+        "explanation": "设$t=\\tan x$，分解$2t^2+t-1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "设$t=\\tan x$，分解$2t^2+t-1$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all zeros of $f$ on $0^\\circ\\le x<360^\\circ$, giving non-exact angles to 1 decimal place.",
+        "marks": 3,
+        "answer": "$26.6^\\circ,135^\\circ,206.6^\\circ,315^\\circ$.",
+        "explanation": "$\\tan x=1/2$或$-1$，正切周期180度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\tan x=1/2$或$-1$，正切周期180度。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the least positive zero of $f(2x)$.",
+        "marks": 2,
+        "answer": "约$13.3^\\circ$.",
+        "explanation": "最小正的$2x=\\arctan(1/2)\\approx26.565$，故$x\\approx13.2825$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "最小正的$2x=\\arctan(1/2)\\approx26.565$，故$x\\approx13.2825$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "正切二次方程"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "给定二次正切函数的零点再作横向压缩，非平方展开照搬。"
+  },
+  {
+    "id": "P2-C06-R06",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "商恒等式的适用条件",
+    "stem": "Consider the equation $\\sin^2x=3\\cos^2x$ on $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "Explain why no solution has $\\cos x=0$.",
+        "marks": 2,
+        "answer": "余弦为零时左边为1、右边为0。",
+        "explanation": "用$\\sin^2x+\\cos^2x=1$检查，故这些点不是解。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用$\\sin^2x+\\cos^2x=1$检查，故这些点不是解。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve the equation by using $\\tan x$.",
+        "marks": 3,
+        "answer": "$60^\\circ,120^\\circ,240^\\circ,300^\\circ$.",
+        "explanation": "现可除以$\\cos^2x$，得$\\tan^2x=3$，即$\\tan x=\\pm\\sqrt3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "现可除以$\\cos^2x$，得$\\tan^2x=3$，即$\\tan x=\\pm\\sqrt3$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "State the number of solutions on $0^\\circ\\le x<1080^\\circ$.",
+        "marks": 2,
+        "answer": "12个。",
+        "explanation": "正弦平方及余弦平方周期180度，每180度两解，总计六段。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正弦平方及余弦平方周期180度，每180度两解，总计六段。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "商恒等式的适用条件"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "先论证可除条件，再解平方正切及多周期计数。"
+  },
+  {
+    "id": "P2-C06-R07",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "三倍自变量与解数",
+    "stem": "The curve $y=\\sin(3\\theta)$ is considered for $0^\\circ\\le\\theta\\le180^\\circ$.",
+    "parts": [
+      {
+        "text": "State its period in degrees.",
+        "marks": 2,
+        "answer": "$120^\\circ$.",
+        "explanation": "自变量乘3使周期$360/3=120$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "自变量乘3使周期$360/3=120$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all intersections with $y=\\frac12$.",
+        "marks": 3,
+        "answer": "$\\theta=10^\\circ,50^\\circ,130^\\circ,170^\\circ$.",
+        "explanation": "$0\\le3\\theta\\le540$，对应$3\\theta=30,150,390,510$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$0\\le3\\theta\\le540$，对应$3\\theta=30,150,390,510$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the length of the longest interval between consecutive intersections.",
+        "marks": 2,
+        "answer": "$80^\\circ$.",
+        "explanation": "相邻差为40、80、40度，取最大80。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "相邻差为40、80、40度，取最大80。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "三倍自变量与解数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q08",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "复合自变量与三角恒等式"
+      }
+    ],
+    "adaptationNote": "用图像周期、全部交点及交点间隔形成不同设问链。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Graph of sine of three theta on zero to 180 degrees\"><title>Graph of sine of three theta on zero to 180 degrees</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 130.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,130.00 57.00,126.47 59.00,122.94 61.00,119.43 63.00,115.95 65.00,112.49 67.00,109.08 69.00,105.71 71.00,102.39 73.00,99.14 75.00,95.95 77.00,92.84 79.00,89.81 81.00,86.87 83.00,84.03 85.00,81.29 87.00,78.66 89.00,76.14 91.00,73.74 93.00,71.47 95.00,69.32 97.00,67.31 99.00,65.44 101.00,63.72 103.00,62.14 105.00,60.71 107.00,59.43 109.00,58.32 111.00,57.36 113.00,56.56 115.00,55.92 117.00,55.45 119.00,55.15 121.00,55.01 123.00,55.04 125.00,55.23 127.00,55.59 129.00,56.12 131.00,56.81 133.00,57.66 135.00,58.67 137.00,59.84 139.00,61.17 141.00,62.65 143.00,64.28 145.00,66.05 147.00,67.97 149.00,70.02 151.00,72.21 153.00,74.53 155.00,76.97 157.00,79.52 159.00,82.19 161.00,84.97 163.00,87.84 165.00,90.81 167.00,93.87 169.00,97.00 171.00,100.21 173.00,103.49 175.00,106.82 177.00,110.21 179.00,113.64 181.00,117.11 183.00,120.60 185.00,124.12 187.00,127.64 189.00,131.18 191.00,134.71 193.00,138.23 195.00,141.73 197.00,145.21 199.00,148.65 201.00,152.05 203.00,155.41 205.00,158.70 207.00,161.93 209.00,165.09 211.00,168.18 213.00,171.18 215.00,174.08 217.00,176.89 219.00,179.60 221.00,182.19 223.00,184.67 225.00,187.03 227.00,189.26 229.00,191.36 231.00,193.32 233.00,195.15 235.00,196.83 237.00,198.36 239.00,199.73 241.00,200.96 243.00,202.02 245.00,202.93 247.00,203.67 249.00,204.25 251.00,204.67 253.00,204.92 255.00,205.00 257.00,204.92 259.00,204.67 261.00,204.25 263.00,203.67 265.00,202.93 267.00,202.02 269.00,200.96 271.00,199.73 273.00,198.36 275.00,196.83 277.00,195.15 279.00,193.32 281.00,191.36 283.00,189.26 285.00,187.03 287.00,184.67 289.00,182.19 291.00,179.60 293.00,176.89 295.00,174.08 297.00,171.18 299.00,168.18 301.00,165.09 303.00,161.93 305.00,158.70 307.00,155.41 309.00,152.05 311.00,148.65 313.00,145.21 315.00,141.73 317.00,138.23 319.00,134.71 321.00,131.18 323.00,127.64 325.00,124.12 327.00,120.60 329.00,117.11 331.00,113.64 333.00,110.21 335.00,106.82 337.00,103.49 339.00,100.21 341.00,97.00 343.00,93.87 345.00,90.81 347.00,87.84 349.00,84.97 351.00,82.19 353.00,79.52 355.00,76.97 357.00,74.53 359.00,72.21 361.00,70.02 363.00,67.97 365.00,66.05 367.00,64.28 369.00,62.65 371.00,61.17 373.00,59.84 375.00,58.67 377.00,57.66 379.00,56.81 381.00,56.12 383.00,55.59 385.00,55.23 387.00,55.04 389.00,55.01 391.00,55.15 393.00,55.45 395.00,55.92 397.00,56.56 399.00,57.36 401.00,58.32 403.00,59.43 405.00,60.71 407.00,62.14 409.00,63.72 411.00,65.44 413.00,67.31 415.00,69.32 417.00,71.47 419.00,73.74 421.00,76.14 423.00,78.66 425.00,81.29 427.00,84.03 429.00,86.87 431.00,89.81 433.00,92.84 435.00,95.95 437.00,99.14 439.00,102.39 441.00,105.71 443.00,109.08 445.00,112.49 447.00,115.95 449.00,119.43 451.00,122.94 453.00,126.47 455.00,130.00\" stroke=\"#234b45\"/><path d=\"M55 92.50H455\" stroke-dasharray=\"5 4\"/><text x=\"300\" y=\"42\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = sin(3θ)</text><text x=\"65\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">0°</text><text x=\"413\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">180°</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C06-R08",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "平移自变量区间",
+    "stem": "Solve $\\cos(2\\theta-30^\\circ)=-\\frac{\\sqrt3}{2}$ for $-90^\\circ\\le\\theta\\le180^\\circ$.",
+    "parts": [
+      {
+        "text": "State the interval for $u=2\\theta-30^\\circ$.",
+        "marks": 2,
+        "answer": "$-210^\\circ\\le u\\le330^\\circ$.",
+        "explanation": "分别把原区间两端代入线性表达式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别把原区间两端代入线性表达式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all values of $\\theta$.",
+        "marks": 3,
+        "answer": "$-90^\\circ,-60^\\circ,90^\\circ,120^\\circ$.",
+        "explanation": "$u=-210,-150,150,210$，代$\\theta=(u+30)/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$u=-210,-150,150,210$，代$\\theta=(u+30)/2$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the sum of the solutions that are positive.",
+        "marks": 2,
+        "answer": "$210^\\circ$.",
+        "explanation": "正值为90与120。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正值为90与120。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平移自变量区间"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-01-Q07",
+        "year": 2022,
+        "paper": "p2-jan-2022",
+        "note": "平移自变量三角方程"
+      }
+    ],
+    "adaptationNote": "用横向伸缩加平移的负角区间，重点检查端点对应。"
+  },
+  {
+    "id": "P2-C06-R09",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "弧度区间与复合自变量",
+    "stem": "Angles are in radians. The equation $\\sin(2x+\\frac\\pi6)=\\frac{\\sqrt3}{2}$ is considered for $0\\le x<\\pi$.",
+    "parts": [
+      {
+        "text": "Find the interval for $u=2x+\\frac\\pi6$.",
+        "marks": 2,
+        "answer": "$\\frac\\pi6\\le u<\\frac{13\\pi}{6}$.",
+        "explanation": "对原区间作线性变换。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "对原区间作线性变换。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all exact solutions for $x$.",
+        "marks": 3,
+        "answer": "$x=\\frac\\pi{12},\\frac\\pi4$.",
+        "explanation": "$u=\\pi/3,2\\pi/3$；由$x=(u-\\pi/6)/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$u=\\pi/3,2\\pi/3$；由$x=(u-\\pi/6)/2$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the smallest positive solution outside the given interval.",
+        "marks": 2,
+        "answer": "$x=\\frac{13\\pi}{12}$.",
+        "explanation": "下一可用角$u=7\\pi/3$，故$x=13\\pi/12$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "下一可用角$u=7\\pi/3$，故$x=13\\pi/12$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "弧度区间与复合自变量"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q08",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "复合自变量与三角恒等式"
+      }
+    ],
+    "adaptationNote": "改为精确弧度并要求区间外下一根，考周期迁移。"
+  },
+  {
+    "id": "P2-C06-R10",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "分式恒等式与限制",
+    "stem": "Let $F(x)=\\frac{1-\\cos^2x}{\\sin x}$, where $0^\\circ<x<360^\\circ$ and $\\sin x\\ne0$.",
+    "parts": [
+      {
+        "text": "Simplify $F(x)$.",
+        "marks": 2,
+        "answer": "$F(x)=\\sin x$.",
+        "explanation": "分子$1-\\cos^2x=\\sin^2x$，在规定定义域中可约去$\\sin x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分子$1-\\cos^2x=\\sin^2x$，在规定定义域中可约去$\\sin x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Solve $F(x)=\\frac12$ on its stated domain.",
+        "marks": 2,
+        "answer": "$30^\\circ,150^\\circ$.",
+        "explanation": "解正弦等式且两解均满足分母非零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "解正弦等式且两解均满足分母非零。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why $F(x)=0$ has no solution on this domain, although $\\sin x=0$ has solutions.",
+        "marks": 3,
+        "answer": "被排除的零分母点不能补回。",
+        "explanation": "化简式只与原式在原定义域上等价；$x=180^\\circ$使原式无定义。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "化简式只与原式在原定义域上等价；$x=180^\\circ$使原式无定义。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "分式恒等式与限制"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q07",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "恒等式与倍角自变量方程"
+      }
+    ],
+    "adaptationNote": "明确原定义域及化简后零点不可补回，不仅证明恒等式。"
+  },
+  {
+    "id": "P2-C06-R11",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "和式分式恒等式",
+    "stem": "For angles at which both fractions are defined, let $G(x)=\\frac{\\sin x}{1+\\cos x}+\\frac{\\sin x}{1-\\cos x}$.",
+    "parts": [
+      {
+        "text": "Show that $G(x)=\\frac2{\\sin x}$.",
+        "marks": 3,
+        "answer": "$G(x)=\\frac2{\\sin x}$.",
+        "explanation": "通分分子$2\\sin x$，分母$1-\\cos^2x=\\sin^2x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "通分分子$2\\sin x$，分母$1-\\cos^2x=\\sin^2x$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Solve $G(x)=4$ for $0^\\circ<x<360^\\circ$.",
+        "marks": 2,
+        "answer": "$30^\\circ,150^\\circ$.",
+        "explanation": "$2/\\sin x=4$得$\\sin x=1/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$2/\\sin x=4$得$\\sin x=1/2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "State whether $G(x)=-1$ has a real solution. Justify your answer.",
+        "marks": 2,
+        "answer": "没有。",
+        "explanation": "该式要求$\\sin x=-2$，超出$[-1,1]$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "该式要求$\\sin x=-2$，超出$[-1,1]$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "和式分式恒等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q07",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "恒等式与倍角自变量方程"
+      }
+    ],
+    "adaptationNote": "合并互补分母并分析目标值是否可达，新增定义域论证。"
+  },
+  {
+    "id": "P2-C06-R12",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "差式分式恒等式",
+    "stem": "Let $H(x)=\\frac{1+\\sin x}{\\cos x}-\\frac{\\cos x}{1+\\sin x}$, with both denominators non-zero.",
+    "parts": [
+      {
+        "text": "Prove that $H(x)=2\\tan x$.",
+        "marks": 3,
+        "answer": "$H(x)=2\\tan x$.",
+        "explanation": "通分后分子$(1+s)^2-c^2=2s(1+s)$，约去$1+s$后得$2s/c$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "通分后分子$(1+s)^2-c^2=2s(1+s)$，约去$1+s$后得$2s/c$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions of $H(x)=2$ for $-180^\\circ<x\\le180^\\circ$.",
+        "marks": 2,
+        "answer": "$x=-135^\\circ,45^\\circ$.",
+        "explanation": "$\\tan x=1$，周期180度；两点满足原定义域。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\tan x=1$，周期180度；两点满足原定义域。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact value of $H(60^\\circ)$.",
+        "marks": 2,
+        "answer": "$2\\sqrt3$.",
+        "explanation": "使用已证恒等式，$2\\tan60=2\\sqrt3$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "使用已证恒等式，$2\\tan60=2\\sqrt3$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "差式分式恒等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-06-Q09",
+        "year": 2023,
+        "paper": "p2-jun-2023",
+        "note": "恒等式推导及倍角方程"
+      }
+    ],
+    "adaptationNote": "原式采用不同分母结构，证明后连接负角与精确值。"
+  },
+  {
+    "id": "P2-C06-R13",
+    "stage": "P2",
+    "chapters": [
+      6,
+      1
+    ],
+    "type": "因式多项式连接三角根",
+    "stem": "Let $p(t)=4t^3-4t^2-t+1$.",
+    "parts": [
+      {
+        "text": "Show that $(t-1)$ is a factor of $p(t)$.",
+        "marks": 2,
+        "answer": "$p(1)=0$，故为因子。",
+        "explanation": "代入$4-4-1+1=0$，使用因式定理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代入$4-4-1+1=0$，使用因式定理。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Factorise $p(t)$ completely.",
+        "marks": 2,
+        "answer": "$(t-1)(2t-1)(2t+1)$.",
+        "explanation": "提出$(t-1)$得$(t-1)(4t^2-1)$，再分解平方差。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "提出$(t-1)$得$(t-1)(4t^2-1)$，再分解平方差。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve $p(\\cos x)=0$ for $0^\\circ\\le x<360^\\circ$.",
+        "marks": 3,
+        "answer": "$0^\\circ,60^\\circ,120^\\circ,240^\\circ,300^\\circ$.",
+        "explanation": "余弦可为$1,1/2,-1/2$；分别列区间内所有根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "余弦可为$1,1/2,-1/2$；分别列区间内所有根。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "How many solutions does $p(2\\sin x)=0$ have on the same interval?",
+        "marks": 2,
+        "answer": "6个。",
+        "explanation": "正弦为$1/2,1/4,-1/4$，每个非极值都有两根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正弦为$1/2,1/4,-1/4$，每个非极值都有两根。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "因式多项式连接三角根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q03",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "因式定理连接三角方程"
+      }
+    ],
+    "adaptationNote": "用可分组三次式连接两种三角代入及根数比较。"
+  },
+  {
+    "id": "P2-C06-R14",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "二次正弦方程的参数",
+    "stem": "The equation $2\\sin^2x-k\\sin x-1=0$ has a solution $x=30^\\circ$.",
+    "parts": [
+      {
+        "text": "Find $k$.",
+        "marks": 2,
+        "answer": "$k=-1$.",
+        "explanation": "代$\\sin30=1/2$得$1/2-k/2-1=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代$\\sin30=1/2$得$1/2-k/2-1=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions for $0^\\circ\\le x<360^\\circ$.",
+        "marks": 3,
+        "answer": "$30^\\circ,150^\\circ,270^\\circ$.",
+        "explanation": "$2s^2+s-1=(2s-1)(s+1)$，故$s=1/2$或$-1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$2s^2+s-1=(2s-1)(s+1)$，故$s=1/2$或$-1$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Explain why the two quadratic roots give different numbers of angles in one revolution.",
+        "marks": 2,
+        "answer": "$s=1/2$给两根，而$s=-1$只给一根。",
+        "explanation": "非极值水平线与正弦图两次相交，最低值水平线只接触一次。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "非极值水平线与正弦图两次相交，最低值水平线只接触一次。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "二次正弦方程的参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q05",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "恒等式化二次与双根三角方程"
+      }
+    ],
+    "adaptationNote": "由指定角反求参数，比较普通根和极值根的角数。"
+  },
+  {
+    "id": "P2-C06-R15",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "平方等式不能漏符号",
+    "stem": "A student solves $(2\\sin x-1)^2=\\cos^2x$ by writing $2\\sin x-1=\\cos x$.",
+    "parts": [
+      {
+        "text": "Explain why the student\\'s method may omit solutions.",
+        "marks": 2,
+        "answer": "还须考虑$2\\sin x-1=-\\cos x$。",
+        "explanation": "$A^2=B^2$等价于$A=\\pm B$，不只正号。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$A^2=B^2$等价于$A=\\pm B$，不只正号。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "By using $\\cos^2x=1-\\sin^2x$, show that $\\sin x(5\\sin x-4)=0$.",
+        "marks": 2,
+        "answer": "$\\sin x(5\\sin x-4)=0$.",
+        "explanation": "展开$4s^2-4s+1=1-s^2$再整理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "展开$4s^2-4s+1=1-s^2$再整理。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions on $0^\\circ\\le x<360^\\circ$, to 1 decimal place where necessary.",
+        "marks": 3,
+        "answer": "$0^\\circ,53.1^\\circ,126.9^\\circ,180^\\circ$.",
+        "explanation": "$s=0$或$4/5$；参考角$\\arcsin0.8\\approx53.130$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$s=0$或$4/5$；参考角$\\arcsin0.8\\approx53.130$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平方等式不能漏符号"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "把平方展开设为错误论证审查，保留正负分支。"
+  },
+  {
+    "id": "P2-C06-R16",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "正切与余弦的定义域",
+    "stem": "Consider $\\tan x=2\\sin x$ for $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "State the values of $x$ in this interval where the equation is undefined.",
+        "marks": 2,
+        "answer": "$90^\\circ,270^\\circ$.",
+        "explanation": "正切在余弦为零处无定义。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正切在余弦为零处无定义。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Show that every solution satisfies $\\sin x(1-2\\cos x)=0$.",
+        "marks": 2,
+        "answer": "$\\sin x(1-2\\cos x)=0$.",
+        "explanation": "在原定义域乘$\\cos x$，得到$\\sin x=2\\sin x\\cos x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在原定义域乘$\\cos x$，得到$\\sin x=2\\sin x\\cos x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions and check them in the original equation.",
+        "marks": 3,
+        "answer": "$0^\\circ,60^\\circ,180^\\circ,300^\\circ$.",
+        "explanation": "$\\sin x=0$给0、180；$\\cos x=1/2$给60、300，均不在禁点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\sin x=0$给0、180；$\\cos x=1/2$给60、300，均不在禁点。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "正切与余弦的定义域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-06-Q05",
+        "year": 2022,
+        "paper": "p2-jun-2022",
+        "note": "三角分式化二次方程"
+      }
+    ],
+    "adaptationNote": "将含商三角式改为保留零正弦因子及原式核验。"
+  },
+  {
+    "id": "P2-C06-R17",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "参数水平线与根数",
+    "stem": "The curve $C$ has equation $y=2\\sin^2x-1$, for $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "State the following values of $y$:",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "the maximum,",
+            "marks": 2,
+            "answer": "1。",
+            "explanation": "$\\sin^2x$最大1，故$2(1)-1=1$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$\\sin^2x$最大1，故$2(1)-1=1$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "the minimum.",
+            "marks": 2,
+            "answer": "$-1$。",
+            "explanation": "$\\sin^2x$最小0，故$2(0)-1=-1$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$\\sin^2x$最小0，故$2(0)-1=-1$。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Find the values of $x$ where $C$ crosses $y=\\frac12$.",
+        "marks": 3,
+        "answer": "$60^\\circ,120^\\circ,240^\\circ,300^\\circ$.",
+        "explanation": "$2s^2-1=1/2$给$s=\\pm\\sqrt3/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$2s^2-1=1/2$给$s=\\pm\\sqrt3/2$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "State the number of intersections with $y=k$ when $-1<k<1$.",
+        "marks": 2,
+        "answer": "4个。",
+        "explanation": "$0<(k+1)/2<1$，正负两个正弦水平值各给两根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$0<(k+1)/2<1$，正负两个正弦水平值各给两根。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "参数水平线与根数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "从平方恒等式方程延伸到整族水平线根数，以图像服务范围。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Graph y equals two sine squared x minus one over a full revolution\"><title>Graph y equals two sine squared x minus one over a full revolution</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 130.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,205.00 57.00,204.85 59.00,204.41 61.00,203.67 63.00,202.64 65.00,201.33 67.00,199.73 69.00,197.86 71.00,195.72 73.00,193.32 75.00,190.68 77.00,187.79 79.00,184.67 81.00,181.34 83.00,177.81 85.00,174.08 87.00,170.19 89.00,166.13 91.00,161.93 93.00,157.61 95.00,153.18 97.00,148.65 99.00,144.05 101.00,139.40 103.00,134.71 105.00,130.00 107.00,125.29 109.00,120.60 111.00,115.95 113.00,111.35 115.00,106.82 117.00,102.39 119.00,98.07 121.00,93.87 123.00,89.81 125.00,85.92 127.00,82.19 129.00,78.66 131.00,75.33 133.00,72.21 135.00,69.32 137.00,66.68 139.00,64.28 141.00,62.14 143.00,60.27 145.00,58.67 147.00,57.36 149.00,56.33 151.00,55.59 153.00,55.15 155.00,55.00 157.00,55.15 159.00,55.59 161.00,56.33 163.00,57.36 165.00,58.67 167.00,60.27 169.00,62.14 171.00,64.28 173.00,66.68 175.00,69.32 177.00,72.21 179.00,75.33 181.00,78.66 183.00,82.19 185.00,85.92 187.00,89.81 189.00,93.87 191.00,98.07 193.00,102.39 195.00,106.82 197.00,111.35 199.00,115.95 201.00,120.60 203.00,125.29 205.00,130.00 207.00,134.71 209.00,139.40 211.00,144.05 213.00,148.65 215.00,153.18 217.00,157.61 219.00,161.93 221.00,166.13 223.00,170.19 225.00,174.08 227.00,177.81 229.00,181.34 231.00,184.67 233.00,187.79 235.00,190.68 237.00,193.32 239.00,195.72 241.00,197.86 243.00,199.73 245.00,201.33 247.00,202.64 249.00,203.67 251.00,204.41 253.00,204.85 255.00,205.00 257.00,204.85 259.00,204.41 261.00,203.67 263.00,202.64 265.00,201.33 267.00,199.73 269.00,197.86 271.00,195.72 273.00,193.32 275.00,190.68 277.00,187.79 279.00,184.67 281.00,181.34 283.00,177.81 285.00,174.08 287.00,170.19 289.00,166.13 291.00,161.93 293.00,157.61 295.00,153.18 297.00,148.65 299.00,144.05 301.00,139.40 303.00,134.71 305.00,130.00 307.00,125.29 309.00,120.60 311.00,115.95 313.00,111.35 315.00,106.82 317.00,102.39 319.00,98.07 321.00,93.87 323.00,89.81 325.00,85.92 327.00,82.19 329.00,78.66 331.00,75.33 333.00,72.21 335.00,69.32 337.00,66.68 339.00,64.28 341.00,62.14 343.00,60.27 345.00,58.67 347.00,57.36 349.00,56.33 351.00,55.59 353.00,55.15 355.00,55.00 357.00,55.15 359.00,55.59 361.00,56.33 363.00,57.36 365.00,58.67 367.00,60.27 369.00,62.14 371.00,64.28 373.00,66.68 375.00,69.32 377.00,72.21 379.00,75.33 381.00,78.66 383.00,82.19 385.00,85.92 387.00,89.81 389.00,93.87 391.00,98.07 393.00,102.39 395.00,106.82 397.00,111.35 399.00,115.95 401.00,120.60 403.00,125.29 405.00,130.00 407.00,134.71 409.00,139.40 411.00,144.05 413.00,148.65 415.00,153.18 417.00,157.61 419.00,161.93 421.00,166.13 423.00,170.19 425.00,174.08 427.00,177.81 429.00,181.34 431.00,184.67 433.00,187.79 435.00,190.68 437.00,193.32 439.00,195.72 441.00,197.86 443.00,199.73 445.00,201.33 447.00,202.64 449.00,203.67 451.00,204.41 453.00,204.85 455.00,205.00\" stroke=\"#234b45\"/><path d=\"M55 92.50H455\" stroke-dasharray=\"5 4\"/><text x=\"270\" y=\"30\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = 2sin²x − 1</text><text x=\"65\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">0°</text><text x=\"415\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">360°</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C06-R18",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "区间反求与三角比例",
+    "stem": "$2\\cos(3x)=1$ for $-\\frac\\pi3\\le x<\\frac\\pi3$. Angles are in radians.",
+    "parts": [
+      {
+        "text": "Find all exact values of $3x$ in the corresponding interval.",
+        "marks": 2,
+        "answer": "$3x=-\\frac\\pi3,\\frac\\pi3$.",
+        "explanation": "$-\\pi\\le3x<\\pi$，解$\\cos3x=1/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$-\\pi\\le3x<\\pi$，解$\\cos3x=1/2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Hence find all values of $x$.",
+        "marks": 2,
+        "answer": "$x=\\pm\\frac\\pi9$.",
+        "explanation": "各角除以3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "各角除以3。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "For these solutions find the exact value of $\\sin^2(3x)$.",
+        "marks": 2,
+        "answer": "$\\frac34$.",
+        "explanation": "由正弦平方加余弦平方等于1，利用已知的余弦值：$\\sin^2(3x)=1-\\cos^2(3x)=1-1/4$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由正弦平方加余弦平方等于1，利用已知的余弦值：$\\sin^2(3x)=1-\\cos^2(3x)=1-1/4$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "区间反求与三角比例"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q08",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "复合自变量与三角恒等式"
+      }
+    ],
+    "adaptationNote": "以对称负弧度区间和已知角平方值形成新题。"
+  },
+  {
+    "id": "P2-C06-R19",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "三角图像确定参数",
+    "stem": "The graph has equation $y=a\\sin(bx)+c$, where $a,b>0$ and angles are in degrees. Its maximum is 5, minimum is $-1$, and period is $180^\\circ$.",
+    "parts": [
+      {
+        "text": "Find $a,b,c$.",
+        "marks": 3,
+        "answer": "$a=3,b=2,c=2$.",
+        "explanation": "振幅$(5-(-1))/2=3$，中线2，$360/b=180$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "振幅$(5-(-1))/2=3$，中线2，$360/b=180$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the first two positive values of $x$ where $y=2$.",
+        "marks": 2,
+        "answer": "$90^\\circ,180^\\circ$.",
+        "explanation": "$\\sin2x=0$，正根依次为$2x=180,360$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\sin2x=0$，正根依次为$2x=180,360$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all values of $x$ where $y=\\frac72$ on $0^\\circ\\le x\\le180^\\circ$.",
+        "marks": 3,
+        "answer": "$15^\\circ,75^\\circ$.",
+        "explanation": "$3\\sin2x+2=3.5$给$\\sin2x=1/2$，在$0\\le2x\\le360$取30、150。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$3\\sin2x+2=3.5$给$\\sin2x=1/2$，在$0\\le2x\\le360$取30、150。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "三角图像确定参数"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q08",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "复合自变量与三角恒等式"
+      }
+    ],
+    "adaptationNote": "三角图像参数识别连水平交点；不引入加法公式。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Graph with maximum five, minimum minus one and period 180 degrees\"><title>Graph with maximum five, minimum minus one and period 180 degrees</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 181.43H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,130.00 57.00,127.58 59.00,125.16 61.00,122.74 63.00,120.33 65.00,117.93 67.00,115.54 69.00,113.17 71.00,110.82 73.00,108.48 75.00,106.16 77.00,103.87 79.00,101.60 81.00,99.36 83.00,97.15 85.00,94.98 87.00,92.84 89.00,90.73 91.00,88.66 93.00,86.64 95.00,84.66 97.00,82.72 99.00,80.83 101.00,78.98 103.00,77.19 105.00,75.45 107.00,73.77 109.00,72.13 111.00,70.56 113.00,69.05 115.00,67.59 117.00,66.20 119.00,64.87 121.00,63.60 123.00,62.40 125.00,61.27 127.00,60.20 129.00,59.20 131.00,58.27 133.00,57.42 135.00,56.63 137.00,55.92 139.00,55.28 141.00,54.71 143.00,54.22 145.00,53.81 147.00,53.47 149.00,53.20 151.00,53.01 153.00,52.90 155.00,52.86 157.00,52.90 159.00,53.01 161.00,53.20 163.00,53.47 165.00,53.81 167.00,54.22 169.00,54.71 171.00,55.28 173.00,55.92 175.00,56.63 177.00,57.42 179.00,58.27 181.00,59.20 183.00,60.20 185.00,61.27 187.00,62.40 189.00,63.60 191.00,64.87 193.00,66.20 195.00,67.59 197.00,69.05 199.00,70.56 201.00,72.13 203.00,73.77 205.00,75.45 207.00,77.19 209.00,78.98 211.00,80.83 213.00,82.72 215.00,84.66 217.00,86.64 219.00,88.66 221.00,90.73 223.00,92.84 225.00,94.98 227.00,97.15 229.00,99.36 231.00,101.60 233.00,103.87 235.00,106.16 237.00,108.48 239.00,110.82 241.00,113.17 243.00,115.54 245.00,117.93 247.00,120.33 249.00,122.74 251.00,125.16 253.00,127.58 255.00,130.00 257.00,132.42 259.00,134.84 261.00,137.26 263.00,139.67 265.00,142.07 267.00,144.46 269.00,146.83 271.00,149.18 273.00,151.52 275.00,153.84 277.00,156.13 279.00,158.40 281.00,160.64 283.00,162.85 285.00,165.02 287.00,167.16 289.00,169.27 291.00,171.34 293.00,173.36 295.00,175.34 297.00,177.28 299.00,179.17 301.00,181.02 303.00,182.81 305.00,184.55 307.00,186.23 309.00,187.87 311.00,189.44 313.00,190.95 315.00,192.41 317.00,193.80 319.00,195.13 321.00,196.40 323.00,197.60 325.00,198.73 327.00,199.80 329.00,200.80 331.00,201.73 333.00,202.58 335.00,203.37 337.00,204.08 339.00,204.72 341.00,205.29 343.00,205.78 345.00,206.19 347.00,206.53 349.00,206.80 351.00,206.99 353.00,207.10 355.00,207.14 357.00,207.10 359.00,206.99 361.00,206.80 363.00,206.53 365.00,206.19 367.00,205.78 369.00,205.29 371.00,204.72 373.00,204.08 375.00,203.37 377.00,202.58 379.00,201.73 381.00,200.80 383.00,199.80 385.00,198.73 387.00,197.60 389.00,196.40 391.00,195.13 393.00,193.80 395.00,192.41 397.00,190.95 399.00,189.44 401.00,187.87 403.00,186.23 405.00,184.55 407.00,182.81 409.00,181.02 411.00,179.17 413.00,177.28 415.00,175.34 417.00,173.36 419.00,171.34 421.00,169.27 423.00,167.16 425.00,165.02 427.00,162.85 429.00,160.64 431.00,158.40 433.00,156.13 435.00,153.84 437.00,151.52 439.00,149.18 441.00,146.83 443.00,144.46 445.00,142.07 447.00,139.67 449.00,137.26 451.00,134.84 453.00,132.42 455.00,130.00\" stroke=\"#234b45\"/><path d=\"M55 130.00H455\" stroke-dasharray=\"5 4\"/><circle cx=\"155.00\" cy=\"52.86\" r=\"3\" fill=\"#234b45\"/><text x=\"160.0\" y=\"44.85714285714286\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">5</text><circle cx=\"355.00\" cy=\"207.14\" r=\"3\" fill=\"#234b45\"/><text x=\"360.0\" y=\"199.14285714285714\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">−1</text><text x=\"270\" y=\"27\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = a sin(bx) + c</text><text x=\"65\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">0°</text><text x=\"410\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">180°</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C06-R20",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "两个三角图像交点",
+    "stem": "The curves $y=\\sin x$ and $y=2\\sin^2x-1$ are drawn for $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "Show that the intersection equation is $(2\\sin x+1)(\\sin x-1)=0$.",
+        "marks": 2,
+        "answer": "$(2\\sin x+1)(\\sin x-1)=0$.",
+        "explanation": "令两个纵坐标相等并整理$2s^2-s-1=0$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "令两个纵坐标相等并整理$2s^2-s-1=0$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all intersection points.",
+        "marks": 3,
+        "answer": "$(90^\\circ,1),(210^\\circ,-\\frac12),(330^\\circ,-\\frac12)$.",
+        "explanation": "$s=1$或$-1/2$，再以$y=s$求纵坐标。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$s=1$或$-1/2$，再以$y=s$求纵坐标。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the vertical separation of the curves at $x=270^\\circ$.",
+        "marks": 2,
+        "answer": "$2$.",
+        "explanation": "第一条纵坐标$-1$，第二条$1$，距离2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "第一条纵坐标$-1$，第二条$1$，距离2。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "两个三角图像交点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q05",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "恒等式化二次与双根三角方程"
+      }
+    ],
+    "adaptationNote": "改成两图交点坐标与竖向距离，保持恒等式二次根结构。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Sine and two sine squared minus one over zero to 360 degrees\"><title>Sine and two sine squared minus one over zero to 360 degrees</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 130.00H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,130.00 57.00,127.64 59.00,125.29 61.00,122.94 63.00,120.60 65.00,118.27 67.00,115.95 69.00,113.64 71.00,111.35 73.00,109.08 75.00,106.82 77.00,104.59 79.00,102.39 81.00,100.21 83.00,98.07 85.00,95.95 87.00,93.87 89.00,91.82 91.00,89.81 93.00,87.84 95.00,85.92 97.00,84.03 99.00,82.19 101.00,80.40 103.00,78.66 105.00,76.97 107.00,75.33 109.00,73.74 111.00,72.21 113.00,70.74 115.00,69.32 117.00,67.97 119.00,66.68 121.00,65.44 123.00,64.28 125.00,63.17 127.00,62.14 129.00,61.17 131.00,60.27 133.00,59.43 135.00,58.67 137.00,57.98 139.00,57.36 141.00,56.81 143.00,56.33 145.00,55.92 147.00,55.59 149.00,55.33 151.00,55.15 153.00,55.04 155.00,55.00 157.00,55.04 159.00,55.15 161.00,55.33 163.00,55.59 165.00,55.92 167.00,56.33 169.00,56.81 171.00,57.36 173.00,57.98 175.00,58.67 177.00,59.43 179.00,60.27 181.00,61.17 183.00,62.14 185.00,63.17 187.00,64.28 189.00,65.44 191.00,66.68 193.00,67.97 195.00,69.32 197.00,70.74 199.00,72.21 201.00,73.74 203.00,75.33 205.00,76.97 207.00,78.66 209.00,80.40 211.00,82.19 213.00,84.03 215.00,85.92 217.00,87.84 219.00,89.81 221.00,91.82 223.00,93.87 225.00,95.95 227.00,98.07 229.00,100.21 231.00,102.39 233.00,104.59 235.00,106.82 237.00,109.08 239.00,111.35 241.00,113.64 243.00,115.95 245.00,118.27 247.00,120.60 249.00,122.94 251.00,125.29 253.00,127.64 255.00,130.00 257.00,132.36 259.00,134.71 261.00,137.06 263.00,139.40 265.00,141.73 267.00,144.05 269.00,146.36 271.00,148.65 273.00,150.92 275.00,153.18 277.00,155.41 279.00,157.61 281.00,159.79 283.00,161.93 285.00,164.05 287.00,166.13 289.00,168.18 291.00,170.19 293.00,172.16 295.00,174.08 297.00,175.97 299.00,177.81 301.00,179.60 303.00,181.34 305.00,183.03 307.00,184.67 309.00,186.26 311.00,187.79 313.00,189.26 315.00,190.68 317.00,192.03 319.00,193.32 321.00,194.56 323.00,195.72 325.00,196.83 327.00,197.86 329.00,198.83 331.00,199.73 333.00,200.57 335.00,201.33 337.00,202.02 339.00,202.64 341.00,203.19 343.00,203.67 345.00,204.08 347.00,204.41 349.00,204.67 351.00,204.85 353.00,204.96 355.00,205.00 357.00,204.96 359.00,204.85 361.00,204.67 363.00,204.41 365.00,204.08 367.00,203.67 369.00,203.19 371.00,202.64 373.00,202.02 375.00,201.33 377.00,200.57 379.00,199.73 381.00,198.83 383.00,197.86 385.00,196.83 387.00,195.72 389.00,194.56 391.00,193.32 393.00,192.03 395.00,190.68 397.00,189.26 399.00,187.79 401.00,186.26 403.00,184.67 405.00,183.03 407.00,181.34 409.00,179.60 411.00,177.81 413.00,175.97 415.00,174.08 417.00,172.16 419.00,170.19 421.00,168.18 423.00,166.13 425.00,164.05 427.00,161.93 429.00,159.79 431.00,157.61 433.00,155.41 435.00,153.18 437.00,150.92 439.00,148.65 441.00,146.36 443.00,144.05 445.00,141.73 447.00,139.40 449.00,137.06 451.00,134.71 453.00,132.36 455.00,130.00\" stroke=\"#234b45\"/><polyline points=\"55.00,205.00 57.00,204.85 59.00,204.41 61.00,203.67 63.00,202.64 65.00,201.33 67.00,199.73 69.00,197.86 71.00,195.72 73.00,193.32 75.00,190.68 77.00,187.79 79.00,184.67 81.00,181.34 83.00,177.81 85.00,174.08 87.00,170.19 89.00,166.13 91.00,161.93 93.00,157.61 95.00,153.18 97.00,148.65 99.00,144.05 101.00,139.40 103.00,134.71 105.00,130.00 107.00,125.29 109.00,120.60 111.00,115.95 113.00,111.35 115.00,106.82 117.00,102.39 119.00,98.07 121.00,93.87 123.00,89.81 125.00,85.92 127.00,82.19 129.00,78.66 131.00,75.33 133.00,72.21 135.00,69.32 137.00,66.68 139.00,64.28 141.00,62.14 143.00,60.27 145.00,58.67 147.00,57.36 149.00,56.33 151.00,55.59 153.00,55.15 155.00,55.00 157.00,55.15 159.00,55.59 161.00,56.33 163.00,57.36 165.00,58.67 167.00,60.27 169.00,62.14 171.00,64.28 173.00,66.68 175.00,69.32 177.00,72.21 179.00,75.33 181.00,78.66 183.00,82.19 185.00,85.92 187.00,89.81 189.00,93.87 191.00,98.07 193.00,102.39 195.00,106.82 197.00,111.35 199.00,115.95 201.00,120.60 203.00,125.29 205.00,130.00 207.00,134.71 209.00,139.40 211.00,144.05 213.00,148.65 215.00,153.18 217.00,157.61 219.00,161.93 221.00,166.13 223.00,170.19 225.00,174.08 227.00,177.81 229.00,181.34 231.00,184.67 233.00,187.79 235.00,190.68 237.00,193.32 239.00,195.72 241.00,197.86 243.00,199.73 245.00,201.33 247.00,202.64 249.00,203.67 251.00,204.41 253.00,204.85 255.00,205.00 257.00,204.85 259.00,204.41 261.00,203.67 263.00,202.64 265.00,201.33 267.00,199.73 269.00,197.86 271.00,195.72 273.00,193.32 275.00,190.68 277.00,187.79 279.00,184.67 281.00,181.34 283.00,177.81 285.00,174.08 287.00,170.19 289.00,166.13 291.00,161.93 293.00,157.61 295.00,153.18 297.00,148.65 299.00,144.05 301.00,139.40 303.00,134.71 305.00,130.00 307.00,125.29 309.00,120.60 311.00,115.95 313.00,111.35 315.00,106.82 317.00,102.39 319.00,98.07 321.00,93.87 323.00,89.81 325.00,85.92 327.00,82.19 329.00,78.66 331.00,75.33 333.00,72.21 335.00,69.32 337.00,66.68 339.00,64.28 341.00,62.14 343.00,60.27 345.00,58.67 347.00,57.36 349.00,56.33 351.00,55.59 353.00,55.15 355.00,55.00 357.00,55.15 359.00,55.59 361.00,56.33 363.00,57.36 365.00,58.67 367.00,60.27 369.00,62.14 371.00,64.28 373.00,66.68 375.00,69.32 377.00,72.21 379.00,75.33 381.00,78.66 383.00,82.19 385.00,85.92 387.00,89.81 389.00,93.87 391.00,98.07 393.00,102.39 395.00,106.82 397.00,111.35 399.00,115.95 401.00,120.60 403.00,125.29 405.00,130.00 407.00,134.71 409.00,139.40 411.00,144.05 413.00,148.65 415.00,153.18 417.00,157.61 419.00,161.93 421.00,166.13 423.00,170.19 425.00,174.08 427.00,177.81 429.00,181.34 431.00,184.67 433.00,187.79 435.00,190.68 437.00,193.32 439.00,195.72 441.00,197.86 443.00,199.73 445.00,201.33 447.00,202.64 449.00,203.67 451.00,204.41 453.00,204.85 455.00,205.00\" stroke=\"#99633d\"/><text x=\"270\" y=\"23\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">green: y = sin x</text><text x=\"245\" y=\"253\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">brown: y = 2sin²x − 1</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C06-R21",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "乘积方程与复合角",
+    "stem": "Solve $\\sin(2x)\\,[2\\cos(2x)+1]=0$ for $0^\\circ\\le x<180^\\circ$.",
+    "parts": [
+      {
+        "text": "Find the solutions arising from $\\sin(2x)=0$.",
+        "marks": 2,
+        "answer": "$x=0^\\circ,90^\\circ$.",
+        "explanation": "$0\\le2x<360$，对应$2x=0,180$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$0\\le2x<360$，对应$2x=0,180$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the solutions arising from $2\\cos(2x)+1=0$.",
+        "marks": 2,
+        "answer": "$x=60^\\circ,120^\\circ$.",
+        "explanation": "$\\cos2x=-1/2$给$2x=120,240$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\cos2x=-1/2$给$2x=120,240$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "List the four solutions in order and find their mean.",
+        "marks": 2,
+        "answer": "$0^\\circ,60^\\circ,90^\\circ,120^\\circ$；平均$67.5^\\circ$。",
+        "explanation": "无重复根；总和270除以4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "无重复根；总和270除以4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "乘积方程与复合角"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-06-Q08",
+        "year": 2021,
+        "paper": "p2-jun-2021",
+        "note": "三角方程与保留零因子"
+      }
+    ],
+    "adaptationNote": "同一复合角两因子分支分别求解，避免误用倍角公式。"
+  },
+  {
+    "id": "P2-C06-R22",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "平方比值恒等式",
+    "stem": "Let $J(x)=\\frac{1}{\\cos^2x}-1$, for $\\cos x\\ne0$.",
+    "parts": [
+      {
+        "text": "Prove that $J(x)=\\tan^2x$.",
+        "marks": 2,
+        "answer": "$J(x)=\\tan^2x$.",
+        "explanation": "通分$(1-\\cos^2x)/\\cos^2x=\\sin^2x/\\cos^2x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "通分$(1-\\cos^2x)/\\cos^2x=\\sin^2x/\\cos^2x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Solve $J(x)=3$ for $-180^\\circ<x\\le180^\\circ$.",
+        "marks": 3,
+        "answer": "$-120^\\circ,-60^\\circ,60^\\circ,120^\\circ$.",
+        "explanation": "$\\tan x=\\pm\\sqrt3$，逐象限列解。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\tan x=\\pm\\sqrt3$，逐象限列解。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact value of $\\cos^2x$ at each solution.",
+        "marks": 2,
+        "answer": "$\\frac14$.",
+        "explanation": "由原式$1/\\cos^2x-1=3$，得到余弦平方1/4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由原式$1/\\cos^2x-1=3$，得到余弦平方1/4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平方比值恒等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "基本商恒等式证明与平方比的精确恢复，不引入sec符号。"
+  },
+  {
+    "id": "P2-C06-R23",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "异号平方的消元",
+    "stem": "The equation $5\\sin^2x+2\\cos x=2$ is considered on $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "Show that $5\\cos^2x-2\\cos x-3=0$.",
+        "marks": 2,
+        "answer": "$5\\cos^2x-2\\cos x-3=0$.",
+        "explanation": "用$5(1-\\cos^2x)+2\\cos x=2$整理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用$5(1-\\cos^2x)+2\\cos x=2$整理。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions, to 1 decimal place where necessary.",
+        "marks": 3,
+        "answer": "$0^\\circ,126.9^\\circ,233.1^\\circ$.",
+        "explanation": "$(5c+3)(c-1)=0$，$c=1$或$-3/5$；角约126.8699与233.1301。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$(5c+3)(c-1)=0$，$c=1$或$-3/5$；角约126.8699与233.1301。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $\\sin^2x$ at each solution with $\\cos x<0$.",
+        "marks": 2,
+        "answer": "$\\frac{16}{25}$.",
+        "explanation": "用$1-(-3/5)^2=16/25$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用$1-(-3/5)^2=16/25$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "异号平方的消元"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q05",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "恒等式化二次与双根三角方程"
+      }
+    ],
+    "adaptationNote": "负余弦分支搭配精确正弦平方，形成非纯角度求解链。"
+  },
+  {
+    "id": "P2-C06-R24",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "参数方程的可行性",
+    "stem": "For a real parameter $k$, consider $\\sin^2x+k\\cos^2x=2$, where $0^\\circ\\le x<360^\\circ$.",
+    "parts": [
+      {
+        "text": "Show that $(k-1)\\cos^2x=1$.",
+        "marks": 2,
+        "answer": "$(k-1)\\cos^2x=1$.",
+        "explanation": "把正弦平方换成$1-\\cos^2x$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "把正弦平方换成$1-\\cos^2x$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the set of values of $k$ for which at least one solution exists.",
+        "marks": 3,
+        "answer": "$k\\ge2$.",
+        "explanation": "需$0<1/(k-1)\\le1$，所以$k-1\\ge1$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "需$0<1/(k-1)\\le1$，所以$k-1\\ge1$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the number of solutions in the stated interval when",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "$k=2$,",
+            "marks": 2,
+            "answer": "2个。",
+            "explanation": "$\\cos^2x=1$给0、180度。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "$\\cos^2x=1$给0、180度。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "$k>2$.",
+            "marks": 2,
+            "answer": "4个。",
+            "explanation": "余弦平方严格介于0与1，每周四根。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "余弦平方严格介于0与1，每周四根。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 9,
+    "topics": [
+      "参数方程的可行性"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2022-10-Q05",
+        "year": 2022,
+        "paper": "p2-oct-2022",
+        "note": "恒等式化二次与双根三角方程"
+      }
+    ],
+    "adaptationNote": "加入参数存在性和极限水平的根数，不是换系数求角。"
+  },
+  {
+    "id": "P2-C06-R25",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "带分母的方程与赘根",
+    "stem": "For $0^\\circ\\le x<360^\\circ$, solve $\\frac{\\sin^2x}{1-\\cos x}=\\frac32$.",
+    "parts": [
+      {
+        "text": "State the excluded value of $x$ in the interval.",
+        "marks": 2,
+        "answer": "$x=0^\\circ$.",
+        "explanation": "分母零即$\\cos x=1$，半开区间中只有0。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分母零即$\\cos x=1$，半开区间中只有0。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Show that the left-hand side equals $1+\\cos x$ wherever it is defined.",
+        "marks": 2,
+        "answer": "$1+\\cos x$.",
+        "explanation": "$\\sin^2x=(1-\\cos x)(1+\\cos x)$，在原定义域约分。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\sin^2x=(1-\\cos x)(1+\\cos x)$，在原定义域约分。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all solutions and check the excluded value has not been included.",
+        "marks": 2,
+        "answer": "$60^\\circ,300^\\circ$.",
+        "explanation": "$1+\\cos x=3/2$得余弦1/2，两解分母皆为1/2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$1+\\cos x=3/2$得余弦1/2，两解分母皆为1/2。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "带分母的方程与赘根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-01-Q07",
+        "year": 2020,
+        "paper": "p2-jan-2020",
+        "note": "恒等式与倍角自变量方程"
+      }
+    ],
+    "adaptationNote": "分式消去可能的零因子并回查解，强调等价变形范围。"
+  },
+  {
+    "id": "P2-C06-R26",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "精确三角比与方程",
+    "stem": "An angle $\\alpha$ lies in the second quadrant and satisfies $\\tan\\alpha=-\\frac34$.",
+    "parts": [
+      {
+        "text": "Find the exact values of $\\sin\\alpha$ and $\\cos\\alpha$.",
+        "marks": 2,
+        "answer": "$\\sin\\alpha=\\frac35,\\ \\cos\\alpha=-\\frac45$.",
+        "explanation": "由3–4–5三角比例并使用第二象限符号。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由3–4–5三角比例并使用第二象限符号。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the exact value of $\\frac{1+\\sin\\alpha}{1-\\sin\\alpha}$.",
+        "marks": 2,
+        "answer": "$4$.",
+        "explanation": "代$(1+3/5)/(1-3/5)=(8/5)/(2/5)$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代$(1+3/5)/(1-3/5)=(8/5)/(2/5)$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all $x$ in $0^\\circ\\le x<360^\\circ$ satisfying $\\sin x=\\sin\\alpha$, to 1 decimal place.",
+        "marks": 3,
+        "answer": "$36.9^\\circ,143.1^\\circ$.",
+        "explanation": "解$\\sin x=3/5$，参考角约36.8699度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "解$\\sin x=3/5$，参考角约36.8699度。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "精确三角比与方程"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2021-10-Q10",
+        "year": 2021,
+        "paper": "p2-oct-2021",
+        "note": "正切平方与三角平方展开"
+      }
+    ],
+    "adaptationNote": "先由象限和正切获得精确比例再解相同正弦水平，不用P3公式。"
+  },
+  {
+    "id": "P2-C06-R27",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "周期方程与最长间隙",
+    "stem": "The function $f(x)=\\cos^2x-\\frac14$ is defined for angles measured in degrees.",
+    "parts": [
+      {
+        "text": "State the period of $f$.",
+        "marks": 2,
+        "answer": "$180^\\circ$.",
+        "explanation": "余弦平方每180度重复。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "余弦平方每180度重复。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find all roots of $f(x)=0$ for $0^\\circ\\le x<360^\\circ$.",
+        "marks": 2,
+        "answer": "$60^\\circ,120^\\circ,240^\\circ,300^\\circ$.",
+        "explanation": "把平方等式拆成正负两个余弦值，再在四个象限中列角：$\\cos x=\\pm1/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "把平方等式拆成正负两个余弦值，再在四个象限中列角：$\\cos x=\\pm1/2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the total length, in degrees, of the intervals in $[0^\\circ,360^\\circ)$ where $f(x)<0$.",
+        "marks": 3,
+        "answer": "$120^\\circ$.",
+        "explanation": "$|\\cos x|<1/2$对应$(60,120)$及$(240,300)$，各长60。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$|\\cos x|<1/2$对应$(60,120)$及$(240,300)$，各长60。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "周期方程与最长间隙"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q07",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "恒等式证明与平方余弦方程"
+      }
+    ],
+    "adaptationNote": "平方恒等式连接周期和图像符号区间，以端点解支持区间判断。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Cosine squared minus one quarter over zero to 360 degrees\"><title>Cosine squared minus one quarter over zero to 360 degrees</title><g fill=\"none\" stroke=\"#234b45\" stroke-width=\"2\"><path d=\"M55 164.62H455\"/><path d=\"M55.00 25V225\"/><polyline points=\"55.00,60.77 57.00,60.91 59.00,61.32 61.00,62.00 63.00,62.94 65.00,64.16 67.00,65.63 69.00,67.36 71.00,69.33 73.00,71.55 75.00,73.99 77.00,76.66 79.00,79.53 81.00,82.61 83.00,85.87 85.00,89.31 87.00,92.90 89.00,96.65 91.00,100.52 93.00,104.51 95.00,108.61 97.00,112.78 99.00,117.03 101.00,121.32 103.00,125.65 105.00,130.00 107.00,134.35 109.00,138.68 111.00,142.97 113.00,147.22 115.00,151.39 117.00,155.49 119.00,159.48 121.00,163.35 123.00,167.10 125.00,170.69 127.00,174.13 129.00,177.39 131.00,180.47 133.00,183.34 135.00,186.01 137.00,188.45 139.00,190.67 141.00,192.64 143.00,194.37 145.00,195.84 147.00,197.06 149.00,198.00 151.00,198.68 153.00,199.09 155.00,199.23 157.00,199.09 159.00,198.68 161.00,198.00 163.00,197.06 165.00,195.84 167.00,194.37 169.00,192.64 171.00,190.67 173.00,188.45 175.00,186.01 177.00,183.34 179.00,180.47 181.00,177.39 183.00,174.13 185.00,170.69 187.00,167.10 189.00,163.35 191.00,159.48 193.00,155.49 195.00,151.39 197.00,147.22 199.00,142.97 201.00,138.68 203.00,134.35 205.00,130.00 207.00,125.65 209.00,121.32 211.00,117.03 213.00,112.78 215.00,108.61 217.00,104.51 219.00,100.52 221.00,96.65 223.00,92.90 225.00,89.31 227.00,85.87 229.00,82.61 231.00,79.53 233.00,76.66 235.00,73.99 237.00,71.55 239.00,69.33 241.00,67.36 243.00,65.63 245.00,64.16 247.00,62.94 249.00,62.00 251.00,61.32 253.00,60.91 255.00,60.77 257.00,60.91 259.00,61.32 261.00,62.00 263.00,62.94 265.00,64.16 267.00,65.63 269.00,67.36 271.00,69.33 273.00,71.55 275.00,73.99 277.00,76.66 279.00,79.53 281.00,82.61 283.00,85.87 285.00,89.31 287.00,92.90 289.00,96.65 291.00,100.52 293.00,104.51 295.00,108.61 297.00,112.78 299.00,117.03 301.00,121.32 303.00,125.65 305.00,130.00 307.00,134.35 309.00,138.68 311.00,142.97 313.00,147.22 315.00,151.39 317.00,155.49 319.00,159.48 321.00,163.35 323.00,167.10 325.00,170.69 327.00,174.13 329.00,177.39 331.00,180.47 333.00,183.34 335.00,186.01 337.00,188.45 339.00,190.67 341.00,192.64 343.00,194.37 345.00,195.84 347.00,197.06 349.00,198.00 351.00,198.68 353.00,199.09 355.00,199.23 357.00,199.09 359.00,198.68 361.00,198.00 363.00,197.06 365.00,195.84 367.00,194.37 369.00,192.64 371.00,190.67 373.00,188.45 375.00,186.01 377.00,183.34 379.00,180.47 381.00,177.39 383.00,174.13 385.00,170.69 387.00,167.10 389.00,163.35 391.00,159.48 393.00,155.49 395.00,151.39 397.00,147.22 399.00,142.97 401.00,138.68 403.00,134.35 405.00,130.00 407.00,125.65 409.00,121.32 411.00,117.03 413.00,112.78 415.00,108.61 417.00,104.51 419.00,100.52 421.00,96.65 423.00,92.90 425.00,89.31 427.00,85.87 429.00,82.61 431.00,79.53 433.00,76.66 435.00,73.99 437.00,71.55 439.00,69.33 441.00,67.36 443.00,65.63 445.00,64.16 447.00,62.94 449.00,62.00 451.00,61.32 453.00,60.91 455.00,60.77\" stroke=\"#234b45\"/><text x=\"260\" y=\"28\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">y = cos²x − 1/4</text><text x=\"65\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">0°</text><text x=\"412\" y=\"244\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">360°</text><text x=\"458\" y=\"243\" fill=\"#183a36\" stroke=\"none\" font-size=\"16\">x</text></g></svg>"
+  },
+  {
+    "id": "P2-C06-R28",
+    "stage": "P2",
+    "chapters": [
+      6
+    ],
+    "type": "仪器信号的三角模型",
+    "stem": "A signal has value $V=4+3\\sin(2t)$ volts, where $t$ is measured in degrees and $0\\le t\\le180$. A warning is triggered when $V=\\frac{11}{2}$.",
+    "parts": [
+      {
+        "text": "State the greatest and least possible signal values.",
+        "marks": 2,
+        "answer": "最大7 V，最小1 V。",
+        "explanation": "正弦值介于$-1$和1。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正弦值介于$-1$和1。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the values of $t$ at which the warning is triggered.",
+        "marks": 3,
+        "answer": "$t=15,75$.",
+        "explanation": "$4+3\\sin2t=5.5$给$\\sin2t=1/2$；$2t=30,150$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$4+3\\sin2t=5.5$给$\\sin2t=1/2$；$2t=30,150$。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find the length of the interval for which the signal is above the warning level.",
+        "marks": 2,
+        "answer": "$60^\\circ$（角参数$t$的区间长度）。",
+        "explanation": "$\\sin2t>1/2$对应$30<2t<150$，即$15<t<75$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "$\\sin2t>1/2$对应$30<2t<150$，即$15<t<75$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "仪器信号的三角模型"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2023-01-Q08",
+        "year": 2023,
+        "paper": "p2-jan-2023",
+        "note": "复合自变量与三角恒等式"
+      }
+    ],
+    "adaptationNote": "采用有单位信号阈值及持续区间，非无情境重复角方程。"
+  },
+  {
+    "id": "P2-C06-R29",
+    "stage": "P2",
+    "chapters": [
+      6,
+      1
+    ],
+    "type": "恒等式与不可能的证明",
+    "stem": "A student claims that $\\frac{1-\\sin x}{\\cos x}=\\cos x$ whenever both sides are defined.",
+    "parts": [
+      {
+        "text": "Give an exact counterexample using $x=30^\\circ$.",
+        "marks": 2,
+        "answer": "左边$1/\\sqrt3$，右边$\\sqrt3/2$，不相等。",
+        "explanation": "代$\\sin30=1/2,\\cos30=\\sqrt3/2$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代$\\sin30=1/2,\\cos30=\\sqrt3/2$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Working throughout on $0^\\circ\\le x<360^\\circ$,",
+        "marks": 5,
+        "subparts": [
+          {
+            "text": "find all angles for which the claimed equality is true,",
+            "marks": 3,
+            "answer": "$0^\\circ,180^\\circ$.",
+            "explanation": "乘余弦后$s(s-1)=0$；$s=1$为原式禁点，只留$s=0$。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "乘余弦后$s(s-1)=0$；$s=1$为原式禁点，只留$s=0$。"
+              },
+              {
+                "code": "A2",
+                "marks": 2,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          },
+          {
+            "text": "replace the numerator by an expression involving $\\sin^2x$ to obtain a true identity, stating its restriction.",
+            "marks": 2,
+            "answer": "$\\frac{1-\\sin^2x}{\\cos x}=\\cos x,\\ \\cos x\\ne0$.",
+            "explanation": "利用基本恒等式，分母须保持非零。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "利用基本恒等式，分母须保持非零。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "结论、定义域、精度与所需单位正确"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "恒等式与不可能的证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q07",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "恒等式证明与平方余弦方程"
+      }
+    ],
+    "adaptationNote": "新增反例、有限成立角及纠正恒等式的多层证明任务。"
+  },
+  {
+    "id": "P2-C06-R30",
+    "stage": "P2",
+    "chapters": [
+      6,
+      1
+    ],
+    "type": "三角方程参数和证据",
+    "stem": "The equation $a\\sin^2x+b\\cos^2x=1$ holds both at $x=30^\\circ$ and at $x=60^\\circ$.",
+    "parts": [
+      {
+        "text": "Form two simultaneous equations for $a,b$.",
+        "marks": 2,
+        "answer": "$a+3b=4,\\ 3a+b=4$.",
+        "explanation": "分别使用两角的正弦平方1/4、3/4，乘4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别使用两角的正弦平方1/4、3/4，乘4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      },
+      {
+        "text": "Find $a,b$ and hence prove that the equation holds for every real angle $x$.",
+        "marks": 3,
+        "answer": "$a=b=1$，于是原式为基本恒等式。",
+        "explanation": "联立得$a=b=1$，再用$\\sin^2x+\\cos^2x=1$，不是仅凭两个例子证明。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "联立得$a=b=1$，再用$\\sin^2x+\\cos^2x=1$，不是仅凭两个例子证明。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "结论、定义域、精度与所需单位正确"
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "三角方程参数和证据"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P2-2020-10-Q07",
+        "year": 2020,
+        "paper": "p2-oct-2020",
+        "note": "恒等式证明与平方余弦方程"
+      }
+    ],
+    "adaptationNote": "从两点约束识别恒等式参数并区分验证与普遍证明。"
+  }
+]

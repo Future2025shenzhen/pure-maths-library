@@ -9,5 +9,7 @@ assert.equal(improveMath('$\\sqrt3/2$'),'$\\sqrt3/2$');
 assert.equal(improveMath('$3/2$'),'$\\displaystyle \\frac{3}{2}$');
 assert(improveMath('$\\sum_{r=1}^{N}r$').includes('\\displaystyle'));
 assert(improveMath('$\\tfrac32$').includes('\\displaystyle \\frac32'));
+assert.equal(improveMath('$3^2/2^3$'),'$3^2/2^3$');
+assert.equal(improveMath('$x^a/b$'),'$x^a/b$');
 assert.equal(Object.keys(index.questions).length,1073);
 console.log(`PASS ${count} formulas render; ${changed} text fields improved; 1073 classification entries`);

@@ -1,0 +1,2647 @@
+[
+  {
+    "id": "P1-C03-R01",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "Elimination with a quadratic",
+    "stem": "$x+y=5$ and $xy=4$.",
+    "parts": [
+      {
+        "text": "Show that $x$ satisfies $x^2-5x+4=0$.",
+        "marks": 2,
+        "answer": "$y=5-x$，代入乘积得 $x(5-x)=4$。",
+        "explanation": "从一次关系消去y，整理为指定二次式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "从一次关系消去y，整理为指定二次式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$y=5-x$，代入乘积得 $x(5-x)=4$。"
+          }
+        ]
+      },
+      {
+        "text": "Find every ordered pair $(x,y)$.",
+        "marks": 3,
+        "answer": "$(1,4),(4,1)$.",
+        "explanation": "分解为 $(x-1)(x-4)=0$，两根分别回代y。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分解为 $(x-1)(x-4)=0$，两根分别回代y。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(1,4),(4,1)$."
+          }
+        ]
+      },
+      {
+        "text": "Hence find all ordered pairs of positive numbers $(a,b)$ satisfying $a^2+b^2=5$ and $a^2b^2=4$.",
+        "marks": 3,
+        "answer": "$(a,b)=(1,2),(2,1)$.",
+        "explanation": "令x=a²、y=b²；正数条件排除负平方根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "令x=a²、y=b²；正数条件排除负平方根。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(a,b)=(1,2),(2,1)$."
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "联立方程",
+      "代换",
+      "有序解"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 1,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "由普通和积联立转入平方量、用正性筛选。"
+  },
+  {
+    "id": "P1-C03-R02",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2,
+      5
+    ],
+    "type": "Recovering a line from intersection separation",
+    "stem": "The line $l:y=mx+4$ intersects the curve $C:y=x^2-2x$ at two points $P$ and $Q$. The difference between their $x$ coordinates is $5$.",
+    "parts": [
+      {
+        "text": "Show that $m$ satisfies $m^2+4m-5=0$.",
+        "marks": 4,
+        "answer": "交点方程为 $x^2-(m+2)x-4=0$。配方得 $\\left(x-\\frac{m+2}{2}\\right)^2=\\frac{(m+2)^2+16}{4}$。两根之差为 $\\sqrt{(m+2)^2+16}=5$，所以 $m^2+4m-5=0$。",
+        "explanation": "对交点方程配方，横向间距等于两侧平方根的两倍；利用已给间距而非额外套用根与系数定理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "对交点方程配方，横向间距等于两侧平方根的两倍；利用已给间距而非额外套用根与系数定理。"
+          },
+          {
+            "code": "A3",
+            "marks": 3,
+            "text": "交点方程为 $x^2-(m+2)x-4=0$。配方得 $\\left(x-\\frac{m+2}{2}\\right)^2=\\frac{(m+2)^2+16}{4}$。两根之差为 $\\sqrt{(m+2)^2+16}=5$，所以 $m^2+4m-5=0$。"
+          }
+        ]
+      },
+      {
+        "text": "Given that the gradient of $l$ is positive,",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "find $m$.",
+            "marks": 1,
+            "answer": "$m=1$.",
+            "explanation": "参数式分解为 $(m-1)(m+5)=0$，正斜率只保留1。",
+            "scheme": [
+              {
+                "code": "B1",
+                "marks": 1,
+                "text": "$m=1$."
+              }
+            ]
+          },
+          {
+            "text": "find the coordinates of $P$ and $Q$.",
+            "marks": 3,
+            "answer": "$(-1,3),(4,8)$.",
+            "explanation": "代入m=1得 $x^2-3x-4=(x+1)(x-4)=0$，将两根回代y=x+4。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "代入m=1得 $x^2-3x-4=(x+1)(x-4)=0$，将两根回代y=x+4。"
+              },
+              {
+                "code": "A2",
+                "marks": 2,
+                "text": "$(-1,3),(4,8)$."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Find the midpoint of $PQ$. Show that it lies on $l$ but does not lie on $C$.",
+        "marks": 2,
+        "answer": "中点 $M=(3/2,11/2)$。直线给 $y=3/2+4=11/2$；曲线在 $x=3/2$ 时给 $y=9/4-3=-3/4\\ne11/2$。",
+        "explanation": "坐标分别取平均，再对两条方程逐一代入验证。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "坐标分别取平均，再对两条方程逐一代入验证。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "中点 $M=(3/2,11/2)$。直线给 $y=3/2+4=11/2$；曲线在 $x=3/2$ 时给 $y=9/4-3=-3/4\\ne11/2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 10,
+    "topics": [
+      "交点消元",
+      "配方根距",
+      "参数证明目标",
+      "中点检验"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 2,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-01-Q08",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-01",
+        "note": "参考交点间距离必须由代数确定的经典目标；新题反向给间距、恢复斜率，使用二次而非原卷三次曲线。"
+      },
+      {
+        "questionId": "P1-2023-01-Q07",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-01",
+        "note": "参考含未知直线梯度、先恢复参数再求交点的递进结构；不沿用原倒数曲线条件。"
+      }
+    ],
+    "adaptationNote": "完全替换旧版已知直线与抛物线求交点结构：先由未知斜率直线所截两点的横向间距反推参数二次式，以正斜率筛选，再检验弦中点是否在曲线上。"
+  },
+  {
+    "id": "P1-C03-R03",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "Simultaneous reciprocal equations",
+    "stem": "$x+y=7$ and $\\dfrac1x+\\dfrac1y=\\dfrac7{10}$, where $x,y\\ne0$.",
+    "parts": [
+      {
+        "text": "Show that $xy=10$.",
+        "marks": 3,
+        "answer": "$1/x+1/y=(x+y)/(xy)=7/(xy)=7/10$，故xy=10。",
+        "explanation": "先通分并使用已知和，注意分母非零。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先通分并使用已知和，注意分母非零。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$1/x+1/y=(x+y)/(xy)=7/(xy)=7/10$，故xy=10。"
+          }
+        ]
+      },
+      {
+        "text": "Find all ordered pairs $(x,y)$.",
+        "marks": 3,
+        "answer": "$(2,5),(5,2)$.",
+        "explanation": "代入y=7−x，解x²−7x+10=0。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代入y=7−x，解x²−7x+10=0。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(2,5),(5,2)$."
+          }
+        ]
+      },
+      {
+        "text": "Find the exact value of $x/y+y/x$ for either solution.",
+        "marks": 2,
+        "answer": "$29/10$.",
+        "explanation": "比值和为 $((x+y)^2-2xy)/(xy)=(49-20)/10$。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "比值和为 $((x+y)^2-2xy)/(xy)=(49-20)/10$。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$29/10$."
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "分式联立",
+      "对称式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 3,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "将倒数和约束转为乘积，再求无需区分顺序的比值。"
+  },
+  {
+    "id": "P1-C03-R04",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1,
+      2
+    ],
+    "type": "Elimination giving a quartic in disguise",
+    "stem": "$y=x^2-1$ and $x^2+y^2=7$.",
+    "parts": [
+      {
+        "text": "Show that $x^4-x^2-6=0$.",
+        "marks": 3,
+        "answer": "$x^2+(x^2-1)^2=7\\Rightarrow x^4-x^2-6=0$.",
+        "explanation": "将y平方整体展开，不丢失常数项。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "将y平方整体展开，不丢失常数项。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x^2+(x^2-1)^2=7\\Rightarrow x^4-x^2-6=0$."
+          }
+        ]
+      },
+      {
+        "text": "Solve for $x$ in exact form.",
+        "marks": 3,
+        "answer": "$x=\\pm\\sqrt3$.",
+        "explanation": "令u=x²≥0，则(u−3)(u+2)=0，舍u=−2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "令u=x²≥0，则(u−3)(u+2)=0，舍u=−2。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x=\\pm\\sqrt3$."
+          }
+        ]
+      },
+      {
+        "text": "Find every corresponding point $(x,y)$.",
+        "marks": 2,
+        "answer": "$(\\sqrt3,2),(-\\sqrt3,2)$.",
+        "explanation": "两种x都给y=3−1=2。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "两种x都给y=3−1=2。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(\\sqrt3,2),(-\\sqrt3,2)$."
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "平方代换",
+      "联立",
+      "非负条件"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 4,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "改用二次与二次关系形成可化二次的四次式，明确实域筛选。"
+  },
+  {
+    "id": "P1-C03-R05",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "A rational equation and an excluded root",
+    "stem": "The equation $\\dfrac{x^2-1}{x-1}=3x+1$ is to be solved.",
+    "parts": [
+      {
+        "text": "State the restriction on $x$ and simplify the left-hand side.",
+        "marks": 2,
+        "answer": "$x\\ne1$；左边为x+1。",
+        "explanation": "原分母排除1；分子为(x−1)(x+1)。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "原分母排除1；分子为(x−1)(x+1)。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x\\ne1$；左边为x+1。"
+          }
+        ]
+      },
+      {
+        "text": "Using the simplification in part (a),",
+        "marks": 3,
+        "subparts": [
+          {
+            "text": "solve the original equation.",
+            "marks": 1,
+            "answer": "$x=0$.",
+            "explanation": "x+1=3x+1给x=0，且不等于1。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "x+1=3x+1给x=0，且不等于1。"
+              },
+              {
+                "code": "A0",
+                "marks": 0,
+                "text": "$x=0$."
+              }
+            ]
+          },
+          {
+            "text": "explain why multiplying before cancelling may introduce $x=1$.",
+            "marks": 2,
+            "answer": "乘开得到2x(x−1)=0，但x=1使原分母为零。",
+            "explanation": "排除原定义域之外的根，不因新方程成立而接受。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "排除原定义域之外的根，不因新方程成立而接受。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "乘开得到2x(x−1)=0，但x=1使原分母为零。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "分式方程",
+      "增根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 5,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "对比约分与交叉相乘两路径，保留定义域约束。"
+  },
+  {
+    "id": "P1-C03-R06",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "Combined linear and quadratic inequalities",
+    "stem": "Find the values of $x$ satisfying both $3x-2\\le10$ and $x^2-x-6>0$.",
+    "parts": [
+      {
+        "text": "Solve the linear inequality.",
+        "marks": 1,
+        "answer": "$x\\le4$.",
+        "explanation": "加2后除以正数3。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$x\\le4$."
+          }
+        ]
+      },
+      {
+        "text": "Solve the quadratic inequality.",
+        "marks": 3,
+        "answer": "$x<-2$ 或 $x>3$。",
+        "explanation": "分解为(x−3)(x+2)>0，取根外。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分解为(x−3)(x+2)>0，取根外。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x<-2$ 或 $x>3$。"
+          }
+        ]
+      },
+      {
+        "text": "Give the intersection of the two solution sets.",
+        "marks": 2,
+        "answer": "$x<-2$ 或 $3<x\\le4$。",
+        "explanation": "必须同时满足，故将右段截到4；保留各端点严格性。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "必须同时满足，故将右段截到4；保留各端点严格性。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x<-2$ 或 $3<x\\le4$。"
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "联立不等式",
+      "端点"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 6,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "一道题同时含离散两区间与半闭截断，非孤立二次不等式。"
+  },
+  {
+    "id": "P1-C03-R07",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2
+    ],
+    "type": "A negative leading coefficient",
+    "stem": "$Q(x)=12+x-x^2$.",
+    "parts": [
+      {
+        "text": "Factorise $Q(x)$.",
+        "marks": 2,
+        "answer": "$Q(x)=(4-x)(x+3)$.",
+        "explanation": "先提出负号再分解x²−x−12。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "先提出负号再分解x²−x−12。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$Q(x)=(4-x)(x+3)$."
+          }
+        ]
+      },
+      {
+        "text": "Find all $x$ for which $Q(x)\\ge0$.",
+        "marks": 2,
+        "answer": "$-3\\le x\\le4$.",
+        "explanation": "开口向下，在两零点之间含端点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "开口向下，在两零点之间含端点。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$-3\\le x\\le4$."
+          }
+        ]
+      },
+      {
+        "text": "Find all $x$ for which $0<Q(x)<12$.",
+        "marks": 3,
+        "answer": "$-3<x<0$ 或 $1<x<4$。",
+        "explanation": "正性给(−3,4)；Q<12等于x(1−x)<0，给x<0或x>1，两集合交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "正性给(−3,4)；Q<12等于x(1−x)<0，给x<0或x>1，两集合交。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$-3<x<0$ 或 $1<x<4$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "双重二次不等式",
+      "符号"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 7,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "用双阈值形成两个分离的可行区间。"
+  },
+  {
+    "id": "P1-C03-R08",
+    "stage": "P1",
+    "chapters": [
+      3,
+      4
+    ],
+    "type": "A linear-fractional inequality",
+    "stem": "$F(x)=\\dfrac{x-2}{x+1}$.",
+    "parts": [
+      {
+        "text": "State the excluded value and rewrite $F(x)$ as $1-\\dfrac3{x+1}$.",
+        "marks": 2,
+        "answer": "$x\\ne-1$；$x-2=(x+1)-3$。",
+        "explanation": "按分母拆分分子。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "按分母拆分分子。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x\\ne-1$；$x-2=(x+1)-3$。"
+          }
+        ]
+      },
+      {
+        "text": "Solve $F(x)>0$.",
+        "marks": 3,
+        "answer": "$x<-1$ 或 $x>2$。",
+        "explanation": "分子分母同号；分界点−1是无定义点，2为零点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分子分母同号；分界点−1是无定义点，2为零点。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x<-1$ 或 $x>2$。"
+          }
+        ]
+      },
+      {
+        "text": "Hence solve $0<F(x)<1$.",
+        "marks": 2,
+        "answer": "$x>2$.",
+        "explanation": "F<1要求−3/(x+1)<0，即x>−1，与正性相交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "F<1要求−3/(x+1)<0，即x>−1，与正性相交。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x>2$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "分式不等式",
+      "定义域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 8,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-10-Q03",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-10",
+        "note": "第(i)问为分式不等式，本题改变零点、禁值和双阈值逻辑；以同号分类处理，不用P3专有方法。"
+      }
+    ],
+    "adaptationNote": "连接正性与相对于水平渐近线的大小，不盲目交叉乘负数。"
+  },
+  {
+    "id": "P1-C03-R09",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2
+    ],
+    "type": "Quadratic equation from a perimeter",
+    "stem": "A rectangle has length $(x+3)$ cm and width $(x-1)$ cm, where $x>1$. Its area is $32\\text{ cm}^2$.",
+    "parts": [
+      {
+        "text": "Show that $x^2+2x-35=0$.",
+        "marks": 2,
+        "answer": "$(x+3)(x-1)=32\\Rightarrow x^2+2x-35=0$.",
+        "explanation": "面积关系展开后移项。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "面积关系展开后移项。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(x+3)(x-1)=32\\Rightarrow x^2+2x-35=0$."
+          }
+        ]
+      },
+      {
+        "text": "Find the dimensions and perimeter.",
+        "marks": 3,
+        "answer": "$x=5$；尺寸8 cm与4 cm；周长24 cm。",
+        "explanation": "(x+7)(x−5)=0；−7不满足长度为正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "(x+7)(x−5)=0；−7不满足长度为正。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x=5$；尺寸8 cm与4 cm；周长24 cm。"
+          }
+        ]
+      },
+      {
+        "text": "For rectangles of this form, find the values of $x$ giving area less than $32\\text{ cm}^2$.",
+        "marks": 2,
+        "answer": "$1<x<5$.",
+        "explanation": "二次式小于0给−7<x<5，再与模型x>1相交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "二次式小于0给−7<x<5，再与模型x>1相交。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1<x<5$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "长方形模型",
+      "根取舍",
+      "不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 9,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-06-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-06",
+        "note": "二次模型比较、解的取舍及模型适用范围；仅借鉴所列方法或问法，不声称原题存在本题背景。"
+      }
+    ],
+    "adaptationNote": "同一面积模型的解与连续可行区间自然递进。"
+  },
+  {
+    "id": "P1-C03-R10",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2
+    ],
+    "type": "A path of fixed width",
+    "stem": "A rectangular lawn is 12 m by 8 m. A path of width $x$ m is built inside all four edges, leaving a smaller rectangle. It is given that $0<x<4$.",
+    "parts": [
+      {
+        "text": "Write an expression for the remaining lawn area.",
+        "marks": 2,
+        "answer": "$(12-2x)(8-2x)=96-40x+4x^2$.",
+        "explanation": "内侧两尺寸均扣除两条宽度。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "内侧两尺寸均扣除两条宽度。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(12-2x)(8-2x)=96-40x+4x^2$."
+          }
+        ]
+      },
+      {
+        "text": "The remaining area is $32\\text{ m}^2$. Show that $x^2-10x+16=0$ and find $x$.",
+        "marks": 3,
+        "answer": "方程分解为(x−2)(x−8)=0；可行x=2 m。",
+        "explanation": "将面积设为32后除4；8超过规定范围。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "将面积设为32后除4；8超过规定范围。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "方程分解为(x−2)(x−8)=0；可行x=2 m。"
+          }
+        ]
+      },
+      {
+        "text": "Find the possible path widths for which at least half the original lawn remains.",
+        "marks": 3,
+        "answer": "$0<x\\le5-\\sqrt{13}$.",
+        "explanation": "剩余面积≥48给x²−10x+12≥0，根为5±√13，与(0,4)交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "剩余面积≥48给x²−10x+12≥0，根为5±√13，与(0,4)交。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$0<x\\le5-\\sqrt{13}$."
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "几何建模",
+      "二次不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 10,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-06-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-06",
+        "note": "二次模型比较、解的取舍及模型适用范围；仅借鉴所列方法或问法，不声称原题存在本题背景。"
+      }
+    ],
+    "adaptationNote": "用内边路径而非原卷球场结构，明确双侧扣除与面积比例。"
+  },
+  {
+    "id": "P1-C03-R11",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "A product and a difference",
+    "stem": "$a-b=3$ and $ab=10$.",
+    "parts": [
+      {
+        "text": "Show that $b$ satisfies $b^2+3b-10=0$.",
+        "marks": 2,
+        "answer": "a=b+3，代入得b(b+3)=10。",
+        "explanation": "由差式消去a。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由差式消去a。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "a=b+3，代入得b(b+3)=10。"
+          }
+        ]
+      },
+      {
+        "text": "Find all solution pairs, separating the cases in which",
+        "marks": 3,
+        "subparts": [
+          {
+            "text": "$b>0$.",
+            "marks": 2,
+            "answer": "$(a,b)=(5,2)$.",
+            "explanation": "二次式根为2、−5，正的b为2。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "二次式根为2、−5，正的b为2。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$(a,b)=(5,2)$."
+              }
+            ]
+          },
+          {
+            "text": "$b<0$.",
+            "marks": 1,
+            "answer": "$(a,b)=(-2,-5)$.",
+            "explanation": "取b=−5并由a=b+3求−2。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "取b=−5并由a=b+3求−2。"
+              },
+              {
+                "code": "A0",
+                "marks": 0,
+                "text": "$(a,b)=(-2,-5)$."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "For each pair, find $a^2+b^2$ and explain why the results agree.",
+        "marks": 2,
+        "answer": "均为29；$a^2+b^2=(a-b)^2+2ab=9+20$。",
+        "explanation": "用已给不变量证明，无需重复平方。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用已给不变量证明，无需重复平方。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "均为29；$a^2+b^2=(a-b)^2+2ab=9+20$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "联立方程",
+      "负数解",
+      "恒等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 11,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "保留双负数分支，并证明不同解具有同一目标量。"
+  },
+  {
+    "id": "P1-C03-R12",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2,
+      5
+    ],
+    "type": "The same line and curve at two points",
+    "stem": "$C:y=x^2+1$ and $l:y=3x+1$.",
+    "parts": [
+      {
+        "text": "Find their intersections $A$ and $B$.",
+        "marks": 2,
+        "answer": "$(0,1),(3,10)$.",
+        "explanation": "x²=3x，注意保留x=0解。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "x²=3x，注意保留x=0解。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(0,1),(3,10)$."
+          }
+        ]
+      },
+      {
+        "text": "Use inequalities to describe the closed region between $A$, $B$, $C$ and $l$.",
+        "marks": 2,
+        "answer": "$0\\le x\\le3,\\quad x^2+1\\le y\\le3x+1$.",
+        "explanation": "在区间内曲线在下、直线在上。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在区间内曲线在下、直线在上。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$0\\le x\\le3,\\quad x^2+1\\le y\\le3x+1$."
+          }
+        ]
+      },
+      {
+        "text": "A point $(t,5)$ lies in this region. Find the allowable values of $t$.",
+        "marks": 3,
+        "answer": "$4/3\\le t\\le2$.",
+        "explanation": "要求t²+1≤5、5≤3t+1并与[0,3]交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "要求t²+1≤5、5≤3t+1并与[0,3]交。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$4/3\\le t\\le2$."
+          }
+        ]
+      },
+      {
+        "text": "State whether $(2,5)$ is an interior point or boundary point.",
+        "marks": 1,
+        "answer": "边界点；它在曲线y=x²+1上。",
+        "explanation": "同时满足直线上界，但下界等号成立。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "同时满足直线上界，但下界等号成立。"
+          },
+          {
+            "code": "A0",
+            "marks": 0,
+            "text": "边界点；它在曲线y=x²+1上。"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "封闭区域",
+      "水平截段"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 12,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域"
+      }
+    ],
+    "adaptationNote": "加入区域内给定高度的可行点区间。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Original schematic graph; not to scale\"><title>Original schematic graph; not to scale</title><rect width=\"480\" height=\"300\" fill=\"white\"/><path d=\"M45 249.7H445 M123.0 270V25\" stroke=\"#777\" fill=\"none\"/><text x=\"445\" y=\"244.7\">x</text><text x=\"128.0\" y=\"25\">y</text><polyline points=\"45.0,219.0 45.8,219.3 46.6,219.6 47.3,219.9 48.1,220.2 48.9,220.5 49.7,220.8 50.5,221.1 51.2,221.4 52.0,221.6 52.8,221.9 53.6,222.2 54.4,222.5 55.1,222.7 55.9,223.0 56.7,223.3 57.5,223.5 58.3,223.8 59.0,224.0 59.8,224.3 60.6,224.5 61.4,224.8 62.2,225.0 62.9,225.2 63.7,225.5 64.5,225.7 65.3,225.9 66.1,226.2 66.8,226.4 67.6,226.6 68.4,226.8 69.2,227.0 70.0,227.2 70.7,227.5 71.5,227.7 72.3,227.9 73.1,228.1 73.9,228.2 74.6,228.4 75.4,228.6 76.2,228.8 77.0,229.0 77.8,229.2 78.5,229.4 79.3,229.5 80.1,229.7 80.9,229.9 81.7,230.0 82.4,230.2 83.2,230.3 84.0,230.5 84.8,230.7 85.6,230.8 86.3,230.9 87.1,231.1 87.9,231.2 88.7,231.4 89.5,231.5 90.2,231.6 91.0,231.8 91.8,231.9 92.6,232.0 93.4,232.1 94.1,232.2 94.9,232.3 95.7,232.5 96.5,232.6 97.3,232.7 98.0,232.8 98.8,232.9 99.6,233.0 100.4,233.0 101.2,233.1 101.9,233.2 102.7,233.3 103.5,233.4 104.3,233.5 105.1,233.5 105.8,233.6 106.6,233.7 107.4,233.7 108.2,233.8 109.0,233.8 109.7,233.9 110.5,233.9 111.3,234.0 112.1,234.0 112.9,234.1 113.6,234.1 114.4,234.1 115.2,234.2 116.0,234.2 116.8,234.2 117.5,234.3 118.3,234.3 119.1,234.3 119.9,234.3 120.7,234.3 121.4,234.3 122.2,234.3 123.0,234.3 123.8,234.3 124.6,234.3 125.3,234.3 126.1,234.3 126.9,234.3 127.7,234.3 128.5,234.3 129.2,234.2 130.0,234.2 130.8,234.2 131.6,234.1 132.4,234.1 133.1,234.1 133.9,234.0 134.7,234.0 135.5,233.9 136.3,233.9 137.0,233.8 137.8,233.8 138.6,233.7 139.4,233.7 140.2,233.6 140.9,233.5 141.7,233.5 142.5,233.4 143.3,233.3 144.1,233.2 144.8,233.1 145.6,233.0 146.4,233.0 147.2,232.9 148.0,232.8 148.7,232.7 149.5,232.6 150.3,232.5 151.1,232.3 151.9,232.2 152.6,232.1 153.4,232.0 154.2,231.9 155.0,231.8 155.8,231.6 156.5,231.5 157.3,231.4 158.1,231.2 158.9,231.1 159.7,230.9 160.4,230.8 161.2,230.7 162.0,230.5 162.8,230.3 163.6,230.2 164.3,230.0 165.1,229.9 165.9,229.7 166.7,229.5 167.5,229.4 168.2,229.2 169.0,229.0 169.8,228.8 170.6,228.6 171.4,228.4 172.1,228.2 172.9,228.1 173.7,227.9 174.5,227.7 175.3,227.5 176.0,227.2 176.8,227.0 177.6,226.8 178.4,226.6 179.2,226.4 179.9,226.2 180.7,225.9 181.5,225.7 182.3,225.5 183.1,225.2 183.8,225.0 184.6,224.8 185.4,224.5 186.2,224.3 187.0,224.0 187.7,223.8 188.5,223.5 189.3,223.3 190.1,223.0 190.9,222.7 191.6,222.5 192.4,222.2 193.2,221.9 194.0,221.6 194.8,221.4 195.5,221.1 196.3,220.8 197.1,220.5 197.9,220.2 198.7,219.9 199.4,219.6 200.2,219.3 201.0,219.0 201.8,218.7 202.6,218.4 203.3,218.1 204.1,217.7 204.9,217.4 205.7,217.1 206.5,216.8 207.2,216.4 208.0,216.1 208.8,215.8 209.6,215.4 210.4,215.1 211.1,214.8 211.9,214.4 212.7,214.1 213.5,213.7 214.3,213.3 215.0,213.0 215.8,212.6 216.6,212.3 217.4,211.9 218.2,211.5 218.9,211.1 219.7,210.8 220.5,210.4 221.3,210.0 222.1,209.6 222.8,209.2 223.6,208.8 224.4,208.4 225.2,208.0 226.0,207.6 226.7,207.2 227.5,206.8 228.3,206.4 229.1,206.0 229.9,205.6 230.6,205.1 231.4,204.7 232.2,204.3 233.0,203.8 233.8,203.4 234.5,203.0 235.3,202.5 236.1,202.1 236.9,201.6 237.7,201.2 238.4,200.7 239.2,200.3 240.0,199.8 240.8,199.4 241.6,198.9 242.3,198.4 243.1,198.0 243.9,197.5 244.7,197.0 245.5,196.5 246.2,196.1 247.0,195.6 247.8,195.1 248.6,194.6 249.4,194.1 250.1,193.6 250.9,193.1 251.7,192.6 252.5,192.1 253.3,191.6 254.0,191.1 254.8,190.5 255.6,190.0 256.4,189.5 257.2,189.0 257.9,188.4 258.7,187.9 259.5,187.4 260.3,186.8 261.1,186.3 261.8,185.8 262.6,185.2 263.4,184.7 264.2,184.1 265.0,183.5 265.7,183.0 266.5,182.4 267.3,181.9 268.1,181.3 268.9,180.7 269.6,180.1 270.4,179.6 271.2,179.0 272.0,178.4 272.8,177.8 273.5,177.2 274.3,176.6 275.1,176.0 275.9,175.4 276.7,174.8 277.4,174.2 278.2,173.6 279.0,173.0 279.8,172.4 280.6,171.8 281.3,171.1 282.1,170.5 282.9,169.9 283.7,169.3 284.5,168.6 285.2,168.0 286.0,167.4 286.8,166.7 287.6,166.1 288.4,165.4 289.1,164.8 289.9,164.1 290.7,163.5 291.5,162.8 292.3,162.1 293.0,161.5 293.8,160.8 294.6,160.1 295.4,159.4 296.2,158.8 296.9,158.1 297.7,157.4 298.5,156.7 299.3,156.0 300.1,155.3 300.8,154.6 301.6,153.9 302.4,153.2 303.2,152.5 304.0,151.8 304.7,151.1 305.5,150.4 306.3,149.7 307.1,148.9 307.9,148.2 308.6,147.5 309.4,146.7 310.2,146.0 311.0,145.3 311.8,144.5 312.5,143.8 313.3,143.0 314.1,142.3 314.9,141.5 315.7,140.8 316.4,140.0 317.2,139.3 318.0,138.5 318.8,137.7 319.6,137.0 320.3,136.2 321.1,135.4 321.9,134.6 322.7,133.8 323.5,133.1 324.2,132.3 325.0,131.5 325.8,130.7 326.6,129.9 327.4,129.1 328.1,128.3 328.9,127.5 329.7,126.7 330.5,125.8 331.3,125.0 332.0,124.2 332.8,123.4 333.6,122.6 334.4,121.7 335.2,120.9 335.9,120.1 336.7,119.2 337.5,118.4 338.3,117.5 339.1,116.7 339.8,115.8 340.6,115.0 341.4,114.1 342.2,113.3 343.0,112.4 343.7,111.5 344.5,110.7 345.3,109.8 346.1,108.9 346.9,108.0 347.6,107.2 348.4,106.3 349.2,105.4 350.0,104.5 350.8,103.6 351.5,102.7 352.3,101.8 353.1,100.9 353.9,100.0 354.7,99.1 355.4,98.2 356.2,97.3 357.0,96.3 357.8,95.4 358.6,94.5 359.3,93.6 360.1,92.6 360.9,91.7 361.7,90.8 362.5,89.8 363.2,88.9 364.0,87.9 364.8,87.0 365.6,86.0 366.4,85.1 367.1,84.1 367.9,83.2 368.7,82.2 369.5,81.2 370.3,80.3 371.0,79.3 371.8,78.3 372.6,77.3 373.4,76.3 374.2,75.4 374.9,74.4 375.7,73.4 376.5,72.4 377.3,71.4 378.1,70.4 378.8,69.4 379.6,68.4 380.4,67.4 381.2,66.3 382.0,65.3 382.7,64.3 383.5,63.3 384.3,62.3 385.1,61.2 385.9,60.2 386.6,59.2 387.4,58.1 388.2,57.1 389.0,56.0 389.8,55.0 390.5,53.9 391.3,52.9 392.1,51.8 392.9,50.8 393.7,49.7 394.4,48.6 395.2,47.6 396.0,46.5 396.8,45.4 397.6,44.3 398.3,43.3 399.1,42.2 399.9,41.1 400.7,40.0 401.5,38.9 402.2,37.8 403.0,36.7 403.8,35.6\" fill=\"none\" stroke=\"#226b57\" stroke-width=\"2.5\"/><circle cx=\"123.0\" cy=\"234.3\" r=\"3\" fill=\"#222\"/><text x=\"130.0\" y=\"226.3\" font-size=\"13\">A</text><circle cx=\"357.0\" cy=\"96.3\" r=\"3\" fill=\"#222\"/><text x=\"364.0\" y=\"88.3\" font-size=\"13\">B</text></svg>"
+  },
+  {
+    "id": "P1-C03-R13",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1,
+      4
+    ],
+    "type": "A square-root simultaneous system",
+    "stem": "$y=\\sqrt{x+1}$ and $x+y=5$.",
+    "parts": [
+      {
+        "text": "State restrictions on $x$ and $y$.",
+        "marks": 2,
+        "answer": "$x\\ge-1,\\ y\\ge0$；由线性式另有x≤5。",
+        "explanation": "实平方根必须有非负被开方数、非负函数值。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "实平方根必须有非负被开方数、非负函数值。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x\\ge-1,\\ y\\ge0$；由线性式另有x≤5。"
+          }
+        ]
+      },
+      {
+        "text": "Show that any solution satisfies $x^2-11x+24=0$.",
+        "marks": 3,
+        "answer": "$\\sqrt{x+1}=5-x$；平方得x+1=(5−x)²。",
+        "explanation": "须先记录5−x≥0再平方。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "须先记录5−x≥0再平方。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$\\sqrt{x+1}=5-x$；平方得x+1=(5−x)²。"
+          }
+        ]
+      },
+      {
+        "text": "Find the valid solution and reject any extraneous one.",
+        "marks": 3,
+        "answer": "$(x,y)=(3,2)$；x=8时y=−3不合根式。",
+        "explanation": "二次式为(x−3)(x−8)，回代筛选。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "二次式为(x−3)(x−8)，回代筛选。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(x,y)=(3,2)$；x=8时y=−3不合根式。"
+          }
+        ]
+      }
+    ],
+    "marks": 8,
+    "topics": [
+      "根式联立",
+      "增根检验"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 13,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "用线性与根式交点的假根机制，条件不再全为多项式。"
+  },
+  {
+    "id": "P1-C03-R14",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "A quartic inequality",
+    "stem": "$x$ is real and $x^4-5x^2+4\\le0$.",
+    "parts": [
+      {
+        "text": "Factorise the left-hand side as a product of two expressions in $x^2$.",
+        "marks": 2,
+        "answer": "$(x^2-1)(x^2-4)$.",
+        "explanation": "将u=x²视为二次量分解。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "将u=x²视为二次量分解。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(x^2-1)(x^2-4)$."
+          }
+        ]
+      },
+      {
+        "text": "Find the interval of values of $x^2$ satisfying the inequality.",
+        "marks": 2,
+        "answer": "$1\\le x^2\\le4$.",
+        "explanation": "关于u的二次式开口向上。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "关于u的二次式开口向上。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1\\le x^2\\le4$."
+          }
+        ]
+      },
+      {
+        "text": "Hence solve the inequality for $x$, writing every interval.",
+        "marks": 3,
+        "answer": "$-2\\le x\\le-1$ 或 $1\\le x\\le2$。",
+        "explanation": "平方不等式同时有负段与正段，不能只取正平方根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "平方不等式同时有负段与正段，不能只取正平方根。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$-2\\le x\\le-1$ 或 $1\\le x\\le2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平方代换",
+      "四次不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 14,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "以允许的二次代换处理双区间，检测漏负解。"
+  },
+  {
+    "id": "P1-C03-R15",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "Two tariffs with a setup charge",
+    "stem": "A workshop offers two cost models, in pounds, for making $n$ items: $A=30+8n$ and $B=10+12n$, where $n$ is a positive integer.",
+    "parts": [
+      {
+        "text": "Find the number of items for which the two costs are equal.",
+        "marks": 2,
+        "answer": "$n=5$.",
+        "explanation": "解30+8n=10+12n。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "解30+8n=10+12n。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$n=5$."
+          }
+        ]
+      },
+      {
+        "text": "Find all allowed $n$ for which model A is cheaper.",
+        "marks": 2,
+        "answer": "$n\\ge6$，n为整数。",
+        "explanation": "不等式给n>5，必须转为整数条件。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "不等式给n>5，必须转为整数条件。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$n\\ge6$，n为整数。"
+          }
+        ]
+      },
+      {
+        "text": "A budget of £94 is available. Find the greatest number of items under each model.",
+        "marks": 3,
+        "answer": "A最多8件；B最多7件。",
+        "explanation": "分别解30+8n≤94与10+12n≤94，再取不超过的最大整数。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别解30+8n≤94与10+12n≤94，再取不超过的最大整数。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "A最多8件；B最多7件。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "线性模型",
+      "整数不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 15,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域；仅借鉴所列方法或问法，不声称原题存在本题背景。"
+      }
+    ],
+    "adaptationNote": "结合两模型比较与预算整数可行性，不假装连续量皆可行。"
+  },
+  {
+    "id": "P1-C03-R16",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1,
+      2
+    ],
+    "type": "Fractional equation with two exclusions",
+    "stem": "Solve $\\dfrac2{x-1}+\\dfrac3{x+1}=2$.",
+    "parts": [
+      {
+        "text": "State all excluded values of $x$.",
+        "marks": 1,
+        "answer": "$x\\ne1,-1$.",
+        "explanation": "原两个分母分别不能为0。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "原两个分母分别不能为0。"
+          },
+          {
+            "code": "A0",
+            "marks": 0,
+            "text": "$x\\ne1,-1$."
+          }
+        ]
+      },
+      {
+        "text": "Show that the equation reduces to $2x^2-5x-1=0$.",
+        "marks": 3,
+        "answer": "2(x+1)+3(x−1)=2(x²−1)，整理得所需二次式。",
+        "explanation": "在已排除±1后乘以共同分母。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "在已排除±1后乘以共同分母。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "2(x+1)+3(x−1)=2(x²−1)，整理得所需二次式。"
+          }
+        ]
+      },
+      {
+        "text": "For the quadratic obtained in part (b),",
+        "marks": 3,
+        "subparts": [
+          {
+            "text": "find both exact roots.",
+            "marks": 2,
+            "answer": "$x=(5\\pm\\sqrt{33})/4$.",
+            "explanation": "使用二次公式，判别式25+8=33。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "使用二次公式，判别式25+8=33。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$x=(5\\pm\\sqrt{33})/4$."
+              }
+            ]
+          },
+          {
+            "text": "check whether either root must be rejected.",
+            "marks": 1,
+            "answer": "两根都保留。",
+            "explanation": "原式只排除±1；这两个数都不使二次式为零，因此均不等于±1。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "原式只排除±1；这两个数都不使二次式为零，因此均不等于±1。"
+              },
+              {
+                "code": "A0",
+                "marks": 0,
+                "text": "两根都保留。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "分式方程",
+      "精确根"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 16,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "两个不同分母通分，最终为非整数根并明确可逆性。"
+  },
+  {
+    "id": "P1-C03-R17",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2,
+      4
+    ],
+    "type": "Parameterised region and a test point",
+    "stem": "The closed region $R$ is defined by $y\\ge x^2-4$ and $y\\le k$, where $k$ is real.",
+    "parts": [
+      {
+        "text": "Find the values of $k$ for which $R$ contains more than one point.",
+        "marks": 2,
+        "answer": "$k>-4$.",
+        "explanation": "抛物线最低为−4；等于时只有顶点，低于则空集。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "抛物线最低为−4；等于时只有顶点，低于则空集。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$k>-4$."
+          }
+        ]
+      },
+      {
+        "text": "For $k=5$, find the horizontal extent of $R$.",
+        "marks": 2,
+        "answer": "$-3\\le x\\le3$.",
+        "explanation": "存在y要求x²−4≤5。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "存在y要求x²−4≤5。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$-3\\le x\\le3$."
+          }
+        ]
+      },
+      {
+        "text": "For $k=5$, find all $t$ for which $(t,2t)$ belongs to $R$.",
+        "marks": 3,
+        "answer": "$1-\\sqrt5\\le t\\le5/2$.",
+        "explanation": "需t²−4≤2t≤5；第一部分给1±√5之间，再与t≤2.5交。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "需t²−4≤2t≤5；第一部分给1±√5之间，再与t≤2.5交。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$1-\\sqrt5\\le t\\le5/2$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "区域可行性",
+      "参数",
+      "直线限制"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 17,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域"
+      }
+    ],
+    "adaptationNote": "从区域非空转入给定斜线上的点约束。"
+  },
+  {
+    "id": "P1-C03-R18",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "Product inequality and a second condition",
+    "stem": "$2x^2-7x+3<0$ and $x^2\\ge1$.",
+    "parts": [
+      {
+        "text": "Factorise $2x^2-7x+3$.",
+        "marks": 2,
+        "answer": "$(2x-1)(x-3)$.",
+        "explanation": "交叉项−6x−x合为−7x。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "交叉项−6x−x合为−7x。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(2x-1)(x-3)$."
+          }
+        ]
+      },
+      {
+        "text": "Solve each inequality separately.",
+        "marks": 3,
+        "answer": "$1/2<x<3$；$x\\le-1$ 或 $x\\ge1$。",
+        "explanation": "分别取两根之间与平方值外侧。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别取两根之间与平方值外侧。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$1/2<x<3$；$x\\le-1$ 或 $x\\ge1$。"
+          }
+        ]
+      },
+      {
+        "text": "Give the values satisfying both.",
+        "marks": 2,
+        "answer": "$1\\le x<3$.",
+        "explanation": "交集保留1，排除3。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "交集保留1，排除3。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1\\le x<3$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "非首一二次式",
+      "交集"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 18,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "非整数端点与平方约束相交，严格性不同。"
+  },
+  {
+    "id": "P1-C03-R19",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "Proving a cubic reduction in a system",
+    "stem": "$y=x^2-2x$ and $xy=3x-6$.",
+    "parts": [
+      {
+        "text": "Show that every solution satisfies $(x-2)(x^2-3)=0$.",
+        "marks": 3,
+        "answer": "$x(x^2-2x)=3x-6\\Rightarrow x^3-2x^2-3x+6=(x-2)(x^2-3)=0$.",
+        "explanation": "代入消去y，按分组提出共同二次因式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代入消去y，按分组提出共同二次因式。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x(x^2-2x)=3x-6\\Rightarrow x^3-2x^2-3x+6=(x-2)(x^2-3)=0$."
+          }
+        ]
+      },
+      {
+        "text": "Find all possible $x$.",
+        "marks": 2,
+        "answer": "$x=2,\\sqrt3,-\\sqrt3$.",
+        "explanation": "一次因式与平方差各给实根。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "一次因式与平方差各给实根。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x=2,\\sqrt3,-\\sqrt3$."
+          }
+        ]
+      },
+      {
+        "text": "Find the corresponding $y$ coordinates.",
+        "marks": 2,
+        "answer": "$x=2:y=0$；$x=\\sqrt3:y=3-2\\sqrt3$；$x=-\\sqrt3:y=3+2\\sqrt3$。",
+        "explanation": "分别代入显式二次式，保留正负根与y的对应关系。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别代入显式二次式，保留正负根与y的对应关系。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x=2:y=0$；$x=\\sqrt3:y=3-2\\sqrt3$；$x=-\\sqrt3:y=3+2\\sqrt3$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "联立",
+      "因式分解"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 19,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "由二次及乘积关系消元得到给定可验证三次分解，三组非对称有序解。"
+  },
+  {
+    "id": "P1-C03-R20",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2
+    ],
+    "type": "A feasibility bound from a sum",
+    "stem": "$x$ and $y$ are non-negative numbers satisfying $x+y=12$.",
+    "parts": [
+      {
+        "text": "Show that $xy=36-(x-6)^2$.",
+        "marks": 3,
+        "answer": "$y=12-x$，所以xy=12x−x²=36−(x−6)²。",
+        "explanation": "消去y并配方。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "消去y并配方。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$y=12-x$，所以xy=12x−x²=36−(x−6)²。"
+          }
+        ]
+      },
+      {
+        "text": "Find all ordered pairs for which $xy=27$.",
+        "marks": 2,
+        "answer": "$(3,9),(9,3)$.",
+        "explanation": "平方等于9，x=3或9。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "平方等于9，x=3或9。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(3,9),(9,3)$."
+          }
+        ]
+      },
+      {
+        "text": "Prove that no allowed pair can satisfy $xy>36$.",
+        "marks": 2,
+        "answer": "$xy=36-(x-6)^2\\le36$，因此不可能。",
+        "explanation": "用平方非负，不使用更高阶段的不等式定理。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "用平方非负，不使用更高阶段的不等式定理。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$xy=36-(x-6)^2\\le36$，因此不可能。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "联立",
+      "配方界限",
+      "证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 20,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-06-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-06",
+        "note": "二次模型比较、解的取舍及模型适用范围"
+      }
+    ],
+    "adaptationNote": "代数约束直接导出可行性证明和两组解。"
+  },
+  {
+    "id": "P1-C03-R21",
+    "stage": "P1",
+    "chapters": [
+      3,
+      5
+    ],
+    "type": "A region with three straight boundaries",
+    "stem": "The region $R$ lies in the first quadrant and satisfies $x+y\\le6$ and $2x+y\\ge4$. Boundaries are included.",
+    "parts": [
+      {
+        "text": "Find all vertices of $R$.",
+        "marks": 3,
+        "answer": "$(0,4),(0,6),(6,0),(2,0)$.",
+        "explanation": "分别求两线与坐标轴交点；两线交点(−2,8)不在第一象限。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别求两线与坐标轴交点；两线交点(−2,8)不在第一象限。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(0,4),(0,6),(6,0),(2,0)$."
+          }
+        ]
+      },
+      {
+        "text": "State the full set of inequalities defining $R$.",
+        "marks": 2,
+        "answer": "$x\\ge0,\\ y\\ge0,\\ x+y\\le6,\\ 2x+y\\ge4$.",
+        "explanation": "第一象限条件不可省略。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "第一象限条件不可省略。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x\\ge0,\\ y\\ge0,\\ x+y\\le6,\\ 2x+y\\ge4$."
+          }
+        ]
+      },
+      {
+        "text": "Find the possible values of $t$ when $(t,t)$ lies in $R$.",
+        "marks": 2,
+        "answer": "$4/3\\le t\\le3$.",
+        "explanation": "沿y=x代入两边界，并取t≥0。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "沿y=x代入两边界，并取t≥0。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$4/3\\le t\\le3$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "线性区域",
+      "边界",
+      "可行区间"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 21,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域"
+      }
+    ],
+    "adaptationNote": "区域由两斜线和两轴截出四边形，不照搬三边界原图。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Closed first-quadrant region between x+y=6 and 2x+y=4\"><title>Closed first-quadrant region between x+y=6 and 2x+y=4; original schematic, not to scale</title><rect width=\"420\" height=\"300\" fill=\"white\"/><path d=\"M40 260H390 M40 280V20\" fill=\"none\" stroke=\"#666\"/><polygon points=\"40,120 40,50 310,260 130,260\" fill=\"#def0e7\" stroke=\"#226b57\" stroke-width=\"2\"/><text x=\"45\" y=\"113\" font-size=\"13\">A</text><text x=\"45\" y=\"43\" font-size=\"13\">B</text><text x=\"315\" y=\"253\" font-size=\"13\">C</text><text x=\"135\" y=\"253\" font-size=\"13\">D</text><text x=\"390\" y=\"250\">x</text><text x=\"50\" y=\"20\">y</text></svg>"
+  },
+  {
+    "id": "P1-C03-R22",
+    "stage": "P1",
+    "chapters": [
+      3,
+      5
+    ],
+    "type": "A non-linear system with a sign relation",
+    "stem": "$x^2+y^2=25$ and $y=2x$.",
+    "parts": [
+      {
+        "text": "Show that $x^2=5$.",
+        "marks": 2,
+        "answer": "$x^2+4x^2=25\\Rightarrow x^2=5$.",
+        "explanation": "代入y的线性表达式。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "代入y的线性表达式。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x^2+4x^2=25\\Rightarrow x^2=5$."
+          }
+        ]
+      },
+      {
+        "text": "Find all ordered pairs in exact form.",
+        "marks": 2,
+        "answer": "$(\\sqrt5,2\\sqrt5),(-\\sqrt5,-2\\sqrt5)$.",
+        "explanation": "y必须与x同号，不能自由配四种符号。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "y必须与x同号，不能自由配四种符号。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(\\sqrt5,2\\sqrt5),(-\\sqrt5,-2\\sqrt5)$."
+          }
+        ]
+      },
+      {
+        "text": "Find the distance between the two solution points.",
+        "marks": 3,
+        "answer": "$10$.",
+        "explanation": "坐标差为2√5和4√5，距离平方为20+80=100。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "坐标差为2√5和4√5，距离平方为20+80=100。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$10$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "平方联立",
+      "符号对应",
+      "距离"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 22,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "强调符号相关，再连接坐标距离而非仅列根。"
+  },
+  {
+    "id": "P1-C03-R23",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "A quadratic inequality with integer answers",
+    "stem": "$n$ is an integer and $n^2-3n-10<0$.",
+    "parts": [
+      {
+        "text": "Solve the corresponding equality.",
+        "marks": 1,
+        "answer": "$n=-2,5$.",
+        "explanation": "分解(n−5)(n+2)=0。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$n=-2,5$."
+          }
+        ]
+      },
+      {
+        "text": "For integer $n$ satisfying the stated quadratic inequality,",
+        "marks": 4,
+        "subparts": [
+          {
+            "text": "list all allowed $n$.",
+            "marks": 2,
+            "answer": "$-1,0,1,2,3,4$.",
+            "explanation": "实解在−2与5之间，严格排除两端整数。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "实解在−2与5之间，严格排除两端整数。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$-1,0,1,2,3,4$."
+              }
+            ]
+          },
+          {
+            "text": "find which also satisfy $2n+1\\ge5$.",
+            "marks": 2,
+            "answer": "$n=2,3,4$.",
+            "explanation": "第二条件n≥2，再从上列整数筛选。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "第二条件n≥2，再从上列整数筛选。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "$n=2,3,4$."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "整数解集",
+      "严格不等式"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 23,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "显式列整数并叠加线性条件，避免用连续范围替代离散答案。"
+  },
+  {
+    "id": "P1-C03-R24",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2,
+      4
+    ],
+    "type": "A difference of two quadratic bounds",
+    "stem": "A point $(x,y)$ must satisfy $y\\ge x^2-2x$ and $y\\le -x^2+6x-6$.",
+    "parts": [
+      {
+        "text": "Show that such a point can exist only if $x^2-4x+3\\le0$.",
+        "marks": 3,
+        "answer": "$x^2-2x\\le -x^2+6x-6\\Rightarrow2(x^2-4x+3)\\le0$.",
+        "explanation": "下界不能超过上界。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "下界不能超过上界。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x^2-2x\\le -x^2+6x-6\\Rightarrow2(x^2-4x+3)\\le0$."
+          }
+        ]
+      },
+      {
+        "text": "Find all possible $x$.",
+        "marks": 2,
+        "answer": "$1\\le x\\le3$.",
+        "explanation": "因式分解为 $(x-1)(x-3)\\le0$，开口向上的二次式在两根之间非正。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "因式分解为 $(x-1)(x-3)\\le0$，开口向上的二次式在两根之间非正。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1\\le x\\le3$."
+          }
+        ]
+      },
+      {
+        "text": "At the midpoint of this interval, find the full allowable interval of $y$.",
+        "marks": 2,
+        "answer": "$x=2$ 时 $0\\le y\\le2$。",
+        "explanation": "分别将2代入上下边界。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "分别将2代入上下边界。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x=2$ 时 $0\\le y\\le2$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "两个二次边界",
+      "可行性"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 24,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域"
+      }
+    ],
+    "adaptationNote": "两抛物线的夹层通过不等式存在条件刻画。"
+  },
+  {
+    "id": "P1-C03-R25",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2,
+      5
+    ],
+    "type": "A repeated-root simultaneous system",
+    "stem": "$y=x^2-6x+10$ and $y=2x-6$.",
+    "parts": [
+      {
+        "text": "Show that any intersection satisfies $(x-4)^2=0$.",
+        "marks": 3,
+        "answer": "$x^2-6x+10=2x-6\\Rightarrow x^2-8x+16=0$.",
+        "explanation": "精确联立而非依图数交点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "精确联立而非依图数交点。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$x^2-6x+10=2x-6\\Rightarrow x^2-8x+16=0$."
+          }
+        ]
+      },
+      {
+        "text": "Find the intersection and state how many distinct solutions there are.",
+        "marks": 2,
+        "answer": "$(4,2)$；只有一组。",
+        "explanation": "二次重根只产生一个坐标点。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "二次重根只产生一个坐标点。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(4,2)$；只有一组。"
+          }
+        ]
+      },
+      {
+        "text": "Prove that the curve is never below the line.",
+        "marks": 2,
+        "answer": "$y_C-y_l=(x-4)^2\\ge0$。",
+        "explanation": "同一差式给出所有x处的比较及等号位置。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "同一差式给出所有x处的比较及等号位置。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$y_C-y_l=(x-4)^2\\ge0$。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "重根联立",
+      "全域比较证明"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 25,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域"
+      }
+    ],
+    "adaptationNote": "利用相交式同时证明切触和整条曲线的相对位置。"
+  },
+  {
+    "id": "P1-C03-R26",
+    "stage": "P1",
+    "chapters": [
+      3,
+      4
+    ],
+    "type": "Restriction from a rational model",
+    "stem": "A model uses $T=\\dfrac{12}{x-2}$, where $x>2$.",
+    "parts": [
+      {
+        "text": "Find $x$ when $T=3$.",
+        "marks": 1,
+        "answer": "$x=6$.",
+        "explanation": "解12=3(x−2)。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "$x=6$."
+          }
+        ]
+      },
+      {
+        "text": "Find the range of $x$ for which $T\\le4$.",
+        "marks": 2,
+        "answer": "$x\\ge5$.",
+        "explanation": "因x−2>0，安全乘分母得12≤4(x−2)。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "因x−2>0，安全乘分母得12≤4(x−2)。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x\\ge5$."
+          }
+        ]
+      },
+      {
+        "text": "Find all $x$ for which $2<T\\le4$.",
+        "marks": 2,
+        "answer": "$5\\le x<8$.",
+        "explanation": "T>2给x<8，与前问交集。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "T>2给x<8，与前问交集。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$5\\le x<8$."
+          }
+        ]
+      }
+    ],
+    "marks": 5,
+    "topics": [
+      "倒数模型",
+      "分母符号",
+      "双阈值"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 26,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2023-06-Q01",
+        "year": 2023,
+        "paper": "Edexcel IAL P1 2023-06",
+        "note": "因式分解后求二次不等式解集"
+      }
+    ],
+    "adaptationNote": "明确正分母使不等式操作可逆，处理一开一闭的阈值。"
+  },
+  {
+    "id": "P1-C03-R27",
+    "stage": "P1",
+    "chapters": [
+      3,
+      1
+    ],
+    "type": "Proving the necessary quadratic",
+    "stem": "$a$ and $b$ satisfy $a+b=8$ and $a^2+b^2=40$.",
+    "parts": [
+      {
+        "text": "Show that $ab=12$.",
+        "marks": 3,
+        "answer": "$64=(a+b)^2=a^2+b^2+2ab=40+2ab$。",
+        "explanation": "和平方恒等式把平方和转为乘积。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "和平方恒等式把平方和转为乘积。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$64=(a+b)^2=a^2+b^2+2ab=40+2ab$。"
+          }
+        ]
+      },
+      {
+        "text": "Show that $a$ satisfies $a^2-8a+12=0$.",
+        "marks": 2,
+        "answer": "由b=8−a与ab=12得a(8−a)=12。",
+        "explanation": "给出消元步骤而非仅报目标。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "给出消元步骤而非仅报目标。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "由b=8−a与ab=12得a(8−a)=12。"
+          }
+        ]
+      },
+      {
+        "text": "Find all ordered pairs $(a,b)$.",
+        "marks": 2,
+        "answer": "$(2,6),(6,2)$.",
+        "explanation": "a²−8a+12=(a−2)(a−6)，依次回代。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "a²−8a+12=(a−2)(a−6)，依次回代。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$(2,6),(6,2)$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "恒等式",
+      "证明目标",
+      "联立"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 27,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "先从平方和恢复乘积再证明二次式，经典但条件实质变化。"
+  },
+  {
+    "id": "P1-C03-R28",
+    "stage": "P1",
+    "chapters": [
+      3
+    ],
+    "type": "A system with a missing zero case",
+    "stem": "$xy=2x$ and $x+y=3$.",
+    "parts": [
+      {
+        "text": "Show that $x(y-2)=0$.",
+        "marks": 1,
+        "answer": "移项xy−2x=0并提出x。",
+        "explanation": "不可直接除以x。",
+        "scheme": [
+          {
+            "code": "B1",
+            "marks": 1,
+            "text": "移项xy−2x=0并提出x。"
+          }
+        ]
+      },
+      {
+        "text": "For the system as given,",
+        "marks": 5,
+        "subparts": [
+          {
+            "text": "find every ordered pair $(x,y)$.",
+            "marks": 3,
+            "answer": "$(0,3),(1,2)$.",
+            "explanation": "x=0与y=2各给一条分支，分别代x+y=3。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "x=0与y=2各给一条分支，分别代x+y=3。"
+              },
+              {
+                "code": "A2",
+                "marks": 2,
+                "text": "$(0,3),(1,2)$."
+              }
+            ]
+          },
+          {
+            "text": "explain what is lost if the first equation is divided by $x$.",
+            "marks": 2,
+            "answer": "会丢掉(0,3)。",
+            "explanation": "原式允许x=0，不能在未分类时除以x。",
+            "scheme": [
+              {
+                "code": "M1",
+                "marks": 1,
+                "text": "原式允许x=0，不能在未分类时除以x。"
+              },
+              {
+                "code": "A1",
+                "marks": 1,
+                "text": "会丢掉(0,3)。"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "marks": 6,
+    "topics": [
+      "零因子",
+      "联立",
+      "错误辨析"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 28,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-06-Q06",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-06",
+        "note": "联立方程消元得到关于平方量的方程，再取实解"
+      }
+    ],
+    "adaptationNote": "以零分支为考查核心，防止所有联立都使用相除模板。"
+  },
+  {
+    "id": "P1-C03-R29",
+    "stage": "P1",
+    "chapters": [
+      3,
+      2
+    ],
+    "type": "A trapezium dimension model",
+    "stem": "A trapezium has parallel sides $(x+2)$ cm and $(3x-2)$ cm and perpendicular height $x$ cm, where $x>2/3$. Its area is $32\\text{ cm}^2$.",
+    "parts": [
+      {
+        "text": "Show that $2x^2=32$.",
+        "marks": 2,
+        "answer": "面积 $=\\frac12[(x+2)+(3x-2)]x=2x^2$。",
+        "explanation": "平行边相加后常数抵消。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "平行边相加后常数抵消。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "面积 $=\\frac12[(x+2)+(3x-2)]x=2x^2$。"
+          }
+        ]
+      },
+      {
+        "text": "Find all three dimensions.",
+        "marks": 2,
+        "answer": "$x=4$；平行边6 cm与10 cm，高4 cm。",
+        "explanation": "取正平方根并核对允许域。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "取正平方根并核对允许域。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$x=4$；平行边6 cm与10 cm，高4 cm。"
+          }
+        ]
+      },
+      {
+        "text": "Find the allowable $x$ for which the area is at most $50\\text{ cm}^2$.",
+        "marks": 2,
+        "answer": "$2/3<x\\le5$.",
+        "explanation": "2x²≤50且x正，结合边长限制。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "2x²≤50且x正，结合边长限制。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$2/3<x\\le5$."
+          }
+        ]
+      },
+      {
+        "text": "Explain why the negative root of the area equation is unsuitable.",
+        "marks": 1,
+        "answer": "x=−4使高度和一条边为负，不是有效几何尺寸。",
+        "explanation": "尺寸限制是模型条件，不应仅以根号默认正号省略。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "尺寸限制是模型条件，不应仅以根号默认正号省略。"
+          },
+          {
+            "code": "A0",
+            "marks": 0,
+            "text": "x=−4使高度和一条边为负，不是有效几何尺寸。"
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "梯形面积",
+      "模型定义域"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 29,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2021-06-Q05",
+        "year": 2021,
+        "paper": "Edexcel IAL P1 2021-06",
+        "note": "二次模型比较、解的取舍及模型适用范围；仅借鉴所列方法或问法，不声称原题存在本题背景。"
+      }
+    ],
+    "adaptationNote": "用不同几何结构形成两边和的消元，设置四问含有效域。"
+  },
+  {
+    "id": "P1-C03-R30",
+    "stage": "P1",
+    "chapters": [
+      3,
+      5
+    ],
+    "type": "Linear constraints and an extremal coordinate",
+    "stem": "A point satisfies $x\\ge0$, $y\\ge1$, $x+y\\le7$ and $y\\le2x+1$.",
+    "parts": [
+      {
+        "text": "Find the vertices of the allowed region.",
+        "marks": 3,
+        "answer": "$(0,1),(6,1),(2,5)$.",
+        "explanation": "边界交点：y=1与x+y=7给(6,1)，两斜线给(2,5)，其余为(0,1)。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "边界交点：y=1与x+y=7给(6,1)，两斜线给(2,5)，其余为(0,1)。"
+          },
+          {
+            "code": "A2",
+            "marks": 2,
+            "text": "$(0,1),(6,1),(2,5)$."
+          }
+        ]
+      },
+      {
+        "text": "Find the greatest possible value of $y$.",
+        "marks": 2,
+        "answer": "$y=5$.",
+        "explanation": "由x≥(y−1)/2及x≤7−y可得(y−1)/2≤7−y，故y≤5。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "由x≥(y−1)/2及x≤7−y可得(y−1)/2≤7−y，故y≤5。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$y=5$."
+          }
+        ]
+      },
+      {
+        "text": "For $y=3$, find the full range of $x$.",
+        "marks": 2,
+        "answer": "$1\\le x\\le4$.",
+        "explanation": "3≤2x+1给x≥1；x+3≤7给x≤4。",
+        "scheme": [
+          {
+            "code": "M1",
+            "marks": 1,
+            "text": "3≤2x+1给x≥1；x+3≤7给x≤4。"
+          },
+          {
+            "code": "A1",
+            "marks": 1,
+            "text": "$1\\le x\\le4$."
+          }
+        ]
+      }
+    ],
+    "marks": 7,
+    "topics": [
+      "线性区域",
+      "可行区间"
+    ],
+    "origin": "original-substantive-adaptation-2026",
+    "review": "internal-review-only",
+    "editorialRevision": 7,
+    "originalNumber": 30,
+    "sourceReferences": [
+      {
+        "questionId": "P1-2022-01-Q04",
+        "year": 2022,
+        "paper": "Edexcel IAL P1 2022-01",
+        "note": "直线与抛物线交点并用不等式刻画区域；仅借鉴所列方法或问法，不声称原题存在本题背景。"
+      }
+    ],
+    "adaptationNote": "三角形区域的最大高度由两界线兼容性证明，不使用线性规划。",
+    "figureSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Closed triangular region with lower boundary y=1\"><title>Closed triangular region with lower boundary y=1; original schematic, not to scale</title><rect width=\"420\" height=\"300\" fill=\"white\"/><path d=\"M40 260H390 M40 280V20\" fill=\"none\" stroke=\"#666\"/><polygon points=\"40,225 310,225 130,85\" fill=\"#def0e7\" stroke=\"#226b57\" stroke-width=\"2\"/><text x=\"45\" y=\"218\" font-size=\"13\">A</text><text x=\"315\" y=\"218\" font-size=\"13\">B</text><text x=\"135\" y=\"78\" font-size=\"13\">C</text><text x=\"390\" y=\"250\">x</text><text x=\"50\" y=\"20\">y</text></svg>"
+  }
+]

@@ -1,0 +1,891 @@
+{
+  "checks": [
+    {
+      "questionId": "P3-C05-R01",
+      "check": "对数真数方程化简",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R02",
+      "check": "9小时阈值",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R03",
+      "check": "幂模型两数据",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R04",
+      "check": "三测量指数预测",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R05",
+      "check": "交点二次式",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R06",
+      "check": "两个绝对对数根",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R07",
+      "check": "8年达到600",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R08",
+      "check": "相等5日后的比率",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R09",
+      "check": "根式方程真数",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R10",
+      "check": "环境温度三点恒等",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R11",
+      "check": "两对数相差1的根",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R12",
+      "check": "输出90阈值",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R13",
+      "check": "两指数根",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R14",
+      "check": "单位改变截距",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R15",
+      "check": "原模型x=-1",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R16",
+      "check": "半衰期质量比",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R17",
+      "check": "判别式临界",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R18",
+      "check": "有效对数根",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R19",
+      "check": "完成平方",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R20",
+      "check": "对数斜率换底",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R21",
+      "check": "乘积配方",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R22",
+      "check": "模型A到达3倍",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R23",
+      "check": "反函数原函数值",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R24",
+      "check": "90阈值",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R25",
+      "check": "两传感器换底",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R26",
+      "check": "平方关系",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R27",
+      "check": "二次真数关系",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R28",
+      "check": "时间迁移后的6时面积",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R29",
+      "check": "三数据模型",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C05-R30",
+      "check": "不等式右边界",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R01",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R02",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R03",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R04",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R05",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R06",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R07",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R08",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R09",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R10",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R11",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R12",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R13",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R14",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R15",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R16",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R17",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R18",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R19",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R20",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R21",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R22",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R23",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R24",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R25",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R26",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R27",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R28",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R29",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R30",
+      "check": "独立符号求导验证",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R14",
+      "check": "梯度24对应(3,8)",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R24",
+      "check": "同横坐标两切线垂直条件",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C06-R27",
+      "check": "水平线对应二次方程",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R01",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R02",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R03",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R04",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R05",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R06",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R07",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R08",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R09",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R10",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R11",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R12",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R13",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R14",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R15",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R16",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R17",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R18",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R19",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R20",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R21",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R22",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R23",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R24",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R25",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R26",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R27",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R28",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R29",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C07-R30",
+      "check": "独立数值积分核对解析答案",
+      "passed": true
+    },
+    {
+      "questionId": "P3-C08-R01",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.7392038612166938,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -5,
+        3
+      ]
+    },
+    {
+      "questionId": "P3-C08-R02",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.5671432904097838,
+      "bracket": [
+        0,
+        1
+      ],
+      "endpointValues": [
+        1.0,
+        -0.6321205588285577
+      ]
+    },
+    {
+      "questionId": "P3-C08-R03",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.0298665293222589,
+      "bracket": [
+        0,
+        1.5707963267948966
+      ],
+      "endpointValues": [
+        1.0,
+        -0.7853981633974482
+      ]
+    },
+    {
+      "questionId": "P3-C08-R04",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 2.2079400315693243,
+      "bracket": [
+        2,
+        3
+      ],
+      "endpointValues": [
+        -0.3068528194400546,
+        1.09861228866811
+      ]
+    },
+    {
+      "questionId": "P3-C08-R05",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.7284663189971772,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -1.8414709848078965,
+        1.0907025731743183
+      ]
+    },
+    {
+      "questionId": "P3-C08-R06",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.7692923542386316,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -3,
+        2
+      ]
+    },
+    {
+      "questionId": "P3-C08-R07",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.5121345516578426,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -0.2817181715409549,
+        1.3890560989306504
+      ]
+    },
+    {
+      "questionId": "P3-C08-R08",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.841097058450079,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -3.0,
+        0.6931471805599454
+      ]
+    },
+    {
+      "questionId": "P3-C08-R09",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.7408409550954891,
+      "bracket": [
+        0,
+        1.5707963267948966
+      ],
+      "endpointValues": [
+        -0.5,
+        1.0707963267948966
+      ]
+    },
+    {
+      "questionId": "P3-C08-R10",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.6974718808441553,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -8,
+        8
+      ]
+    },
+    {
+      "questionId": "P3-C08-R11",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.3140968043349732,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -1.0,
+        2.6931471805599454
+      ]
+    },
+    {
+      "questionId": "P3-C08-R12",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.6783469900166605,
+      "bracket": [
+        1,
+        3
+      ],
+      "endpointValues": [
+        0.23575888234288467,
+        -0.3008517265285442
+      ]
+    },
+    {
+      "questionId": "P3-C08-R13",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.1655611852072105,
+      "bracket": [
+        1,
+        1.4
+      ],
+      "endpointValues": [
+        -0.4425922753450977,
+        2.997883715482887
+      ]
+    },
+    {
+      "questionId": "P3-C08-R14",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.6977192054518182,
+      "bracket": [
+        0,
+        1
+      ],
+      "endpointValues": [
+        1.2,
+        -0.4321205588285577
+      ]
+    },
+    {
+      "questionId": "P3-C08-R15",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 2.114907541476756,
+      "bracket": [
+        2,
+        3
+      ],
+      "endpointValues": [
+        -1,
+        14
+      ]
+    },
+    {
+      "questionId": "P3-C08-R16",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.3282688556686084,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -2,
+        7
+      ]
+    },
+    {
+      "questionId": "P3-C08-R17",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.2564312086261697,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        0.09861228866810978,
+        -0.3905620875658997
+      ]
+    },
+    {
+      "questionId": "P3-C08-R18",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.7034674224983917,
+      "bracket": [
+        0,
+        1
+      ],
+      "endpointValues": [
+        -1.0,
+        0.6321205588285577
+      ]
+    },
+    {
+      "questionId": "P3-C08-R19",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 2.2788626600758284,
+      "bracket": [
+        2,
+        3
+      ],
+      "endpointValues": [
+        0.24263076015901508,
+        -0.8588799919401328
+      ]
+    },
+    {
+      "questionId": "P3-C08-R20",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.226339353087708,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -2,
+        30
+      ]
+    },
+    {
+      "questionId": "P3-C08-R21",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.8526055020137255,
+      "bracket": [
+        0,
+        1
+      ],
+      "endpointValues": [
+        -2.0,
+        0.7182818284590451
+      ]
+    },
+    {
+      "questionId": "P3-C08-R22",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.14327732183964292,
+      "bracket": [
+        0,
+        0.2
+      ],
+      "endpointValues": [
+        1,
+        -0.3920000000000001
+      ]
+    },
+    {
+      "questionId": "P3-C08-R23",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 4.263027510068629,
+      "bracket": [
+        4,
+        5
+      ],
+      "endpointValues": [
+        0.04932896411722154,
+        -0.13212055882855767
+      ]
+    },
+    {
+      "questionId": "P3-C08-R24",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.2834287417457653,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -0.5403023058681398,
+        1.4161468365471424
+      ]
+    },
+    {
+      "questionId": "P3-C08-R25",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 2.2055694304005895,
+      "bracket": [
+        2,
+        3
+      ],
+      "endpointValues": [
+        -1,
+        8
+      ]
+    },
+    {
+      "questionId": "P3-C08-R26",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.3140968043349732,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -1.0,
+        2.6931471805599454
+      ]
+    },
+    {
+      "questionId": "P3-C08-R27",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 0.641714370872882,
+      "bracket": [
+        0,
+        1
+      ],
+      "endpointValues": [
+        1.0,
+        -0.7080734182735711
+      ]
+    },
+    {
+      "questionId": "P3-C08-R28",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 2.031241312842031,
+      "bracket": [
+        2,
+        3
+      ],
+      "endpointValues": [
+        -0.07944154167983575,
+        3.704163133995671
+      ]
+    },
+    {
+      "questionId": "P3-C08-R29",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.0737289375564991,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -0.2817181715409549,
+        5.38905609893065
+      ]
+    },
+    {
+      "questionId": "P3-C08-R30",
+      "check": "独立原方程根残差",
+      "passed": true,
+      "root": 1.5376561716984192,
+      "bracket": [
+        1,
+        2
+      ],
+      "endpointValues": [
+        -4,
+        6
+      ]
+    }
+  ],
+  "passed": 123,
+  "total": 123
+}

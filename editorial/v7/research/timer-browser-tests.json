@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "wholepaper PDF opens",
+    "manual start required",
+    "counts upward",
+    "pause freezes",
+    "close pauses",
+    "official answers PDF opens",
+    "samepaper retains elapsed",
+    "reset zero and pauses",
+    "timer visible mobile",
+    "canvas has positive remainingheight",
+    "shuffle remains same stage",
+    "no uncaught exceptions"
+  ],
+  "errors": []
+}

@@ -1,0 +1,607 @@
+{
+  "questions": 120,
+  "independent_math_checks": 120,
+  "checks": [
+    {
+      "id": "P2-C01-R01",
+      "result": "pass",
+      "check": "联立参数后的分解与负判别式"
+    },
+    {
+      "id": "P2-C01-R02",
+      "result": "pass",
+      "check": "两余式及反例多项式"
+    },
+    {
+      "id": "P2-C01-R03",
+      "result": "pass",
+      "check": "偶四次参数、余式、因式"
+    },
+    {
+      "id": "P2-C01-R04",
+      "result": "pass",
+      "check": "非首一因式除法"
+    },
+    {
+      "id": "P2-C01-R05",
+      "result": "pass",
+      "check": "复合函数所用输入值及余式"
+    },
+    {
+      "id": "P2-C01-R06",
+      "result": "pass",
+      "check": "由切线与根确定的重根结构"
+    },
+    {
+      "id": "P2-C01-R07",
+      "result": "pass",
+      "check": "奇偶/模3分类的数值交叉核验；48反例"
+    },
+    {
+      "id": "P2-C01-R08",
+      "result": "pass",
+      "check": "列完所有正整数三元组"
+    },
+    {
+      "id": "P2-C01-R09",
+      "result": "pass",
+      "check": "奇平方和余2恒等式"
+    },
+    {
+      "id": "P2-C01-R10",
+      "result": "pass",
+      "check": "非负平方和含倒数推论的母恒等式"
+    },
+    {
+      "id": "P2-C01-R11",
+      "result": "pass",
+      "check": "四次整除恒等式及24反例"
+    },
+    {
+      "id": "P2-C01-R12",
+      "result": "pass",
+      "check": "合数结构及完整负整数素数例"
+    },
+    {
+      "id": "P2-C01-R13",
+      "result": "pass",
+      "check": "三根反例的精确因式"
+    },
+    {
+      "id": "P2-C01-R14",
+      "result": "pass",
+      "check": "积分参数与符号区间"
+    },
+    {
+      "id": "P2-C01-R15",
+      "result": "pass",
+      "check": "奇部分恒等式与两个余式"
+    },
+    {
+      "id": "P2-C01-R16",
+      "result": "pass",
+      "check": "三角形非退化条件的完整穷举"
+    },
+    {
+      "id": "P2-C01-R17",
+      "result": "pass",
+      "check": "对称根结构"
+    },
+    {
+      "id": "P2-C01-R18",
+      "result": "pass",
+      "check": "二次余式与给定商恢复"
+    },
+    {
+      "id": "P2-C01-R19",
+      "result": "pass",
+      "check": "平方除4余式和非平方目标交叉核验"
+    },
+    {
+      "id": "P2-C01-R20",
+      "result": "pass",
+      "check": "间隔立方差与整数范围"
+    },
+    {
+      "id": "P2-C01-R21",
+      "result": "pass",
+      "check": "水平线交点二重根"
+    },
+    {
+      "id": "P2-C01-R22",
+      "result": "pass",
+      "check": "除变量导致遗漏两根"
+    },
+    {
+      "id": "P2-C01-R23",
+      "result": "pass",
+      "check": "参数三次式精确根及二次代换"
+    },
+    {
+      "id": "P2-C01-R24",
+      "result": "pass",
+      "check": "全称非负参数必要充分条件"
+    },
+    {
+      "id": "P2-C01-R25",
+      "result": "pass",
+      "check": "数字约束完整范围"
+    },
+    {
+      "id": "P2-C01-R26",
+      "result": "pass",
+      "check": "三角代换对应三可达根"
+    },
+    {
+      "id": "P2-C01-R27",
+      "result": "pass",
+      "check": "全新多项式及指数代换正值限制"
+    },
+    {
+      "id": "P2-C01-R28",
+      "result": "pass",
+      "check": "积分重建与因式验证"
+    },
+    {
+      "id": "P2-C01-R29",
+      "result": "pass",
+      "check": "约束平方证明与反例"
+    },
+    {
+      "id": "P2-C01-R30",
+      "result": "pass",
+      "check": "因式符号及面积精确积分"
+    },
+    {
+      "id": "P2-C02-R01",
+      "result": "pass",
+      "check": "直径中点半径与切线交点"
+    },
+    {
+      "id": "P2-C02-R02",
+      "result": "pass",
+      "check": "水平弦与两切线交点"
+    },
+    {
+      "id": "P2-C02-R03",
+      "result": "pass",
+      "check": "参数切线判别式与切线长"
+    },
+    {
+      "id": "P2-C02-R04",
+      "result": "pass",
+      "check": "圆心轨迹及第二交点"
+    },
+    {
+      "id": "P2-C02-R05",
+      "result": "pass",
+      "check": "参数圆固定半径恒等式"
+    },
+    {
+      "id": "P2-C02-R06",
+      "result": "pass",
+      "check": "等距圆心与B切线"
+    },
+    {
+      "id": "P2-C02-R07",
+      "result": "pass",
+      "check": "反求接触点与对径切线"
+    },
+    {
+      "id": "P2-C02-R08",
+      "result": "pass",
+      "check": "圆与抛物线联立的四次因式"
+    },
+    {
+      "id": "P2-C02-R09",
+      "result": "pass",
+      "check": "切轴圆及两个轴交点"
+    },
+    {
+      "id": "P2-C02-R10",
+      "result": "pass",
+      "check": "垂直边向量及直径圆"
+    },
+    {
+      "id": "P2-C02-R11",
+      "result": "pass",
+      "check": "由弦长及圆心距离反求半径"
+    },
+    {
+      "id": "P2-C02-R12",
+      "result": "pass",
+      "check": "公共弦两圆核验"
+    },
+    {
+      "id": "P2-C02-R13",
+      "result": "pass",
+      "check": "参数直线相切判别式"
+    },
+    {
+      "id": "P2-C02-R14",
+      "result": "pass",
+      "check": "双切线交点及正方形邻边垂直"
+    },
+    {
+      "id": "P2-C02-R15",
+      "result": "pass",
+      "check": "参数圆正半径条件母恒等式"
+    },
+    {
+      "id": "P2-C02-R16",
+      "result": "pass",
+      "check": "无理直径端点"
+    },
+    {
+      "id": "P2-C02-R17",
+      "result": "pass",
+      "check": "接触弦横坐标及切点圆上性"
+    },
+    {
+      "id": "P2-C02-R18",
+      "result": "pass",
+      "check": "平移圆心及直径端点"
+    },
+    {
+      "id": "P2-C02-R19",
+      "result": "pass",
+      "check": "对径点、切线、切线段长"
+    },
+    {
+      "id": "P2-C02-R20",
+      "result": "pass",
+      "check": "垂直切线确定圆及中点内含"
+    },
+    {
+      "id": "P2-C02-R21",
+      "result": "pass",
+      "check": "矩形外接圆和切线三角形面积"
+    },
+    {
+      "id": "P2-C02-R22",
+      "result": "pass",
+      "check": "参数点与轴截距三角形"
+    },
+    {
+      "id": "P2-C02-R23",
+      "result": "pass",
+      "check": "唯一切线与割线反例"
+    },
+    {
+      "id": "P2-C02-R24",
+      "result": "pass",
+      "check": "参数直径确定方程"
+    },
+    {
+      "id": "P2-C02-R25",
+      "result": "pass",
+      "check": "给定弦长与两个水平位置"
+    },
+    {
+      "id": "P2-C02-R26",
+      "result": "pass",
+      "check": "圆最高点形成直线下方面积"
+    },
+    {
+      "id": "P2-C02-R27",
+      "result": "pass",
+      "check": "圆半径负倒数与抛物线导数相等"
+    },
+    {
+      "id": "P2-C02-R28",
+      "result": "pass",
+      "check": "直径圆轴交点与垂直验证"
+    },
+    {
+      "id": "P2-C02-R29",
+      "result": "pass",
+      "check": "切线截距面积及面积比"
+    },
+    {
+      "id": "P2-C02-R30",
+      "result": "pass",
+      "check": "参数外点位置边界和切线长度"
+    },
+    {
+      "id": "P2-C03-R01",
+      "result": "pass",
+      "check": "平移指数曲线及反射点"
+    },
+    {
+      "id": "P2-C03-R02",
+      "result": "pass",
+      "check": "指数二次代换双正根"
+    },
+    {
+      "id": "P2-C03-R03",
+      "result": "pass",
+      "check": "乘积对数定义域及根式解"
+    },
+    {
+      "id": "P2-C03-R04",
+      "result": "pass",
+      "check": "增长连续阈值与第7次检查"
+    },
+    {
+      "id": "P2-C03-R05",
+      "result": "pass",
+      "check": "带背景衰减反解"
+    },
+    {
+      "id": "P2-C03-R06",
+      "result": "pass",
+      "check": "对数与差值联立的正根"
+    },
+    {
+      "id": "P2-C03-R07",
+      "result": "pass",
+      "check": "变底数方程的唯一合法根"
+    },
+    {
+      "id": "P2-C03-R08",
+      "result": "pass",
+      "check": "对数素因数与换底"
+    },
+    {
+      "id": "P2-C03-R09",
+      "result": "pass",
+      "check": "两指数曲线唯一交点值"
+    },
+    {
+      "id": "P2-C03-R10",
+      "result": "pass",
+      "check": "负指数目标舍去"
+    },
+    {
+      "id": "P2-C03-R11",
+      "result": "pass",
+      "check": "互为倒数对数的两个根"
+    },
+    {
+      "id": "P2-C03-R12",
+      "result": "pass",
+      "check": "双基金相等时刻及下一整数年"
+    },
+    {
+      "id": "P2-C03-R13",
+      "result": "pass",
+      "check": "原图与平移图交点"
+    },
+    {
+      "id": "P2-C03-R14",
+      "result": "pass",
+      "check": "商对数唯一合法根"
+    },
+    {
+      "id": "P2-C03-R15",
+      "result": "pass",
+      "check": "两点指数模型参数与100阈值"
+    },
+    {
+      "id": "P2-C03-R16",
+      "result": "pass",
+      "check": "对数和望远镜乘积与严格阈值"
+    },
+    {
+      "id": "P2-C03-R17",
+      "result": "pass",
+      "check": "指数分式及平方指数值"
+    },
+    {
+      "id": "P2-C03-R18",
+      "result": "pass",
+      "check": "对数幂模型和百分比"
+    },
+    {
+      "id": "P2-C03-R19",
+      "result": "pass",
+      "check": "60%保留率与半衰期"
+    },
+    {
+      "id": "P2-C03-R20",
+      "result": "pass",
+      "check": "变底数双根及根指数和"
+    },
+    {
+      "id": "P2-C03-R21",
+      "result": "pass",
+      "check": "下降曲线截距与上界"
+    },
+    {
+      "id": "P2-C03-R22",
+      "result": "pass",
+      "check": "乘积对数与拆分对数定义域差异"
+    },
+    {
+      "id": "P2-C03-R23",
+      "result": "pass",
+      "check": "指数参数为常数系数的幂积分"
+    },
+    {
+      "id": "P2-C03-R24",
+      "result": "pass",
+      "check": "等差对数的根及正公差条件"
+    },
+    {
+      "id": "P2-C03-R25",
+      "result": "pass",
+      "check": "指数二次不等式边界"
+    },
+    {
+      "id": "P2-C03-R26",
+      "result": "pass",
+      "check": "对数标度差到强度比"
+    },
+    {
+      "id": "P2-C03-R27",
+      "result": "pass",
+      "check": "相邻两项首次超过1000的整数索引"
+    },
+    {
+      "id": "P2-C03-R28",
+      "result": "pass",
+      "check": "带反射指数截距和水平线对称点"
+    },
+    {
+      "id": "P2-C03-R29",
+      "result": "pass",
+      "check": "精确指数解分母的对数正号"
+    },
+    {
+      "id": "P2-C03-R30",
+      "result": "pass",
+      "check": "带背景温度插值及严格阈值"
+    },
+    {
+      "id": "P2-C04-R01",
+      "result": "pass",
+      "check": "参数系数及乘积三次项"
+    },
+    {
+      "id": "P2-C04-R02",
+      "result": "pass",
+      "check": "消项参数及下一系数"
+    },
+    {
+      "id": "P2-C04-R03",
+      "result": "pass",
+      "check": "正负幂常数及比值"
+    },
+    {
+      "id": "P2-C04-R04",
+      "result": "pass",
+      "check": "偶幂恒等式"
+    },
+    {
+      "id": "P2-C04-R05",
+      "result": "pass",
+      "check": "三次截断精确近似"
+    },
+    {
+      "id": "P2-C04-R06",
+      "result": "pass",
+      "check": "未知指数参数与系数"
+    },
+    {
+      "id": "P2-C04-R07",
+      "result": "pass",
+      "check": "完整二项展开的积分"
+    },
+    {
+      "id": "P2-C04-R08",
+      "result": "pass",
+      "check": "重组乘积的三个系数"
+    },
+    {
+      "id": "P2-C04-R09",
+      "result": "pass",
+      "check": "仿射代换与单反射不同"
+    },
+    {
+      "id": "P2-C04-R10",
+      "result": "pass",
+      "check": "偶奇系数和"
+    },
+    {
+      "id": "P2-C04-R11",
+      "result": "pass",
+      "check": "几何体积反向变化抵消一次项"
+    },
+    {
+      "id": "P2-C04-R12",
+      "result": "pass",
+      "check": "复合二次内部式的目标系数"
+    },
+    {
+      "id": "P2-C04-R13",
+      "result": "pass",
+      "check": "不存在常数项及可达幂"
+    },
+    {
+      "id": "P2-C04-R14",
+      "result": "pass",
+      "check": "未知n及倒幂变换"
+    },
+    {
+      "id": "P2-C04-R15",
+      "result": "pass",
+      "check": "由系数符号确定参数并取奇项差"
+    },
+    {
+      "id": "P2-C04-R16",
+      "result": "pass",
+      "check": "对称差完整余项"
+    },
+    {
+      "id": "P2-C04-R17",
+      "result": "pass",
+      "check": "倒数对称展开"
+    },
+    {
+      "id": "P2-C04-R18",
+      "result": "pass",
+      "check": "符号筛选参数和乘积"
+    },
+    {
+      "id": "P2-C04-R19",
+      "result": "pass",
+      "check": "等差条件参数与降次证明"
+    },
+    {
+      "id": "P2-C04-R20",
+      "result": "pass",
+      "check": "原点驻点和二阶导数符号"
+    },
+    {
+      "id": "P2-C04-R21",
+      "result": "pass",
+      "check": "展开后线性组合积分"
+    },
+    {
+      "id": "P2-C04-R22",
+      "result": "pass",
+      "check": "比值参数与乘积高次项"
+    },
+    {
+      "id": "P2-C04-R23",
+      "result": "pass",
+      "check": "一三次系数相等的根式参数"
+    },
+    {
+      "id": "P2-C04-R24",
+      "result": "pass",
+      "check": "截断余项精确因式"
+    },
+    {
+      "id": "P2-C04-R25",
+      "result": "pass",
+      "check": "双参数积的符号不变量"
+    },
+    {
+      "id": "P2-C04-R26",
+      "result": "pass",
+      "check": "外部幂移动目标项"
+    },
+    {
+      "id": "P2-C04-R27",
+      "result": "pass",
+      "check": "系数等比条件的不可能性"
+    },
+    {
+      "id": "P2-C04-R28",
+      "result": "pass",
+      "check": "三角二次代换两个根与可行性"
+    },
+    {
+      "id": "P2-C04-R29",
+      "result": "pass",
+      "check": "二项式导数全局正号"
+    },
+    {
+      "id": "P2-C04-R30",
+      "result": "pass",
+      "check": "几何百分比的精确余项"
+    }
+  ],
+  "limitations": "Symbolic/numeric checks support the written proofs; no external examiner review is claimed. All sources pre-2024; all authored items are 2026 adaptations."
+}

@@ -11,3 +11,5 @@
 新题库保留题号与历史收藏/已做状态；旧已做不代表已完成新题。所有核查为内部复核，未完成外部教师逐题审阅。网站不提供在线作答或自动判分。
 
 第9版：中文思路与有序解题步骤、47处局部英文措辞规范化、个人文字备注及收藏摘要。题号、阶段与题量保留；三处答案纠错见editorial/v9/corrections.json。重建使用scripts/build-v9-bank.py。云端备注需项目所有者执行backend/005-question-notes.sql，管理员页面notes-setup.html提供复制SQL及状态检查。
+
+当前网站视觉：V10（清澜山G10青云班校园视觉），内容修订仍为V9。美化前V9已固定在提交`925f75d16adf2b40bb58d951a78c13ee47b2709f`及分支`archive/v9-before-tsinglan-design-20261021`，回退说明见releases/README.md。校园图为本地AI意象资源，非实景照片；官网参考与图像说明见design.html。

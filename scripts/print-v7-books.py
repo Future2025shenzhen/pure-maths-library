@@ -1,8 +1,8 @@
 from pathlib import Path
-import json,html,re,asyncio,shutil
+import json,html,re,asyncio,shutil,os
 from playwright.async_api import async_playwright
 import fitz
-ROOT=Path(__file__).resolve().parents[1];R=ROOT/'editorial/v7';P=ROOT/'dist';OUT=ROOT/'exported-v7';OUT.mkdir(exist_ok=True,parents=True);(OUT/'分章题册').mkdir(exist_ok=True)
+ROOT=Path(__file__).resolve().parents[1];R=ROOT/'editorial/v7';P=ROOT/'dist';OUT=ROOT/'exported-v8';OUT.mkdir(exist_ok=True,parents=True);(OUT/'分章题册').mkdir(exist_ok=True)
 D=json.loads((P/'data/bank.json').read_text());TMP=P/'print-v7';TMP.mkdir(exist_ok=True)
 def fmt(s):return re.sub(r'\$\$[\s\S]*?\$\$|\$[^$]*\$',lambda m:html.escape(m[0]),str(s))
 def part(p,i,answer=False,sub=False):
@@ -15,24 +15,24 @@ CSS='''@page{size:A4;margin:17mm 17mm 19mm}*{box-sizing:border-box}body{margin:0
 books=[]
 for st,cs in D['chapters'].items():
  for ch in cs:
-  key=f'{st}-C{ch["id"]:02d}';qs=[q for q in D['questions'] if q['stage']==st and q['chapters'][0]==ch['id']];assert len(qs)==30
-  body=f'<section class="cover"><p>Pure Mathematics {st[-1]} · Original adaptations · 2026</p><h1>Chapter {ch["id"]}<br>{ch["title"]}</h1><p>{ch["zh"]} · 30 questions with Chinese solutions</p><p>Answer all parts. Show sufficient working.<br>Give exact answers unless a degree of accuracy is requested.<br>Diagrams are not necessarily drawn to scale.</p><p>考法参照2024年前历年真题，题目与配图实质改编。<br>本册不是Pearson原卷；建议评分点非官方评分标准。<br>第7版 · 内部检查稿，未完成外部教师逐题审阅。</p></section>'
+  key=f'{st}-C{ch["id"]:02d}';qs=[q for q in D['questions'] if q['stage']==st and q['chapters'][0]==ch['id']];assert len(qs)>=30
+  body=f'<section class="cover"><p>Pure Mathematics {st[-1]} · Original adaptations · 2026</p><h1>Chapter {ch["id"]}<br>{ch["title"]}</h1><p>{ch["zh"]} · {len(qs)} questions with Chinese solutions</p><p>Answer all parts. Show sufficient working.<br>Give exact answers unless a degree of accuracy is requested.<br>Diagrams are not necessarily drawn to scale.</p><p>考法参照2024年前历年真题，题目与配图实质改编。<br>本册不是Pearson原卷；建议评分点非官方评分标准。<br>第8版 · 内部检查稿，未完成外部教师逐题审阅。</p></section>'
   for q in qs:
-   body+=f'<section class="q"><header class="qhead"><b>{q["originalNumber"]}.</b><span>{q["id"]} · {st} Chapter {ch["id"]}</span></header><div class="stem">{fmt(q["stem"])}</div>'+''.join(part(a,i) for i,a in enumerate(q['parts']))+f'<p class="total">Total for Question {q["originalNumber"]}: {q["marks"]} marks</p></section>'
+   body+=f'<section class="q"><header class="qhead"><b>{q["originalNumber"]}.</b><span>{q["id"]} · {st} · 第{"、".join(map(str,sorted(q["chapters"]))) }章{" · 提高题" if q.get("difficulty")=="challenge" else ""}</span></header><div class="stem">{fmt(q["stem"])}</div>'+''.join(part(a,i) for i,a in enumerate(q['parts']))+f'<p class="total">Total for Question {q["originalNumber"]}: {q["marks"]} marks</p></section>'
   body+='<section class="cover"><h1>Answers and Suggested<br>Mark Schemes</h1><p>中文答案、解析与原创建议评分点</p></section>'
   for q in qs:
    refs='；'.join(f'{r["questionId"]}（{r["year"]}）：{r.get("note","")}' for r in q['sourceReferences'])
    body+=f'<section class="answer"><header class="qhead"><b>Answer {q["originalNumber"]}</b><span>{q["id"]}</span></header><p class="provenance">原创改编（2026） · 主要考点：{html.escape("、".join(q["topics"]))}<br>考法参照：{html.escape(refs)}<br>{html.escape(q["adaptationNote"])}</p>'+''.join(part(a,i,True) for i,a in enumerate(q['parts']))+'</section>'
   page='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>'+key+'</title><link rel="stylesheet" href="../assets/katex/katex.min.css"><script src="../assets/katex/katex.min.js"></script><script src="../assets/katex/contrib/auto-render.min.js"></script><style>'+CSS+'</style><body>'+body+'<script type="module">import {improveMath,renderMath} from "../math-format.js";for(const e of document.querySelectorAll(".stem,.part>div,.group>p,.apart"))e.innerHTML=improveMath(e.innerHTML);renderMath(document.body);document.documentElement.dataset.ready="yes";</script></body></html>'
-  (TMP/(key+'.html')).write_text(page);books.append({'stage':st,'chapter':ch['id'],'key':key,'zh':ch['zh']})
+  (TMP/(key+'.html')).write_text(page);books.append({'stage':st,'chapter':ch['id'],'key':key,'zh':ch['zh'],'count':len(qs)})
 async def run():
  async with async_playwright() as p:
   browser=await p.chromium.launch(**({'executable_path':'/usr/bin/chromium'} if Path('/usr/bin/chromium').exists() else {}),headless=True,args=['--no-sandbox']);sem=asyncio.Semaphore(3)
   async def one(b):
    async with sem:
-    page=await browser.new_page();await page.goto('http://localhost:4173/print-v7/'+b['key']+'.html');await page.wait_for_selector('html[data-ready=yes]');await page.evaluate('document.fonts.ready');assert await page.locator('.q').count()==30;assert await page.locator('.answer').count()==30;assert await page.locator('.katex-error').count()==0
-    path=OUT/'分章题册'/(b['key']+'-'+b['zh']+'.pdf');await page.pdf(path=str(path),format='A4',print_background=True,prefer_css_page_size=True);await page.close();doc=fitz.open(path);text='\n'.join(p.get_text() for p in doc);assert len(re.findall(r'P[123]-C\d{2}-R\d{2}',text))==60,(b['key'],'ID count');b['pages']=len(doc);doc.close();shutil.copy2(path,P/'assets/rewrite-books'/(b['key']+'.pdf'));print(b['key'],b['pages'],'pages',flush=True)
-  await asyncio.gather(*(one(b) for b in books));await browser.close()
+    page=await browser.new_page();await page.goto('http://localhost:4173/print-v7/'+b['key']+'.html');await page.wait_for_selector('html[data-ready=yes]');await page.evaluate('document.fonts.ready');assert await page.locator('.q').count()==b['count'];assert await page.locator('.answer').count()==b['count'];assert await page.locator('.katex-error').count()==0
+    path=OUT/'分章题册'/(b['key']+'-'+b['zh']+'.pdf');await page.pdf(path=str(path),format='A4',print_background=True,prefer_css_page_size=True);await page.close();doc=fitz.open(path);text='\n'.join(p.get_text() for p in doc);assert len(re.findall(r'P[123]-C\d{2}-R\d{2}',text))==b['count']*2,(b['key'],'ID count');b['pages']=len(doc);doc.close();shutil.copy2(path,P/'assets/rewrite-books'/(b['key']+'.pdf'));print(b['key'],b['pages'],'pages',flush=True)
+  await asyncio.gather(*(one(b) for b in books if not os.environ.get('ONLY_CHAPTER') or b['key']==os.environ['ONLY_CHAPTER']));await browser.close()
 asyncio.run(run())
 for st in D['chapters']:
  doc=fitz.open();toc=[]

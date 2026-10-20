@@ -10,7 +10,7 @@
 
 1. 在 https://supabase.com/dashboard 创建专用于本题库的 Free 项目。数据库密码由你自己设置并保存，不要发送给别人。可选靠近用户的区域；国内访问需要实际测试。
 2. 在 Authentication 的 Email 登录设置中保留 Email provider，**关闭 Confirm email**，允许新用户注册；将最低密码长度设为 **12**。本应用对用户提供昵称/密码表单，内部把规范化昵称的 SHA-256 映射到保留域名的账户标识，**不发送邮件**。请不要把此方案混用于已有其他用户体系的项目。
-3. 在 SQL Editor 执行 `001-accounts.sql`，再执行 `002-question-catalog.sql`。也可一次执行交付包中的合并版 `初始化数据库.sql`。这将建立表、行级隔离、受限接口及1073个正式题号。
+3. 在 SQL Editor 执行 `001-accounts.sql`，再执行 `002-question-catalog.sql`。也可一次执行交付包中的合并版 `初始化数据库.sql`。这将建立表、行级隔离、受限接口及1093个正式题号（含第8版20道提高题）。
 4. 复制项目的 **Project URL** 和 **publishable key**（旧项目可用 anon 公共密钥），填入 `dist/account-config.json`，将 enabled 改为 true。此两项是前端公开配置，不是数据库密码。**绝不能填写 service_role、sb_secret、数据库密码或个人访问令牌。** 本项目也不需要这些私密密钥。
 5. 发布到 GitHub Pages。打开 `account.html` 注册自己的昵称和密码；随后在 SQL Editor 执行 `003-grant-admin.sql`，替换其中的昵称为自己刚注册的昵称。普通注册者不会自动成为管理员。重新登录后在个人账户进入管理员后台。
 
@@ -58,3 +58,7 @@ GitHub Pages 与代码仓库当前公开，登录限制保护账户记录与界�
 17项浏览器集成检查：实际本地PostgreSQL接口搭配模拟Supabase Auth的HTTP测试，覆盖注册登录、独立浏览器跨设备读写、练习卷同步、切换账户、旧记录导入、密码修改、管理员和手机布局。
 
 测试不等于真实Supabase项目已上线。首次开通后仍需在真实项目中验证注册、普通用户隔离、第二设备同步、管理员权限，以及国内连接。
+
+
+## 第8版追加20道提高题
+已有项目无需重跑001或管理员授权。在SQL Editor执行004-challenge-catalog.sql，只添加20个新题号。执行后即可云端收藏/标记新题及保存含新题的练习卷。浏览与答案不受此步骤影响。全新项目运行002时已包含这些题号。

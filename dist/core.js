@@ -22,7 +22,7 @@ export function filterQuestions(data,filters,state){
   if(filters.status==='done'&&!state.done.includes(q.id))return false;
   if(filters.status==='undone'&&state.done.includes(q.id))return false;
   if(filters.savedOnly&&!state.saved.includes(q.id))return false;
-  if(needle){const cs=data.chapters[q.stage].filter(c=>(q.chapterLinks||q.chapters).includes(c.id));const hay=[q.id,q.type,q.stem,...q.parts.flatMap(p=>[p.text,...(p.subparts||[]).map(s=>s.text)]),...cs.flatMap(c=>[c.title,c.zh,c.scope]),...q.topics].join(' ').toLowerCase();if(!hay.includes(needle))return false;}
+  if(needle){const cs=data.chapters[q.stage].filter(c=>(q.chapterLinks||q.chapters).includes(c.id));const hay=[q.id,q.type,q.difficulty==='challenge'?'提高题 challenge':'',q.stem,...q.parts.flatMap(p=>[p.text,...(p.subparts||[]).map(s=>s.text)]),...cs.flatMap(c=>[c.title,c.zh,c.scope]),...q.topics].join(' ').toLowerCase();if(!hay.includes(needle))return false;}
   return true;
  });
 }
@@ -48,7 +48,7 @@ export function composePaper(data,{stage,chapters=[],count=5,full=false},state,r
   nodes++;if(nodes>maxNodes)return null;
   if(sum===75){if(picked.length>=limits[0]&&picked.length<=limits[1]&&selected.every(c=>covered.has(c)))return picked;return null;}
   if(sum>75||picked.length>=limits[1]||pool.length-idx<limits[0]-picked.length)return null;
-  const remaining=limits[1]-picked.length;if(sum+remaining*10<75)return null;
+  const remaining=limits[1]-picked.length;if(sum+remaining*Math.max(...pool.map(q=>q.marks))<75)return null;
   for(let i=idx;i<pool.length;i++){
    const q=pool[i],primary=q.chapters[0];
    if(sum+q.marks>75||(groups.get(primary)||0)>=2||(types.get(q.type)||0)>=3)continue;
@@ -62,7 +62,31 @@ export function composePaper(data,{stage,chapters=[],count=5,full=false},state,r
  };
  // Prioritize stronger integrated questions, while retaining random order within a mark band.
  pool.sort((a,b)=>b.marks-a.marks);
- const result=dfs(0,[],0,new Map(),new Map(),new Set());
+ // Cover each primary chapter once before filling the remaining mark total.
+ // This avoids exhausting the search on many equivalent high-mark combinations.
+ let sums=new Map([[0,[]]]);
+ for(const chapter of selected){
+  const next=new Map();
+  for(const [sum,chosen] of sums)for(const q of pool.filter(q=>q.chapters[0]===chapter)){
+   const total=sum+q.marks;if(total>75||next.has(total)||chosen.filter(a=>a.type===q.type).length>=3)continue;
+   next.set(total,[...chosen,q]);
+  }
+  sums=next;
+ }
+ function fill(chosen,needed,slots,start=0){
+  if(!slots)return needed===0?chosen:null;
+  if(needed<=0)return null;
+  for(let i=start;i<pool.length;i++){
+   const q=pool[i];if(q.marks>needed||chosen.includes(q)||chosen.filter(a=>a.chapters[0]===q.chapters[0]).length>=2||chosen.filter(a=>a.type===q.type).length>=3)continue;
+   const found=fill([...chosen,q],needed-q.marks,slots-1,i+1);if(found)return found;
+  }
+  return null;
+ }
+ let result=null;
+ for(let count=limits[0];count<=limits[1]&&!result;count++)for(const [sum,chosen] of sums){
+  result=fill(chosen,75-sum,count-chosen.length);if(result)break;
+ }
+ result ||= dfs(0,[],0,new Map(),new Map(),new Set());
  if(!result)return {error:'当前未做题无法同时满足75分、题数、全章节覆盖及重复限制。请改用章节练习卷；系统不会用已做题或重复题填补。'};
  return {questions:result.sort((a,b)=>a.marks-b.marks),marks:75,full:true,coverage:selected};
 }

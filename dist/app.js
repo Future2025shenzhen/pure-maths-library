@@ -1,7 +1,7 @@
-import {applyClassification,linkedChapters} from './classification.js?v=7';
-import {improveMath,renderMath} from './math-format.js?v=7';
+import {applyClassification,linkedChapters} from './classification.js?v=8';
+import {improveMath,renderMath} from './math-format.js?v=8';
 import {account,mountAccountLink} from './account-client.js';
-import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=7';
+import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=8';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],main=$('#main-view');
 const icons={search:'<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke-width="1.5"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>'};
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -39,7 +39,7 @@ function makeAnswer(q){return `<div class="answer-panel" id="answer-${q.id}" ${o
 
 function makeCard(q,n,{exam=false}={}){
  const done=state.done.includes(q.id),saved=state.saved.includes(q.id),cs=data.chapters[q.stage];
- return `<article class="question-card" id="card-${q.id}" data-qid="${q.id}" aria-label="${q.id} ${esc(q.type)}"><div class="card-head"><div class="card-meta"><span class="q-number">Question ${String(exam?n:(q.originalNumber??n)).padStart(2,'0')}</span><span class="tag">${q.stage} · 第${q.chapters[0]}章</span><span class="q-id">${q.id}</span></div><div class="card-actions"><button class="small-action done-label ${done?'on':''}" data-action="done" data-id="${q.id}" aria-pressed="${done}" title="手动切换已做状态">${done?'✓ 已做':'○ 未做'}</button><button class="small-action star ${saved?'on':''}" data-action="save" data-id="${q.id}" aria-pressed="${saved}" aria-label="${saved?'取消收藏':'收藏'} ${q.id}">${saved?'★':'☆'}</button><button class="small-action" data-action="refresh" data-id="${q.id}" aria-label="刷新整道题 ${q.id}" title="在当前筛选范围内换一道完整题">↻</button></div></div><div class="exam-text" lang="en"><div class="stem">${format(q.stem)}</div>${q.parts.map((p,i)=>questionPart(p,i)).join('')}</div><div class="card-footer"><button class="answer-toggle" data-action="answer" data-id="${q.id}" aria-expanded="${opened.has(q.id)}" aria-controls="answer-${q.id}">${opened.has(q.id)?'收起答案与解析 −':'查看答案与解析 ＋'}</button><span class="total-marks">Total <strong>${q.marks}</strong> marks</span></div>${exam?'':makeAnswer(q)}</article>`;
+ return `<article class="question-card" id="card-${q.id}" data-qid="${q.id}" aria-label="${q.id} ${esc(q.type)}"><div class="card-head"><div class="card-meta"><span class="q-number">Question ${String(exam?n:(q.originalNumber??n)).padStart(2,'0')}</span><span class="tag">${q.stage} · 第${[...linkedChapters(q)].sort((a,b)=>a-b).join("、")}章${q.difficulty==='challenge'?' · 提高题':''}</span><span class="q-id">${q.id}</span></div><div class="card-actions"><button class="small-action done-label ${done?'on':''}" data-action="done" data-id="${q.id}" aria-pressed="${done}" title="手动切换已做状态">${done?'✓ 已做':'○ 未做'}</button><button class="small-action star ${saved?'on':''}" data-action="save" data-id="${q.id}" aria-pressed="${saved}" aria-label="${saved?'取消收藏':'收藏'} ${q.id}">${saved?'★':'☆'}</button><button class="small-action" data-action="refresh" data-id="${q.id}" aria-label="刷新整道题 ${q.id}" title="在当前筛选范围内换一道完整题">↻</button></div></div><div class="exam-text" lang="en"><div class="stem">${format(q.stem)}</div>${q.parts.map((p,i)=>questionPart(p,i)).join('')}</div><div class="card-footer"><button class="answer-toggle" data-action="answer" data-id="${q.id}" aria-expanded="${opened.has(q.id)}" aria-controls="answer-${q.id}">${opened.has(q.id)?'收起答案与解析 −':'查看答案与解析 ＋'}</button><span class="total-marks">Total <strong>${q.marks}</strong> marks</span></div>${exam?'':makeAnswer(q)}</article>`;
 }
 function matches(){return filterQuestions(data,{stage,chapters,type:kind,status,search,savedOnly:view==='saved'},state).sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));}
 function renderLibrary(){
@@ -76,7 +76,7 @@ function openFilters(){$('#sidebar').classList.add('open');$('#close-filters').f
 function closeFilters(){$('#sidebar').classList.remove('open');}
 function resetFilters(){chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
- $('#quality-content').innerHTML=`<h3>原创改编题库 · 第7版</h3><p>P1共9章270题，P2共8章240题，P3共8章240题；每章30题。题目按本次要求重编，主要采用三问结构，保留两问及四问、分层小问。</p><p>答案区列出原创建议评分点、主要考点及2024年前真题的考法参照。参照年份属于原卷，本站改编题不是该年考试原题；新增配图为重绘图。</p><p>题量、来源ID、章节、分值、公式及计算结果进行内部检查，未完成外部教师逐题审阅。网站不提供在线作答或自动判分。</p><p>历年真题区保留33套、323道2020—2023年原题，原图原页，附中文解答、整卷及官方答案与评分标准。阅读器支持手动正计时。</p><p>题号沿用以保留收藏；历史已做标记不表示已完成本版新题，可手动取消后重做。</p>`;$('#report-dialog').showModal();
+ $('#quality-content').innerHTML=`<h3>原创改编题库 · 第8版</h3><p>P1共270题，P2共245题，P3共255题；每章保留30题。另增P3微分10题、P3积分5题、P2微分5题，标记为提高题。题目按本次要求重编，主要采用三问结构，保留两问及四问、分层小问。</p><p>答案区列出原创建议评分点、主要考点及2024年前真题的考法参照。参照年份属于原卷，本站改编题不是该年考试原题；新增配图为重绘图。</p><p>题量、来源ID、章节、分值、公式及计算结果进行内部检查，未完成外部教师逐题审阅。网站不提供在线作答或自动判分。</p><p>历年真题区保留33套、323道2020—2023年原题，原图原页，附中文解答、整卷及官方答案与评分标准。阅读器支持手动正计时。</p><p>题号沿用以保留收藏；历史已做标记不表示已完成本版新题，可手动取消后重做。</p>`;$('#report-dialog').showModal();
 }
 let pdfDoc=null,pdfPage=1,pdfScale=1,pdfLoading=0,pdfRenderTask=null,pdfSerial=0;
 async function openBook(u){
@@ -139,7 +139,7 @@ async function handleAction(action,el){
 async function init(){
  try{
   await account.requireUser();await mountAccountLink();
-  const res=await fetch('data/bank.json?v=7');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=7')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
+  const res=await fetch('data/bank.json?v=8');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=8')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
   const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;
   chapters=data.chapters[stage].map(c=>c.id);resetOrder();renderSidebar();render();

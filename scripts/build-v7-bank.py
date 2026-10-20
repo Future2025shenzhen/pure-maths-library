@@ -31,7 +31,7 @@ for file in sorted((R/'chapters').glob('*.json')):
   assert not any(ord(c)<32 and c not in '\n\t\r' for c in json.dumps(q,ensure_ascii=False))
  questions+=qs
  report.append({'chapter':file.stem,'questions':len(qs),'marks':dict(collections.Counter(q['marks'] for q in qs)),'parts':dict(collections.Counter(len(q['parts']) for q in qs)),'figures':sum('<svg' in q['stem'] for q in qs),'multiChapter':sum(len(q['chapters'])>1 for q in qs),'types':dict(collections.Counter(q['type'] for q in qs))})
-assert len(questions)==750;assert set(q['id'] for q in questions)==set(q['id'] for q in old['questions'])
+assert len(questions)==750;assert set(q['id'] for q in questions)=={q['id'] for q in old['questions'] if q.get('difficulty')!='challenge'}
 old['questions']=questions;old['revision']=7;old['updatedAt']='2026-10-19';old['editorialNote']='2026原创实质改编；考法参照2024年前真题。每题来源及具体改编说明见答案；未完成外部教师逐题审阅。'
 (R/'new-bank.json').write_text(json.dumps(old,ensure_ascii=False,indent=2))
 index={'version':7,'questions':{q['id']:{'stage':q['stage'],'chapters':q['chapters']} for q in questions+past['questions']}}

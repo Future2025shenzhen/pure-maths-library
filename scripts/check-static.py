@@ -30,3 +30,13 @@ for q in a['questions']:
  for path in re.findall(r'assets/[^"\s<>]+',q['stem']):assert (root/path).is_file()
 print('PASS: 770 originals, 750 base +20 challenges; 323 pre-2024 questions, 33 complete 75-mark papers; local assets.')
 
+
+# v9 solution structure and private-note deployment assets.
+def leaves(parts):
+ for p in parts:
+  if p.get('subparts'):yield from leaves(p['subparts'])
+  else:yield p
+for q in a['questions']:
+ for p in leaves(q['parts']):assert p.get('approach') and p.get('solutionSteps'),q['id']
+for q in b['questions']:assert q.get('solutionSections'),q['id']
+for f in ['note-store.js','question-notes.js','notes-setup.html','notes-setup.js','assets/setup/005-question-notes.sql']:assert (root/f).is_file(),f

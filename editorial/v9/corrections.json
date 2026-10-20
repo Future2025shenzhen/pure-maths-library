@@ -1,0 +1,60 @@
+[
+  {
+    "id": "P1-C07-R04",
+    "field": "parts.2.answer",
+    "before": "$18\\pi+9\\sqrt3$.",
+    "after": "$9\\pi+9\\sqrt3$。"
+  },
+  {
+    "id": "P1-C07-R04",
+    "field": "parts.2.explanation",
+    "before": "扇形与等边三角形在OA两侧，内域不重叠；扇形$18\\pi$加边长6的等边三角形面积$9\\sqrt3$。",
+    "after": "扇形面积为 $\\frac12(6)^2(\\pi/2)=9\\pi$，等边三角形面积为 $9\\sqrt3$；两者在共边两侧，面积相加。"
+  },
+  {
+    "id": "P1-C07-R05",
+    "field": "parts.0.answer",
+    "before": "$0.4[R^2-(R-3)^2]\\approx 15.6$。",
+    "after": "$0.4[R^2-(R-3)^2]=15.6$，故 $2R-3=13$。"
+  },
+  {
+    "id": "P3-C06-R29",
+    "field": "parts.0.answer",
+    "before": "商法则后四次项相消。",
+    "after": "$F^{\\prime}(x)=\\dfrac{2x}{(x^2+1)^2}$。"
+  },
+  {
+    "id": "P3-C06-R29",
+    "field": "parts.0.explanation",
+    "before": "分母始终为正。",
+    "after": "商法则给出分子 $2x(x^2+1)-2x\\cdot x^2$，其中三次项相消，剩下 $2x$。"
+  },
+  {
+    "id": "P3-C06-R29",
+    "field": "parts.0.scheme",
+    "before": [
+      {
+        "code": "M1",
+        "marks": 1,
+        "text": "分母始终为正。"
+      },
+      {
+        "code": "A1",
+        "marks": 1,
+        "text": "商法则后四次项相消。"
+      }
+    ],
+    "after": [
+      {
+        "code": "M1",
+        "marks": 1,
+        "text": "写出商法则 $F^{\\prime}(x)=\\dfrac{2x(x^2+1)-x^2(2x)}{(x^2+1)^2}$。"
+      },
+      {
+        "code": "A1",
+        "marks": 1,
+        "text": "化简得 $F^{\\prime}(x)=\\dfrac{2x}{(x^2+1)^2}$。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,284 @@
+[
+  {
+    "id": "P1-C08-R01",
+    "field": "parts.1.text",
+    "before": "Find the tangent at $P$.",
+    "after": "Find an equation of the tangent to the curve at $P$."
+  },
+  {
+    "id": "P1-C08-R02",
+    "field": "parts.1.text",
+    "before": "Find the normal at $P$.",
+    "after": "Find an equation of the normal to the curve at $P$."
+  },
+  {
+    "id": "P1-C08-R05",
+    "field": "parts.2.text",
+    "before": "Find the normal at $(1,-1)$.",
+    "after": "Find an equation of the normal to the curve at $(1,-1)$."
+  },
+  {
+    "id": "P1-C08-R17",
+    "field": "parts.0.text",
+    "before": "Find the tangent at $P$.",
+    "after": "Find an equation of the tangent to the curve at $P$."
+  },
+  {
+    "id": "P1-C08-R17",
+    "field": "parts.2.text",
+    "before": "Find the point on $C$ where the normal is parallel to $y=-x/9$.",
+    "after": "Find the points on $C$ where the normal is parallel to $y=-x/9$."
+  },
+  {
+    "id": "P1-C08-R20",
+    "field": "parts.1.text",
+    "before": "Find the tangent at $x=2$.",
+    "after": "Find an equation of the tangent to the curve at $x=2$."
+  },
+  {
+    "id": "P1-C08-R24",
+    "field": "parts.2.text",
+    "before": "Find the normal at $x=1$.",
+    "after": "Find an equation of the normal to the curve at $x=1$."
+  },
+  {
+    "id": "P1-C09-R01",
+    "field": "parts.0.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R01",
+    "field": "parts.1.text",
+    "before": "Find the normal at $P$.",
+    "after": "Find an equation of the normal to the curve at $P$."
+  },
+  {
+    "id": "P1-C09-R02",
+    "field": "parts.2.text",
+    "before": "Find the tangent at $x=1$.",
+    "after": "Find an equation of the tangent to the curve at $x=1$."
+  },
+  {
+    "id": "P1-C09-R03",
+    "field": "parts.0.text",
+    "before": "Using the second derivative and tangent condition, find",
+    "after": "Using the second derivative and the given tangent condition,"
+  },
+  {
+    "id": "P1-C09-R03",
+    "field": "parts.0.1.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R03",
+    "field": "parts.1.text",
+    "before": "Find the normal at $(1,3)$.",
+    "after": "Find an equation of the normal to the curve at $(1,3)$."
+  },
+  {
+    "id": "P1-C09-R06",
+    "field": "parts.2.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R10",
+    "field": "parts.2.text",
+    "before": "Find the normal at $(1,4)$.",
+    "after": "Find an equation of the normal to the curve at $(1,4)$."
+  },
+  {
+    "id": "P1-C09-R11",
+    "field": "parts.0.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R12",
+    "field": "parts.1.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R13",
+    "field": "parts.2.text",
+    "before": "Find the tangent at this intersection.",
+    "after": "Find an equation of the tangent to the curve at this intersection."
+  },
+  {
+    "id": "P1-C09-R14",
+    "field": "parts.0.text",
+    "before": "Find the tangent at $x=1$.",
+    "after": "Find an equation of the tangent to the curve at $x=1$."
+  },
+  {
+    "id": "P1-C09-R14",
+    "field": "parts.1.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R17",
+    "field": "parts.0.text",
+    "before": "Find the equation of the curve.",
+    "after": "Find an equation of the curve."
+  },
+  {
+    "id": "P1-C09-R18",
+    "field": "parts.2.text",
+    "before": "Find the tangent at $x=1$.",
+    "after": "Find an equation of the tangent to the curve at $x=1$."
+  },
+  {
+    "id": "P1-C09-R19",
+    "field": "parts.3.text",
+    "before": "Find the normal at $x=0$.",
+    "after": "Find an equation of the normal to the curve at $x=0$."
+  },
+  {
+    "id": "P1-C09-R20",
+    "field": "stem",
+    "before": "For $x>0$, $f\\prime(x)=2x-4/x^3$. Given $f(2)=f(1)$,",
+    "after": "For $x>0$, $f\\prime(x)=2x-4/x^3$. A student claims that $f(2)=f(1)$."
+  },
+  {
+    "id": "P1-C09-R27",
+    "field": "parts.1.text",
+    "before": "Find the tangent at $x=1$.",
+    "after": "Find an equation of the tangent to the curve at $x=1$."
+  },
+  {
+    "id": "P1-C09-R28",
+    "field": "parts.0.1.text",
+    "before": "Find the normal at the given point.",
+    "after": "Find an equation of the normal to the curve at the given point."
+  },
+  {
+    "id": "P2-C01-R02",
+    "field": "parts.2.text",
+    "before": "A student concludes that $P(0)=-1$. Give a polynomial satisfying the conditions for which this conclusion is false.",
+    "after": "A student claims that $P(0)=-1$. Give an example of a polynomial satisfying the given conditions for which this claim is false."
+  },
+  {
+    "id": "P2-C02-R05",
+    "field": "parts.2.text",
+    "before": "For $k=3$, find the chord cut by $y=0$, giving its exact length.",
+    "after": "For $k=3$, find the exact length of the chord cut from $S_k$ by the line $y=0$."
+  },
+  {
+    "id": "P2-C03-R03",
+    "field": "parts.0.text",
+    "before": "State the permitted values of $x$ in $\\log_3(x+4)+\\log_3(x-2)=2$.",
+    "after": "State the range of values of $x$ for which $\\log_3(x+4)+\\log_3(x-2)$ is defined."
+  },
+  {
+    "id": "P2-C03-R05",
+    "field": "parts.2.text",
+    "before": "Explain why halving the total reading does not take a fixed time in this model.",
+    "after": "Explain why the time taken for the total reading to halve is not constant in this model."
+  },
+  {
+    "id": "P2-C04-R03",
+    "field": "parts.0.text",
+    "before": "Write the general term indexed by $r$, where $r$ counts factors $-2/x$.",
+    "after": "Write down the general term in the expansion, using $r$ to denote the number of factors $-2/x$ selected."
+  },
+  {
+    "id": "P2-C04-R14",
+    "field": "parts.0.text",
+    "before": "Using factorial expressions for the two coefficients, show that $n=8$.",
+    "after": "By expressing the two coefficients in factorial form, show that $n=8$."
+  },
+  {
+    "id": "P2-C06-R01",
+    "field": "parts.2.text",
+    "before": "How many solutions would there be on $0^\\circ<x<720^\\circ$?",
+    "after": "State the number of solutions in the interval $0^\\circ<x<720^\\circ$."
+  },
+  {
+    "id": "P2-C06-R03",
+    "field": "parts.2.text",
+    "before": "A student divides by $\\cos x$ at the start. State which solutions are lost.",
+    "after": "A student begins by dividing the equation by $\\cos x$. State the solutions that are lost."
+  },
+  {
+    "id": "P2-C06-R15",
+    "field": "parts.0.text",
+    "before": "Explain why the student\\'s method may omit solutions.",
+    "after": "Explain why the student's method may omit some solutions."
+  },
+  {
+    "id": "P2-C07-R03",
+    "field": "parts.2.0.text",
+    "before": "justify that the capacity is a maximum,",
+    "after": "show that the capacity is a maximum;"
+  },
+  {
+    "id": "P2-C07-R12",
+    "field": "parts.2.text",
+    "before": "When $k=3$, state whether $f$ is increasing and explain what happens at $x=1$.",
+    "after": "When $k=3$, explain whether $f$ is increasing, and describe the behaviour of the curve at $x=1$."
+  },
+  {
+    "id": "P2-C08-R10",
+    "field": "parts.2.text",
+    "before": "Explain why the two answers differ.",
+    "after": "Explain why the answers to parts (a) and (b) are different."
+  },
+  {
+    "id": "P2-C08-R18",
+    "field": "parts.2.text",
+    "before": "Find the total vertical distance travelled by a point moving along the curve from $x=0$ to $x=5$.",
+    "after": "A point moves along the curve from $x=0$ to $x=5$. Find the total vertical distance travelled by the point."
+  },
+  {
+    "id": "P2-C08-R26",
+    "field": "parts.2.text",
+    "before": "Explain why the closer agreement of two estimates alone does not prove either is exact.",
+    "after": "Explain why close agreement between the two estimates does not establish that either estimate is exact."
+  },
+  {
+    "id": "P3-C01-R30",
+    "field": "parts.1.text",
+    "before": "Find where $Q(x)=x^2+2$.",
+    "after": "Find the value of $x$ for which $Q(x)=x^2+2$."
+  },
+  {
+    "id": "P3-C02-R03",
+    "field": "parts.0.text",
+    "before": "Using the schematic graph, calculate its vertex and intercept on the $y$-axis.",
+    "after": "Using the diagram, find the coordinates of the vertex and the point where the graph meets the $y$-axis."
+  },
+  {
+    "id": "P3-C02-R27",
+    "field": "parts.0.text",
+    "before": "Using the schematic graph, calculate its intercepts and vertex.",
+    "after": "Using the diagram, find the coordinates of the vertex and the points where the graph meets the coordinate axes."
+  },
+  {
+    "id": "P3-C02-R28",
+    "field": "parts.1.text",
+    "before": "Add the inverse graph to a copy of the schematic, showing the reflection line $y=x$.",
+    "after": "On a copy of the diagram, sketch the graph of the inverse function, showing the line $y=x$."
+  },
+  {
+    "id": "P3-C06-R02",
+    "field": "parts.2.text",
+    "before": "Find all points with horizontal tangents.",
+    "after": "Find the coordinates of all points on the curve at which the tangent is horizontal."
+  },
+  {
+    "id": "P3-C06-R15",
+    "field": "parts.1.text",
+    "before": "Find the stationary points.",
+    "after": "Find the coordinates of the stationary points."
+  },
+  {
+    "id": "P3-C06-R17",
+    "field": "parts.1.text",
+    "before": "Find its stationary point and nature.",
+    "after": "Find the coordinates of the stationary point and determine its nature."
+  }
+]

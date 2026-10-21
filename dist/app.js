@@ -30,7 +30,7 @@ function renderSidebar(){
  $('#kind').innerHTML='<option value="">全部知识点</option>'+[...new Set(data.questions.filter(q=>q.stage===stage).flatMap(q=>q.topics))].map(t=>`<option ${kind===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('');
  $('#status').value=status;
 }
-function campusMasthead(){return `<section class="campus-masthead" aria-label="清澜山G10青云班数学学习空间"><div class="campus-identity"><p class="campus-kicker">G10 · 青云班</p><p class="campus-title">Pure Mathematics</p><p class="campus-school">清澜山 · P1 / P2 / P3</p></div><figure class="campus-art"><img src="assets/tsinglan/campus-ai.webp" width="1800" height="600" alt="以红砖校舍、拱廊与庭院为灵感的AI校园意象，非实景照片" decoding="async"><figcaption>AI校园意象</figcaption></figure></section>`;}
+function campusMasthead(){return `<section class="campus-masthead" aria-label="清澜山G10青云班数学学习空间"><div class="campus-identity"><p class="campus-kicker">G10 · 青云班</p><p class="campus-title">Pure Mathematics</p><p class="campus-school">清澜山 · P1 / P2 / P3</p></div><figure class="campus-art"><img src="assets/tsinglan/campus-ai.webp" width="1800" height="600" alt="以红砖校舍、拱廊与庭院为灵感的AI校园意象，非实景照片" decoding="async"></figure></section>`;}
 function foot(){return '<footer class="page-foot"><span>G10 · 青云班学习空间 <span class="footer-sep">/</span> 非学校官方平台</span><a href="design.html">校园意象与版本 · V10</a><button data-action="quality">资料与质量记录 ↗</button></footer>';}
 function top(label,title,description){return `<div class="compact-heading"><h1>${label}</h1><span>${stage}</span></div>`;}
 function roman(i){return ['i','ii','iii','iv','v'][i]||String(i+1);}

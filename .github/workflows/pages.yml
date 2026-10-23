@@ -31,6 +31,8 @@ jobs:
               assert hashlib.sha256(Path(name).read_bytes()).hexdigest() == digest, name
           print("PASS exact V12 generated-file SHA256 checks")
           PY
+      - name: Install mathematical verification dependency
+        run: python3 -m pip install scipy==1.14.1
       - name: Validate release
         run: |
           npm test

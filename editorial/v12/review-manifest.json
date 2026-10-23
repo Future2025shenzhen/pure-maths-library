@@ -1620,8 +1620,8 @@
     "P2-C05-R28": "4a4db65ba77372981f94b7ed697400b5a6c73d80fa7c231dfece1faf7ed36f95",
     "P2-C05-R29": "e7045667c3050af1dc72b7d2124ad1ef88cbe67215d36f4530f9f62a2a5b7b88",
     "P2-C05-R30": "e0b88723f23d7f1e09ded0e4b1bd68b7ca9213555507c86364b21244eb21b75b",
-    "P2-C06-R01": "51d32b4d2ed1880408b409c96d95af4a63f863a78f8fc0453bcd71515cf02cfa",
-    "P2-C06-R02": "bbb2a4a13ba24d5ff0481b764e211be41e736fc2aff5c9906f1f98b05116e2ae",
+    "P2-C06-R01": "72968ecdae8b0585fa6c2548162d641e02ac769b8c6a57d00eaafaa62ad2c71b",
+    "P2-C06-R02": "87a26b3c63e452679114e686a8fcc3591c44a37603c92d1ed48a669c63001f41",
     "P2-C06-R03": "dd45da1338da97caecaece49556d5a95855e07edbbf6873f9a0d534e8cc48d3c",
     "P2-C06-R04": "42e65b049f29385cdc23ec39d4d5bfe06f707b17bc30e746408bc0504bdaa033",
     "P2-C06-R05": "f97d889ca4a11a6d8d4619d580b290d0452c7fd78e41ca1fb35a440e650eba6a",
@@ -1643,7 +1643,7 @@
     "P2-C06-R21": "e50546782468b75b4cd6d09b2ca3537f4cca338af4308d81f0693f207eadc115",
     "P2-C06-R22": "e4d1ea4bb2fcc38c7d7d8d1a7ca53cec725567d2ecf9355812f16fd8e28bc34a",
     "P2-C06-R23": "f6dff341f70ae65ee3dcaa6f1ca029dc19661aba4d5d1b2b7ec86e3841be53f7",
-    "P2-C06-R24": "1b49d0beb89f3891d8034f406409db12ec2f4ba9522b6610e1a279e4aec84b22",
+    "P2-C06-R24": "bb285f2271b2efc8ad0045540087d8a94080f2b7a926939b678876f79b29dd3e",
     "P2-C06-R25": "86f77329d2d55e71196258e1604820d605a7a606fb116d85e85e2efc615e07c6",
     "P2-C06-R26": "5ea72bdd077cf54654d6dbd597203fc67e29f39b6e5afc5f49069e4b7a5d3fff",
     "P2-C06-R27": "7130411077d047b00316faf8d60bc20ae3609ada6fa4a46f1d7d6f22b6afe1d5",
@@ -1970,5 +1970,15 @@
     "P3-C07-R33": "c55c569d9cab184fc81040c25efafbddb696ede717f16aaa6a9b5cc1319da13d",
     "P3-C07-R34": "50df1ab44386a271fbe12ee9d0bb9ea9c7489210d8d152144841992065093d04",
     "P3-C07-R35": "1701e6af9ef7500b54e4102d5a22af7fc91183b98d555ebcbb8786c4d2f3aa30"
+  },
+  "followupReview": {
+    "date": "2026-10-24",
+    "scope": "P2 Chapter 6: 25 active questions; statements, answers, interval endpoints and marking clarity",
+    "markingRefined": [
+      "P2-C06-R01",
+      "P2-C06-R02",
+      "P2-C06-R24"
+    ],
+    "remainingWork": "Other generic marking points and low-value subquestion combinations still need individual editing; this is not whole-bank certification."
   }
 }

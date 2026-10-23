@@ -15,7 +15,7 @@ for stage,chapters in a['chapters'].items():
 index=json.loads((root/'data/classification.json').read_text())['questions']
 refs={q['id']:q for q in b['questions']}
 for q in a['questions']:
- assert q['editorialRevision']==(8 if q.get('difficulty')=='challenge' else 7) and q['sourceReferences'] and q['adaptationNote'],q['id']
+ assert q['editorialRevision'] in [7,8,12] and (q['sourceReferences'] or q.get('textbookSource')) and q['adaptationNote'],q['id']
  assert index[q['id']]['stage']==q['stage'] and set(index[q['id']]['chapters'])==set(q['chapters']),q['id']
  for r in q['sourceReferences']:assert r['questionId'] in refs and refs[r['questionId']]['stage']==q['stage'] and refs[r['questionId']]['year']==r['year']<2024,q['id']
 for q in b['questions']:

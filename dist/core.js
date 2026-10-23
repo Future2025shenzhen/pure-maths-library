@@ -13,11 +13,16 @@ export function validateBank(data){
  return data;
 }
 export function cleanState(data,ids){const result={version:1,saved:[],done:[]};for(const kind of ['saved','done'])if(Array.isArray(data?.[kind]))result[kind]=[...new Set(data[kind].filter(v=>typeof v==='string'&&ids.has(v)))];return result;}
+// Strict mode requires every taught dependency to be inside the selected scope.
+export function chapterMatches(q,selected,allowCrossChapter=false){
+ const required=q.requiredChapters||q.chapterLinks||q.chapters||[];
+ return selected.length>0&&required.length>0&&(allowCrossChapter?required.some(c=>selected.includes(c)):required.every(c=>selected.includes(c)));
+}
 export function filterQuestions(data,filters,state){
  const needle=filters.search.trim().toLowerCase();
  return data.questions.filter(q=>{
-  if(q.stage!==filters.stage)return false;
-  if(!filters.chapters.length||!(q.chapterLinks||q.chapters).some(c=>filters.chapters.includes(c)))return false;
+  if(q.stage!==filters.stage||q.withdrawn&&!filters.savedOnly)return false;
+  if(!chapterMatches(q,filters.chapters,filters.allowCrossChapter??true))return false;
   if(filters.type&&q.type!==filters.type&&!q.topics.includes(filters.type))return false;
   if(filters.status==='done'&&!state.done.includes(q.id))return false;
   if(filters.status==='undone'&&state.done.includes(q.id))return false;
@@ -30,7 +35,7 @@ export function filterQuestions(data,filters,state){
 // chapter/type repetition, and stage-specific question-count ranges seen in sources.
 export function composePaper(data,{stage,chapters=[],count=5,full=false},state,random=Math.random){
  const all=data.chapters[stage].map(c=>c.id),selected=chapters.length?chapters:all;
- const pool=shuffle(data.questions.filter(q=>q.stage===stage&&['internal-review','internal-review-only'].includes(q.review)&&!state.done.includes(q.id)&&q.chapters.every(c=>selected.includes(c))),random);
+ const pool=shuffle(data.questions.filter(q=>q.stage===stage&&!q.withdrawn&&['internal-review','internal-review-only'].includes(q.review)&&!state.done.includes(q.id)&&chapterMatches(q,selected,false)),random);
  if(full&&selected.length!==all.length)return {error:'完整模拟卷需要选择本阶段全部章节。局部范围请生成章节练习卷。'};
  if(pool.length<(full?9:count))return {error:`当前范围只有 ${pool.length} 道可用未做题，数量不足。请扩大章节范围，或按实际情况在题库取消已做标记。`};
  if(!full){
@@ -40,7 +45,7 @@ export function composePaper(data,{stage,chapters=[],count=5,full=false},state,r
    choices.sort((a,b)=>{const score=q=>q.chapters.filter(c=>!covered.has(c)).length*100-(groups.get(q.chapters[0])||0)*10-(types.get(q.type)||0)*3;return score(b)-score(a);});
    const q=choices[0];if(!q)break;picked.push(q);q.chapters.forEach(c=>covered.add(c));groups.set(q.chapters[0],(groups.get(q.chapters[0])||0)+1);types.set(q.type,(types.get(q.type)||0)+1);
   }
-  return {questions:picked.sort((a,b)=>a.marks-b.marks),marks:picked.reduce((s,q)=>s+q.marks,0),full:false,coverage:[...covered]};
+  return {questions:shuffle(picked,random),marks:picked.reduce((s,q)=>s+q.marks,0),full:false,coverage:[...covered]};
  }
  const limits=stage==='P3'?[9,10]:[9,11];
  let nodes=0;const maxNodes=180000;
@@ -88,5 +93,5 @@ export function composePaper(data,{stage,chapters=[],count=5,full=false},state,r
  }
  result ||= dfs(0,[],0,new Map(),new Map(),new Set());
  if(!result)return {error:'当前未做题无法同时满足75分、题数、全章节覆盖及重复限制。请改用章节练习卷；系统不会用已做题或重复题填补。'};
- return {questions:result.sort((a,b)=>a.marks-b.marks),marks:75,full:true,coverage:selected};
+ return {questions:shuffle(result,random),marks:75,full:true,coverage:selected};
 }

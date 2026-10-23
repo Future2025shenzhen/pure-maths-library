@@ -1,13 +1,14 @@
 import {notePlaceholder,mountNotes} from './question-notes.js?v=9';
-import {applyClassification,linkedChapters} from './classification.js?v=9';
+import {applyClassification,linkedChapters} from './classification.js?v=12';
 import {improveMath,renderMath} from './math-format.js?v=9';
 import {account,mountAccountLink} from './account-client.js';
-import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=9';
+import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=12';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],main=$('#main-view');
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 // Escape TeX angle brackets before HTML parsing; preserve authored tables.
 const format=v=>improveMath(v).replace(/\$\$[\s\S]*?\$\$|\$[^$]*\$/g,m=>esc(m));
 let data,state,ids,view='library',stage='P1',chapters=[],kind='',status='all',search='',page=1,order=[],paper=null,answersOpen=false;
+let allowCrossChapter=false;
 const opened=new Set();const PAGE_SIZE=6;
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('visible'),3500);}
 function math(el=main){renderMath(el);}
@@ -20,13 +21,14 @@ async function saveState(){
  $('#saved-count').textContent=state.saved.length;
 }
 async function savePaper(){if(account.enabled){try{await account.setPaper(paper);}catch(e){paper=account.paper.value;throw e;}}else try{localStorage.setItem('pure-practice-paper-v1',JSON.stringify(paper));}catch{toast('当前试卷无法保存，建议打印留存。');}}
-function resetOrder(){order=data.questions.filter(q=>q.stage===stage).map(q=>q.id);page=1;}
+function resetOrder(){order=shuffle(data.questions.filter(q=>q.stage===stage).map(q=>q.id));page=1;}
 function chapterName(id){return data.chapters[stage].find(c=>c.id===id);}
 function setStage(value){if(!data.chapters[value])return;stage=value;chapters=data.chapters[stage].map(c=>c.id);kind='';resetOrder();renderSidebar();render();}
 function renderSidebar(){
  $$('#stage-switch button').forEach(b=>b.classList.toggle('selected',b.dataset.stage===stage));
- $('#chapters').innerHTML=data.chapters[stage].map(c=>`<div class="chapter-row"><button class="chapter-pick ${chapters.includes(c.id)?'selected':''}" data-only-chapter="${c.id}" title="只看本章" aria-pressed="${chapters.length===1&&chapters[0]===c.id}"><span>${c.id} · ${esc(c.zh)}</span><small>${data.questions.filter(q=>q.stage===stage&&linkedChapters(q).includes(c.id)).length}</small></button><label class="chapter-add"><input type="checkbox" value="${c.id}" ${chapters.includes(c.id)?'checked':''} aria-label="多选第${c.id}章"></label></div>`).join('');
- $('#kind').innerHTML='<option value="">全部知识点</option>'+[...new Set(data.questions.filter(q=>q.stage===stage).flatMap(q=>q.topics))].map(t=>`<option ${kind===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('');
+ $('#chapters').innerHTML=data.chapters[stage].map(c=>`<div class="chapter-row"><button class="chapter-pick ${chapters.includes(c.id)?'selected':''}" data-only-chapter="${c.id}" title="只看本章" aria-pressed="${chapters.length===1&&chapters[0]===c.id}"><span>${c.id} · ${esc(c.zh)}</span><small>${data.questions.filter(q=>!q.withdrawn&&q.stage===stage&&linkedChapters(q).includes(c.id)).length}</small></button><label class="chapter-add"><input type="checkbox" value="${c.id}" ${chapters.includes(c.id)?'checked':''} aria-label="多选第${c.id}章"></label></div>`).join('');
+ const availableTopics=[...new Set(filterQuestions(data,{stage,chapters,allowCrossChapter,type:'',status:'all',search:''},state).flatMap(q=>q.topics))];if(kind&&!availableTopics.includes(kind))kind='';
+ $('#kind').innerHTML='<option value="">全部知识点</option>'+availableTopics.map(t=>`<option ${kind===t?'selected':''} value="${esc(t)}">${esc(t)}</option>`).join('');
  $('#status').value=status;
 }
 function foot(){return '<footer class="page-foot"><button data-action="quality">资料与质量记录</button></footer>';}
@@ -34,16 +36,16 @@ function top(label,title,description){return `<div class="compact-heading"><h1>$
 function roman(i){return ['i','ii','iii','iv','v'][i]||String(i+1);}
 function questionPart(p,i,sub=false){return `<div class="${sub?'subpart':'part'}"><span class="part-label">(${sub?roman(i):String.fromCharCode(97+i)})</span><div class="part-body">${format(p.text)}${p.subparts?`<div class="subparts">${p.subparts.map((s,j)=>questionPart(s,j,true)).join('')}</div>`:''}</div>${p.subparts?'':`<span class="marks">(${p.marks})</span>`}</div>`;}
 function answerPart(p,i,sub=false){const label=`(${sub?roman(i):String.fromCharCode(97+i)})`;if(p.subparts)return `<section class="answer-group"><h4>${label} ${format(p.text)}</h4>${p.subparts.map((s,j)=>answerPart(s,j,true)).join('')}</section>`;const steps=p.solutionSteps?.length?p.solutionSteps:[p.explanation];return `<section class="answer-part ${sub?'answer-subpart':''}"><div class="answer-title"><span>${label}</span><b>解题步骤</b><span class="leaf-marks">${p.marks} marks</span></div>${p.approach?`<p class="answer-approach"><b>思路：</b>${format(p.approach)}</p>`:''}<ol class="solution-steps">${steps.map(t=>`<li>${format(t)}</li>`).join('')}</ol><div class="answer-result"><b>本问结论：</b><span class="final">${format(p.answer)}</span></div><details class="scheme-details"><summary>查看建议评分点</summary><div class="mark-scheme">${p.scheme.map(r=>`<div class="mark-row"><span class="mark-code">${r.code}</span><span>${format(r.text)}</span></div>`).join('')}</div></details></section>`;}
-function sourceNote(q){if(!q.sourceReferences?.length)return '';return `<p class="question-source"><b>原创改编 · 2026</b><br>考法参照：${q.sourceReferences.map(r=>`<a href="past.html?stage=${q.stage}&q=${encodeURIComponent(r.questionId)}">${esc(r.questionId)}（${r.year}）</a> · ${esc(r.note||'')}`).join('；')}<br>本题不是原卷题目。${esc(q.adaptationNote||'')}</p>`;}
+function sourceNote(q){if(q.textbookSource){const t=q.textbookSource;return `<p class="question-source">Pearson Edexcel IAL ${esc(t.unit)} 教材 · ${esc(t.exercise)} Q${esc(t.question)} · 原标记 ${esc(t.marker)}<br>印刷页 ${t.page} · <a href="${esc(t.pdf)}#page=${t.pdfPage}" target="_blank" rel="noopener">查看教材原页</a><br>教材题文重排、图示重绘；中文解答与评分点由本站编写。</p>`;}if(!q.sourceReferences?.length)return '';return `<p class="question-source"><b>原创改编 · 2026</b><br>考法参照：${q.sourceReferences.map(r=>`<a href="past.html?stage=${q.stage}&q=${encodeURIComponent(r.questionId)}">${esc(r.questionId)}（${r.year}）</a> · ${esc(r.note||'')}`).join('；')}<br>本题不是原卷题目。${esc(q.adaptationNote||'')}</p>`;}
 function makeAnswer(q){return `<div class="answer-panel" id="answer-${q.id}" ${opened.has(q.id)?'':'hidden'}><h3>答案与解析</h3><p class="question-coverage"><b>考查范围：</b>${q.stage} · ${data.chapters[q.stage].filter(c=>linkedChapters(q).includes(c.id)).map(c=>`第${c.id}章 ${esc(c.zh)}`).join('、')}<br><b>主要考点：</b>${q.topics.map(esc).join('、')}</p><details class="answer-source-details"><summary>来源与改编说明</summary>${sourceNote(q)}</details>${q.parts.map((p,i)=>answerPart(p,i)).join('')}${q.answerFigure||''}<p class="scheme-note">M：方法分 · A：准确分 · B：独立得分点。等价正确解法应予认可。评分点为原创建议，非官方评分细则。</p></div>`;}
 
 function makeCard(q,n,{exam=false}={}){
  const done=state.done.includes(q.id),saved=state.saved.includes(q.id),cs=data.chapters[q.stage];
- return `<article class="question-card" id="card-${q.id}" data-qid="${q.id}" aria-label="${q.id} ${esc(q.type)}"><div class="card-head"><div class="card-meta"><span class="q-number">Question ${String(exam?n:(q.originalNumber??n)).padStart(2,'0')}</span><span class="tag">${q.stage} · 第${[...linkedChapters(q)].sort((a,b)=>a-b).join("、")}章${q.difficulty==='challenge'?' · 提高题':''}</span></div><div class="card-actions"><button class="small-action done-label ${done?'on':''}" data-action="done" data-id="${q.id}" aria-pressed="${done}" title="手动切换已做状态">${done?'已做':'未做'}</button><button class="small-action star ${saved?'on':''}" data-action="save" data-id="${q.id}" aria-pressed="${saved}" aria-label="${saved?'取消收藏':'收藏'} ${q.id}">${saved?'已收藏':'收藏'}</button><button class="small-action" data-action="refresh" data-id="${q.id}" aria-label="刷新整道题 ${q.id}" title="在当前筛选范围内换一道完整题">换一题</button></div></div><div class="exam-text" lang="en"><div class="stem">${format(q.stem)}</div>${q.parts.map((p,i)=>questionPart(p,i)).join('')}</div><div class="card-footer"><button class="answer-toggle" data-action="answer" data-id="${q.id}" aria-expanded="${opened.has(q.id)}" aria-controls="answer-${q.id}">${opened.has(q.id)?'收起解析':'查看解析'}</button><span class="total-marks">Total <strong>${q.marks}</strong> marks</span></div>${notePlaceholder(q.id)}${exam?'':makeAnswer(q)}</article>`;
+ return `<article class="question-card" id="card-${q.id}" data-qid="${q.id}" aria-label="${q.id} ${esc(q.type)}"><div class="card-head"><div class="card-meta"><span class="q-number">Question ${String(exam?n:(q.originalNumber??n)).padStart(2,'0')}</span><span class="tag">${q.stage} · 第${[...linkedChapters(q)].sort((a,b)=>a-b).join("、")}章${q.difficulty==='challenge'?' · 提高题':''}${q.textbookSource?' · 教材 '+esc(q.textbookSource.marker):''}${q.withdrawn?' · 已撤下':''}</span></div><div class="card-actions"><button class="small-action done-label ${done?'on':''}" data-action="done" data-id="${q.id}" aria-pressed="${done}" title="手动切换已做状态">${done?'已做':'未做'}</button><button class="small-action star ${saved?'on':''}" data-action="save" data-id="${q.id}" aria-pressed="${saved}" aria-label="${saved?'取消收藏':'收藏'} ${q.id}">${saved?'已收藏':'收藏'}</button><button class="small-action" data-action="refresh" data-id="${q.id}" aria-label="刷新整道题 ${q.id}" title="在当前筛选范围内换一道完整题">换一题</button></div></div>${q.withdrawn?`<p class="revision-note">已从日常练习撤下：${esc(q.withdrawalReason)}</p>`:''}<div class="exam-text" lang="en"><div class="stem">${format(q.stem)}</div>${q.parts.map((p,i)=>questionPart(p,i)).join('')}</div><div class="card-footer"><button class="answer-toggle" data-action="answer" data-id="${q.id}" aria-expanded="${opened.has(q.id)}" aria-controls="answer-${q.id}">${opened.has(q.id)?'收起解析':'查看解析'}</button><span class="total-marks">Total <strong>${q.marks}</strong> marks</span></div>${q.contentUpdatedAt&&done?'<p class="revision-note">本题内容已修订，请自行核对历史“已做”标记。</p>':''}${notePlaceholder(q.id)}${exam?'':makeAnswer(q)}</article>`;
 }
-function matches(){return filterQuestions(data,{stage,chapters,type:kind,status,search,savedOnly:view==='saved'},state).sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));}
+function matches(){return filterQuestions(data,{stage,chapters,type:kind,status,search,allowCrossChapter,savedOnly:view==='saved'},state).sort((a,b)=>order.indexOf(a.id)-order.indexOf(b.id));}
 function renderLibrary(){
- const saved=view==='saved';main.innerHTML=top(saved?'收藏夹':'原创题库',saved?'留给下一次的好问题。':'把时间留给思考。',saved?'把值得回顾的题目放在这里。收藏与已做互相独立，随时回来继续。':'选一个章节，找一道完整的题。在纸上推演，再用清楚的解析核对每一步。')+`${saved?'<div class="collection-tabs"><b>原创题收藏</b><a href="past.html?record=saved">真题收藏 →</a></div>':''}<details class="downloads-menu"><summary>下载题册</summary><a href="assets/rewrite-books/${stage}.pdf" target="_blank" rel="noopener">${stage} 完整题册</a>${data.chapters[stage].map(c=>`<a href="assets/rewrite-books/${stage}-C${String(c.id).padStart(2,'0')}.pdf" target="_blank" rel="noopener">第${c.id}章 · ${esc(c.zh)}</a>`).join('')}</details><div class="search-row"><div class="search-box"><input id="search" type="search" value="${esc(search)}" placeholder="搜索知识点、英文题干或题目 ID…" aria-label="搜索当前阶段题目"></div><button class="secondary mobile-only" id="show-filters">筛选</button><button class="secondary" data-action="shuffle">打乱顺序</button><button class="primary" data-action="go-paper">生成练习卷</button></div><div id="results"></div>`+foot();
+ const saved=view==='saved';main.innerHTML=top(saved?'收藏夹':'练习题库',saved?'留给下一次的好问题。':'把时间留给思考。',saved?'把值得回顾的题目放在这里。收藏与已做互相独立，随时回来继续。':'选一个章节，找一道完整的题。在纸上推演，再用清楚的解析核对每一步。')+`${saved?'<div class="collection-tabs"><b>练习题收藏</b><a href="past.html?record=saved">真题收藏 →</a></div>':''}<div class="search-row"><div class="search-box"><input id="search" type="search" value="${esc(search)}" placeholder="搜索知识点、英文题干或题目 ID…" aria-label="搜索当前阶段题目"></div><button class="secondary mobile-only" id="show-filters">筛选</button><button class="primary" data-action="go-paper">生成练习卷</button></div><div id="results"></div>`+foot();
  $('#search').addEventListener('input',e=>{search=e.target.value;page=1;renderResults();});
  $('#show-filters')?.addEventListener('click',openFilters);
  renderResults();
@@ -57,7 +59,7 @@ function renderResults(){
 function renderBooks(){main.innerHTML=top('教材','回到知识的起点。','三本教材原文件，在这里按页阅读。可切换全屏，也可在新窗口打开 PDF。')+`<div class="book-grid">${['P1','P2','P3'].map((u,i)=>`<article class="book-card"><div class="book-cover ${['blue','tan',''][i]}"><span class="book-label">PEARSON EDEXCEL IAL</span><b>${u}</b><span>Pure Mathematics ${i+1}</span></div><div class="book-content"><h2>${u} · Pure Mathematics ${i+1}</h2><p>${[235,217,233][i]} 页 · ${data.chapters[u].length} 章<br>用户提供的扫描版教材</p><button class="primary" data-action="book" data-stage="${u}">打开教材</button></div></article>`).join('')}</div>`+foot();}
 function renderPapers(){
  if(paper){renderPaper();return;}
- const available=data.questions.filter(q=>q.stage===stage&&!state.done.includes(q.id)&&q.chapters.every(c=>chapters.includes(c))).length;
+ const available=data.questions.filter(q=>!q.withdrawn&&q.stage===stage&&!state.done.includes(q.id)&&q.chapters.every(c=>chapters.includes(c))).length;
  main.innerHTML=top('组卷','为一次专注的练习准备。','按当前章节范围组合完整题目。只抽取未标记已做的题目，附整卷答案与中文评分说明。')+`<div class="form-panel"><h2>${stage} · 组卷设置</h2><p class="tiny">范围由左侧阶段及章节选择决定。手机请点击“调整范围”。题型与搜索关键词不影响组卷。</p><div class="notice">当前范围：${chapters.length===data.chapters[stage].length?'全部章节':chapters.length?chapters.map(c=>esc(chapterName(c).zh)).join('、'):'未选择章节'}<br>可用未做题：<strong>${available}</strong> 道</div><label class="choice"><input type="radio" name="paper-mode" value="practice" checked><span><b>章节练习卷</b><small>按章节覆盖与题型多样性抽取，总分依题目计算。</small></span></label><div class="field-row"><label>章节练习卷题数<select id="paper-count"><option value="3">3 道题</option><option value="5" selected>5 道题</option><option value="10">10 道题</option><option value="15">15 道题</option></select></label></div><div class="button-row"><button class="primary" data-action="compose">生成新试卷</button><button class="secondary" data-action="adjust-scope">调整范围</button></div><div id="paper-error" role="alert"></div></div>`+foot();
 }
 function renderPaper(){
@@ -74,9 +76,10 @@ function render(){
 function navigate(v){view=v;page=1;history.replaceState(null,'',`#${v}`);render();account.activity('visit',v==='library'?'original':v).catch(()=>{});window.scrollTo({top:0,behavior:'instant'});}
 function openFilters(){$('#sidebar').classList.add('open');$('#close-filters').focus();}
 function closeFilters(){$('#sidebar').classList.remove('open');}
-function resetFilters(){chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
+function resetFilters(){allowCrossChapter=false;$('#allow-cross-chapter').checked=false;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
- $('#quality-content').innerHTML=`<h3>原创改编题库 · 第9版</h3><p>本版整理中文思路与分步推导，并对英文设问作局部规范化；每题支持个人备注，收藏夹显示摘要。云端备注需管理员启用，未同步时会保留草稿并提示。</p><p>P1共270题，P2共245题，P3共255题；每章保留30题。另增P3微分10题、P3积分5题、P2微分5题，标记为提高题。题目按本次要求重编，主要采用三问结构，保留两问及四问、分层小问。</p><p>答案区列出原创建议评分点、主要考点及2024年前真题的考法参照。参照年份属于原卷，本站改编题不是该年考试原题；新增配图为重绘图。</p><p>题量、来源ID、章节、分值、公式及计算结果进行内部检查，未完成外部教师逐题审阅。网站不提供在线作答或自动判分。</p><p>历年真题区保留33套、323道2020—2023年原题，原图原页，附中文解答、整卷及官方答案与评分标准。阅读器支持手动正计时。</p><p>题号沿用以保留收藏；历史已做标记不表示已完成本版新题，可手动取消后重做。</p>`;$('#report-dialog').showModal();
+ const active=data.questions.filter(q=>!q.withdrawn).length;
+ $('#quality-content').innerHTML=`<h3>题库修订 · 第12版</h3><p>当前日常练习包含 ${active} 题。本轮逐题重写26题，其中精选教材原题9题；撤下11道重复或价值不足的题。撤下题保留于已有收藏及练习卷，标记清楚。</p><p>本轮重点：P1三角图像、交点计数及弧度制组合图形，P2完整区间三角方程。教材题标注原有E/P标记、页码和题号，中文解答及建议评分点由本站编写。</p><p>全库已做结构、公式显示、来源索引和配图风险检查；逐题数学审阅仍在继续，不能把自动检查视为全库已获教师审定。题目ID保留以兼容收藏和备注，实质修订题的历史已做标记需你自行核对。</p><p>历年真题区保留33套、323道2020—2023年原题及官方答案，原图原页不改动。</p>`;$('#report-dialog').showModal();
 }
 let pdfDoc=null,pdfPage=1,pdfScale=1,pdfLoading=0,pdfRenderTask=null,pdfSerial=0;
 async function openBook(u){
@@ -117,7 +120,6 @@ async function handleAction(action,el){
   if(!options.length){toast('当前筛选范围没有其他题目可替换，请扩大范围。');return;}
   const next=shuffle(options)[0],at=order.indexOf(id),other=order.indexOf(next.id);[order[at],order[other]]=[order[other],order[at]];opened.delete(next.id);renderResults();toast('已换成另一道完整题目');return;
  }
- if(action==='shuffle'){order=shuffle(data.questions.filter(q=>q.stage===stage).map(q=>q.id));page=1;renderResults();toast('题目顺序已打乱');return;}
  if(action==='reset'){resetFilters();return;}
  if(action==='prev'||action==='next'){page+=action==='next'?1:-1;renderResults();$('#results').scrollIntoView({block:'start',behavior:'smooth'});return;}
  if(action==='quality'){showQuality();return;}
@@ -139,7 +141,7 @@ async function handleAction(action,el){
 async function init(){
  try{
   await account.requireUser();await mountAccountLink();
-  const res=await fetch('data/bank.json?v=9');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=9')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
+  const res=await fetch('data/bank.json?v=12');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=12')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
   const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;
   chapters=data.chapters[stage].map(c=>c.id);resetOrder();renderSidebar();render();
@@ -149,6 +151,7 @@ async function init(){
   $('#clear-chapters').addEventListener('click',()=>{chapters=[];page=1;renderSidebar();render();});
   $('#chapters').addEventListener('change',()=>{chapters=$$('#chapters input:checked').map(x=>Number(x.value));page=1;renderSidebar();render();});
   $('#all-chapters').addEventListener('click',()=>{chapters=data.chapters[stage].map(c=>c.id);page=1;renderSidebar();render();});
+  $('#allow-cross-chapter').addEventListener('change',e=>{allowCrossChapter=e.target.checked;page=1;renderSidebar();render();});
   $('#kind').addEventListener('change',e=>{kind=e.target.value;page=1;render();});$('#status').addEventListener('change',e=>{status=e.target.value;page=1;render();});$('#reset').addEventListener('click',resetFilters);
   $('#sidebar-book').addEventListener('click',()=>openBook(stage));$('#close-filters').addEventListener('click',closeFilters);
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeFilters();});

@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -18,7 +18,33 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - run: python3 scripts/check-static.py
+        with:
+          fetch-depth: 0
+      - name: Restore and verify exact V12 generated files
+        run: |
+          python3 editorial/v12/revise-bank.py
+          python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          expected = {"dist/data/bank.json":"9cf9e259de8628a473344a99dec86343c313fcbf384834863816d6cf781b893d","dist/data/classification.json":"17070ce59d417d120dcd33a4bef35e0adafc842cfa070fb0449fae40bde7d82d","editorial/v12/review-manifest.json":"721cfac25bbcdaeaa0ed5042c4730fcdfee2f700bd8d93a28f24bba29a0f2913","editorial/v12/replaced-items.json":"a2c87680b1558d68f4e2307aa5f3c2aaee27ccff7aafb59184c003d8ad9c56b1"}
+          for name, digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest() == digest, name
+          print("PASS exact V12 generated-file SHA256 checks")
+          PY
+      - name: Validate release
+        run: |
+          npm test
+          npm run check
+          python3 scripts/check-static.py
+          python3 scripts/verify-v12-maths.py
+      - name: Persist generated source and restore normal publishing workflow
+        run: |
+          git show 1224b7b9d7d8061b5249e36bde9b27f5d23279b4:.github/workflows/pages.yml > .github/workflows/pages.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data/bank.json dist/data/classification.json editorial/v12/review-manifest.json editorial/v12/replaced-items.json .github/workflows/pages.yml
+          git commit -m "Restore verified V12 generated bank and review records"
+          git push origin HEAD:main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

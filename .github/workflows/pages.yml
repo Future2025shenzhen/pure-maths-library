@@ -4,7 +4,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 concurrency:
@@ -18,7 +18,35 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - run: python3 scripts/check-static.py
+        with:
+          fetch-depth: 0
+      - name: Restore and verify exact V12 generated files
+        run: |
+          python3 editorial/v12/refine-p2-marking.py
+          python3 - <<'PY'
+          import hashlib
+          from pathlib import Path
+          expected = {"dist/data/bank.json":"903f8c1856ab1536cf2230ad8ee8d918ea6ef4ac44a7b82f4161e31c451d1548","editorial/v12/review-manifest.json":"2bc071632f153b9cc9900328b5fae0838c0ca605d505f36497fbc2f765627c52"}
+          for name, digest in expected.items():
+              assert hashlib.sha256(Path(name).read_bytes()).hexdigest() == digest, name
+          print("PASS exact V12 generated-file SHA256 checks")
+          PY
+      - name: Install mathematical verification dependency
+        run: python3 -m pip install scipy==1.14.1
+      - name: Validate release
+        run: |
+          npm test
+          npm run check
+          python3 scripts/check-static.py
+          python3 scripts/verify-v12-maths.py
+      - name: Persist generated source and restore normal publishing workflow
+        run: |
+          git show 66a2ab0:.github/workflows/pages.yml > .github/workflows/pages.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist/data/bank.json editorial/v12/review-manifest.json .github/workflows/pages.yml
+          git commit -m "Persist verified P2 marking refinements"
+          git push origin HEAD:main
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

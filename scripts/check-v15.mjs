@@ -13,11 +13,11 @@ const deleted9=new Set(['P1-C09-R04','P1-C09-R07','P1-C09-R11','P1-C09-R12','P1-
 const cross=new Set(['P1-C06-R12','P1-C06-R17','P1-C06-R26','P1-C06-R30']);
 const additions=new Set([...Array.from({length:6},(_,i)=>`P1-C04-R${31+i}`),...Array.from({length:6},(_,i)=>`P1-C09-R${31+i}`)]);
 
-assert.equal(bank.version,15);
-assert.equal(classification.version,15);
-assert.equal(bank.questions.length,788);
-assert.equal(bank.questions.filter(q=>!q.withdrawn).length,740);
-assert.equal(bank.questions.filter(q=>q.withdrawn).length,48);
+assert.equal(bank.version,16);
+assert.equal(classification.version,16);
+assert.equal(bank.questions.length,790);
+assert.equal(bank.questions.filter(q=>!q.withdrawn).length,738);
+assert.equal(bank.questions.filter(q=>q.withdrawn).length,52);
 assert.equal(chapter4.length,36);assert.equal(chapter9.length,36);
 assert.equal(chapter4.filter(q=>!q.withdrawn).length,23);
 assert.equal(chapter9.filter(q=>!q.withdrawn).length,23);

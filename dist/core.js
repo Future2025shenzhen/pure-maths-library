@@ -6,7 +6,7 @@ export function validateBank(data){
  for(const q of data.questions){
   if(ids.has(q.id))throw Error(`题目ID重复：${q.id}`);ids.add(q.id);
   if(!data.chapters[q.stage]||!q.chapters.length||!q.chapters.every(id=>data.chapters[q.stage].some(c=>c.id===id)))throw Error(`章节无效：${q.id}`);
-  if(q.parts.length<2||!q.stem)throw Error(`题目不完整：${q.id}`);
+  if(q.parts.length<1||!q.stem)throw Error(`题目不完整：${q.id}`);
   function checkPart(p){if(!p.text)throw Error(`小问缺少设问：${q.id}`);if(p.subparts){if(p.subparts.length<2||p.subparts.reduce((s,a)=>s+a.marks,0)!==p.marks)throw Error(`分层小问分值无效：${q.id}`);p.subparts.forEach(checkPart);}else if(!p.answer||!p.explanation||!p.scheme?.length||p.scheme.reduce((s,a)=>s+a.marks,0)!==p.marks)throw Error(`小问或评分点无效：${q.id}`);}q.parts.forEach(checkPart);
   if(q.parts.reduce((s,p)=>s+p.marks,0)!==q.marks)throw Error(`总分无效：${q.id}`);
  }

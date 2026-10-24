@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "mode": "local-only config intercepted in test browser; production auth unchanged",
+  "chapterPool": [
+    "P1-C07-R13",
+    "P1-C07-R03",
+    "P1-C07-R08",
+    "P1-C07-R30",
+    "P1-C07-R25",
+    "P1-C07-R24",
+    "P1-C07-R31",
+    "P1-C07-R02",
+    "P1-C07-R28",
+    "P1-C07-R21",
+    "P1-C07-R10",
+    "P1-C07-R38",
+    "P1-C07-R01",
+    "P1-C07-R07",
+    "P1-C07-R34",
+    "P1-C07-R23",
+    "P1-C07-R37",
+    "P1-C07-R11",
+    "P1-C07-R33",
+    "P1-C07-R20",
+    "P1-C07-R32"
+  ],
+  "pages": 4,
+  "mathErrors": 0,
+  "pageErrors": [],
+  "mobileHorizontalOverflow": false,
+  "onePartQuestion": "P1-C07-R25"
+}

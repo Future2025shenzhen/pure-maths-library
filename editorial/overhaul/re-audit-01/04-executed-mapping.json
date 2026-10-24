@@ -1,0 +1,446 @@
+[
+  {
+    "oldId": "P1-C07-R01",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "末问35.8>1.5×23.4与未舍入值给出同一结论；所谓精度提升不成立。与2024 Jun R Q6基本同路，未证实A3三题依据。",
+    "nextId": "P1-C07-R01",
+    "sourceBefore": [
+      "P1-2024-06R-Q06"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R01"
+  },
+  {
+    "oldId": "P1-C07-R02",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "弧长差消元后只剩一次方程；相比2024 Jan Q8失去大小扇形组合边界，20%变化也不属于参数分类讨论。",
+    "nextId": "P1-C07-R02",
+    "sourceBefore": [
+      "P1-2024-01-Q08"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R02"
+  },
+  {
+    "oldId": "P1-C07-R03",
+    "previousState": "active",
+    "decision": "降档保留",
+    "reason": "面积比建隐式方程、半角弧弦比有价值；仅补r>0、长度单位及末问面积单位，核实有效维度，保留给根以避免P1数值求根越界。",
+    "nextId": "P1-C07-R03",
+    "sourceBefore": [
+      "P1-2022-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R03"
+  },
+  {
+    "oldId": "P1-C07-R04",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：特殊直角与等边设置消去了来源中的角度构造和复杂边界，三问基本为直接代入。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2020-01-Q04"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R05",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：面积差展开化成一次方程，随后读出半径再代周界；弱于来源2023 Oct Q9。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2023-10-Q09"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R06",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：弧长差、两个半径、面积三段均直接计算，没有真实分类或建模难点。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2023-10-Q09"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R07",
+    "previousState": "active",
+    "decision": "降档保留",
+    "reason": "同弦异圆逆求半径并比较弓形有增量；现挂2024 Jun Q5不对应弓形题族，应改挂2022 Jan Q5并补半角构造和R=19.0 cm的精度。",
+    "nextId": "P1-C07-R07",
+    "sourceBefore": [
+      "P1-2024-06-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R07"
+  },
+  {
+    "oldId": "P1-C07-R08",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "总面积反求矩形高度是一次方程，末尾百分比直接相除；没有保留2020 Jan Q4的大扇形选择与有向面积难点，5分末问偏虚。",
+    "nextId": "P1-C07-R08",
+    "sourceBefore": [
+      "P1-2020-01-Q04"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R08"
+  },
+  {
+    "oldId": "P1-C07-R09",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：π/3及相等切线使路径过于直接，所挂2022 Oct Q8也没有切线题族；本批21卷中未找到能支撑此具体新结构的来源。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2022-10-Q08"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R10",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "把2019 Jan Q10的二次双解替换为一次联立，检查两个固定角在(0,π)内不能抵偿多解讨论的损失。",
+    "nextId": "P1-C07-R10",
+    "sourceBefore": [
+      "P1-2019-01-Q10"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R10"
+  },
+  {
+    "oldId": "P1-C07-R11",
+    "previousState": "active",
+    "decision": "保留",
+    "reason": "面积比反求半径、垂距证明内含、切去扇形后重建周界形成完整推理；三项以上实质改变成立，数值与解答相符。",
+    "nextId": "P1-C07-R11",
+    "sourceBefore": [
+      "P1-2024-06-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R11"
+  },
+  {
+    "oldId": "P1-C07-R12",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：现存底稿标明教材题而没有真题来源；不能把教材出处冒充A6的一题一源，前次笼统“偏简单”理由不足。",
+    "nextId": null,
+    "sourceBefore": [],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R13",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "正弦定理取钝角后大弧与周界几乎沿2021 Jan Q5；三次同问法证据不足；ACBA/ACB与O,C,D共线的端点命名不一致。",
+    "nextId": "P1-C07-R13",
+    "sourceBefore": [
+      "P1-2021-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R13"
+  },
+  {
+    "oldId": "P1-C07-R14",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：半径直接由面积得出，再代周界和弓形面积；没有真题来源，且“Prove”只是在包装一次代入。",
+    "nextId": null,
+    "sourceBefore": [],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R15",
+    "previousState": "active",
+    "decision": "删除",
+    "reason": "从来源的二次尺寸方程降为一次反求角；1:2径向切割后两边各增3 cm虽正确，仍不足以略难于来源。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2023-10-Q09"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R16",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：等边三角形直接确定π/3，正弦定理与复杂角构造均被消去，明显弱于2021 Oct Q7。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2021-10-Q07"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R17",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：相似周长比及半径缩放过于常规，四问拆分增加题面长度，没有增加真题级推理。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2022-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R18",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：等半径、圆心落在另一圆上的特殊设置直接产生等边三角形；仅有教材出处，没有真题来源。前次声称删去了参数并无此底稿依据。",
+    "nextId": null,
+    "sourceBefore": [],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R19",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：π/2使半径和两种面积均为直接计算，最后约分不构成独立思维增量。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2022-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R20",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "与2025 Jun A Q9同一半径→角→面积→周界链，增加A/P数值比较只是一次相除；情境仍是标志，数值不能计入A2。",
+    "nextId": "P1-C07-R20",
+    "sourceBefore": [
+      "P1-2025-06A-Q09"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R20"
+  },
+  {
+    "oldId": "P1-C07-R21",
+    "previousState": "active",
+    "decision": "降档保留",
+    "reason": "同弦大小弓形周界差证明与面积/周界比比较值得保留；应换成2022 Jan Q5弓形来源，删去将半角范围误说成SSA钝角取舍的说明。",
+    "nextId": "P1-C07-R21",
+    "sourceBefore": [
+      "P1-2021-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R21"
+  },
+  {
+    "oldId": "P1-C07-R22",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：按比例分整周、代扇形周界、代三角形面积，是互不依赖的一步三段题。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2022-06-Q08"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R23",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "与R36的半径、角、面积比及弧换弦全部相同；此题保留面积转移的有价值内核，但须重构隐含条件，来源原题的直线分割不能只被更简单的同心面积比取代。",
+    "nextId": "P1-C07-R23",
+    "sourceBefore": [
+      "P1-2024-10-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R23"
+  },
+  {
+    "oldId": "P1-C07-R24",
+    "previousState": "active",
+    "decision": "保留",
+    "reason": "垂距验证整扇形内含、重建余下区域边界，再由刚好相切确定极限面积；未把几何有效性降为默认成立。",
+    "nextId": "P1-C07-R24",
+    "sourceBefore": [
+      "P1-2020-10-Q03"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R24"
+  },
+  {
+    "oldId": "P1-C07-R25",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "半圆补角→两弦→半圆减直角三角形仍偏直；同一半圆载体不能算载体改变，同分级来源的三维改编证据不足。",
+    "nextId": "P1-C07-R25",
+    "sourceBefore": [
+      "P1-2022-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R25"
+  },
+  {
+    "oldId": "P1-C07-R26",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：同半径角差令前两问直接代入，末问再代两次正弦，原题的边界判断已消失。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2020-01-Q04"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R27",
+    "previousState": "active",
+    "decision": "删除",
+    "reason": "隐式方程建立后直接给根，后两问分别代扇形和弓形面积；与R03同为给根后计算，移除重复弱模板。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2022-01-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R28",
+    "previousState": "active",
+    "decision": "降档保留",
+    "reason": "反求叶片角、整周约束与最大整数个数组合有价值；仅需明确(b)精度：102.4 cm精确值，或题干要求3 s.f.后答102 cm。",
+    "nextId": "P1-C07-R28",
+    "sourceBefore": [
+      "P1-2022-06-Q08"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R28"
+  },
+  {
+    "oldId": "P1-C07-R29",
+    "previousState": "withdrawn",
+    "decision": "删除",
+    "reason": "维持撤下：三个固定π/3角与固定半径使面积、周界顺算；此前“弧长比例重复”不符合题干，应改记为特殊角直接代入。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2020-01-Q04"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R30",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "有向面积内核可用，但现挂2024 Jun Q5未支撑其弦构造；若换为2022 Oct Q8，现题又删去了该14分题的SSA及复杂组合，不能仅换来源即认定略难，须重建条件与目标。",
+    "nextId": "P1-C07-R30",
+    "sourceBefore": [
+      "P1-2024-06-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R30"
+  },
+  {
+    "oldId": "P1-C07-R31",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "来源坐标耦合成立，但新稿又给CB、CA目标和完整“扇形减三角形”关系，脚手架过多，12分四问尚未兑现去脚手架的增量。",
+    "nextId": "P1-C07-R31",
+    "sourceBefore": [
+      "P1-2021-06-Q07"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R31"
+  },
+  {
+    "oldId": "P1-C07-R32",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "(r,θ)=(4,3),(6,4/3)恰为来源两半径整体放大2倍、两角不变；末问数值比较不能冒充三维改编，单次出现的双解结构不能按A3豁免。",
+    "nextId": "P1-C07-R32",
+    "sourceBefore": [
+      "P1-2019-01-Q10"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R32"
+  },
+  {
+    "oldId": "P1-C07-R33",
+    "previousState": "active",
+    "decision": "降档保留",
+    "reason": "由面积与完整周界反求两组环形设计，确有逆向和多解增量；末问5分偏高，建议缩为3分、总分8分，并明确较大r对应较小θ的主语。",
+    "nextId": "P1-C07-R33",
+    "sourceBefore": [
+      "P1-2023-10-Q09"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R33"
+  },
+  {
+    "oldId": "P1-C07-R34",
+    "previousState": "active",
+    "decision": "重写",
+    "reason": "间隙填三角形有价值，但(c)直接告知全部外边界，(d)重复解释已给结论；应合并边界辨识、撤掉提示并压缩13分体量。",
+    "nextId": "P1-C07-R34",
+    "sourceBefore": [
+      "P1-2022-06-Q08"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "P1-C07-R34"
+  },
+  {
+    "oldId": "P1-C07-R35",
+    "previousState": "active",
+    "decision": "删除",
+    "reason": "与R01同一对称拼接族，反求x只是线性面积式，末问(50−28.8)/50三分明显虚高；重复新增题不保留。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2020-10-Q03"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "P1-C07-R36",
+    "previousState": "active",
+    "decision": "删除",
+    "reason": "与R23完全相同的12、1.1、2:1、4√3及弧换弦路径；把减少量改为百分比不构成独立新题，也没有真正优化问题。",
+    "nextId": null,
+    "sourceBefore": [
+      "P1-2024-10-Q05"
+    ],
+    "status": "executed-after-user-confirmation",
+    "result": "历史ID继续保留但退出日常练习与组卷"
+  },
+  {
+    "oldId": "—",
+    "previousState": "not-existing",
+    "decision": "新增",
+    "nextId": "P1-C07-R37",
+    "status": "executed-after-user-confirmation",
+    "reason": "按B3补录，独立题稿、单源及分步评分已核查",
+    "result": "P1-C07-R37"
+  },
+  {
+    "oldId": "—",
+    "previousState": "not-existing",
+    "decision": "新增",
+    "nextId": "P1-C07-R38",
+    "status": "executed-after-user-confirmation",
+    "reason": "按B3补录，独立题稿、单源及分步评分已核查",
+    "result": "P1-C07-R38"
+  }
+]

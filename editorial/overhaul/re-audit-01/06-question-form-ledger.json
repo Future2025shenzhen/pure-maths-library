@@ -1,0 +1,183 @@
+{
+  "status": "executed",
+  "families": {
+    "G1": 5,
+    "G4": 3,
+    "G3": 4,
+    "G5": 3,
+    "G2": 3,
+    "G6": 3
+  },
+  "questions": [
+    {
+      "id": "P1-C07-R01",
+      "family": "G1",
+      "template": "等边界条件逆求尺寸后作等面积设计比较",
+      "source": "P1-2024-06R-Q06",
+      "marks": 10,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R02",
+      "family": "G4",
+      "template": "同心异角双半径逆求后截去大弓形",
+      "source": "P1-2024-01-Q08",
+      "marks": 9,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R03",
+      "family": "G3",
+      "template": "面积比隐式方程与弧弦无量纲比",
+      "source": "P1-2022-01-Q05",
+      "marks": 7,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R07",
+      "family": "G3",
+      "template": "同弦异圆反求半径与弓形比较",
+      "source": "P1-2022-01-Q05",
+      "marks": 10,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R08",
+      "family": "G5",
+      "template": "未知重复数联立反求与等周缩放比较",
+      "source": "P1-2022-06-Q08",
+      "marks": 10,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R10",
+      "family": "G2",
+      "template": "固定周界的面积参数双解区间",
+      "source": "P1-2019-01-Q10",
+      "marks": 8,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R11",
+      "family": "G1",
+      "template": "面积比反求半径并证明整扇形内含",
+      "source": "P1-2024-06-Q05",
+      "marks": 9,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R13",
+      "family": "G1",
+      "template": "带共线顺序的SSA几何存在区间",
+      "source": "P1-2021-01-Q05",
+      "marks": 11,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R20",
+      "family": "G1",
+      "template": "逆向余弦双解及两种大扇形设计比较",
+      "source": "P1-2025-06A-Q09",
+      "marks": 10,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R21",
+      "family": "G3",
+      "template": "大小弓形周界差证明及面积周界比比较",
+      "source": "P1-2022-01-Q05",
+      "marks": 11,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R23",
+      "family": "G4",
+      "template": "环形不变量与周界下界及退化解排除",
+      "source": "P1-2023-10-Q09",
+      "marks": 10,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R24",
+      "family": "G1",
+      "template": "内扇形包含条件与相切极限",
+      "source": "P1-2020-10-Q03",
+      "marks": 11,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R25",
+      "family": "G2",
+      "template": "精确整体量逆求及大角伪解排除",
+      "source": "P1-2019-10-Q01",
+      "marks": 6,
+      "parts": 1
+    },
+    {
+      "id": "P1-C07-R28",
+      "family": "G5",
+      "template": "重复环形叶片的最大整数数量",
+      "source": "P1-2022-06-Q08",
+      "marks": 11,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R30",
+      "family": "G3",
+      "template": "两种SSA大弓形设计的精确比值证明",
+      "source": "P1-2022-10-Q08",
+      "marks": 12,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R31",
+      "family": "G6",
+      "template": "坐标长度比反求后构造弧形边界",
+      "source": "P1-2021-06-Q07",
+      "marks": 10,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R32",
+      "family": "G2",
+      "template": "等周分区的充要范围与面积次序证明",
+      "source": "P1-2024-10-Q05",
+      "marks": 7,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R33",
+      "family": "G4",
+      "template": "面积周界逆求两种环形设计",
+      "source": "P1-2023-10-Q09",
+      "marks": 8,
+      "parts": 3
+    },
+    {
+      "id": "P1-C07-R34",
+      "family": "G5",
+      "template": "弧弦交替单元逆求后由切除面积重构独立扇形",
+      "source": "P1-2022-06-Q08",
+      "marks": 9,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R37",
+      "family": "G6",
+      "template": "坐标面积比反求与截轴包含临界角",
+      "source": "P1-2021-06-Q07",
+      "marks": 9,
+      "parts": 2
+    },
+    {
+      "id": "P1-C07-R38",
+      "family": "G6",
+      "template": "坐标参数族的无微分最小半径证明",
+      "source": "P1-2021-06-Q07",
+      "marks": 10,
+      "parts": 2
+    }
+  ],
+  "classicExemptions": [],
+  "crossBatchNote": "P1 C04/C09 prior entries remain provisional until their re-audit; no false claim of a completed global quality audit"
+}

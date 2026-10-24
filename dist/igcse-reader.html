@@ -12,5 +12,6 @@ document.getElementById('open').onclick=()=>{
  if(!/\.pdf(?:$|[?#])/i.test(url.href)){message.textContent='当前链接不是以 .pdf 结尾的直接文件地址，请先从来源目录打开 PDF 再复制实际文件地址。';return;}
  original.href=url.href;original.hidden=false;const iframe=document.createElement('iframe');iframe.setAttribute('title','Source-hosted PDF');iframe.setAttribute('referrerpolicy','no-referrer');iframe.src=url.href+'#toolbar=1';frame.replaceChildren(iframe);message.textContent='已请求打开原站文件，但嵌入不一定成功；如空白，请用新标签打开。';
 };
+const initialPdf=p.get('pdf');if(initialPdf){input.value=initialPdf;document.getElementById('open').click();}
 document.getElementById('clear').onclick=()=>{frame.innerHTML='<div class="placeholder">已关闭阅读器。</div>';if(localObjectUrl){URL.revokeObjectURL(localObjectUrl);localObjectUrl=null;}localInput.value='';original.hidden=true;message.textContent='';};
 </script></body></html>

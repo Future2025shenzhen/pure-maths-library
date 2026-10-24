@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import {spawnSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 const root=new URL('../dist/',import.meta.url);
-for(const file of ['igcse.html','igcse-reader.html','igcse-practice.html']){
+for(const file of ['igcse.html','igcse-reader.html','igcse-practice.html','igcse-audit.html']){
  const html=fs.readFileSync(new URL(file,root),'utf8');
  assert(html.includes('<!doctype html>'),file);
  const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];

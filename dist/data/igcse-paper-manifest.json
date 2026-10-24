@@ -1,7 +1,7 @@
 {
-  "version": 2,
+  "version": 3,
   "generatedDate": "2026-10-24",
-  "description": "Generated filename candidates for Cambridge IGCSE Physics 0625 and Computer Science 0478, 2019-2024. Not a confirmed list of paper existence. No PDF checked or hosted; source links direct users to third-party or official listings.",
+  "description": "Filename candidates, not a complete or verified collection. source-listing-confirmed means a public page explicitly lists the file name/component, NOT that the PDF was retrieved, authenticated or licensed for republication. fileStatus=not-checked throughout.",
   "sourceCatalogues": {
     "physics": [
       "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-physics-0625/past-papers/",
@@ -165,9 +165,10 @@
       "component": "22",
       "qp": "0625_s19_qp_22.pdf",
       "ms": "0625_s19_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s19_23",
@@ -249,9 +250,10 @@
       "component": "42",
       "qp": "0625_s19_qp_42.pdf",
       "ms": "0625_s19_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s19_43",
@@ -333,9 +335,10 @@
       "component": "62",
       "qp": "0625_s19_qp_62.pdf",
       "ms": "0625_s19_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s19_63",
@@ -417,9 +420,10 @@
       "component": "22",
       "qp": "0625_w19_qp_22.pdf",
       "ms": "0625_w19_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w19_23",
@@ -501,9 +505,10 @@
       "component": "42",
       "qp": "0625_w19_qp_42.pdf",
       "ms": "0625_w19_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w19_43",
@@ -585,9 +590,10 @@
       "component": "62",
       "qp": "0625_w19_qp_62.pdf",
       "ms": "0625_w19_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w19_63",
@@ -753,9 +759,10 @@
       "component": "22",
       "qp": "0625_s20_qp_22.pdf",
       "ms": "0625_s20_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "cancelled-international-series"
+      "examStatus": "cancelled-international-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s20_23",
@@ -837,9 +844,10 @@
       "component": "42",
       "qp": "0625_s20_qp_42.pdf",
       "ms": "0625_s20_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "cancelled-international-series"
+      "examStatus": "cancelled-international-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s20_43",
@@ -921,9 +929,10 @@
       "component": "62",
       "qp": "0625_s20_qp_62.pdf",
       "ms": "0625_s20_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "cancelled-international-series"
+      "examStatus": "cancelled-international-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s20_63",
@@ -1005,9 +1014,10 @@
       "component": "22",
       "qp": "0625_w20_qp_22.pdf",
       "ms": "0625_w20_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w20_23",
@@ -1089,9 +1099,10 @@
       "component": "42",
       "qp": "0625_w20_qp_42.pdf",
       "ms": "0625_w20_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w20_43",
@@ -1173,9 +1184,10 @@
       "component": "62",
       "qp": "0625_w20_qp_62.pdf",
       "ms": "0625_w20_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w20_63",
@@ -1341,9 +1353,10 @@
       "component": "22",
       "qp": "0625_s21_qp_22.pdf",
       "ms": "0625_s21_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s21_23",
@@ -1425,9 +1438,10 @@
       "component": "42",
       "qp": "0625_s21_qp_42.pdf",
       "ms": "0625_s21_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s21_43",
@@ -1509,9 +1523,10 @@
       "component": "62",
       "qp": "0625_s21_qp_62.pdf",
       "ms": "0625_s21_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s21_63",
@@ -1593,9 +1608,10 @@
       "component": "22",
       "qp": "0625_w21_qp_22.pdf",
       "ms": "0625_w21_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w21_23",
@@ -1677,9 +1693,10 @@
       "component": "42",
       "qp": "0625_w21_qp_42.pdf",
       "ms": "0625_w21_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w21_43",
@@ -1761,9 +1778,10 @@
       "component": "62",
       "qp": "0625_w21_qp_62.pdf",
       "ms": "0625_w21_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w21_63",
@@ -1929,9 +1947,10 @@
       "component": "22",
       "qp": "0625_s22_qp_22.pdf",
       "ms": "0625_s22_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s22_23",
@@ -2013,9 +2032,10 @@
       "component": "42",
       "qp": "0625_s22_qp_42.pdf",
       "ms": "0625_s22_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s22_43",
@@ -2097,9 +2117,10 @@
       "component": "62",
       "qp": "0625_s22_qp_62.pdf",
       "ms": "0625_s22_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s22_63",
@@ -2181,9 +2202,10 @@
       "component": "22",
       "qp": "0625_w22_qp_22.pdf",
       "ms": "0625_w22_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w22_23",
@@ -2265,9 +2287,10 @@
       "component": "42",
       "qp": "0625_w22_qp_42.pdf",
       "ms": "0625_w22_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w22_43",
@@ -2349,9 +2372,10 @@
       "component": "62",
       "qp": "0625_w22_qp_62.pdf",
       "ms": "0625_w22_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w22_63",
@@ -2517,9 +2541,10 @@
       "component": "22",
       "qp": "0625_s23_qp_22.pdf",
       "ms": "0625_s23_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s23_23",
@@ -2601,9 +2626,10 @@
       "component": "42",
       "qp": "0625_s23_qp_42.pdf",
       "ms": "0625_s23_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s23_43",
@@ -2685,9 +2711,10 @@
       "component": "62",
       "qp": "0625_s23_qp_62.pdf",
       "ms": "0625_s23_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s23_63",
@@ -2769,9 +2796,10 @@
       "component": "22",
       "qp": "0625_w23_qp_22.pdf",
       "ms": "0625_w23_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w23_23",
@@ -2853,9 +2881,10 @@
       "component": "42",
       "qp": "0625_w23_qp_42.pdf",
       "ms": "0625_w23_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w23_43",
@@ -2937,9 +2966,10 @@
       "component": "62",
       "qp": "0625_w23_qp_62.pdf",
       "ms": "0625_w23_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_w23_63",
@@ -2979,9 +3009,10 @@
       "component": "22",
       "qp": "0625_m24_qp_22.pdf",
       "ms": "0625_m24_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_m24_32",
@@ -3007,9 +3038,10 @@
       "component": "42",
       "qp": "0625_m24_qp_42.pdf",
       "ms": "0625_m24_ms_42.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_m24_52",
@@ -3035,9 +3067,10 @@
       "component": "62",
       "qp": "0625_m24_qp_62.pdf",
       "ms": "0625_m24_ms_62.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://exampazz.org/physics-cambridge-igcse/"
     },
     {
       "id": "0625_s24_11",
@@ -3581,9 +3614,10 @@
       "component": "11",
       "qp": "0478_s19_qp_11.pdf",
       "ms": "0478_s19_ms_11.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_s19_12",
@@ -3595,9 +3629,10 @@
       "component": "12",
       "qp": "0478_s19_qp_12.pdf",
       "ms": "0478_s19_ms_12.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_s19_13",
@@ -3609,9 +3644,10 @@
       "component": "13",
       "qp": "0478_s19_qp_13.pdf",
       "ms": "0478_s19_ms_13.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_s19_21",
@@ -3623,9 +3659,10 @@
       "component": "21",
       "qp": "0478_s19_qp_21.pdf",
       "ms": "0478_s19_ms_21.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_s19_22",
@@ -3637,9 +3674,10 @@
       "component": "22",
       "qp": "0478_s19_qp_22.pdf",
       "ms": "0478_s19_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_s19_23",
@@ -3651,9 +3689,10 @@
       "component": "23",
       "qp": "0478_s19_qp_23.pdf",
       "ms": "0478_s19_ms_23.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://www.learnedguys.com/home/document_library/view/1289"
     },
     {
       "id": "0478_w19_11",
@@ -4533,9 +4572,10 @@
       "component": "12",
       "qp": "0478_m24_qp_12.pdf",
       "ms": "0478_m24_ms_12.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_m24_22",
@@ -4547,9 +4587,10 @@
       "component": "22",
       "qp": "0478_m24_qp_22.pdf",
       "ms": "0478_m24_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_11",
@@ -4561,9 +4602,10 @@
       "component": "11",
       "qp": "0478_s24_qp_11.pdf",
       "ms": "0478_s24_ms_11.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_12",
@@ -4575,9 +4617,10 @@
       "component": "12",
       "qp": "0478_s24_qp_12.pdf",
       "ms": "0478_s24_ms_12.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_13",
@@ -4589,9 +4632,10 @@
       "component": "13",
       "qp": "0478_s24_qp_13.pdf",
       "ms": "0478_s24_ms_13.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_21",
@@ -4603,9 +4647,10 @@
       "component": "21",
       "qp": "0478_s24_qp_21.pdf",
       "ms": "0478_s24_ms_21.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_22",
@@ -4617,9 +4662,10 @@
       "component": "22",
       "qp": "0478_s24_qp_22.pdf",
       "ms": "0478_s24_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_s24_23",
@@ -4631,9 +4677,10 @@
       "component": "23",
       "qp": "0478_s24_qp_23.pdf",
       "ms": "0478_s24_ms_23.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_11",
@@ -4645,9 +4692,10 @@
       "component": "11",
       "qp": "0478_w24_qp_11.pdf",
       "ms": "0478_w24_ms_11.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_12",
@@ -4659,9 +4707,10 @@
       "component": "12",
       "qp": "0478_w24_qp_12.pdf",
       "ms": "0478_w24_ms_12.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_13",
@@ -4673,9 +4722,10 @@
       "component": "13",
       "qp": "0478_w24_qp_13.pdf",
       "ms": "0478_w24_ms_13.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_21",
@@ -4687,9 +4737,10 @@
       "component": "21",
       "qp": "0478_w24_qp_21.pdf",
       "ms": "0478_w24_ms_21.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_22",
@@ -4701,9 +4752,10 @@
       "component": "22",
       "qp": "0478_w24_qp_22.pdf",
       "ms": "0478_w24_ms_22.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     },
     {
       "id": "0478_w24_23",
@@ -4715,9 +4767,10 @@
       "component": "23",
       "qp": "0478_w24_qp_23.pdf",
       "ms": "0478_w24_ms_23.pdf",
-      "sourceStatus": "candidate-not-individually-confirmed",
+      "sourceStatus": "source-listing-confirmed",
       "fileStatus": "not-checked",
-      "examStatus": "normal-or-regional-series"
+      "examStatus": "normal-or-regional-series",
+      "sourceEvidenceUrl": "https://nobleeducators.com/past-papers/igcse/computer-science-0478"
     }
   ]
 }

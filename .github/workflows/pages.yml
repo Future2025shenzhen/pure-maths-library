@@ -21,6 +21,8 @@ jobs:
       - run: npm test
       - run: npm run check
       - run: python3 scripts/check-static.py
+      - name: Index source-hosted IGCSE PDFs (non-blocking on source downtime)
+        run: python3 scripts/collect-igcse-links.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

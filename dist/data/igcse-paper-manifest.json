@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "generatedDate": "2026-10-24",
-  "description": "Candidate paper/variant manifest; NO direct PDFs hosted or individually validated. source-index-listed only means component appears in third-party index, not that PDF bytes were verified.",
+  "description": "Generated filename candidates for Cambridge IGCSE Physics 0625 and Computer Science 0478, 2019-2024. Not a confirmed list of paper existence. No PDF checked or hosted; source links direct users to third-party or official listings.",
   "sourceCatalogues": {
     "physics": [
       "https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-physics-0625/past-papers/",
@@ -25,7 +25,7 @@
       "component": "12",
       "qp": "0625_m19_qp_12.pdf",
       "ms": "0625_m19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -39,7 +39,7 @@
       "component": "22",
       "qp": "0625_m19_qp_22.pdf",
       "ms": "0625_m19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -53,7 +53,7 @@
       "component": "32",
       "qp": "0625_m19_qp_32.pdf",
       "ms": "0625_m19_ms_32.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -67,7 +67,7 @@
       "component": "42",
       "qp": "0625_m19_qp_42.pdf",
       "ms": "0625_m19_ms_42.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -81,7 +81,7 @@
       "component": "52",
       "qp": "0625_m19_qp_52.pdf",
       "ms": "0625_m19_ms_52.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -95,7 +95,7 @@
       "component": "62",
       "qp": "0625_m19_qp_62.pdf",
       "ms": "0625_m19_ms_62.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -109,7 +109,7 @@
       "component": "11",
       "qp": "0625_s19_qp_11.pdf",
       "ms": "0625_s19_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -123,7 +123,7 @@
       "component": "12",
       "qp": "0625_s19_qp_12.pdf",
       "ms": "0625_s19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -137,7 +137,7 @@
       "component": "13",
       "qp": "0625_s19_qp_13.pdf",
       "ms": "0625_s19_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -151,7 +151,7 @@
       "component": "21",
       "qp": "0625_s19_qp_21.pdf",
       "ms": "0625_s19_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -165,7 +165,7 @@
       "component": "22",
       "qp": "0625_s19_qp_22.pdf",
       "ms": "0625_s19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -179,7 +179,7 @@
       "component": "23",
       "qp": "0625_s19_qp_23.pdf",
       "ms": "0625_s19_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -193,7 +193,7 @@
       "component": "31",
       "qp": "0625_s19_qp_31.pdf",
       "ms": "0625_s19_ms_31.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -207,7 +207,7 @@
       "component": "32",
       "qp": "0625_s19_qp_32.pdf",
       "ms": "0625_s19_ms_32.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -221,7 +221,7 @@
       "component": "33",
       "qp": "0625_s19_qp_33.pdf",
       "ms": "0625_s19_ms_33.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -235,7 +235,7 @@
       "component": "41",
       "qp": "0625_s19_qp_41.pdf",
       "ms": "0625_s19_ms_41.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -249,7 +249,7 @@
       "component": "42",
       "qp": "0625_s19_qp_42.pdf",
       "ms": "0625_s19_ms_42.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -263,7 +263,7 @@
       "component": "43",
       "qp": "0625_s19_qp_43.pdf",
       "ms": "0625_s19_ms_43.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -277,7 +277,7 @@
       "component": "51",
       "qp": "0625_s19_qp_51.pdf",
       "ms": "0625_s19_ms_51.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -291,7 +291,7 @@
       "component": "52",
       "qp": "0625_s19_qp_52.pdf",
       "ms": "0625_s19_ms_52.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -305,7 +305,7 @@
       "component": "53",
       "qp": "0625_s19_qp_53.pdf",
       "ms": "0625_s19_ms_53.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -319,7 +319,7 @@
       "component": "61",
       "qp": "0625_s19_qp_61.pdf",
       "ms": "0625_s19_ms_61.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -333,7 +333,7 @@
       "component": "62",
       "qp": "0625_s19_qp_62.pdf",
       "ms": "0625_s19_ms_62.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -347,7 +347,7 @@
       "component": "63",
       "qp": "0625_s19_qp_63.pdf",
       "ms": "0625_s19_ms_63.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -361,7 +361,7 @@
       "component": "11",
       "qp": "0625_w19_qp_11.pdf",
       "ms": "0625_w19_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -375,7 +375,7 @@
       "component": "12",
       "qp": "0625_w19_qp_12.pdf",
       "ms": "0625_w19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -389,7 +389,7 @@
       "component": "13",
       "qp": "0625_w19_qp_13.pdf",
       "ms": "0625_w19_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -403,7 +403,7 @@
       "component": "21",
       "qp": "0625_w19_qp_21.pdf",
       "ms": "0625_w19_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -417,7 +417,7 @@
       "component": "22",
       "qp": "0625_w19_qp_22.pdf",
       "ms": "0625_w19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -431,7 +431,7 @@
       "component": "23",
       "qp": "0625_w19_qp_23.pdf",
       "ms": "0625_w19_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -445,7 +445,7 @@
       "component": "31",
       "qp": "0625_w19_qp_31.pdf",
       "ms": "0625_w19_ms_31.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -459,7 +459,7 @@
       "component": "32",
       "qp": "0625_w19_qp_32.pdf",
       "ms": "0625_w19_ms_32.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -473,7 +473,7 @@
       "component": "33",
       "qp": "0625_w19_qp_33.pdf",
       "ms": "0625_w19_ms_33.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -487,7 +487,7 @@
       "component": "41",
       "qp": "0625_w19_qp_41.pdf",
       "ms": "0625_w19_ms_41.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -501,7 +501,7 @@
       "component": "42",
       "qp": "0625_w19_qp_42.pdf",
       "ms": "0625_w19_ms_42.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -515,7 +515,7 @@
       "component": "43",
       "qp": "0625_w19_qp_43.pdf",
       "ms": "0625_w19_ms_43.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -529,7 +529,7 @@
       "component": "51",
       "qp": "0625_w19_qp_51.pdf",
       "ms": "0625_w19_ms_51.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -543,7 +543,7 @@
       "component": "52",
       "qp": "0625_w19_qp_52.pdf",
       "ms": "0625_w19_ms_52.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -557,7 +557,7 @@
       "component": "53",
       "qp": "0625_w19_qp_53.pdf",
       "ms": "0625_w19_ms_53.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -571,7 +571,7 @@
       "component": "61",
       "qp": "0625_w19_qp_61.pdf",
       "ms": "0625_w19_ms_61.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -585,7 +585,7 @@
       "component": "62",
       "qp": "0625_w19_qp_62.pdf",
       "ms": "0625_w19_ms_62.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -599,7 +599,7 @@
       "component": "63",
       "qp": "0625_w19_qp_63.pdf",
       "ms": "0625_w19_ms_63.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2713,7 +2713,7 @@
       "component": "11",
       "qp": "0625_w23_qp_11.pdf",
       "ms": "0625_w23_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2727,7 +2727,7 @@
       "component": "12",
       "qp": "0625_w23_qp_12.pdf",
       "ms": "0625_w23_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2741,7 +2741,7 @@
       "component": "13",
       "qp": "0625_w23_qp_13.pdf",
       "ms": "0625_w23_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2755,7 +2755,7 @@
       "component": "21",
       "qp": "0625_w23_qp_21.pdf",
       "ms": "0625_w23_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2769,7 +2769,7 @@
       "component": "22",
       "qp": "0625_w23_qp_22.pdf",
       "ms": "0625_w23_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2783,7 +2783,7 @@
       "component": "23",
       "qp": "0625_w23_qp_23.pdf",
       "ms": "0625_w23_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2797,7 +2797,7 @@
       "component": "31",
       "qp": "0625_w23_qp_31.pdf",
       "ms": "0625_w23_ms_31.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2811,7 +2811,7 @@
       "component": "32",
       "qp": "0625_w23_qp_32.pdf",
       "ms": "0625_w23_ms_32.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2825,7 +2825,7 @@
       "component": "33",
       "qp": "0625_w23_qp_33.pdf",
       "ms": "0625_w23_ms_33.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2839,7 +2839,7 @@
       "component": "41",
       "qp": "0625_w23_qp_41.pdf",
       "ms": "0625_w23_ms_41.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2853,7 +2853,7 @@
       "component": "42",
       "qp": "0625_w23_qp_42.pdf",
       "ms": "0625_w23_ms_42.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2867,7 +2867,7 @@
       "component": "43",
       "qp": "0625_w23_qp_43.pdf",
       "ms": "0625_w23_ms_43.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2881,7 +2881,7 @@
       "component": "51",
       "qp": "0625_w23_qp_51.pdf",
       "ms": "0625_w23_ms_51.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2895,7 +2895,7 @@
       "component": "52",
       "qp": "0625_w23_qp_52.pdf",
       "ms": "0625_w23_ms_52.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2909,7 +2909,7 @@
       "component": "53",
       "qp": "0625_w23_qp_53.pdf",
       "ms": "0625_w23_ms_53.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2923,7 +2923,7 @@
       "component": "61",
       "qp": "0625_w23_qp_61.pdf",
       "ms": "0625_w23_ms_61.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2937,7 +2937,7 @@
       "component": "62",
       "qp": "0625_w23_qp_62.pdf",
       "ms": "0625_w23_ms_62.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -2951,7 +2951,7 @@
       "component": "63",
       "qp": "0625_w23_qp_63.pdf",
       "ms": "0625_w23_ms_63.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3553,7 +3553,7 @@
       "component": "12",
       "qp": "0478_m19_qp_12.pdf",
       "ms": "0478_m19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3567,7 +3567,7 @@
       "component": "22",
       "qp": "0478_m19_qp_22.pdf",
       "ms": "0478_m19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3581,7 +3581,7 @@
       "component": "11",
       "qp": "0478_s19_qp_11.pdf",
       "ms": "0478_s19_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3595,7 +3595,7 @@
       "component": "12",
       "qp": "0478_s19_qp_12.pdf",
       "ms": "0478_s19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3609,7 +3609,7 @@
       "component": "13",
       "qp": "0478_s19_qp_13.pdf",
       "ms": "0478_s19_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3623,7 +3623,7 @@
       "component": "21",
       "qp": "0478_s19_qp_21.pdf",
       "ms": "0478_s19_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3637,7 +3637,7 @@
       "component": "22",
       "qp": "0478_s19_qp_22.pdf",
       "ms": "0478_s19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3651,7 +3651,7 @@
       "component": "23",
       "qp": "0478_s19_qp_23.pdf",
       "ms": "0478_s19_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3665,7 +3665,7 @@
       "component": "11",
       "qp": "0478_w19_qp_11.pdf",
       "ms": "0478_w19_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3679,7 +3679,7 @@
       "component": "12",
       "qp": "0478_w19_qp_12.pdf",
       "ms": "0478_w19_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3693,7 +3693,7 @@
       "component": "13",
       "qp": "0478_w19_qp_13.pdf",
       "ms": "0478_w19_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3707,7 +3707,7 @@
       "component": "21",
       "qp": "0478_w19_qp_21.pdf",
       "ms": "0478_w19_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3721,7 +3721,7 @@
       "component": "22",
       "qp": "0478_w19_qp_22.pdf",
       "ms": "0478_w19_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -3735,7 +3735,7 @@
       "component": "23",
       "qp": "0478_w19_qp_23.pdf",
       "ms": "0478_w19_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4561,7 +4561,7 @@
       "component": "11",
       "qp": "0478_s24_qp_11.pdf",
       "ms": "0478_s24_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4575,7 +4575,7 @@
       "component": "12",
       "qp": "0478_s24_qp_12.pdf",
       "ms": "0478_s24_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4589,7 +4589,7 @@
       "component": "13",
       "qp": "0478_s24_qp_13.pdf",
       "ms": "0478_s24_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4603,7 +4603,7 @@
       "component": "21",
       "qp": "0478_s24_qp_21.pdf",
       "ms": "0478_s24_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4617,7 +4617,7 @@
       "component": "22",
       "qp": "0478_s24_qp_22.pdf",
       "ms": "0478_s24_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4631,7 +4631,7 @@
       "component": "23",
       "qp": "0478_s24_qp_23.pdf",
       "ms": "0478_s24_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4645,7 +4645,7 @@
       "component": "11",
       "qp": "0478_w24_qp_11.pdf",
       "ms": "0478_w24_ms_11.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4659,7 +4659,7 @@
       "component": "12",
       "qp": "0478_w24_qp_12.pdf",
       "ms": "0478_w24_ms_12.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4673,7 +4673,7 @@
       "component": "13",
       "qp": "0478_w24_qp_13.pdf",
       "ms": "0478_w24_ms_13.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4687,7 +4687,7 @@
       "component": "21",
       "qp": "0478_w24_qp_21.pdf",
       "ms": "0478_w24_ms_21.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4701,7 +4701,7 @@
       "component": "22",
       "qp": "0478_w24_qp_22.pdf",
       "ms": "0478_w24_ms_22.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     },
@@ -4715,7 +4715,7 @@
       "component": "23",
       "qp": "0478_w24_qp_23.pdf",
       "ms": "0478_w24_ms_23.pdf",
-      "sourceStatus": "source-index-listed",
+      "sourceStatus": "candidate-not-individually-confirmed",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series"
     }

@@ -36,7 +36,8 @@ function questionImages(q,p){return (layout[q.id]||q.pages).map(v=>{
 function officialMarkScheme(q,p){
  const images=(q.markSchemePages||[]).map(v=>{const label=`${p.title} 第${q.number}题官方评分标准，第${v.page}页`;return `<figure><button class="past-image-link" data-doc="${p.markScheme}" data-page="${v.page}" data-title="${esc(p.title)} · Q${q.number} · 官方评分标准" aria-label="${esc(label)}"><canvas class="source-pdf-crop" data-pdf-crop="${encodeURIComponent(JSON.stringify(v))}" aria-label="${esc(label)}"></canvas></button></figure>`;}).join('');
  const quick=q.quickCheckZh||{};
- return `<div class="quick-check"><strong>中文快速核对</strong><p><b>必须体现的过程：</b>${esc(improveMath(quick.process||'按橙框顺序写出关键方法和必要代入。'))}</p><p><b>最终答案：</b>${esc(improveMath(quick.answer||'粉红框内是官方正确答案或必须达到的准确结论。'))}</p></div><div class="official-answer-callout"><strong>官方答案与重要评分细则</strong><span><i class="accuracy-key"></i>粉红框：真正的正确答案或必须达到的准确结论（A、B 分）</span><span><i class="method-key"></i>橙色框：必须体现的方法步骤（M 分）</span><p>M＝方法分；A＝方法正确后取得的准确分；B＝无需依赖前一步的独立准确分；ft＝允许跟随前一步结果；cao＝只接受完全正确答案；awrt＝按要求取近似值。每题仅说明一次。</p></div><div class="official-scheme-images">${images}</div>`;
+ const verified=Boolean(q.manualAnswerReview);const answer=esc(improveMath(quick.answer||'请核对本题官方评分标准。'));
+ return `<div class="quick-check"><strong>中文快速核对${verified?' · 已逐题复核':''}</strong><p><b>必须体现的过程：</b>${esc(improveMath(quick.process||'请按官方评分标准逐步核对。'))}</p><p><b>最终答案：</b>${verified?`<span class="reviewed-final">${answer}</span>`:answer}</p></div><div class="official-answer-callout"><strong>官方答案与评分标准</strong>${verified?'':`<span><i class="accuracy-key"></i>粉红框：正确答案或准确结论（A、B 分）</span><span><i class="method-key"></i>橙色框：方法步骤（M 分）</span>`}<p>M＝方法分；A＝方法正确后取得的准确分；B＝独立准确分；ft＝跟随前一步结果；cao＝只接受完全正确答案；awrt＝按要求取近似值。</p></div><div class="official-scheme-images">${images}</div>`;
 }
 let cropPdfjs=null;const cropDocuments=new Map();
 async function renderPdfCrop(canvas){

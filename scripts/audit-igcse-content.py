@@ -106,6 +106,9 @@ def main():
           'scanned',len(rows),'/',len(data['files']),flush=True)
     if counts['missing'] or counts['unreadable'] or counts['discrepancy']:
         print('WARNING: flagged items require investigation; see audit JSON')
+        for item in rows:
+            if item['status'] in ('missing','unreadable','discrepancy'):
+                print('REVIEW: '+item['filename']+' | '+item['status']+' | '+','.join(item.get('notes',[])),flush=True)
     if not args.sample and len(rows)!=len(data['files']):
         raise SystemExit('Incomplete audit')
 

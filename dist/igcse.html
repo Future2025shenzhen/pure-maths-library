@@ -5,7 +5,7 @@
 </style></head><body><header><a class="brand" href="index.html">Pure Practice · 课程首页</a></header>
 <main><a class="back" href="index.html">← 返回三科目录</a><h1 id="heading">Cambridge IGCSE</h1><p id="subtitle"></p>
 <section class="panel"><h2>2019–2024 真题资料检索</h2><p>按考试年份与考季查找原卷（QP）、评分标准（MS）、分数线（GT）和考官报告（ER）。下列为 Cambridge 官方入口及第三方文档索引，<strong>并非已下载、逐文件核验的 PDF 本地库</strong>。</p>
-<div class="filters"><label class="filter">年份<select id="year"><option value="all">全部年份</option></select></label><label class="filter">考试季<select id="session"><option value="all">全部考试季</option><option value="m">Feb / March</option><option value="s">May / June</option><option value="w">Oct / Nov</option></select></label><label class="filter">文件类别<select id="type"><option value="qp">Question Paper</option><option value="ms">Mark Scheme</option><option value="gt">Grade Threshold</option><option value="er">Examiner Report</option><option value="ci">Confidential Instructions</option><option value="pm">Pre-release / supporting material</option></select></label><label class="filter">Paper / Variant<input id="paper" placeholder="例如 41、22"></label><label class="filter">索引状态<select id="coverage"><option value="named">逐卷文件名有证据</option><option value="listed">索引列出的考季</option><option value="all">包含其他待查组合</option></select></label></div>
+<div class="filters"><label class="filter">年份<select id="year"><option value="all">全部年份</option></select></label><label class="filter">考试季<select id="session"><option value="all">全部考试季</option><option value="m">Feb / March</option><option value="s">May / June</option><option value="w">Oct / Nov</option></select></label><label class="filter">文件类别<select id="type"><option value="qp">Question Paper</option><option value="ms">Mark Scheme</option><option value="gt">Grade Threshold</option><option value="er">Examiner Report</option><option value="ci">Confidential Instructions</option><option value="pm">Pre-release / supporting material</option></select></label><label class="filter">Paper / Variant<input id="paper" placeholder="例如 41、22"></label><label class="filter">QP/MS 配对<select id="pair"><option value="all">全部记录</option><option value="both">QP + MS 均有链接</option><option value="qp-only">只有 QP</option><option value="ms-only">只有 MS</option><option value="missing">缺少 QP 或 MS</option></select></label><label class="filter">索引状态<select id="coverage"><option value="named">逐卷文件名有证据</option><option value="listed">索引列出的考季</option><option value="all">包含其他待查组合</option></select></label></div>
 <p class="meta" id="count" aria-live="polite"></p><div class="notice-verify" role="note"><strong>状态定义：</strong>文件名候选 ≠ 真题已找到。只有逐一验证可打开的 PDF 后，才会标为“已核验”。少量记录已连接到搜索引擎收录的原站 PDF，但尚未逐页复核。“考季有索引”不代表该 Paper/Variant 一定存在。这里显示的是按 Cambridge 命名格式生成的待核验条目，不能用于推断某场考试实际存在所有列出的 Variant。</div><p id="audit-summary" class="meta" aria-live="polite"></p><div class="results" id="results"></div><div class="actions"><button id="more" class="button light" type="button">查看更多候选记录</button></div></section>
 <section class="panel"><h2>站内阅读与原创练习</h2><p>原创题可直接浏览、收藏和查看中文评分；真题阅读器支持打开已知来源的 PDF 地址，不会复制或存储试卷。</p><div class="actions"><a id="practice-link" class="button" href="igcse-practice.html?subject=physics">进入原创完整大题 →</a><a id="reader-link" class="button light" href="igcse-reader.html?subject=physics">打开 PDF 站内阅读器 ↗</a></div></section><section class="panel"><h2>正式资料渠道</h2><div class="actions" id="links"></div><p class="note">学校教师可通过 Cambridge School Support Hub 查询学校获授权使用的历年材料。公开网站资料是否完整、是否可转载，需要逐文件核对；本页只链接原站，不擅自复制版权试卷。</p></section>
 <section class="panel"><h2>考试与考纲提醒</h2><p>2020 年 May/June 国际考试取消，不应视作正常举行的真题场次。2023 年前后的考纲和 Paper 结构可能不同，不能直接按当前考纲归类旧题。课程页面目前属于可操作的资料检索入口，尚未完成逐题中文解析和同规格原创题库。</p><p id="structure"></p></section></main>
@@ -25,9 +25,10 @@ document.getElementById("links").innerHTML=[["Cambridge 官方真题页",s.offic
 
 const years=[2019,2020,2021,2022,2023,2024],sessions={m:"February / March",s:"May / June",w:"October / November"};
 const yearEl=document.getElementById("year"),sessEl=document.getElementById("session"),typeEl=document.getElementById("type"),paperEl=document.getElementById("paper"),coverageEl=document.getElementById("coverage");
+const pairEl=document.getElementById("pair");
 const totalEl=document.getElementById("count"),resultEl=document.getElementById("results"),moreEl=document.getElementById("more");
 const sub=s.code==="0625"?"physics":"cs";
-let records=[],sessionResources=[],audit={},probes={},limit=24;
+let records=[],sessionResources=[],audit={},probes={},pairs={},limit=24;
 for(const y of years)yearEl.add(new Option(y,y));
 const sourceList = s.code==="0625" ? [
  ["Cambridge 官方",s.official],
@@ -44,7 +45,7 @@ document.getElementById("links").innerHTML=sourceList.map(([label,url])=>'<a cla
 function esc(v){return String(v).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
 function render(){
  const yr=yearEl.value,session=sessEl.value,type=typeEl.value,part=paperEl.value.trim().replace(/[^0-9]/g,"").slice(0,2);
- const list=records.filter(r=>r.subject===sub&&(yr==="all"||r.year===Number(yr))&&(session==="all"||r.session===session)&&(!part||r.component===part)&&(coverageEl.value==="all"||coverageEl.value==="named"&&r.sourceStatus==="component-named-in-source-index"||coverageEl.value==="listed"&&(r.sourceStatus==="series-indexed-component-unverified"||r.sourceStatus==="component-named-in-source-index")));
+ const list=records.filter(r=>r.subject===sub&&(pairEl.value==="all"||pairEl.value==="both"&&!!r.qpUrl&&!!r.msUrl||pairEl.value==="qp-only"&&!!r.qpUrl&&!r.msUrl||pairEl.value==="ms-only"&&!!r.msUrl&&!r.qpUrl||pairEl.value==="missing"&&(!r.qpUrl||!r.msUrl))&&(yr==="all"||r.year===Number(yr))&&(session==="all"||r.session===session)&&(!part||r.component===part)&&(coverageEl.value==="all"||coverageEl.value==="named"&&r.sourceStatus==="component-named-in-source-index"||coverageEl.value==="listed"&&(r.sourceStatus==="series-indexed-component-unverified"||r.sourceStatus==="component-named-in-source-index")));
  const verify=list.filter(r=>r.qpUrl||r.msUrl).length,listed=list.filter(r=>r.sourceStatus==="series-indexed-component-unverified"||r.sourceStatus==="component-named-in-source-index").length,named=list.filter(r=>r.sourceStatus==="component-named-in-source-index").length;
  totalEl.textContent=list.length+" 条编号候选 · "+named+" 条有逐卷文件名证据 · "+verify+" 条找到直接 PDF 地址（未逐页核验）";
  const resourceRows=["er","gt"].includes(type)?sessionResources.filter(x=>x.subject===sub&&(yr==="all"||x.year===Number(yr))&&(session==="all"||x.session===session)&&x[type+"Url"]):[];
@@ -60,20 +61,21 @@ function render(){
  resultEl.innerHTML=displayList.slice(0,limit).map(r=>{
  const code=r.session+String(r.year).slice(2);
  const filename=(type==="qp"||type==="ms")?r[type]:s.code+"_"+code+"_"+type+"_"+r.component+".pdf";
+ const pairStatus=r.qpUrl&&r.msUrl?"QP/MS 已配对（来源链接）":r.qpUrl?"仅发现 QP":r.msUrl?"仅发现 MS":"尚未找到 QP/MS 链接";
  const sourceUrl=r.sourceEvidenceUrl||s.archive; const sourceLabel=r.sourceEvidenceUrl?"前往对应科目真题索引 ↗":"在原始来源目录查找 ↗";
  const direct=r[type+"Url"]||null;
  const pdfLink=direct?`<a class="button light" target="_blank" rel="noopener noreferrer" href="${esc(direct)}">原始 PDF ↗</a><a class="button light" href="igcse-reader.html?subject=${sub}&pdf=${encodeURIComponent(direct)}">站内尝试阅读 ↗</a>`:"";
  const suffix=r.examStatus==="cancelled-international-series"?"<p class='meta'>2020 年 May/June 国际考试取消：可能有考试材料，但不能标为已举行试卷。</p>":"";
  const check=r[type+"ProbeStatus"]; const badge=check==="pdf-signature-confirmed"?"PDF 文件头已核验（非完整审查）":r.sourceStatus==="component-named-in-source-index"?"QP/MS 文件名有来源 · PDF 未逐页核验":r.sourceStatus==="series-indexed-component-unverified"?"考季有索引 · 单卷未核验":"索引未列该考季 · 待查";
- return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel+'</a>'+pdfLink+'<button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
+ return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+' · '+pairStatus+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel+'</a>'+pdfLink+'<button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
  }).join("");
  moreEl.style.display=limit<displayList.length?"inline-block":"none";
  for(const b of resultEl.querySelectorAll(".copy-filename"))b.onclick=async()=>{const name=b.dataset.name;try{await navigator.clipboard.writeText(name);b.textContent="已复制";}catch{window.prompt("复制文件名",name);}};
 }
 moreEl.onclick=()=>{limit+=30;render();};
-for(const el of [yearEl,sessEl,typeEl,paperEl,coverageEl])el.addEventListener(el===paperEl?"input":"change",()=>{limit=24;render();});
+for(const el of [yearEl,sessEl,typeEl,paperEl,coverageEl,pairEl])el.addEventListener(el===paperEl?"input":"change",()=>{limit=24;render();});
 async function start(){
- try{const res=await fetch("data/igcse-paper-manifest.json");if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();records=data.records;sessionResources=data.indexedSessionResources||[];audit=data.lastIndexAudit||{};probes=data.pdfProbeSummary||{};const statuses=Object.entries(audit).map(([k,v])=>(k==="physics"?"物理":"计算机")+"："+(v.status==="index-parsed"?"已读取来源索引（"+v.pdfLinksListed+" 个文件链接）":"来源索引暂不可用")).join("；");const successful=probes.results?.["pdf-signature-confirmed"]||0;document.getElementById("audit-summary").textContent=statuses+"。PDF 文件头抽样："+successful+"/"+(probes.attempted||0)+" 个确认；未检查的文件不视作核验完成。";render();}
+ try{const res=await fetch("data/igcse-paper-manifest.json");if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();records=data.records;sessionResources=data.indexedSessionResources||[];audit=data.lastIndexAudit||{};probes=data.pdfProbeSummary||{};pairs=data.pairCoverage||{};const statuses=Object.entries(audit).map(([k,v])=>(k==="physics"?"物理":"计算机")+"："+(v.status==="index-parsed"?"已读取来源索引（"+v.pdfLinksListed+" 个文件链接）":"来源索引暂不可用")).join("；");const successful=probes.results?.["pdf-signature-confirmed"]||0;const pc=pairs[sub]||{};document.getElementById("audit-summary").textContent=statuses+"。QP/MS 配对："+(pc.paired??"待统计")+" 份，只有 QP："+(pc.qpOnly??"—")+"，只有 MS："+(pc.msOnly??"—")+"。PDF 文件头抽样："+successful+"/"+(probes.attempted||0)+" 个确认；未检查的文件不视作核验完成。";render();}
  catch(e){totalEl.textContent="索引读取失败："+e.message;resultEl.innerHTML='<p>请刷新页面，或从下方来源渠道直接查找真题。</p>';moreEl.style.display="none";}
 }
 start();

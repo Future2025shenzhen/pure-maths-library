@@ -24,3 +24,4 @@
 
 .mock-more-link{text-decoration:none;margin-left:10px}.pagination .mock-more-link{white-space:nowrap}
 @media(max-width:650px){.pagination{flex-wrap:wrap}.pagination .mock-more-link{flex-basis:100%;margin:8px 0 0;text-align:center}}
+button.nav-link{border:0;background:transparent;cursor:pointer}

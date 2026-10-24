@@ -6,6 +6,7 @@ A cryptographic hash match and readable PDF are separate from content identity.
 from pathlib import Path
 import argparse
 import json
+import zipfile
 import re
 from datetime import datetime, timezone
 
@@ -33,6 +34,22 @@ def audit(entry, PdfReader):
             'fileSize':entry.get('bytes'),'sha256':entry.get('sha256')}
     if not p.is_file():
         result.update(status='missing',notes=['file-not-found'])
+        return result
+    if p.suffix.lower()=='.zip':
+        try:
+            with zipfile.ZipFile(p) as archive:
+                members=archive.infolist()
+                corrupted=archive.testzip()
+                result['archiveEntries']=len(members)
+                result['uncompressedBytes']=sum(f.file_size for f in members)
+                if corrupted is not None:
+                    result.update(status='archive-discrepancy',notes=['CRC-error-in-archive-member'])
+                elif not members:
+                    result.update(status='archive-discrepancy',notes=['empty-ZIP'])
+                else:
+                    result.update(status='archive-consistent',notes=[])
+        except Exception as err:
+            result.update(status='archive-discrepancy',notes=[type(err).__name__[:80]])
         return result
     try:
         reader=PdfReader(str(p),strict=False)
@@ -95,19 +112,20 @@ def main():
     entries=data['files'][:args.sample] if args.sample else data['files']
     rows=[audit(f,PdfReader) for f in entries]
     counts={status:sum(x['status']==status for x in rows)
-            for status in ['sampled-content-consistent','manual-review','discrepancy','unreadable','missing']}
+            for status in ['sampled-content-consistent','archive-consistent','manual-review','discrepancy','archive-discrepancy','unreadable','missing']}
     report={'version':1,'generatedAt':datetime.now(timezone.utc).isoformat(),
-            'scope':'PDF parsed, page count checked, selected page text checked for syllabus code and type; not full page-by-page human review',
+            'scope':'PDF: sampled page text and page counts; ZIP: archive member CRC. Not complete human page-by-page review',
             'sourceManifest':'data/igcse-online-files.json',
             'auditedFiles':len(rows),'totalManifestFiles':len(data['files']),
             'counts':counts,'records':rows}
+    report['fileFormats']={'pdf':sum(f['filename'].endswith('.pdf') for f in entries),'zip':sum(f['filename'].endswith('.zip') for f in entries)}
     OUTPUT.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print('IGCSE content audit:',json.dumps(counts,sort_keys=True),
           'scanned',len(rows),'/',len(data['files']),flush=True)
-    if counts['missing'] or counts['unreadable'] or counts['discrepancy']:
+    if counts['missing'] or counts['unreadable'] or counts['discrepancy'] or counts['archive-discrepancy']:
         print('WARNING: flagged items require investigation; see audit JSON')
         for item in rows:
-            if item['status'] in ('missing','unreadable','discrepancy'):
+            if item['status'] in ('missing','unreadable','discrepancy','archive-discrepancy'):
                 print('REVIEW: '+item['filename']+' | '+item['status']+' | '+','.join(item.get('notes',[])),flush=True)
     if not args.sample and len(rows)!=len(data['files']):
         raise SystemExit('Incomplete audit')

@@ -52,7 +52,7 @@ function render(){
  const filename=type==="qp"?r.qp:type==="ms"?r.ms:s.code+"_"+code+"_"+type+".pdf";
  const sourceUrl=r.sourceEvidenceUrl||s.archive; const sourceLabel=r.sourceEvidenceUrl?"前往对应科目真题索引 ↗":"在原始来源目录查找 ↗";
  const direct=type==="qp"?r.qpUrl:type==="ms"?r.msUrl:null;
- const pdfLink=direct?\`<a class="button light" target="_blank" rel="noopener noreferrer" href="\${esc(direct)}">原始 PDF ↗</a><a class="button light" href="igcse-reader.html?subject=\${sub}&pdf=\${encodeURIComponent(direct)}">站内尝试阅读 ↗</a>\`:"";
+ const pdfLink=direct?`<a class="button light" target="_blank" rel="noopener noreferrer" href="${esc(direct)}">原始 PDF ↗</a><a class="button light" href="igcse-reader.html?subject=${sub}&pdf=${encodeURIComponent(direct)}">站内尝试阅读 ↗</a>`:"";
  const suffix=r.examStatus==="cancelled-international-series"?"<p class='meta'>2020 年 May/June 国际考试取消：可能有考试材料，但不能标为已举行试卷。</p>":"";
  const badge=r.fileStatus==="verified"?"已核验 PDF":r.sourceStatus==="component-named-in-source-index"?"QP/MS 文件名有来源 · PDF 未逐页核验":r.sourceStatus==="series-indexed-component-unverified"?"考季有索引 · 单卷未核验":"索引未列该考季 · 待查";
  return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel+'</a>'+pdfLink+'<button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';

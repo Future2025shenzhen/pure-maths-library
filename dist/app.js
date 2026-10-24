@@ -8,7 +8,7 @@ const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'
 // Escape TeX angle brackets before HTML parsing; preserve authored tables.
 const format=v=>improveMath(v).replace(/\$\$[\s\S]*?\$\$|\$[^$]*\$/g,m=>esc(m));
 let data,state,ids,view='library',stage='P1',chapters=[],kind='',status='all',search='',page=1,order=[],paper=null,answersOpen=false;
-let allowCrossChapter=false;
+let allowCrossChapter=true;
 const opened=new Set();const PAGE_SIZE=6;
 function toast(message){const el=$('#toast');el.textContent=message;el.classList.add('visible');clearTimeout(toast.timer);toast.timer=setTimeout(()=>el.classList.remove('visible'),3500);}
 function math(el=main){renderMath(el);}
@@ -77,7 +77,7 @@ function render(){
 function navigate(v){view=v;page=1;const url=new URL(location.href);url.searchParams.set('course','maths');url.hash=v;history.replaceState(null,'',url);render();account.activity('visit',v==='library'?'original':v).catch(()=>{});window.scrollTo({top:0,behavior:'instant'});}
 function openFilters(){$('#sidebar').classList.add('open');$('#close-filters').focus();}
 function closeFilters(){$('#sidebar').classList.remove('open');}
-function resetFilters(){allowCrossChapter=false;$('#allow-cross-chapter').checked=false;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
+function resetFilters(){allowCrossChapter=true;$('#allow-cross-chapter').checked=true;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
  const active=data.questions.filter(q=>!q.withdrawn).length;
  $('#quality-content').innerHTML=`<h3>题库修订 · 第15版</h3><p>当前日常练习包含 ${active} 题。P1 第4章 Graphs and transformations 与第9章 Integration 已完成整章重编：60道旧题逐题审查，撤下26道，并撤下4道放错章节且与新题重复的三角图像题；新增12道。两个章节现在各有23道有效题。</p><p>本批依据2019年1月至2025年6月可用的P1真题，允许以主要考查目标归章。三角函数图像与变换的融合题归入第4章；没有真题依据的生硬跨章组合不再保留。每道有效题均写明具体来源、原题大意、至少三项改编维度、难度定位、易错点和命题思路；本批同一来源最多使用3次。</p><p>题干沿用Edexcel英文表达，解析采用中文分步说明和建议评分点。全库现有788道历史题，其中740道进入日常练习；被撤下题仍保留ID，已有收藏仍可查看。</p><p>历年真题区保留至2025年6月的P1—P3试卷与官方答案；2025年10月及2026年试卷未加入，也未用于题目复刻。</p>`;$('#report-dialog').showModal();
@@ -154,7 +154,7 @@ async function init(){
   $('#all-chapters').addEventListener('click',()=>{chapters=data.chapters[stage].map(c=>c.id);page=1;renderSidebar();render();});
   $('#allow-cross-chapter').addEventListener('change',e=>{allowCrossChapter=e.target.checked;page=1;renderSidebar();render();});
   $('#kind').addEventListener('change',e=>{kind=e.target.value;page=1;render();});$('#status').addEventListener('change',e=>{status=e.target.value;page=1;render();});$('#reset').addEventListener('click',resetFilters);
-  $('#sidebar-book').addEventListener('click',()=>openBook(stage));$('#close-filters').addEventListener('click',closeFilters);
+  $('#close-filters').addEventListener('click',closeFilters);
   document.addEventListener('keydown',e=>{if(e.key==='Escape')closeFilters();});
   document.addEventListener('click',e=>{const a=e.target.closest('[data-action]');if(a)handleAction(a.dataset.action,a).catch(err=>{console.error(err);toast('操作未完成，请稍后重试。');});const c=e.target.closest('[data-close]');if(c)$(`#${c.dataset.close}`).close();});
   $('#settings').addEventListener('click',()=>{$('#personal-stats').innerHTML=`<span><b>${state.saved.length}</b>收藏</span><span><b>${state.done.length}</b>已做 / ${data.questions.length} 道</span><span>完成进度 ${Math.round(state.done.length/data.questions.length*100)}%</span>`;$('#personal-dialog').showModal();});

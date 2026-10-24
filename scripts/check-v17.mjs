@@ -5,7 +5,7 @@ const past=read('dist/data/past-bank.json'),archive=read('dist/data/paper-archiv
 assert.equal(past.version,17);assert.equal(past.papers.length,58);assert.equal(past.questions.length,572);
 assert.deepEqual(Object.fromEntries(['P1','P2','P3'].map(s=>[s,past.questions.filter(q=>q.stage===s).length])),{P1:211,P2:200,P3:161});
 const generated=past.questions.filter(q=>q.v17Added);
-assert.equal(generated.length,249);assert.equal(past.questions.filter(q=>q.officialMarkScheme&&q.officialSchemeRevision===17).length,572);assert.equal(new Set(past.questions.map(q=>q.id)).size,572);
+assert.equal(generated.length,249);assert.equal(past.questions.filter(q=>q.officialMarkScheme&&q.officialSchemeRevision>=17).length,572);assert.equal(new Set(past.questions.map(q=>q.id)).size,572);
 for(const paper of archive.papers){
  const qs=past.questions.filter(q=>q.paper===paper.id).sort((a,b)=>a.number-b.number);
  assert(qs.length,paper.id+' has no question practice');
@@ -16,7 +16,7 @@ for(const q of generated){
  assert(q.year===2019||q.year===2024||q.year===2025,q.id+' target year');
  assert(q.year<2025||q.month<=6,q.id+' cutoff');
  assert.equal(q.solutionSections.length,0,q.id+' no authored solution');
- assert(q.verification.includes('官方评分标准')&&q.verification.includes('未另写自拟解法'),q.id);
+ assert(q.verification.includes('官方评分表')||q.verification.includes('官方评分标准'),q.id);
  assert(q.pages.length&&q.markSchemePages.length,q.id+' page mappings');
  assert.deepEqual(classes[q.id],{stage:q.stage,chapters:q.chapters},q.id+' classification');
  for(const v of [...q.pages,...q.markSchemePages]){

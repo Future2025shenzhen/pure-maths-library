@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-24",
+  "scope": "P1 radians: compare mathematical workflow, not diagram appearance alone",
+  "records": [
+    {
+      "id": "P1-C07-R03",
+      "retained": "P1-C07-R27",
+      "reason": "同为普通扇形加弦、建立角方程后直接给根，再套弧长和弓形面积；保留弧弦差建模更明确的R27。",
+      "beforeHash": "7e274b52a63ca447fe35e66efb7e398ad20cc8c175263b82f752ccde12b50be6",
+      "afterHash": "5317c4f980eea90041a5d90561f0870c207493de26e2902c429a3d3768878a6b"
+    },
+    {
+      "id": "P1-C07-R05",
+      "retained": "P1-C07-R02",
+      "reason": "同为已知环形扇区面积反求半径再求周界；R02还要求由内弧长确定角度，保留R02。",
+      "beforeHash": "12e69dae13483688022818dcb6c2d24a225123cdb89cec76b814c5257a825977",
+      "afterHash": "3af05e811510a784137bc9fe87668763ceb77e01e76e121388715fd2943551c4"
+    },
+    {
+      "id": "P1-C07-R07",
+      "retained": "P1-C07-R13",
+      "reason": "同为半径与弦长求圆心角，再求弧长和弓形面积；保留包含垂距、半角与完整弓形周界的R13。",
+      "beforeHash": "e39ed05d7ac98293ecaff6067e74d8fa882d79fe046c0e72b7a4b00c255ceb54",
+      "afterHash": "fc45ae5f4b58e175a37fdb64d12af4767a8fb106a4fd68cdc5d1b0f60a3d8d79"
+    },
+    {
+      "id": "P1-C07-R11",
+      "retained": "P1-C07-R24",
+      "reason": "同为三角形内切去顶角扇形后求面积、剩余周界；保留还需证明扇形完全位于三角形内的R24。",
+      "beforeHash": "32240ccd492271b7e503ef31a76e45e6fce4813b2817788c4a41f3c02ef24ade",
+      "afterHash": "2b02744d8effa51579d0abf06d7eaf12dd55a79886c1f9b922f8c19f046b8566"
+    },
+    {
+      "id": "P1-C07-R23",
+      "retained": "P1-C07-R10",
+      "reason": "同半径扇形先用面积比例求角，再逐项套弧长、三角形面积；保留双扇形联立周界约束的R10及教材弓形题。",
+      "beforeHash": "7277c359f34be3c8f03dc536b6c97283262ef3a352dda4b318f393b9312515ba",
+      "afterHash": "6e7b91db7a5e45854d3d2e4dc0853e1a52acc8056d9f72fc97307bea3e3b58eb"
+    },
+    {
+      "id": "P1-C07-R28",
+      "retained": "P1-C07-R15",
+      "reason": "重复叶片只是将同一个环形扇区的面积和周界乘4；保留需重新识别剖分后边界的R15。",
+      "beforeHash": "44ba799faa20d6253d3c62a6e93d6c19ba8261a54beb1f9246547daca2314dc4",
+      "afterHash": "ddc8405bafc07c1f52a07922f655637567c8a77f6633e742d947a5a64f019e6c"
+    }
+  ]
+}

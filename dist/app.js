@@ -79,7 +79,7 @@ function closeFilters(){$('#sidebar').classList.remove('open');}
 function resetFilters(){allowCrossChapter=false;$('#allow-cross-chapter').checked=false;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
  const active=data.questions.filter(q=>!q.withdrawn).length;
- $('#quality-content').innerHTML=`<h3>题库修订 · 第12版</h3><p>当前日常练习包含 ${active} 题。本轮逐题重写26题，其中精选教材原题9题；撤下11道重复或价值不足的题。撤下题保留于已有收藏及练习卷，标记清楚。</p><p>本轮重点：P1三角图像、交点计数及弧度制组合图形，P2完整区间三角方程。教材题标注原有E/P标记、页码和题号，中文解答及建议评分点由本站编写。</p><p>全库已做结构、公式显示、来源索引和配图风险检查；逐题数学审阅仍在继续，不能把自动检查视为全库已获教师审定。题目ID保留以兼容收藏和备注，实质修订题的历史已做标记需你自行核对。</p><p>历年真题区保留33套、323道2020—2023年原题及官方答案，原图原页不改动。</p>`;$('#report-dialog').showModal();
+ $('#quality-content').innerHTML=`<h3>题库修订 · 第13版</h3><p>当前日常练习包含 ${active} 题。上一轮逐题重写26题，其中精选教材原题9题；已撤下11道重复或价值不足的题。本轮再撤下6道弧度制中训练流程重复的题。撤下题保留于已有收藏及练习卷，标记清楚。</p><p>本轮重点：P1三角图像、交点计数及弧度制组合图形，P2完整区间三角方程。教材题标注原有E/P标记、页码和题号，中文解答及建议评分点由本站编写。</p><p>全库已做结构、公式显示、来源索引和配图风险检查；逐题数学审阅仍在继续，不能把自动检查视为全库已获教师审定。题目ID保留以兼容收藏和备注，实质修订题的历史已做标记需你自行核对。</p><p>历年真题区保留33套、323道2020—2023年原题及官方答案，原卷完整保留；列表只展示题干、图形和小问，省去答题留白。</p>`;$('#report-dialog').showModal();
 }
 let pdfDoc=null,pdfPage=1,pdfScale=1,pdfLoading=0,pdfRenderTask=null,pdfSerial=0;
 async function openBook(u){
@@ -141,7 +141,7 @@ async function handleAction(action,el){
 async function init(){
  try{
   await account.requireUser();await mountAccountLink();
-  const res=await fetch('data/bank.json?v=12');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=12')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
+  const res=await fetch('data/bank.json?v=13');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=12')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
   const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;
   chapters=data.chapters[stage].map(c=>c.id);resetOrder();renderSidebar();render();

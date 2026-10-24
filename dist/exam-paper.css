@@ -1,0 +1,43 @@
+/* Question typography follows the supplied Times New Roman exam papers. */
+:root{--exam-font:'Times New Roman','Liberation Serif',Times,serif}
+.exam-text{font:18px/1.6 var(--exam-font);color:#111;padding:24px 28px 10px}
+.q-number{font-family:var(--exam-font);font-weight:700;color:#111}
+.exam-text .stem{margin-bottom:18px}
+.exam-text .part,.exam-text .subpart{margin:15px 0;gap:10px}
+.exam-text .part-label{font:700 1em/1.6 var(--exam-font);flex:0 0 26px}
+.exam-text .subpart .part-label{font-weight:400;flex-basis:30px}
+.exam-text .marks{font:1em/1.6 var(--exam-font);color:#111;flex-shrink:0}
+.exam-text .katex{font-size:1em}
+.exam-text .katex-display{margin:.7em 0}
+.exam-text table{font-family:var(--exam-font);color:#111;border-color:#111}
+.exam-text th,.exam-text td{border-color:#111}
+.rewrite-figure{margin:20px auto 22px;color:#111}
+.rewrite-figure svg{max-width:420px;max-height:300px;filter:grayscale(1);overflow:visible}
+.rewrite-figure svg text{font-family:var(--exam-font)!important;fill:#111}
+.rewrite-figure figcaption{font:italic 14px/1.4 var(--exam-font);color:#111;margin-top:8px}
+.past-images{padding:20px 24px 8px}
+.past-images figure{margin:0 auto 10px;max-width:740px}
+.past-image-link{display:block;width:100%;padding:0;border:0;background:#fff;text-align:left;cursor:zoom-in}
+.past-image-link:hover{filter:none}
+.past-crop{display:block;position:relative;overflow:hidden;width:100%;background:#fff}
+.past-crop img{position:absolute;display:block;height:auto;margin:0;border:0;border-radius:0;cursor:zoom-in}
+@media(max-width:760px){
+ .exam-text{font-size:17px;line-height:1.6;padding:20px 16px 8px}
+ .exam-text .part,.exam-text .subpart{gap:7px;margin:14px 0}
+ .exam-text .part-label{flex-basis:23px}
+ .exam-text .marks{margin-left:3px}
+ .past-images{padding:16px 12px 6px}
+ .past-images figure{margin-bottom:8px}
+ .rewrite-figure svg{max-height:260px}
+}
+@media print{
+ .question-card,.past-card{break-before:auto;break-inside:auto;border:0;border-radius:0;box-shadow:none;margin:0 0 22px}
+ .card-head{border:0;padding:0 0 8px;break-after:avoid}
+ .exam-text{padding:0;color:#000;font-size:12pt}
+ .exam-text .part,.exam-text .subpart,.rewrite-figure,.past-images figure{break-inside:avoid}
+ .past-images{padding:0}
+ .past-images img{max-height:none;object-fit:fill}
+ .past-image-link{max-width:none}
+ .past-solution{break-before:auto}
+ .card-actions,.card-footer,.revision-note,.question-note{display:none!important}
+}

@@ -1,7 +1,7 @@
 {
-  "version": 4,
+  "version": 5,
   "generatedDate": "2026-10-24",
-  "description": "All entries are filename patterns, not individually authenticated documents. series-indexed-component-unverified indicates indexed exam season and expected component pattern; direct PDF links are NOT verified. Third-party index is evidence of archive categorization only. Some paper variants may not exist.",
+  "description": "Candidate filenames plus two exam-series source listings with explicit QP/MS file-name evidence. 'direct-pdf-search-indexed' means a document URL was found through search; it does NOT prove copyright republication rights or local hosting. No papers copied to site. All records remain unverified by page-level manual inspection.",
   "sourceCatalogues": {
     "physics": [
       "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
@@ -3249,11 +3249,13 @@
       "component": "42",
       "qp": "0625_w23_qp_42.pdf",
       "ms": "0625_w23_ms_42.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-2023-oct-nov-0625-w23-qp-53-pdf",
+      "isFileDirectlyVerified": false,
+      "msUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0625_w23_ms_42.pdf",
+      "msStatus": "direct-pdf-search-indexed"
     },
     {
       "id": "0625_w23_43",
@@ -3467,11 +3469,13 @@
       "component": "11",
       "qp": "0625_s24_qp_11.pdf",
       "ms": "0625_s24_ms_11.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_12",
@@ -3483,11 +3487,13 @@
       "component": "12",
       "qp": "0625_s24_qp_12.pdf",
       "ms": "0625_s24_ms_12.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_13",
@@ -3499,11 +3505,13 @@
       "component": "13",
       "qp": "0625_s24_qp_13.pdf",
       "ms": "0625_s24_ms_13.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_21",
@@ -3515,11 +3523,13 @@
       "component": "21",
       "qp": "0625_s24_qp_21.pdf",
       "ms": "0625_s24_ms_21.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_22",
@@ -3531,11 +3541,13 @@
       "component": "22",
       "qp": "0625_s24_qp_22.pdf",
       "ms": "0625_s24_ms_22.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_23",
@@ -3547,11 +3559,13 @@
       "component": "23",
       "qp": "0625_s24_qp_23.pdf",
       "ms": "0625_s24_ms_23.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_31",
@@ -3563,11 +3577,13 @@
       "component": "31",
       "qp": "0625_s24_qp_31.pdf",
       "ms": "0625_s24_ms_31.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_32",
@@ -3579,11 +3595,13 @@
       "component": "32",
       "qp": "0625_s24_qp_32.pdf",
       "ms": "0625_s24_ms_32.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_33",
@@ -3595,11 +3613,13 @@
       "component": "33",
       "qp": "0625_s24_qp_33.pdf",
       "ms": "0625_s24_ms_33.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_41",
@@ -3611,11 +3631,13 @@
       "component": "41",
       "qp": "0625_s24_qp_41.pdf",
       "ms": "0625_s24_ms_41.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_42",
@@ -3627,11 +3649,14 @@
       "component": "42",
       "qp": "0625_s24_qp_42.pdf",
       "ms": "0625_s24_ms_42.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "direct-pdf-search-indexed",
+      "msStatus": "filename-listed-on-index",
+      "qpUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0625_s24_qp_42.pdf"
     },
     {
       "id": "0625_s24_43",
@@ -3643,11 +3668,13 @@
       "component": "43",
       "qp": "0625_s24_qp_43.pdf",
       "ms": "0625_s24_ms_43.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_51",
@@ -3659,11 +3686,13 @@
       "component": "51",
       "qp": "0625_s24_qp_51.pdf",
       "ms": "0625_s24_ms_51.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_52",
@@ -3675,11 +3704,13 @@
       "component": "52",
       "qp": "0625_s24_qp_52.pdf",
       "ms": "0625_s24_ms_52.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_53",
@@ -3691,11 +3722,13 @@
       "component": "53",
       "qp": "0625_s24_qp_53.pdf",
       "ms": "0625_s24_ms_53.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_61",
@@ -3707,11 +3740,13 @@
       "component": "61",
       "qp": "0625_s24_qp_61.pdf",
       "ms": "0625_s24_ms_61.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_62",
@@ -3723,11 +3758,13 @@
       "component": "62",
       "qp": "0625_s24_qp_62.pdf",
       "ms": "0625_s24_ms_62.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_s24_63",
@@ -3739,11 +3776,13 @@
       "component": "63",
       "qp": "0625_s24_qp_63.pdf",
       "ms": "0625_s24_ms_63.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-physics-0625-2024-may-june-0625-s24-ms-51-pdf-0625-s24-ms-52-pdf-0625-s24-ms-53-pdf-0625-s24-ms-61-pdf-0625-s24-ms-62-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0625_w24_11",
@@ -5281,11 +5320,13 @@
       "component": "11",
       "qp": "0478_w24_qp_11.pdf",
       "ms": "0478_w24_ms_11.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0478_w24_12",
@@ -5297,11 +5338,13 @@
       "component": "12",
       "qp": "0478_w24_qp_12.pdf",
       "ms": "0478_w24_ms_12.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0478_w24_13",
@@ -5313,11 +5356,15 @@
       "component": "13",
       "qp": "0478_w24_qp_13.pdf",
       "ms": "0478_w24_ms_13.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "direct-pdf-search-indexed",
+      "msStatus": "direct-pdf-search-indexed",
+      "qpUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0478_w24_qp_13.pdf",
+      "msUrl": "https://pastpapers.papacambridge.com/directories/CAIE/CAIE-pastpapers/upload/0478_w24_ms_13.pdf"
     },
     {
       "id": "0478_w24_21",
@@ -5329,11 +5376,13 @@
       "component": "21",
       "qp": "0478_w24_qp_21.pdf",
       "ms": "0478_w24_ms_21.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0478_w24_22",
@@ -5345,11 +5394,13 @@
       "component": "22",
       "qp": "0478_w24_qp_22.pdf",
       "ms": "0478_w24_ms_22.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     },
     {
       "id": "0478_w24_23",
@@ -5361,11 +5412,13 @@
       "component": "23",
       "qp": "0478_w24_qp_23.pdf",
       "ms": "0478_w24_ms_23.pdf",
-      "sourceStatus": "series-indexed-component-unverified",
+      "sourceStatus": "component-named-in-source-index",
       "fileStatus": "not-checked",
       "examStatus": "normal-or-regional-series",
-      "sourceEvidenceUrl": "https://tuitionaledu.com/past-papers/cambridge-igcse/computer-science-0478",
-      "isFileDirectlyVerified": false
+      "sourceEvidenceUrl": "https://pastpapers.papacambridge.com/viewer/caie/igcse-computer-science-0478-2024-oct-nov-0478-w24-qp-13-pdf",
+      "isFileDirectlyVerified": false,
+      "qpStatus": "filename-listed-on-index",
+      "msStatus": "filename-listed-on-index"
     }
   ]
 }

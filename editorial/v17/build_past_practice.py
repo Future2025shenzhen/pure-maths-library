@@ -60,8 +60,10 @@ RULES = {
 MS_POSITION_OVERRIDES = {('p1-oct-2019-ms.pdf',11):(17,45.0)}
 
 def meaningful(page):
-    text = re.sub(r'DO NOT WRITE IN THIS AREA|Leave\s+blank|BLANK PAGE|\*P\d+A\d+\*',' ',page.get_text(),flags=re.I)
-    return len(re.sub(r'\s+','',text)) > 45 and 'BLANK PAGE' not in text.upper()
+    words=[w[4] for w in page.get_text('words') if page.rect.width*.07<w[0]<page.rect.width*.88 and w[1]<page.rect.height*.9]
+    text=' '.join(words)
+    text=re.sub(r'DO NOT WRITE IN THIS AREA|Leave\s+blank|BLANK PAGE|Question\s+\d+\s+continued|\*P\w+\*',' ',text,flags=re.I)
+    return len(re.sub(r'[^A-Za-z0-9]+','',text))>55 and 'BLANK PAGE' not in text.upper()
 
 def render_page(doc, page_no, target, annotate=False):
     if target.exists(): return
@@ -85,6 +87,39 @@ def question_y(page, number):
     words=[w for w in page.get_text('words') if w[4].strip() in pats and w[0]<150]
     return max(0.035,(min((w[1] for w in words),default=38)-15)/page.rect.height)
 
+def question_bottom(page,top):
+    keep=[]
+    for w in page.get_text('words'):
+        if not (page.rect.width*.07<w[0]<page.rect.width*.9):continue
+        if w[1]<page.rect.height*top or w[1]>page.rect.height*.87:continue
+        token=w[4].strip()
+        if not re.search(r'[A-Za-z0-9\u0370-\u03ff\u2200-\u22ff]',token):continue
+        if re.match(r'^\*?P\d+[A-Z]?\d+\*?$',token,re.I):continue
+        keep.append(w[3])
+    for drawing in page.get_drawings():
+        rect=drawing['rect']
+        if rect.y0<page.rect.height*top or rect.y0>page.rect.height*.87:continue
+        if rect.height<3 and rect.width>page.rect.width*.55:continue
+        if rect.x1<page.rect.width*.05 or rect.x0>page.rect.width*.92:continue
+        keep.append(rect.y1)
+    for block in page.get_text('dict').get('blocks',[]):
+        if block.get('type')==1:
+            x0,y0,x1,y1=block['bbox']
+            if y0>=page.rect.height*top and y0<page.rect.height*.87:keep.append(y1)
+    return min(.94,max(top+.08,(max(keep,default=page.rect.height*(top+.1))+20)/page.rect.height))
+
+def quick_check(q,method_count,accuracy_count):
+    if q.get('solutionSections'):
+        methods=[s.get('approach','').strip() for s in q['solutionSections'] if s.get('approach')]
+        finals=[s['steps'][-1].strip() for s in q['solutionSections'] if s.get('steps')]
+        process='；'.join(methods[:3])
+        answer='；'.join(finals[:4])
+    else:
+        topic='、'.join(q['topics'])
+        process=f'围绕“{topic}”写出橙框所示的关键方法。共标出约{method_count}个方法得分位置；只写最终数值通常不能取得这些M分。'
+        answer=f'按(a)、(b)、(c)的顺序核对粉红框。粉红框覆盖官方A/B准确分所在答案行，共约{accuracy_count}处。'
+    return {'process':process or '按橙框顺序写出关键方法和必要代入。','answer':answer or '粉红框内是官方正确答案或必须达到的准确结论。'}
+
 def scheme_positions(doc, count):
     """Find the left-column question labels in reading order.
 
@@ -99,19 +134,20 @@ def scheme_positions(doc, count):
         top_tokens={w[4] for w in top_words}
         # General marking guidance also contains numbered lists. Only the
         # question-specific table has the two-column "Question Number" header.
-        if 'Question' not in top_tokens or not ({'Number','Scheme'} & top_tokens): continue
+        if not (('Scheme' in top_tokens and ({'Question','Number'} & top_tokens)) or {'Question','Number'}.issubset(top_tokens)):continue
         for w in page.get_text('words'):
-            if w[0]>108: continue
+            if w[0]>100: continue
             token=w[4].strip().replace(' ','')
             for n in range(1,count+1):
-                if re.match(rf'^{n}(?!\d)[.:(a-ziv)]*$',token,re.I):
+                if re.match(rf'^{n}(?!\d)[.():a-ziv]*$',token,re.I):
                     candidates[n].append((pi,w[1]))
+    for values in candidates.values():values.sort()
     selected=[]; prev=(3,0)
     for n in range(1,count+1):
         override=MS_POSITION_OVERRIDES.get((Path(doc.name).name,n))
         if override:
             selected.append(override);prev=override;continue
-        choices=[x for x in candidates[n] if x>prev]
+        choices=[x for x in candidates[n] if x[0]>prev[0] or x[0]==prev[0] and x[1]>prev[1]+25]
         pick=choices[0] if choices else None
         if not pick:
             # A label occasionally becomes a drawing glyph in extracted text.
@@ -119,7 +155,7 @@ def scheme_positions(doc, count):
             for pi,page in enumerate(doc,1):
                 if pi<prev[0]: continue
                 tops={w[4] for w in page.get_text('words') if w[1]<190}
-                if 'Question' in tops and ({'Number','Scheme'} & tops): headers.append((pi,70.0))
+                if ('Scheme' in tops and ({'Question','Number'} & tops)) or {'Question','Number'}.issubset(tops):headers.append((pi,70.0))
             used_pages={x[0] for x in selected}
             pick=next((x for x in headers if x[0] not in used_pages and x>prev),None)
         if not pick: raise ValueError(f'{doc.name}: cannot locate official mark scheme question {n}')
@@ -205,7 +241,8 @@ def main():
             page_refs=[]
             for p in source_pages:
                 page=qp[p-1]
-                page_refs.append({'page':p,'pdf':paper['pdf'],'renderFromPdf':True,'width':round(page.rect.width*1.55),'height':round(page.rect.height*1.55),'crop':[0.055,question_y(page,number) if p==start else 0.035,0.89,0.91-(question_y(page,number) if p==start else 0.035)]})
+                top=question_y(page,number) if p==start else .035;bottom=question_bottom(page,top)
+                page_refs.append({'page':p,'pdf':paper['pdf'],'renderFromPdf':True,'width':round(page.rect.width*1.55),'height':round(page.rect.height*1.55),'crop':[0.055,top,0.89,bottom-top]})
             ms_start_page,ms_start_y=ms_positions[index]
             if index+1<len(ms_positions): ms_end_page,ms_end_y=ms_positions[index+1]
             else: ms_end_page,ms_end_y=len(ms)+1,0
@@ -216,17 +253,22 @@ def main():
                 page=ms[p-1]
                 top=max(0.025,(ms_start_y-18)/page.rect.height) if p==ms_start_page else 0.025
                 bottom=((ms_end_y-8)/page.rect.height) if p==ms_end_page and ms_end_page==ms_start_page else 0.96
-                if bottom<=top+.04: bottom=.96
+                note_y=min((w[1] for w in page.get_text('words') if w[4].strip().lower().startswith('notes:') and w[1]>page.rect.height*top),default=page.rect.height)
+                bottom=min(bottom,(note_y-8)/page.rect.height)
+                if bottom<=top+.04: continue
                 highlights=[]
                 for word in page.get_text('words'):
                     token=word[4].strip().replace(' ','')
-                    if re.match(r'^(?:d?M\d|A\d|B\d)',token):
-                        highlights.append({'kind':'method' if 'M' in token else 'accuracy','box':[round(word[0]/page.rect.width,6),round(word[1]/page.rect.height,6),round((word[2]-word[0])/page.rect.width,6),round((word[3]-word[1])/page.rect.height,6)]})
+                    for code in re.findall(r'(?:d?M\d+|A\d+|B\d+)',token):
+                        if 'M' in code:box=[word[0]/page.rect.width,word[1]/page.rect.height,(word[2]-word[0])/page.rect.width,(word[3]-word[1])/page.rect.height];kind='method'
+                        else:box=[.10,max(top,word[1]/page.rect.height-.012),.78,max(.035,(word[3]-word[1])/page.rect.height+.024)];kind='accuracy'
+                        highlights.append({'kind':kind,'box':[round(v,6) for v in box]})
                 ms_refs.append({'page':p,'pdf':paper['markScheme'],'renderFromPdf':True,'width':round(page.rect.width*1.55),'height':round(page.rect.height*1.55),'crop':[0.035,top,0.93,bottom-top],'highlights':highlights})
             scheme_text='\n'.join(ms[p['page']-1].get_text() for p in ms_refs)
             chapters=classify(paper['stage'],text+'\n'+scheme_text)
             title='、'.join(CHAPTERS[paper['stage']][c] for c in chapters)
-            q={'id':qid,'paper':pid,'stage':paper['stage'],'year':paper['year'],'month':paper['month'],'variant':paper['variant'],'number':number,'sourcePages':source_pages,'pages':page_refs,'marks':marks,'searchText':text,'chapters':chapters,'topics':[title],'titleZh':title,'solutionZh':'本题答案直接采用官方评分标准；绿色框标出准确答案或独立得分结论，橙色框标出方法得分点。','solutionSections':[],'officialMarkScheme':True,'officialSchemeRevision':17,'v17Added':True,'markSchemePages':ms_refs,'verification':'题面裁自官方原卷；答案裁自本卷官方评分标准，未另写自拟解法。'}
+            q={'id':qid,'paper':pid,'stage':paper['stage'],'year':paper['year'],'month':paper['month'],'variant':paper['variant'],'number':number,'sourcePages':source_pages,'pages':page_refs,'marks':marks,'searchText':text,'chapters':chapters,'topics':[title],'titleZh':title,'solutionZh':'本题答案直接采用官方评分标准；粉红框标出正确答案，橙色框标出方法得分点。','solutionSections':[],'officialMarkScheme':True,'officialSchemeRevision':17,'v17Added':True,'markSchemePages':ms_refs,'verification':'题面裁自官方原卷；答案裁自本卷官方评分标准，未另写自拟解法。'}
+            methods=sum(h['kind']=='method' for v in ms_refs for h in v['highlights']);accuracies=sum(h['kind']=='accuracy' for v in ms_refs for h in v['highlights']);q['quickCheckZh']=quick_check(q,methods,accuracies)
             new_questions.append(q);layout_questions[qid]=page_refs
         if paper_marks!=75: raise ValueError(f'{pid}: question marks total {paper_marks}, expected 75')
         audit.append({'paper':pid,'questions':len(starts),'marks':paper_marks,'officialMarkSchemeMapped':True})
@@ -247,13 +289,19 @@ def main():
             for page_number in range(start_page,last+1):
                 page=ms[page_number-1];top=max(.025,(start_y-18)/page.rect.height) if page_number==start_page else .025
                 bottom=(end_y-8)/page.rect.height if page_number==end_page==start_page else .96
-                if bottom<=top+.04:bottom=.96
+                note_y=min((w[1] for w in page.get_text('words') if w[4].strip().lower().startswith('notes:') and w[1]>page.rect.height*top),default=page.rect.height)
+                bottom=min(bottom,(note_y-8)/page.rect.height)
+                if bottom<=top+.04:continue
                 highlights=[]
                 for word in page.get_text('words'):
                     token=word[4].strip().replace(' ','')
-                    if re.match(r'^(?:d?M\d|A\d|B\d)',token):highlights.append({'kind':'method' if 'M' in token else 'accuracy','box':[round(word[0]/page.rect.width,6),round(word[1]/page.rect.height,6),round((word[2]-word[0])/page.rect.width,6),round((word[3]-word[1])/page.rect.height,6)]})
+                    for code in re.findall(r'(?:d?M\d+|A\d+|B\d+)',token):
+                        if 'M' in code:box=[word[0]/page.rect.width,word[1]/page.rect.height,(word[2]-word[0])/page.rect.width,(word[3]-word[1])/page.rect.height];kind='method'
+                        else:box=[.10,max(top,word[1]/page.rect.height-.012),.78,max(.035,(word[3]-word[1])/page.rect.height+.024)];kind='accuracy'
+                        highlights.append({'kind':kind,'box':[round(v,6) for v in box]})
                 refs.append({'page':page_number,'pdf':paper['markScheme'],'renderFromPdf':True,'width':round(page.rect.width*1.55),'height':round(page.rect.height*1.55),'crop':[.035,top,.93,bottom-top],'highlights':highlights})
             q.update(officialMarkScheme=True,officialSchemeRevision=17,markSchemePages=refs,verification='题面裁自官方原卷；答案显示本卷官方评分标准，本站自拟解析不再展示。')
+            methods=sum(h['kind']=='method' for v in refs for h in v['highlights']);accuracies=sum(h['kind']=='accuracy' for v in refs for h in v['highlights']);q['quickCheckZh']=quick_check(q,methods,accuracies)
     bank['papers']=[{k:p[k] for k in ('id','stage','year','month','title','pdf','markScheme','sha256') if k in p}|{'questions':len(STARTS[p['id']]),'providedByUser':False,'variant':p['variant']} if p['id'] in STARTS else p for p in archive['papers']]
     bank['questions'].extend(new_questions)
     bank['questions'].sort(key=lambda q:(q['stage'],q['year'],q['month'],q.get('variant',''),q['number']))

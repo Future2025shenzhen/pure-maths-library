@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#243d35"><title>Cambridge IGCSE · Past Paper Library</title>
+<style>
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#243d35;background:#f6f7f2}*{box-sizing:border-box}body{margin:0}a{color:inherit}header{background:#fff;border-bottom:1px solid #e2e8df;padding:20px max(20px,calc((100vw - 1080px)/2))}.brand{text-decoration:none;font-family:Georgia,serif;font-size:22px;font-weight:bold}main{max-width:1080px;margin:auto;padding:35px 20px 90px}.back{font-size:13px;color:#63756a}h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);margin:12px 0}h2{font-size:21px}p{line-height:1.7;color:#63746b}.panel{background:white;border:1px solid #e4e8e0;border-radius:16px;padding:22px;margin:18px 0}.meta{font-size:13px;color:#64776c}.filters{display:flex;flex-wrap:wrap;gap:12px}.filter{display:grid;gap:5px;min-width:140px;font-size:13px}select,input{border:1px solid #d5ded3;border-radius:8px;background:#fff;padding:11px;font:inherit}.button{display:inline-block;border-radius:9px;padding:10px 15px;background:#243d35;color:white;text-decoration:none;font-size:13px;font-weight:600}.button.light{background:#edf2e6;color:#243d35}.results{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.entry{background:#fff;border:1px solid #e4e8e0;border-radius:13px;padding:20px}.entry h3{margin:0 0 8px}.entry small{color:#768579}.entry p{font-size:13px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.note{border-left:3px solid #9aab78;padding-left:14px}.hidden{display:none!important}@media(max-width:600px){main{padding:22px 14px}header{padding:15px}.panel{padding:16px}.filter{flex:1;min-width:125px}}
+</style></head><body><header><a class="brand" href="index.html">Pure Practice · 课程首页</a></header>
+<main><a class="back" href="index.html">← 返回三科目录</a><h1 id="heading">Cambridge IGCSE</h1><p id="subtitle"></p>
+<section class="panel"><h2>2019–2024 真题资料检索</h2><p>按考试年份与考季查找原卷（QP）、评分标准（MS）、分数线（GT）和考官报告（ER）。下列为权威入口及第三方文档索引，<strong>并非已下载、逐文件核验的 PDF 本地库</strong>。</p>
+<div class="filters"><label class="filter">年份<select id="year"><option value="all">全部年份</option></select></label><label class="filter">考试季<select id="session"><option value="all">全部考试季</option><option value="m">Feb / March</option><option value="s">May / June</option><option value="w">Oct / Nov</option></select></label><label class="filter">文件类别<select id="type"><option value="qp">Question Paper</option><option value="ms">Mark Scheme</option><option value="gt">Grade Threshold</option><option value="er">Examiner Report</option></select></label><label class="filter">Paper / Variant<input id="paper" placeholder="例如 41、22"></label></div>
+<p class="meta" id="count" aria-live="polite"></p><div class="results" id="results"></div></section>
+<section class="panel"><h2>正式资料渠道</h2><div class="actions" id="links"></div><p class="note">学校教师可通过 Cambridge School Support Hub 查询学校获授权使用的历年材料。公开网站资料是否完整、是否可转载，需要逐文件核对；本页只链接原站，不擅自复制版权试卷。</p></section>
+<section class="panel"><h2>考试与考纲提醒</h2><p>2020 年 May/June 国际考试取消，不应视作正常举行的真题场次。2023 年前后的考纲和 Paper 结构可能不同，不能直接按当前考纲归类旧题。课程页面目前属于可操作的资料检索入口，尚未完成逐题中文解析和同规格原创题库。</p><p id="structure"></p></section></main>
+<script>
+const subjects={
+ physics:{code:"0625",name:"Physics",archive:"https://pastpapers.papacambridge.com/papers/caie/igcse-physics-0625",official:"https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-physics-0625/past-papers/",syllabus:"https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-physics-0625/",papers:"Paper 1/3 为 Core，Paper 2/4 为 Extended；Paper 5 为 Practical Test，Paper 6 为 Alternative to Practical。"},
+ cs:{code:"0478",name:"Computer Science",archive:"https://pastpapers.papacambridge.com/papers/caie/igcse-computer-science-0478",official:"https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/past-papers/",syllabus:"https://www.cambridgeinternational.org/programmes-and-qualifications/cambridge-igcse-computer-science-0478/",papers:"Computer Science 0478 的 Paper 2 考查方式随年份变化。旧卷应按当年考纲和文件原始编号查看，不将旧 Paper 结构套用到新考纲。"}
+};
+const p=new URLSearchParams(location.search),s=subjects[p.get("subject")]||subjects.physics;
+document.title=s.name+" "+s.code+" · Cambridge IGCSE Past Papers";
+document.getElementById("heading").textContent=s.name+" · "+s.code;
+document.getElementById("subtitle").textContent="Cambridge IGCSE · 2019–2024 · Question Papers / Mark Schemes / Examiner Reports";
+document.getElementById("structure").textContent=s.papers;
+document.getElementById("links").innerHTML=[["Cambridge 官方真题页",s.official],["Cambridge 官方考纲",s.syllabus],["PapaCambridge 资料目录",s.archive]].map(([label,url])=>'<a class="button light" target="_blank" rel="noopener noreferrer" href="'+url+'">'+label+' ↗</a>').join("");
+const years=[2019,2020,2021,2022,2023,2024],sessions={m:"Feb / March",s:"May / June",w:"Oct / Nov"};
+const yearEl=document.getElementById("year"),sessEl=document.getElementById("session"),typeEl=document.getElementById("type"),paperEl=document.getElementById("paper");
+years.forEach(y=>yearEl.add(new Option(y,y)));
+function render(){
+ const yr=yearEl.value,season=sessEl.value,type=typeEl.value,variant=paperEl.value.trim().replace(/[^0-9]/g,"").slice(0,2);
+ const entries=[];for(const year of years){if(yr!=="all"&&Number(yr)!==year)continue;for(const ss of ["m","s","w"]){if(season!=="all"&&season!==ss)continue;entries.push({year,ss,cancelled:year===2020&&ss==="s"});}}
+ const ext={qp:"question paper",ms:"mark scheme",gt:"grade threshold",er:"examiner report"}[type];
+ document.getElementById("count").textContent=entries.length+" 个年份 / 考季目录（资料存在性及各 Variant 需要在来源网站核实）";
+ document.getElementById("results").innerHTML=entries.map(e=>{
+ const code=e.ss+String(e.year).slice(2),file=s.code+"_"+code+"_"+type+(type==="qp"||type==="ms"?"_"+(variant||"XX"):"")+".pdf";
+ const status=e.cancelled?"该考试季已取消，历史资源可能是未举行的试卷材料，不能标作实际考试真题。":"通过原站目录核对所有对应 Paper / Variant。";
+ return '<article class="entry"><h3>'+e.year+' · '+sessions[e.ss]+'</h3><small>'+s.code+' · '+code.toUpperCase()+(e.cancelled?' · 已取消':'')+'</small><p>'+status+'</p><p><strong>检索文件名：</strong><code>'+file+'</code></p><p class="meta">文件类型：'+ext+'</p><div class="actions"><a class="button" target="_blank" rel="noopener noreferrer" href="'+s.archive+'">打开真题目录 ↗</a></div></article>';
+ }).join("");
+}
+[yearEl,sessEl,typeEl,paperEl].forEach(el=>el.addEventListener(el===paperEl?"input":"change",render));render();
+</script></body></html>

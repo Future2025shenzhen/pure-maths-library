@@ -47,7 +47,7 @@ async function renderPdfCrop(canvas){
  canvas.width=Math.max(1,Math.round(viewport.width*w));canvas.height=Math.max(1,Math.round(viewport.height*h));
  const context=canvas.getContext('2d');context.fillStyle='#fff';context.fillRect(0,0,canvas.width,canvas.height);
  await p.render({canvasContext:context,viewport,transform:[1,0,0,1,-viewport.width*x,-viewport.height*y]}).promise;
- for(const mark of v.highlights||[]){const [mx,my,mw,mh]=mark.box,method=mark.kind==='method',colour=method?'#d97706':'#e6007e',rx=(mx-x)*viewport.width-4,ry=(my-y)*viewport.height-4,rw=mw*viewport.width+8,rh=mh*viewport.height+8;if(!method){}context.strokeStyle=colour;context.lineWidth=method?3:3;context.strokeRect(rx,ry,rw,rh);}
+ for(const mark of v.highlights||[]){let [mx,my,mw,mh]=mark.box;const method=mark.kind==='method';if(!method&&mw>.55){mx=.27;mw=.48;mh=Math.min(mh,.028);}const colour=method?'#d97706':'#e6007e',rx=(mx-x)*viewport.width-4,ry=(my-y)*viewport.height-4,rw=mw*viewport.width+8,rh=mh*viewport.height+8;if(!method){}context.strokeStyle=colour;context.lineWidth=method?3:3;context.strokeRect(rx,ry,rw,rh);}
  canvas.dataset.ready='true';
 }
 function mountPdfCrops(root){if(!root?.querySelectorAll)return;for(const canvas of root.querySelectorAll('canvas[data-pdf-crop]:not([data-ready])')){canvas.dataset.ready='loading';renderPdfCrop(canvas).catch(error=>{canvas.dataset.ready='error';console.error(error);});}}

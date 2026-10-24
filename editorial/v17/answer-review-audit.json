@@ -4438,7 +4438,6 @@
   {
     "id": "P3-2024-06-Q02",
     "schemePages": [
-      7,
       8
     ],
     "manuallyReviewed": true,
@@ -4503,84 +4502,73 @@
   {
     "id": "P3-2024-10-Q01",
     "schemePages": [
-      7,
-      8
+      7
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q02",
     "schemePages": [
-      9,
-      10
+      9
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q03",
     "schemePages": [
-      11,
-      12
+      11
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q04",
     "schemePages": [
-      13,
-      14
+      13
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q05",
     "schemePages": [
-      15,
-      16
+      15
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q06",
     "schemePages": [
-      17,
-      18
+      17
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q07",
     "schemePages": [
-      19,
-      20
+      19
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q08",
     "schemePages": [
-      21,
-      22
+      21
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
     "id": "P3-2024-10-Q09",
     "schemePages": [
-      23,
-      24,
-      25,
-      26
+      23
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4589,14 +4577,11 @@
       5
     ],
     "manuallyReviewed": true,
-    "automatedFlags": [
-      "notes_visible"
-    ]
+    "automatedFlags": []
   },
   {
     "id": "P3-2025-01-Q02",
     "schemePages": [
-      5,
       6
     ],
     "manuallyReviewed": true,
@@ -4640,9 +4625,7 @@
       13
     ],
     "manuallyReviewed": true,
-    "automatedFlags": [
-      "notes_visible"
-    ]
+    "automatedFlags": []
   },
   {
     "id": "P3-2025-01-Q08",
@@ -4689,8 +4672,7 @@
     "id": "P3-2025-06-Q03",
     "schemePages": [
       10,
-      11,
-      12
+      11
     ],
     "manuallyReviewed": true,
     "automatedFlags": []
@@ -4734,7 +4716,6 @@
     "id": "P3-2025-06-Q08",
     "schemePages": [
       20,
-      21,
       22
     ],
     "manuallyReviewed": true,
@@ -4745,9 +4726,7 @@
     "schemePages": [
       23,
       24,
-      25,
-      26,
-      27
+      26
     ],
     "manuallyReviewed": true,
     "automatedFlags": []
@@ -4757,9 +4736,7 @@
     "schemePages": [
       28,
       29,
-      30,
-      31,
-      32
+      30
     ],
     "manuallyReviewed": true,
     "automatedFlags": []

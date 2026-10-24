@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "notice": "Independent original practice, not Cambridge past papers or official mark schemes.",
+  "questions": [
+    {
+      "id": "PH-001",
+      "subject": "physics",
+      "topic": "Motion, forces and energy",
+      "title": "A trolley on a laboratory track",
+      "marks": 12,
+      "stem": "A trolley of mass 0.80 kg is released from rest on a straight track. It accelerates uniformly for 4.0 s and reaches a speed of 3.2 m/s. The resistive force on the trolley is constant at 0.24 N.\n(a) Calculate the acceleration of the trolley. [2]\n(b) Calculate the resultant force on the trolley during the first 4.0 s. [2]\n(c) Determine the magnitude of the driving force. [2]\n(d) The driving force is then removed. Assuming that the resistive force remains constant, calculate\n    (i) the deceleration of the trolley, [2]\n    (ii) the distance the trolley travels before coming to rest. [3]\n(e) State one assumption, other than constant resistance, made in your calculation in (d). [1]",
+      "answer": "(a) a = (3.2 - 0)/4.0 = 0.80 m/s². **M1** 正确使用加速度公式；**A1** 数值、单位正确。\n(b) F_net = ma = 0.80 × 0.80 = 0.64 N. **M1** 应用牛顿第二定律；**A1** 结果。\n(c) F_drive − 0.24 = 0.64，因此 F_drive = 0.88 N。**M1** 正确列力的平衡关系；**A1** 答案。\n(d)(i) a = F/m = 0.24/0.80 = 0.30 m/s²（减速度）。**M1 A1**。\n(d)(ii) 0 = 3.2² − 2 × 0.30 × s，s = 17.1 m（三位有效数字）。**M1** 选用运动方程；**M1** 正确代值；**A1** 答案。\n(e) 可接受：轨道水平，或空气阻力/摩擦之外的额外阻力忽略。**B1**。"
+    },
+    {
+      "id": "PH-002",
+      "subject": "physics",
+      "topic": "Electricity and magnetism",
+      "title": "Two resistors in series",
+      "marks": 11,
+      "stem": "A battery of electromotive force 12.0 V and negligible internal resistance is connected to two resistors, 6.0 Ω and 3.0 Ω, in series.\n(a) Calculate the total resistance of the circuit. [1]\n(b) Calculate the current in the circuit. [2]\n(c) Calculate the potential difference across the 3.0 Ω resistor. [2]\n(d) Determine the energy transferred by the 6.0 Ω resistor in 2.0 minutes. [3]\n(e) A second 6.0 Ω resistor is connected in parallel with the existing 6.0 Ω resistor. The 3.0 Ω resistor remains in series with this combination. Calculate the new total resistance. [3]",
+      "answer": "(a) R = 6.0 + 3.0 = 9.0 Ω。**B1**。\n(b) I = V/R = 12.0/9.0 = 1.33 A。**M1 A1**。\n(c) V₃ = I × 3.0 = 4.0 V。**M1 A1**。\n(d) t = 120 s，P = I²R = (4/3)² × 6 = 10.67 W，E = Pt = 1280 J。**M1** 换算时间；**M1** 正确使用功率与能量关系；**A1** 结果。\n(e) 两个 6 Ω 并联：1/Rp = 1/6 + 1/6，Rp = 3.0 Ω；Rtotal = 3.0 + 3.0 = 6.0 Ω。**M1** 并联式；**A1** Rp；**A1** 总阻值。"
+    },
+    {
+      "id": "PH-003",
+      "subject": "physics",
+      "topic": "Waves",
+      "title": "Measuring waves in a ripple tank",
+      "marks": 10,
+      "stem": "A student uses a ripple tank to investigate water waves. The student counts 18 complete waves passing a fixed point in 12 s. The distance from the first crest to the sixth crest is measured as 25 cm.\n(a) State what is meant by the frequency of a wave. [1]\n(b) Calculate the frequency of the waves. [2]\n(c) Determine the wavelength of the waves in metres. [2]\n(d) Calculate the speed of the waves. [2]\n(e) Describe how the student could reduce the percentage uncertainty in the measurement of wavelength. [3]",
+      "answer": "(a) 每秒通过固定点的完整振动次数。**B1**。\n(b) f = 18/12 = 1.5 Hz。**M1 A1**。\n(c) 第一到第六个波峰之间是 **5 个波长**，λ = 0.25/5 = 0.050 m。**M1 A1**。\n(d) v = fλ = 1.5 × 0.050 = 0.075 m/s。**M1 A1**。\n(e) 测量更多连续波峰之间的总距离（**B1**）；重复测量并取平均（**B1**）；以总距离除以波峰间隔数从而减小单次读数对最终波长的相对影响（**B1**）。"
+    },
+    {
+      "id": "CS-001",
+      "subject": "cs",
+      "topic": "Data representation",
+      "title": "Image storage and colour depth",
+      "marks": 12,
+      "stem": "A digital image has a resolution of 800 × 600 pixels and a colour depth of 8 bits per pixel. Ignore file headers and compression.\n(a) State what is meant by the resolution of a digital image. [2]\n(b) Calculate the minimum number of bytes required to store the uncompressed image. Show your working. [3]\n(c) Calculate the maximum number of different colours that can be represented using 8 bits per pixel. [2]\n(d) A second version of the image uses 24 bits per pixel but the same resolution.\n    (i) Calculate the storage size of the second image in bytes. [2]\n    (ii) Explain why the second image may look more realistic than the first. [3]",
+      "answer": "(a) 图像沿宽和高方向的像素数，例如 800 × 600。**B1** 对像素数量的定义；**B1** 两个方向的说明。\n(b) 800 × 600 = 480000 pixels（**M1**）；480000 × 8 = 3840000 bits（**M1**）；÷8 = 480000 bytes（**A1**）。\n(c) 2⁸ = 256 colours。**M1 A1**。\n(d)(i) 480000 × 24 ÷ 8 = 1440000 bytes。**M1 A1**。\n(d)(ii) 色深更高意味着可表示的颜色数更多（**B1**）；颜色过渡更平滑/减少色带（**B1**）；因此更接近真实场景颜色（**B1**）。"
+    },
+    {
+      "id": "CS-002",
+      "subject": "cs",
+      "topic": "Algorithms, programming and logic",
+      "title": "Validating temperature readings",
+      "marks": 13,
+      "stem": "A weather station records 20 integer temperature readings. Each reading must be between −30 and 50 inclusive. The program must reject invalid values and ask again. It must then display the highest valid temperature and the number of readings greater than 25.\n(a) Identify a suitable data type for an individual temperature reading. [1]\n(b) Describe a suitable validation check for each reading. [2]\n(c) Write an algorithm in pseudocode to perform the task described above. Your algorithm must process exactly 20 valid readings. [8]\n(d) Explain why validation alone cannot guarantee that every stored reading is correct. [2]",
+      "answer": "(a) INTEGER。**B1**。\n(b) Range check（**B1**）：−30 ≤ reading ≤ 50，端点允许（**B1**）。\n(c) 一种可行的伪代码：\n```\nHighest ← -31\nCountHot ← 0\nFOR i ← 1 TO 20\n  REPEAT\n    INPUT Temp\n  UNTIL Temp >= -30 AND Temp <= 50\n  IF Temp > Highest THEN\n    Highest ← Temp\n  ENDIF\n  IF Temp > 25 THEN\n    CountHot ← CountHot + 1\n  ENDIF\nNEXT i\nOUTPUT Highest\nOUTPUT CountHot\n```\n评分点（共 8 分）：循环处理 20 个有效值（1）；接受输入（1）；重复直到范围有效（2）；最大值合理初始化（1）；最大值比较和更新（1）；大于 25 计数（1）；输出两项（1）。其他逻辑等效算法同样给分。\n(d) 合法范围内也可能是误读或输入错误（**B1**），如真实温度 15 却输入 35，两者均通过范围检验（**B1**）。"
+    },
+    {
+      "id": "CS-003",
+      "subject": "cs",
+      "topic": "Computer systems",
+      "title": "Network addressing and secure transfer",
+      "marks": 11,
+      "stem": "A school has a local area network (LAN). A student uses a browser to connect to the school's learning platform using HTTPS. The school also uses a router to access services on the internet.\n(a) State two characteristics of a LAN. [2]\n(b) Explain the purpose of an IP address when data is transferred across networks. [2]\n(c) Describe the role of a router in forwarding data between networks. [3]\n(d) Explain two benefits of using HTTPS rather than HTTP when the student signs in to the platform. [4]",
+      "answer": "(a) 网络覆盖较小地理区域（**B1**）；通常由一个组织管理（**B1**）。\n(b) IP 地址用于唯一定位网络中的设备或网络接口（**B1**），使数据包能够按目标地址投递（**B1**）。\n(c) 路由器连接不同网络（**B1**）；读取目标 IP 地址（**B1**）；根据路由信息选择下一跳转发数据包（**B1**）。\n(d) HTTPS 通过 TLS 加密传输，降低密码被窃听风险（**B1** 优点 + **B1** 解释）；提供服务器身份验证及传输完整性保护，降低被冒充或内容被篡改风险（**B1** 优点 + **B1** 解释）。"
+    }
+  ]
+}

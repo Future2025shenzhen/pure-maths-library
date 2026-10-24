@@ -27,6 +27,8 @@ jobs:
         run: python3 scripts/inspect-igcse-zips.py
       - name: Install lightweight PDF text parser
         run: python3 -m venv /tmp/igcse-audit && /tmp/igcse-audit/bin/pip -q install pypdf==6.1.1
+      - name: Merge seven IGCSE pre-release ZIPs into genuine PDF documents
+        run: /tmp/igcse-audit/bin/python scripts/convert-igcse-zips.py
       - name: Audit every IGCSE PDF page count and sampled document text
         run: /tmp/igcse-audit/bin/python scripts/audit-igcse-content.py
       - uses: actions/configure-pages@v5

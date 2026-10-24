@@ -4358,7 +4358,7 @@
     "schemePages": [
       7
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4366,7 +4366,7 @@
     "schemePages": [
       8
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4374,7 +4374,7 @@
     "schemePages": [
       10
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4382,7 +4382,7 @@
     "schemePages": [
       12
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4390,7 +4390,7 @@
     "schemePages": [
       16
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4398,7 +4398,7 @@
     "schemePages": [
       18
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4406,7 +4406,7 @@
     "schemePages": [
       19
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4415,7 +4415,7 @@
       23,
       24
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {
@@ -4424,7 +4424,7 @@
       26,
       27
     ],
-    "manuallyReviewed": false,
+    "manuallyReviewed": true,
     "automatedFlags": []
   },
   {

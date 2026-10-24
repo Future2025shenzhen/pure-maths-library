@@ -1,0 +1,16 @@
+{
+  "p1-jun-2024-r": {
+    "questionPaperSha256": "66d6fdc61078d3f3e19aed36518f5925bf7cc0c0ab39144fc0671e3e721d5c3d",
+    "markSchemeSha256": "b6b68f99edde9e34205912624135d2ccc245ff1da75544a4d556480021557d1c",
+    "questionPaperLog": "P76388A",
+    "markSchemeLog": "P75707A",
+    "reason": "目录、卷别、考季及第一题题文与评分步骤相互对应；评分标准的试卷日志编号与题面编号不同。记录源文件元数据差异，不修改原卷；未声称逐题数学审核。"
+  },
+  "p2-jun-2021": {
+    "questionPaperSha256": "bd12bc40537cb50e909cdf88422218d98cecdf4b15b4240fa55cad07bfbda514",
+    "markSchemeSha256": "1427555392f057543d987921cadbcd3ce4bf06e60d6cb7963b9e4d2cbcfef815",
+    "questionPaperLog": "P65793A",
+    "markSchemeLog": "P66008A",
+    "reason": "目录、卷别、考季及第一题题文与评分步骤相互对应；评分标准的试卷日志编号与题面编号不同。记录源文件元数据差异，不修改原卷；未声称逐题数学审核。"
+  }
+}

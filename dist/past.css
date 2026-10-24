@@ -15,3 +15,5 @@
 @media print{.reader-timer{display:none}}
 
 #past-reader[open]{display:flex;flex-direction:column}.pdf-head,.pdf-toolbar,.reader-timer{flex-shrink:0}#reader-scroll{flex:1;min-height:0;height:auto}
+
+.archive-note{font-size:13px;line-height:1.8;color:#526157}.paper-row small{display:block;font-size:11px;color:#637166;margin-top:4px}.practice-heading{font-size:18px;margin:28px 0 16px}

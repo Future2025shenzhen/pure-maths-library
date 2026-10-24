@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import vm from 'node:vm';
+import {spawnSync} from 'node:child_process';
 import assert from 'node:assert/strict';
 const root=new URL('../dist/',import.meta.url);
 for(const file of ['igcse.html','igcse-reader.html','igcse-practice.html']){
@@ -7,7 +7,10 @@ for(const file of ['igcse.html','igcse-reader.html','igcse-practice.html']){
  assert(html.includes('<!doctype html>'),file);
  const scripts=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/gi)];
  assert(scripts.length,file+' missing script');
- for(const [i,m] of scripts.entries())new vm.Script(m[1],{filename:file+'#'+i});
+ for(const [i,m] of scripts.entries()){
+  const check=spawnSync(process.execPath,['--check','--input-type=module'],{input:m[1],encoding:'utf8'});
+  assert.equal(check.status,0,file+' script '+i+': '+check.stderr);
+ }
 }
 const original=JSON.parse(fs.readFileSync(new URL('data/igcse-original.json',root),'utf8'));
 assert.equal(original.questions.filter(q=>q.subject==='physics').length,3);

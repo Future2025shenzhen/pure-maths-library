@@ -11,5 +11,5 @@ assert(improveMath('$\\sum_{r=1}^{N}r$').includes('\\displaystyle'));
 assert(improveMath('$\\tfrac32$').includes('\\displaystyle \\frac32'));
 assert.equal(improveMath('$3^2/2^3$'),'$3^2/2^3$');
 assert.equal(improveMath('$x^a/b$'),'$x^a/b$');
-assert.equal(Object.keys(index.questions).length,1093);
-console.log(`PASS ${count} formulas render; ${changed} text fields improved; 1093 classification entries`);
+assert.equal(Object.keys(index.questions).length,1099);
+console.log(`PASS ${count} formulas render; ${changed} text fields improved; 1099 classification entries`);

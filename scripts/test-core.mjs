@@ -12,4 +12,4 @@ for(const stage of ['P1','P2','P3']){
 }
 const valid=[...ids][0];assert.deepEqual(cleanState({done:['invalid',1,valid,valid],saved:[valid]},ids),{version:1,done:[valid],saved:[valid]});
 const q=data.questions.find(q=>q.stage==='P1'&&q.parts.some(p=>p.subparts));const topic=q.topics[0];assert(filterQuestions(data,{stage:'P1',chapters:data.chapters.P1.map(c=>c.id),type:topic,status:'all',search:'',savedOnly:false},state).some(v=>v.id===q.id));
-console.log('PASS 770-question filtering, chapter practice, score sums, uniqueness, done exclusion, insufficient pools, topic filter and saved-state validation');
+console.log('PASS 776-question filtering, chapter practice, score sums, uniqueness, done exclusion, insufficient pools, topic filter and saved-state validation');

@@ -1,8 +1,8 @@
 import {notePlaceholder,mountNotes} from './question-notes.js?v=9';
-import {applyClassification,linkedChapters} from './classification.js?v=12';
+import {applyClassification,linkedChapters} from './classification.js?v=14';
 import {improveMath,renderMath} from './math-format.js?v=9';
 import {account,mountAccountLink} from './account-client.js';
-import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=12';
+import {STORE_KEY,shuffle,validateBank,cleanState,filterQuestions,composePaper} from './core.js?v=14';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],main=$('#main-view');
 const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 // Escape TeX angle brackets before HTML parsing; preserve authored tables.
@@ -36,7 +36,7 @@ function top(label,title,description){return `<div class="compact-heading"><h1>$
 function roman(i){return ['i','ii','iii','iv','v'][i]||String(i+1);}
 function questionPart(p,i,sub=false){return `<div class="${sub?'subpart':'part'}"><span class="part-label">(${sub?roman(i):String.fromCharCode(97+i)})</span><div class="part-body">${format(p.text)}${p.subparts?`<div class="subparts">${p.subparts.map((s,j)=>questionPart(s,j,true)).join('')}</div>`:''}</div>${p.subparts?'':`<span class="marks">(${p.marks})</span>`}</div>`;}
 function answerPart(p,i,sub=false){const label=`(${sub?roman(i):String.fromCharCode(97+i)})`;if(p.subparts)return `<section class="answer-group"><h4>${label} ${format(p.text)}</h4>${p.subparts.map((s,j)=>answerPart(s,j,true)).join('')}</section>`;const steps=p.solutionSteps?.length?p.solutionSteps:[p.explanation];return `<section class="answer-part ${sub?'answer-subpart':''}"><div class="answer-title"><span>${label}</span><b>解题步骤</b><span class="leaf-marks">${p.marks} marks</span></div>${p.approach?`<p class="answer-approach"><b>思路：</b>${format(p.approach)}</p>`:''}<ol class="solution-steps">${steps.map(t=>`<li>${format(t)}</li>`).join('')}</ol><div class="answer-result"><b>本问结论：</b><span class="final">${format(p.answer)}</span></div><details class="scheme-details"><summary>查看建议评分点</summary><div class="mark-scheme">${p.scheme.map(r=>`<div class="mark-row"><span class="mark-code">${r.code}</span><span>${format(r.text)}</span></div>`).join('')}</div></details></section>`;}
-function sourceNote(q){if(q.textbookSource){const t=q.textbookSource;return `<p class="question-source">Pearson Edexcel IAL ${esc(t.unit)} 教材 · ${esc(t.exercise)} Q${esc(t.question)} · 原标记 ${esc(t.marker)}<br>印刷页 ${t.page} · <a href="${esc(t.pdf)}#page=${t.pdfPage}" target="_blank" rel="noopener">查看教材原页</a><br>教材题文重排、图示重绘；中文解答与评分点由本站编写。</p>`;}if(!q.sourceReferences?.length)return '';return `<p class="question-source"><b>原创改编 · 2026</b><br>考法参照：${q.sourceReferences.map(r=>`<a href="past.html?stage=${q.stage}&q=${encodeURIComponent(r.questionId)}">${esc(r.questionId)}（${r.year}）</a> · ${esc(r.note||'')}`).join('；')}<br>本题不是原卷题目。${esc(q.adaptationNote||'')}</p>`;}
+function sourceNote(q){if(q.textbookSource){const t=q.textbookSource;return `<p class="question-source">Pearson Edexcel IAL ${esc(t.unit)} 教材 · ${esc(t.exercise)} Q${esc(t.question)} · 原标记 ${esc(t.marker)}<br>印刷页 ${t.page} · <a href="${esc(t.pdf)}#page=${t.pdfPage}" target="_blank" rel="noopener">查看教材原页</a><br>教材题文重排、图示重绘；中文解答与评分点由本站编写。</p>`;}if(!q.sourceReferences?.length)return '';const detail=q.editorialRevision===14?`<br><b>原题大意：</b>${esc(q.sourceSummary||'')}<br><b>改编维度：</b>${(q.adaptationDimensions||[]).map(esc).join('、')}<br><b>保留的考点本质：</b>${esc(q.examEssence||'')}<br><b>难度定位：</b>${esc(q.difficultyPosition||'')}<br><b>易错点：</b>${(q.errorNotes||[]).map(esc).join('；')}<br><b>命题思路：</b>${esc(q.designNote||'')}`:'';return `<p class="question-source"><b>原创改编 · 2026</b><br>考法参照：${q.sourceReferences.map(r=>`<a href="past.html?stage=${q.stage}&year=${r.year}">${esc(r.questionId)}（${r.year}）</a> · ${esc(r.note||'')}`).join('；')}<br>本题不是原卷题目。${esc(q.adaptationNote||'')}${detail}</p>`;}
 function makeAnswer(q){return `<div class="answer-panel" id="answer-${q.id}" ${opened.has(q.id)?'':'hidden'}><h3>答案与解析</h3><p class="question-coverage"><b>考查范围：</b>${q.stage} · ${data.chapters[q.stage].filter(c=>linkedChapters(q).includes(c.id)).map(c=>`第${c.id}章 ${esc(c.zh)}`).join('、')}<br><b>主要考点：</b>${q.topics.map(esc).join('、')}</p><details class="answer-source-details"><summary>来源与改编说明</summary>${sourceNote(q)}</details>${q.parts.map((p,i)=>answerPart(p,i)).join('')}${q.answerFigure||''}<p class="scheme-note">M：方法分 · A：准确分 · B：独立得分点。等价正确解法应予认可。评分点为原创建议，非官方评分细则。</p></div>`;}
 
 function makeCard(q,n,{exam=false}={}){
@@ -79,7 +79,7 @@ function closeFilters(){$('#sidebar').classList.remove('open');}
 function resetFilters(){allowCrossChapter=false;$('#allow-cross-chapter').checked=false;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}
 function showQuality(){
  const active=data.questions.filter(q=>!q.withdrawn).length;
- $('#quality-content').innerHTML=`<h3>题库修订 · 第13版</h3><p>当前日常练习包含 ${active} 题。上一轮逐题重写26题，其中精选教材原题9题；已撤下11道重复或价值不足的题。本轮再撤下6道弧度制中训练流程重复的题。撤下题保留于已有收藏及练习卷，标记清楚。</p><p>本轮重点：P1三角图像、交点计数及弧度制组合图形，P2完整区间三角方程。教材题标注原有E/P标记、页码和题号，中文解答及建议评分点由本站编写。</p><p>全库已做结构、公式显示、来源索引和配图风险检查；逐题数学审阅仍在继续，不能把自动检查视为全库已获教师审定。题目ID保留以兼容收藏和备注，实质修订题的历史已做标记需你自行核对。</p><p>历年真题区保留33套、323道2020—2023年原题及官方答案，原卷完整保留；列表只展示题干、图形和小问，省去答题留白。</p>`;$('#report-dialog').showModal();
+ $('#quality-content').innerHTML=`<h3>题库修订 · 第14版</h3><p>当前日常练习包含 ${active} 题。P1 第7章 Radians 已完成首轮整章换代：30道旧题逐题审查，保留3道、加强3道、重写11道、撤下13道，并新增6道；本章现有23道有效题。删除比例43.3%，补录数量达到删题数的五分之二以上。</p><p>本章统计依据为2019年1月至2025年6月的21份P1试卷，共193分弧度相关题。新题均标注具体来源、原题大意、改编维度、难度定位、易错点和命题思路；同一真题来源最多使用3次。</p><p>题干沿用Edexcel英文表达，解析采用中文分步说明和建议评分点。全库现有776道历史题，其中758道进入日常练习；被撤下题仍保留ID，已有收藏可以查看。</p><p>历年真题区保留至2025年6月的P1—P3试卷与官方答案；2025年10月及2026年试卷未加入，也未用于本批题目复刻。</p>`;$('#report-dialog').showModal();
 }
 let pdfDoc=null,pdfPage=1,pdfScale=1,pdfLoading=0,pdfRenderTask=null,pdfSerial=0;
 async function openBook(u){
@@ -141,7 +141,7 @@ async function handleAction(action,el){
 async function init(){
  try{
   await account.requireUser();await mountAccountLink();
-  const res=await fetch('data/bank.json?v=13');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=12')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
+  const res=await fetch('data/bank.json?v=14');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=14')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.enabled?account.getState('original'):safeRead(STORE_KEY,{}),ids);
   const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;
   chapters=data.chapters[stage].map(c=>c.id);resetOrder();renderSidebar();render();

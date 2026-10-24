@@ -1,0 +1,95 @@
+{
+  "status": "planning_estimates_not_question_count_commitment",
+  "method": "Visual page-coverage estimate, not exact pixel measurement; common teaching shared equally across six families; main text/exercises printed pp134-144; chapter review excluded to avoid double-counting consolidation.",
+  "page_coding": {
+    "134": {
+      "common": 1
+    },
+    "135": {
+      "common": 1
+    },
+    "136": {
+      "common": 1
+    },
+    "137": {
+      "G1": 0.4,
+      "G4": 0.1,
+      "G3": 0.1,
+      "common": 0.4
+    },
+    "138": {
+      "G4": 0.12,
+      "G1": 0.32,
+      "G5": 0.12,
+      "common": 0.44
+    },
+    "139": {
+      "G1": 0.5,
+      "common": 0.5
+    },
+    "140": {
+      "G2": 0.25,
+      "G3": 0.35,
+      "common": 0.4
+    },
+    "141": {
+      "G3": 1
+    },
+    "142": {
+      "G3": 0.85,
+      "common": 0.15
+    },
+    "143": {
+      "G3": 0.15,
+      "G2": 0.15,
+      "G4": 0.2,
+      "G1": 0.5
+    },
+    "144": {
+      "G2": 0.25,
+      "G1": 0.75
+    }
+  },
+  "direct_page_equivalents": {
+    "G1": 2.47,
+    "G2": 0.65,
+    "G3": 2.45,
+    "G4": 0.42000000000000004,
+    "G5": 0.12,
+    "G6": 0
+  },
+  "shared_pages": 4.89,
+  "effective_page_equivalents": {
+    "G1": 3.285,
+    "G2": 1.4649999999999999,
+    "G3": 3.265,
+    "G4": 1.2349999999999999,
+    "G5": 0.9349999999999999,
+    "G6": 0.815
+  },
+  "weights_60_40": {
+    "G1": 0.4944545454545455,
+    "G2": 0.09077272727272727,
+    "G3": 0.15622727272727274,
+    "G4": 0.11990909090909091,
+    "G5": 0.07150000000000001,
+    "G6": 0.06713636363636363
+  },
+  "conditional_quota_24": {
+    "G1": 9,
+    "G2": 3,
+    "G3": 3,
+    "G4": 3,
+    "G5": 3,
+    "G6": 3
+  },
+  "conditional_quota_18": {
+    "G1": 3,
+    "G2": 3,
+    "G3": 3,
+    "G4": 3,
+    "G5": 3,
+    "G6": 3
+  },
+  "warning": "Minimum three for each family changes raw proportions substantially. Not permission to create low-quality items. Final total depends on old-question review; no template is exempt without 3 matching sources."
+}

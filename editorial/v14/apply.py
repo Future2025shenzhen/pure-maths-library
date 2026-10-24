@@ -25,6 +25,19 @@ deleted_reasons = {
 }
 
 bank = json.loads(BANK.read_text())
+# Make the release pipeline repeatable when the checked-out data file already
+# contains the following V15 layer from a prior local check.
+v15_additions = {f'P1-C{chapter:02d}-R{number}' for chapter in (4, 9) for number in range(31, 37)}
+v15_withdrawals = {
+    'P1-C04-R02','P1-C04-R05','P1-C04-R07','P1-C04-R08','P1-C04-R12','P1-C04-R13','P1-C04-R14','P1-C04-R16','P1-C04-R19','P1-C04-R23','P1-C04-R26','P1-C04-R27','P1-C04-R29',
+    'P1-C09-R04','P1-C09-R07','P1-C09-R11','P1-C09-R12','P1-C09-R14','P1-C09-R15','P1-C09-R20','P1-C09-R21','P1-C09-R24','P1-C09-R26','P1-C09-R27','P1-C09-R28','P1-C09-R29',
+    'P1-C06-R12','P1-C06-R17','P1-C06-R26','P1-C06-R30',
+}
+bank['questions'] = [q for q in bank['questions'] if q['id'] not in v15_additions]
+for q in bank['questions']:
+    if q['id'] in v15_withdrawals:
+        q.pop('withdrawn', None)
+        q.pop('withdrawalReason', None)
 seen = set()
 rebuilt = []
 for old in bank['questions']:

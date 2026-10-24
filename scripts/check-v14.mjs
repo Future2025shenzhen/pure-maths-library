@@ -11,8 +11,8 @@ const chapter=bank.questions.filter(q=>q.stage==='P1'&&q.id.startsWith('P1-C07-'
 const active=chapter.filter(q=>!q.withdrawn);
 const deleted=new Set(['P1-C07-R04','P1-C07-R05','P1-C07-R06','P1-C07-R09','P1-C07-R12','P1-C07-R14','P1-C07-R16','P1-C07-R17','P1-C07-R18','P1-C07-R19','P1-C07-R22','P1-C07-R26','P1-C07-R29']);
 
-assert.equal(bank.questions.length,776);
-assert.equal(bank.questions.filter(q=>!q.withdrawn).length,758);
+assert.equal(bank.questions.length,788);
+assert.equal(bank.questions.filter(q=>!q.withdrawn).length,740);
 assert.equal(chapter.length,36);
 assert.equal(active.length,23);
 assert.deepEqual(new Set(chapter.filter(q=>q.withdrawn).map(q=>q.id)),deleted);

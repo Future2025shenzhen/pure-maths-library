@@ -42,3 +42,27 @@ if(paper.pairCoverage){
  }
 }
 console.log('PASS IGCSE HTML JavaScript syntax, original questions and transparent source states');
+
+// The live browser uses only downloaded, byte-verified same-origin resources.
+const online=JSON.parse(fs.readFileSync(new URL('data/igcse-online-files.json',root),'utf8'));
+assert.equal(online.files.length,793);
+const onlineNames=new Set();
+for(const f of online.files){
+ assert(!onlineNames.has(f.filename));onlineNames.add(f.filename);
+ assert(['physics','cs'].includes(f.subject));assert(f.year>=2019&&f.year<=2024);
+ assert.equal(f.path,'assets/igcse/'+f.filename);
+ assert(/^[a-f0-9]{64}$/.test(f.sha256));assert(f.bytes>0);
+ assert(f.url.startsWith('https://raw.githubusercontent.com/'));
+ assert.equal(f.filename.slice(0,4),f.subject==='physics'?'0625':'0478');
+}
+for(const [subject,count] of [['physics',251],['cs',84]]){
+ assert.equal(online.files.filter(f=>f.subject===subject&&f.type==='qp').length,count);
+ assert.equal(online.files.filter(f=>f.subject===subject&&f.type==='ms').length,count);
+}
+for(const f of online.files.filter(f=>f.type==='qp'))assert(onlineNames.has(f.filename.replace('_qp_','_ms_')));
+for(const file of ['igcse-online.js','igcse-reader.js']){
+ const check=spawnSync(process.execPath,['--check',new URL(file,root).pathname],{encoding:'utf8'});assert.equal(check.status,0,check.stderr);
+}
+assert(!fs.readFileSync(new URL('igcse-online.js',root),'utf8').includes('papacambridge.com'));
+assert(fs.readFileSync(new URL('igcse-reader.js',root),'utf8').includes('pdfjs.getDocument'));
+console.log('PASS: 793 verified same-origin IGCSE files, 335 QP/MS pairs and PDF.js reader');

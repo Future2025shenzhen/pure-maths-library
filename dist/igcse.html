@@ -47,8 +47,8 @@ function render(){
  const list=records.filter(r=>r.subject===sub&&(yr==="all"||r.year===Number(yr))&&(session==="all"||r.session===session)&&(!part||r.component===part)&&(coverageEl.value==="all"||coverageEl.value==="named"&&r.sourceStatus==="component-named-in-source-index"||coverageEl.value==="listed"&&(r.sourceStatus==="series-indexed-component-unverified"||r.sourceStatus==="component-named-in-source-index")));
  const verify=list.filter(r=>r.qpUrl||r.msUrl).length,listed=list.filter(r=>r.sourceStatus==="series-indexed-component-unverified"||r.sourceStatus==="component-named-in-source-index").length,named=list.filter(r=>r.sourceStatus==="component-named-in-source-index").length;
  totalEl.textContent=list.length+" 条编号候选 · "+named+" 条有逐卷文件名证据 · "+verify+" 条找到直接 PDF 地址（未逐页核验）";
- const resourceRows=["er","gt","ci","pm"].includes(type)?sessionResources.filter(x=>x.subject===sub&&(yr==="all"||x.year===Number(yr))&&(session==="all"||x.session===session)&&x[type+"Url"]):[];
- if(["er","gt","ci","pm"].includes(type)){
+ const resourceRows=["er","gt"].includes(type)?sessionResources.filter(x=>x.subject===sub&&(yr==="all"||x.year===Number(yr))&&(session==="all"||x.session===session)&&x[type+"Url"]):[];
+ if(["er","gt"].includes(type)){
  totalEl.textContent=resourceRows.length+" 个来源目录确实列出链接的考季资料 · PDF 未逐页核验";
  resultEl.innerHTML=resourceRows.slice(0,limit).map(x=>{
  const u=x[type+"Url"],name=s.code+"_"+x.session+String(x.year).slice(2)+"_"+type+".pdf";
@@ -56,17 +56,18 @@ function render(){
  }).join("");
  moreEl.style.display=limit<resourceRows.length?"inline-block":"none";return;
  }
- resultEl.innerHTML=list.slice(0,limit).map(r=>{
+ const displayList=(type==="ci"||type==="pm")?list.filter(r=>r[type+"Url"]):list;
+ resultEl.innerHTML=displayList.slice(0,limit).map(r=>{
  const code=r.session+String(r.year).slice(2);
- const filename=type==="qp"?r.qp:type==="ms"?r.ms:s.code+"_"+code+"_"+type+".pdf";
+ const filename=(type==="qp"||type==="ms")?r[type]:s.code+"_"+code+"_"+type+"_"+r.component+".pdf";
  const sourceUrl=r.sourceEvidenceUrl||s.archive; const sourceLabel=r.sourceEvidenceUrl?"前往对应科目真题索引 ↗":"在原始来源目录查找 ↗";
- const direct=type==="qp"?r.qpUrl:type==="ms"?r.msUrl:null;
+ const direct=r[type+"Url"]||null;
  const pdfLink=direct?`<a class="button light" target="_blank" rel="noopener noreferrer" href="${esc(direct)}">原始 PDF ↗</a><a class="button light" href="igcse-reader.html?subject=${sub}&pdf=${encodeURIComponent(direct)}">站内尝试阅读 ↗</a>`:"";
  const suffix=r.examStatus==="cancelled-international-series"?"<p class='meta'>2020 年 May/June 国际考试取消：可能有考试材料，但不能标为已举行试卷。</p>":"";
- const badge=r.fileStatus==="verified"?"已核验 PDF":r.sourceStatus==="component-named-in-source-index"?"QP/MS 文件名有来源 · PDF 未逐页核验":r.sourceStatus==="series-indexed-component-unverified"?"考季有索引 · 单卷未核验":"索引未列该考季 · 待查";
+ const check=r[type+"ProbeStatus"]; const badge=check==="pdf-signature-confirmed"?"PDF 文件头已核验（非完整审查）":r.sourceStatus==="component-named-in-source-index"?"QP/MS 文件名有来源 · PDF 未逐页核验":r.sourceStatus==="series-indexed-component-unverified"?"考季有索引 · 单卷未核验":"索引未列该考季 · 待查";
  return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel+'</a>'+pdfLink+'<button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
  }).join("");
- moreEl.style.display=limit<list.length?"inline-block":"none";
+ moreEl.style.display=limit<displayList.length?"inline-block":"none";
  for(const b of resultEl.querySelectorAll(".copy-filename"))b.onclick=async()=>{const name=b.dataset.name;try{await navigator.clipboard.writeText(name);b.textContent="已复制";}catch{window.prompt("复制文件名",name);}};
 }
 moreEl.onclick=()=>{limit+=30;render();};

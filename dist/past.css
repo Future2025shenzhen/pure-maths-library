@@ -21,3 +21,6 @@
 .archive-note{font-size:13px;line-height:1.8;color:#526157}.paper-row small{display:block;font-size:11px;color:#637166;margin-top:4px}.practice-heading{font-size:18px;margin:28px 0 16px}
 
 .reviewed-final{display:inline-block;border:2px solid #e6007e;border-radius:5px;padding:2px 7px;color:#99004e;background:#fff;line-height:1.9}
+
+.mock-more-link{text-decoration:none;margin-left:10px}.pagination .mock-more-link{white-space:nowrap}
+@media(max-width:650px){.pagination{flex-wrap:wrap}.pagination .mock-more-link{flex-basis:100%;margin:8px 0 0;text-align:center}}

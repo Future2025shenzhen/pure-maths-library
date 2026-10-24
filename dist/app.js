@@ -73,7 +73,7 @@ function render(){
  if(view==='library'||view==='saved')renderLibrary();else if(view==='books')renderBooks();else renderPapers();
  $('#saved-count').textContent=state.saved.length;
 }
-function navigate(v){view=v;page=1;history.replaceState(null,'',`#${v}`);render();account.activity('visit',v==='library'?'original':v).catch(()=>{});window.scrollTo({top:0,behavior:'instant'});}
+function navigate(v){view=v;page=1;const url=new URL(location.href);url.searchParams.set('course','maths');url.hash=v;history.replaceState(null,'',url);render();account.activity('visit',v==='library'?'original':v).catch(()=>{});window.scrollTo({top:0,behavior:'instant'});}
 function openFilters(){$('#sidebar').classList.add('open');$('#close-filters').focus();}
 function closeFilters(){$('#sidebar').classList.remove('open');}
 function resetFilters(){allowCrossChapter=false;$('#allow-cross-chapter').checked=false;chapters=data.chapters[stage].map(c=>c.id);kind='';status='all';search='';page=1;renderSidebar();render();}

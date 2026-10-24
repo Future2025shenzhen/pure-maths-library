@@ -23,6 +23,10 @@ jobs:
       - run: python3 scripts/check-static.py
       - name: Prepare verified same-origin IGCSE papers
         run: python3 scripts/prepare-igcse-pdfs.py
+      - name: Install lightweight PDF text parser
+        run: python3 -m pip install --user pypdf==6.1.1
+      - name: Audit every IGCSE PDF page count and sampled document text
+        run: python3 scripts/audit-igcse-content.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:

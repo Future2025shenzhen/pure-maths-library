@@ -2,16 +2,39 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#243d35">
-<title>Pure Practice · P1 / P2 / P3 数学题库</title>
+<title>Pure Practice · Mathematics / Physics / Computer Science</title>
 <meta name="description" content="按阶段、章节和题型浏览原创 IAL Pure Mathematics 题目，查看完整答案、中文解析与评分细则。">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="style.css?v=9">
 <script defer src="assets/katex/katex.min.js"></script><script defer src="assets/katex/contrib/auto-render.min.js"></script>
 <script type="module" src="app.js?v=13"></script>
 <link rel="stylesheet" href="account.css?v=5"><link rel="stylesheet" href="theme-minimal.css?v=12"><link rel="stylesheet" href="exam-paper.css?v=13">
-</head>
-<body>
+<style>
+body.course-home>.topbar,body.course-home>.app-shell,body.course-home>dialog,body.course-home>#toast,body.course-home>.skip{display:none!important}
+#course-landing{display:none;min-height:100vh;padding:0 22px 70px;background:#f6f7f2;color:#243d35;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+body.course-home #course-landing{display:block}
+.course-head{max-width:1120px;margin:auto;padding:25px 0;border-bottom:1px solid #dbe3d8;font-family:Georgia,serif;font-size:23px;font-weight:600}
+.course-main{max-width:1120px;margin:75px auto 0}.course-kicker{font-size:12px;letter-spacing:2px;text-transform:uppercase;color:#758579;font-weight:700}
+.course-main h1{font-family:Georgia,serif;font-size:clamp(34px,5vw,62px);line-height:1.15;margin:14px 0 18px}
+.course-main>p{font-size:15px;line-height:1.8;color:#60736a;max-width:680px}
+.course-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:42px}
+.course-card{display:flex;flex-direction:column;background:#fff;border:1px solid #dfe7dc;border-radius:15px;padding:30px;min-height:290px;text-decoration:none;color:#243d35;transition:transform .15s,border-color .15s}
+.course-card:hover{transform:translateY(-3px);border-color:#839986}
+.course-card .course-icon{font-size:34px;margin-bottom:35px}.course-card h2{font-family:Georgia,serif;font-size:25px;margin:0 0 10px}
+.course-card p{font-size:13px;color:#697a70;line-height:1.6}.course-card b{font-size:13px;margin-top:auto}
+.course-disclaimer{margin-top:32px;font-size:12px!important;color:#687b70}
+@media(max-width:780px){.course-grid{grid-template-columns:1fr;margin-top:25px}.course-main{margin-top:40px}.course-card{min-height:205px}.course-card .course-icon{margin-bottom:15px}}
+</style><script>if(new URLSearchParams(location.search).get('course')!=='maths')document.documentElement.classList.add('enter-course-home');</script></head>
+<body><section id="course-landing" aria-label="选择学习课程">
+<div class="course-head">Pure Practice</div>
+<div class="course-main"><div class="course-kicker">International Examination Practice</div>
+<h1>选择你的课程</h1><p>完整大题、真题原卷与评分标准。数学继续使用原来的原创题库；剑桥 IGCSE 两科先开放按年份和考试季检索的真题资源目录。</p>
+<div class="course-grid">
+<a class="course-card" href="index.html?course=maths#library"><span class="course-icon">∑</span><h2>Mathematics</h2><p>Pearson Edexcel IAL<br>P1 · P2 · P3</p><b>进入数学题库 →</b></a>
+<a class="course-card" href="igcse.html?subject=physics"><span class="course-icon">⚛</span><h2>Physics</h2><p>Cambridge IGCSE · 0625<br>2019–2024 真题资源目录</p><b>进入物理目录 →</b></a>
+<a class="course-card" href="igcse.html?subject=cs"><span class="course-icon">⌘</span><h2>Computer Science</h2><p>Cambridge IGCSE · 0478<br>2019–2024 真题资源目录</p><b>进入计算机科学目录 →</b></a>
+</div><p class="course-disclaimer">说明：IGCSE 目录目前提供原站查找与文件名检索，不代表历年 PDF 已全部验证、复制入库或添加中文解析。</p></div></section><script>if(document.documentElement.classList.contains('enter-course-home'))document.body.classList.add('course-home');</script>
 <a class="skip" href="#content">跳到题目内容</a>
-<header class="topbar"><a class="brand" href="#library" aria-label="Pure Practice 首页"><span>Pure Practice</span></a><nav aria-label="主导航"><button data-view="library" class="nav active">练习题</button><a class="nav-link" href="past.html">真题</a><button data-view="saved" class="nav">收藏 <span id="saved-count">0</span></button><button data-view="papers" class="nav">练习卷</button><button data-view="books" class="nav">教材</button></nav><button id="settings" class="text-button" aria-label="个人记录与备份" title="个人记录与备份">记录</button></header>
+<header class="topbar"><a class="brand" href="index.html" aria-label="Pure Practice 首页"><span>Pure Practice</span></a><nav aria-label="主导航"><button data-view="library" class="nav active">练习题</button><a class="nav-link" href="past.html">真题</a><button data-view="saved" class="nav">收藏 <span id="saved-count">0</span></button><button data-view="papers" class="nav">练习卷</button><button data-view="books" class="nav">教材</button></nav><button id="settings" class="text-button" aria-label="个人记录与备份" title="个人记录与备份">记录</button></header>
 <div class="app-shell">
 <aside id="sidebar" aria-label="题目筛选"><div class="aside-head"><span>筛选</span><button id="close-filters" class="icon-button mobile-only" aria-label="关闭筛选">×</button></div><h2>阶段与章节</h2><div id="stage-switch" class="stage-switch" role="group" aria-label="阶段"><button data-stage="P1">P1</button><button data-stage="P2">P2</button><button data-stage="P3" class="selected">P3</button></div><div class="chapter-heading"><h3>章节</h3><div><button id="all-chapters" class="text-button">全选</button><button id="clear-chapters" class="text-button">清空</button></div></div><div id="chapters"></div><label class="scope-toggle"><input type="checkbox" id="allow-cross-chapter">允许跨章节</label><label class="filter-label" for="kind">知识点</label><select id="kind"><option value="">全部题型</option></select><label class="filter-label" for="status">做题状态</label><select id="status"><option value="all">全部题目</option><option value="undone">未做</option><option value="done">已做</option></select><button id="reset" class="reset-button">重置筛选</button><button id="sidebar-book" class="text-button sidebar-book">打开教材 ↗</button><div class="local-note">收藏与已做记录保存在本机</div></aside>
 <main id="content" tabindex="-1"><div id="main-view"><div class="loading">正在载入题库…</div></div></main>

@@ -1,12 +1,12 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#243d35"><title>Cambridge IGCSE · Past Paper Library</title>
 <style>
-:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#243d35;background:#f6f7f2}*{box-sizing:border-box}body{margin:0}a{color:inherit}header{background:#fff;border-bottom:1px solid #e2e8df;padding:20px max(20px,calc((100vw - 1080px)/2))}.brand{text-decoration:none;font-family:Georgia,serif;font-size:22px;font-weight:bold}main{max-width:1080px;margin:auto;padding:35px 20px 90px}.back{font-size:13px;color:#63756a}h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);margin:12px 0}h2{font-size:21px}p{line-height:1.7;color:#63746b}.panel{background:white;border:1px solid #e4e8e0;border-radius:16px;padding:22px;margin:18px 0}.meta{font-size:13px;color:#64776c}.filters{display:flex;flex-wrap:wrap;gap:12px}.filter{display:grid;gap:5px;min-width:140px;font-size:13px}select,input{border:1px solid #d5ded3;border-radius:8px;background:#fff;padding:11px;font:inherit}.button{display:inline-block;border-radius:9px;padding:10px 15px;background:#243d35;color:white;text-decoration:none;font-size:13px;font-weight:600}.button.light{background:#edf2e6;color:#243d35}.results{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.entry{background:#fff;border:1px solid #e4e8e0;border-radius:13px;padding:20px}.entry h3{margin:0 0 8px}.entry small{color:#768579}.entry p{font-size:13px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.note{border-left:3px solid #9aab78;padding-left:14px}.hidden{display:none!important}@media(max-width:600px){main{padding:22px 14px}header{padding:15px}.panel{padding:16px}.filter{flex:1;min-width:125px}}
+:root{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#243d35;background:#f6f7f2}*{box-sizing:border-box}body{margin:0}a{color:inherit}header{background:#fff;border-bottom:1px solid #e2e8df;padding:20px max(20px,calc((100vw - 1080px)/2))}.brand{text-decoration:none;font-family:Georgia,serif;font-size:22px;font-weight:bold}main{max-width:1080px;margin:auto;padding:35px 20px 90px}.back{font-size:13px;color:#63756a}h1{font-family:Georgia,serif;font-size:clamp(28px,4vw,43px);margin:12px 0}h2{font-size:21px}p{line-height:1.7;color:#63746b}.panel{background:white;border:1px solid #e4e8e0;border-radius:16px;padding:22px;margin:18px 0}.meta{font-size:13px;color:#64776c}.filters{display:flex;flex-wrap:wrap;gap:12px}.filter{display:grid;gap:5px;min-width:140px;font-size:13px}select,input{border:1px solid #d5ded3;border-radius:8px;background:#fff;padding:11px;font:inherit}.button{display:inline-block;border-radius:9px;padding:10px 15px;background:#243d35;color:white;text-decoration:none;font-size:13px;font-weight:600}.button.light{background:#edf2e6;color:#243d35}.results{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}.entry{background:#fff;border:1px solid #e4e8e0;border-radius:13px;padding:20px}.entry h3{margin:0 0 8px}.entry small{color:#768579}.entry p{font-size:13px}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.note{border-left:3px solid #9aab78;padding-left:14px}.notice-verify{background:#f0f3e9;border-left:3px solid #9aab78;padding:12px 14px;margin:12px 0;font-size:12px;color:#53665a}button.button{border:0;cursor:pointer;font:inherit}.hidden{display:none!important}@media(max-width:600px){main{padding:22px 14px}header{padding:15px}.panel{padding:16px}.filter{flex:1;min-width:125px}}
 </style></head><body><header><a class="brand" href="index.html">Pure Practice · 课程首页</a></header>
 <main><a class="back" href="index.html">← 返回三科目录</a><h1 id="heading">Cambridge IGCSE</h1><p id="subtitle"></p>
 <section class="panel"><h2>2019–2024 真题资料检索</h2><p>按考试年份与考季查找原卷（QP）、评分标准（MS）、分数线（GT）和考官报告（ER）。下列为权威入口及第三方文档索引，<strong>并非已下载、逐文件核验的 PDF 本地库</strong>。</p>
 <div class="filters"><label class="filter">年份<select id="year"><option value="all">全部年份</option></select></label><label class="filter">考试季<select id="session"><option value="all">全部考试季</option><option value="m">Feb / March</option><option value="s">May / June</option><option value="w">Oct / Nov</option></select></label><label class="filter">文件类别<select id="type"><option value="qp">Question Paper</option><option value="ms">Mark Scheme</option><option value="gt">Grade Threshold</option><option value="er">Examiner Report</option></select></label><label class="filter">Paper / Variant<input id="paper" placeholder="例如 41、22"></label></div>
-<p class="meta" id="count" aria-live="polite"></p><div class="results" id="results"></div></section>
+<p class="meta" id="count" aria-live="polite"></p><div class="notice-verify" role="note"><strong>状态定义：</strong>文件名候选 ≠ 真题已找到。只有逐一验证可打开的 PDF 后，才会标为“已核验”。这里显示的是按 Cambridge 命名格式生成的待核验条目，不能用于推断某场考试实际存在所有列出的 Variant。</div><div class="results" id="results"></div><div class="actions"><button id="more" class="button light" type="button">查看更多候选记录</button></div></section>
 <section class="panel"><h2>站内阅读与原创练习</h2><p>原创题可直接浏览、收藏和查看中文评分；真题阅读器支持打开已知来源的 PDF 地址，不会复制或存储试卷。</p><div class="actions"><a id="practice-link" class="button" href="igcse-practice.html?subject=physics">进入原创完整大题 →</a><a id="reader-link" class="button light" href="igcse-reader.html?subject=physics">打开 PDF 站内阅读器 ↗</a></div></section><section class="panel"><h2>正式资料渠道</h2><div class="actions" id="links"></div><p class="note">学校教师可通过 Cambridge School Support Hub 查询学校获授权使用的历年材料。公开网站资料是否完整、是否可转载，需要逐文件核对；本页只链接原站，不擅自复制版权试卷。</p></section>
 <section class="panel"><h2>考试与考纲提醒</h2><p>2020 年 May/June 国际考试取消，不应视作正常举行的真题场次。2023 年前后的考纲和 Paper 结构可能不同，不能直接按当前考纲归类旧题。课程页面目前属于可操作的资料检索入口，尚未完成逐题中文解析和同规格原创题库。</p><p id="structure"></p></section></main>
 <script>
@@ -22,19 +22,46 @@ document.getElementById("structure").textContent=s.papers;
 document.getElementById("practice-link").href="igcse-practice.html?subject="+(s.code==="0478"?"cs":"physics");
 document.getElementById("reader-link").href="igcse-reader.html?subject="+(s.code==="0478"?"cs":"physics");
 document.getElementById("links").innerHTML=[["Cambridge 官方真题页",s.official],["Cambridge 官方考纲",s.syllabus],["PapaCambridge 资料目录",s.archive]].map(([label,url])=>'<a class="button light" target="_blank" rel="noopener noreferrer" href="'+url+'">'+label+' ↗</a>').join("");
-const years=[2019,2020,2021,2022,2023,2024],sessions={m:"Feb / March",s:"May / June",w:"Oct / Nov"};
+
+const years=[2019,2020,2021,2022,2023,2024],sessions={m:"February / March",s:"May / June",w:"October / November"};
 const yearEl=document.getElementById("year"),sessEl=document.getElementById("session"),typeEl=document.getElementById("type"),paperEl=document.getElementById("paper");
-years.forEach(y=>yearEl.add(new Option(y,y)));
+const totalEl=document.getElementById("count"),resultEl=document.getElementById("results"),moreEl=document.getElementById("more");
+const sub=s.code==="0625"?"physics":"cs";
+let records=[],limit=24;
+for(const y of years)yearEl.add(new Option(y,y));
+const sourceList = s.code==="0625" ? [
+ ["Cambridge 官方",s.official],
+ ["Tuitional 0625", "https://tuitionaledu.com/past-papers/cambridge-igcse/physics-0625"],
+ ["PapaCambridge 0625",s.archive],
+ ["SmartEduHub 0625","https://www.smarteduhub.in/cambridge-igcse/past-papers/0625-physics-past-papers/"]
+] : [
+ ["Cambridge 官方",s.official],
+ ["PapaCambridge 0478",s.archive],
+ ["LumiExams 0478","https://lumiexams.com/igcse/computer-science-0478/"],
+ ["PrepWithTee 0478","https://prepwithtee.com/yearly/igcse/computer-science-0478"]
+];
+document.getElementById("links").innerHTML=sourceList.map(([label,url])=>'<a class="button light" target="_blank" rel="noopener noreferrer" href="'+url+'">'+label+' ↗</a>').join("");
+function esc(v){return String(v).replace(/[&<>"']/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch]));}
 function render(){
- const yr=yearEl.value,season=sessEl.value,type=typeEl.value,variant=paperEl.value.trim().replace(/[^0-9]/g,"").slice(0,2);
- const entries=[];for(const year of years){if(yr!=="all"&&Number(yr)!==year)continue;for(const ss of ["m","s","w"]){if(season!=="all"&&season!==ss)continue;entries.push({year,ss,cancelled:year===2020&&ss==="s"});}}
- const ext={qp:"question paper",ms:"mark scheme",gt:"grade threshold",er:"examiner report"}[type];
- document.getElementById("count").textContent=entries.length+" 个年份 / 考季目录（资料存在性及各 Variant 需要在来源网站核实）";
- document.getElementById("results").innerHTML=entries.map(e=>{
- const code=e.ss+String(e.year).slice(2),file=s.code+"_"+code+"_"+type+(type==="qp"||type==="ms"?"_"+(variant||"XX"):"")+".pdf";
- const status=e.cancelled?"该考试季已取消，历史资源可能是未举行的试卷材料，不能标作实际考试真题。":"通过原站目录核对所有对应 Paper / Variant。";
- return '<article class="entry"><h3>'+e.year+' · '+sessions[e.ss]+'</h3><small>'+s.code+' · '+code.toUpperCase()+(e.cancelled?' · 已取消':'')+'</small><p>'+status+'</p><p><strong>检索文件名：</strong><code>'+file+'</code></p><p class="meta">文件类型：'+ext+'</p><div class="actions"><a class="button" target="_blank" rel="noopener noreferrer" href="'+s.archive+'">打开真题目录 ↗</a></div></article>';
+ const yr=yearEl.value,session=sessEl.value,type=typeEl.value,part=paperEl.value.trim().replace(/[^0-9]/g,"").slice(0,2);
+ const list=records.filter(r=>r.subject===sub&&(yr==="all"||r.year===Number(yr))&&(session==="all"||r.session===session)&&(!part||r.component===part));
+ const verify=list.filter(r=>r.fileStatus==="verified").length;
+ totalEl.textContent=list.length+" 条候选编号 · "+verify+" 份 PDF 已独立核验（当前站内未托管原题）";
+ resultEl.innerHTML=list.slice(0,limit).map(r=>{
+ const code=r.session+String(r.year).slice(2);
+ const filename=type==="qp"?r.qp:type==="ms"?r.ms:s.code+"_"+code+"_"+type+".pdf";
+ const suffix=r.examStatus==="cancelled-international-series"?"<p class='meta'>2020 年 May/June 国际考试取消：可能有考试材料，但不能标为已举行试卷。</p>":"";
+ const badge=r.fileStatus==="verified"?"已核验 PDF":"待核验 · 候选编号";
+ return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+s.archive+'" target="_blank" rel="noopener noreferrer">查找真实原卷 ↗</a><button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
  }).join("");
+ moreEl.style.display=limit<list.length?"inline-block":"none";
+ for(const b of resultEl.querySelectorAll(".copy-filename"))b.onclick=async()=>{const name=b.dataset.name;try{await navigator.clipboard.writeText(name);b.textContent="已复制";}catch{window.prompt("复制文件名",name);}};
 }
-[yearEl,sessEl,typeEl,paperEl].forEach(el=>el.addEventListener(el===paperEl?"input":"change",render));render();
+moreEl.onclick=()=>{limit+=30;render();};
+for(const el of [yearEl,sessEl,typeEl,paperEl])el.addEventListener(el===paperEl?"input":"change",()=>{limit=24;render();});
+async function start(){
+ try{const res=await fetch("data/igcse-paper-manifest.json");if(!res.ok)throw Error("HTTP "+res.status);const data=await res.json();records=data.records;render();}
+ catch(e){totalEl.textContent="索引读取失败："+e.message;resultEl.innerHTML='<p>请刷新页面，或从下方来源渠道直接查找真题。</p>';moreEl.style.display="none";}
+}
+start();
 </script></body></html>

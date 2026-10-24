@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server.mjs",
     "dev": "node server.mjs",
-    "check": "node scripts/check-bank.mjs && node scripts/check-adaptations.mjs && node scripts/check-browsing.mjs && node scripts/check-challenges.mjs && node scripts/check-v9.mjs && node scripts/check-v12.mjs",
+    "check": "node scripts/check-bank.mjs && node scripts/check-adaptations.mjs && node scripts/check-browsing.mjs && node scripts/check-challenges.mjs && node scripts/check-v9.mjs && node scripts/check-v12.mjs && node scripts/check-v13.mjs",
     "test": "node scripts/test-core.mjs && node scripts/test-stopwatch.mjs && node scripts/test-notes.mjs && node scripts/test-practice-scope.mjs"
   }
 }

@@ -53,7 +53,7 @@ function render(){
  const sourceUrl=r.sourceEvidenceUrl||s.archive; const sourceLabel=r.sourceEvidenceUrl?"查看列出该卷的来源网页 ↗":"在来源目录检索 ↗";
  const suffix=r.examStatus==="cancelled-international-series"?"<p class='meta'>2020 年 May/June 国际考试取消：可能有考试材料，但不能标为已举行试卷。</p>":"";
  const badge=r.fileStatus==="verified"?"已核验 PDF":r.sourceStatus==="source-listing-confirmed"?"来源网页已列名 · PDF 未核验":"待核验 · 候选编号";
- return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel</a><button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
+ return '<article class="entry"><h3>'+r.year+' · '+sessions[r.session]+'</h3><small>'+s.code+' / '+esc(r.component)+' · '+badge+'</small><p>Paper '+r.paper+' · Variant '+r.variant+'</p><p><strong>查找文件名：</strong><code>'+esc(filename)+'</code></p>'+suffix+'<div class="actions"><a class="button" href="'+esc(sourceUrl)+'" target="_blank" rel="noopener noreferrer">'+sourceLabel+'</a><button type="button" class="button light copy-filename" data-name="'+esc(filename)+'">复制文件名</button></div></article>';
  }).join("");
  moreEl.style.display=limit<list.length?"inline-block":"none";
  for(const b of resultEl.querySelectorAll(".copy-filename"))b.onclick=async()=>{const name=b.dataset.name;try{await navigator.clipboard.writeText(name);b.textContent="已复制";}catch{window.prompt("复制文件名",name);}};

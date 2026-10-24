@@ -76,6 +76,7 @@ def main():
     session_files={}
     source_state={}
     probe_candidates=[]
+    year_sampled=set()
     direct_counts={"qp":0,"ms":0,"er":0,"gt":0,"ci":0,"pm":0}
     for subject,(code,slug) in SOURCES.items():
         index_url=BASE+slug+"/"
@@ -108,7 +109,8 @@ def main():
                 rec["sourceEvidenceUrl"]=index_url
                 rec["linkVerification"]="source-html-href-observed;pdf-bytes-not-checked"
                 direct_counts[kind]+=1
-                if kind in ("qp","ms") and sum(x[0]==subject for x in probe_candidates)<12:
+                if kind in ("qp","ms") and (subject,year,kind) not in year_sampled:
+                    year_sampled.add((subject,year,kind))
                     probe_candidates.append((subject,rec,kind,url))
             else:
                 key=f"{code}_{session}{str(year)[-2:]}"
@@ -129,7 +131,21 @@ def main():
             probe_results[status]=probe_results.get(status,0)+1
     doc["pdfProbeSummary"]={"attempted":len(probe_candidates),"results":probe_results,
       "scope":"HTTP PDF signature only; not a complete contents or copyright verification"}
-    doc["version"]=9
+    # Clearly report pair completeness from observed source hrefs only.
+    coverage={}
+    for subject in SOURCES:
+        rows=[r for r in doc["records"] if r["subject"]==subject]
+        both=sum(bool(r.get("qpUrl") and r.get("msUrl")) for r in rows)
+        only_qp=sum(bool(r.get("qpUrl")) and not r.get("msUrl") for r in rows)
+        only_ms=sum(bool(r.get("msUrl")) and not r.get("qpUrl") for r in rows)
+        by_year={}
+        for year in range(2019,2025):
+            yr=[r for r in rows if r["year"]==year]
+            by_year[str(year)]={"qp":sum(bool(r.get("qpUrl")) for r in yr),"ms":sum(bool(r.get("msUrl")) for r in yr),
+             "pairs":sum(bool(r.get("qpUrl") and r.get("msUrl")) for r in yr)}
+        coverage[subject]={"paired":both,"qpOnly":only_qp,"msOnly":only_ms,"byYear":by_year}
+    doc["pairCoverage"]=coverage
+    doc["version"]=10
     doc["description"]="Live-build index of exact source HTML hrefs. URL presence was verified on the source index page, NOT by downloading PDF content. A third-party host may refuse access. No copyrighted PDF bytes are stored."
     doc["indexedSessionResources"]=sorted(session_files.values(),key=lambda x:(x["subject"],x["year"],x["session"]))
     doc["lastIndexAudit"]=source_state
@@ -138,6 +154,7 @@ def main():
     print("IGCSE source index build: "+json.dumps(direct_counts,sort_keys=True))
     print("IGCSE source statuses: "+json.dumps(source_state,sort_keys=True))
     print("IGCSE PDF probe: "+json.dumps(doc["pdfProbeSummary"],sort_keys=True))
+    print("IGCSE QP/MS pair coverage: "+json.dumps(coverage,sort_keys=True))
     assert all(r.get("fileStatus")!="verified" for r in doc["records"])
 
 if __name__=="__main__":

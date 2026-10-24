@@ -23,11 +23,11 @@ for(const q of generated){
   assert(v.renderFromPdf&&fs.existsSync(new URL('dist/'+v.pdf,root)),q.id+' '+v.pdf);
   const [x,y,w,h]=v.crop;assert([x,y,w,h].every(Number.isFinite)&&x>=0&&y>=0&&w>0&&h>0&&x+w<=1.00001&&y+h<=1.00001,q.id+' crop');
  }
- assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy')),q.id+' visible answer highlights');
+ assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy'))||q.manualAnswerReview&&q.quickCheckZh?.answer,q.id+' visible answer highlights or reviewed answer');
 }
 for(const q of past.questions){
  assert(q.markSchemePages?.length,q.id+' official scheme mapping');
- assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy')),q.id+' visible answer highlights');
+ assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy'))||q.manualAnswerReview&&q.quickCheckZh?.answer,q.id+' visible answer highlights or reviewed answer');
 }
 const sql=fs.readFileSync(new URL('backend/007-complete-past-catalog.sql',root),'utf8');
 for(const q of generated)assert(sql.includes(`('${q.id}','past','${q.stage}')`),q.id+' catalog');

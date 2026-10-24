@@ -82,4 +82,4 @@ Write-Host ('Verified files: ' + $verified + ' / ' + $total)
 Write-Host ('Failed files: ' + $failed)
 if ($verified -ne $total) { Write-Host 'NOT COMPLETE. Check download-log.csv, then rerun to retry.' -ForegroundColor Yellow }
 else { Write-Host 'Download complete. Open index.html in the desktop folder.' -ForegroundColor Green }
-Start-Process explorer.exe -ArgumentList ('"' + $Destination + '"')
+& (Join-Path $kit 'open-library.ps1') -Destination $Destination -SkipDownload

@@ -18,8 +18,27 @@ assert.equal(original.questions.filter(q=>q.subject==='cs').length,3);
 for(const q of original.questions){assert(q.stem&&q.answer&&q.marks>0&&q.id);}
 const paper=JSON.parse(fs.readFileSync(new URL('data/igcse-paper-manifest.json',root),'utf8'));
 assert(paper.records.length>0);
+const seen=new Set();
 for(const x of paper.records){
+ assert(!seen.has(x.id), 'Duplicate paper variant '+x.id);seen.add(x.id);
+ assert([2019,2020,2021,2022,2023,2024].includes(x.year));
+ assert(['physics','cs'].includes(x.subject));
+ for(const kind of ['qp','ms','ci','pm']){
+  if(!x[kind+'Url'])continue;
+  const uri=new URL(x[kind+'Url']);
+  assert.equal(uri.protocol,'https:');
+  assert.equal(decodeURIComponent(uri.pathname.split('/').pop()).toLowerCase(),(x.id.slice(0,4)+'_'+x.id.slice(5,8)+'_'+kind+'_'+x.component+'.pdf').toLowerCase(),x.id+' '+kind);
+ }
+
  assert.equal(x.fileStatus,'not-checked');
  if(x.sourceStatus==='source-listing-confirmed')assert(x.sourceEvidenceUrl?.startsWith('https://'));
+}
+if(paper.pairCoverage){
+ for(const subject of ['physics','cs']){
+  const rows=paper.records.filter(r=>r.subject===subject), c=paper.pairCoverage[subject];
+  assert.equal(c.paired,rows.filter(r=>r.qpUrl&&r.msUrl).length);
+  assert.equal(c.qpOnly,rows.filter(r=>r.qpUrl&&!r.msUrl).length);
+  assert.equal(c.msOnly,rows.filter(r=>r.msUrl&&!r.qpUrl).length);
+ }
 }
 console.log('PASS IGCSE HTML JavaScript syntax, original questions and transparent source states');

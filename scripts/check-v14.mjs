@@ -52,7 +52,7 @@ assert(!composed.error);assert(composed.questions.every(q=>!q.withdrawn));
 
 assert.deepEqual(Object.keys(layout).sort(),past.questions.map(q=>q.id).sort());
 for(const q of past.questions)for(const v of layout[q.id]){
-  assert(q.sourcePages.includes(v.page));assert(fs.existsSync(new URL('dist/'+v.image,root)));
+  assert(q.sourcePages.includes(v.page));assert(fs.existsSync(new URL('dist/'+(v.renderFromPdf?v.pdf:v.image),root)));
   const [x,y,w,h]=v.crop;assert([x,y,w,h].every(Number.isFinite));assert(x>=0&&y>=0&&w>0&&h>0&&x+w<=1.00001&&y+h<=1.00001);
 }
 console.log('PASS Radians: 21 active, 17 withdrawals, 8 historical additions, source cap 3, detailed solutions and valid past-paper layouts');

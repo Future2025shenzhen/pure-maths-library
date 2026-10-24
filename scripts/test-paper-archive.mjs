@@ -18,6 +18,7 @@ for(const p of a.papers){
 assert.equal(archivePapers(a,{stage:'P1',year:'2025',month:'6'}).length,2);
 assert.equal(archivePapers(a,{stage:'P1',year:'2026'}).length,0);
 assert.equal(archivePapers(a,{stage:'P3',year:'2019'}).length,0);
-assert.equal(past.questions.length,323);
-assert(past.questions.every(q=>q.year<2024));
-console.log('PASS: 58 complete paper pairs through June 2025, 116 local PDFs with matching hashes; 323 practice questions unchanged.');
+assert.equal(past.questions.length,572);
+assert(past.questions.every(q=>q.year<2025||(q.year===2025&&q.month<=6)));
+assert.equal(past.questions.filter(q=>q.officialMarkScheme).length,249);
+console.log('PASS: 58 complete paper pairs through June 2025, 116 local PDFs and 572 question-by-question practice records.');

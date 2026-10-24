@@ -13,10 +13,10 @@ assert(!composed.error);assert(composed.questions.every(q=>!q.withdrawn));
 assert.deepEqual(Object.keys(layout).sort(),past.questions.map(q=>q.id).sort());
 for(const q of past.questions){
  const slices=layout[q.id];assert(slices.length);
- for(const v of slices){assert(q.sourcePages.includes(v.page));assert(fs.existsSync(new URL('dist/'+v.image,root)));assert.equal(v.crop.length,4);const [x,y,w,h]=v.crop;assert([x,y,w,h].every(Number.isFinite));assert(x>=0&&y>=0&&w>0&&h>0&&x+w<=1.00001&&y+h<=1.00001);}
+ for(const v of slices){assert(q.sourcePages.includes(v.page));assert(fs.existsSync(new URL('dist/'+(v.renderFromPdf?v.pdf:v.image),root)));assert.equal(v.crop.length,4);const [x,y,w,h]=v.crop;assert([x,y,w,h].every(Number.isFinite));assert(x>=0&&y>=0&&w>0&&h>0&&x+w<=1.00001&&y+h<=1.00001);}
  for(const v of q.pages)assert(slices.some(s=>s.page===v.page),q.id+' lost a previously shown content page');
 }
 assert(layout['P1-2021-06-Q09'].some(v=>v.page===31),'continuation sketch diagram');
 assert(layout['P3-2022-10-Q07'].some(v=>v.page===21),'continuation sketch diagram');
 const first=layout['P1-2020-01-Q01'];assert(first.reduce((n,s)=>n+s.crop[3],0)<.2,'short question must not include answer stationery');
-console.log('PASS v13: 6 reviewed withdrawals excluded from practice/new papers, saved IDs preserved; 323 compact question layouts, both continuation diagrams, valid source crops and no lost existing content pages');
+console.log('PASS v13: 6 reviewed withdrawals excluded from practice/new papers, saved IDs preserved; 572 compact question layouts, both continuation diagrams, valid source crops and no lost existing content pages');

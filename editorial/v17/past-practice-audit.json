@@ -1,0 +1,156 @@
+{
+  "addedQuestions": 249,
+  "totalQuestions": 572,
+  "papers": [
+    {
+      "paper": "p1-jan-2019",
+      "questions": 12,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jan-2024",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jan-2025",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jun-2019",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jun-2024",
+      "questions": 11,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jun-2024-r",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jun-2025",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-jun-2025-a",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-oct-2019",
+      "questions": 11,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p1-oct-2024",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jan-2024",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jan-2025",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jun-2019",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jun-2024",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jun-2024-r",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jun-2025",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-jun-2025-a",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-oct-2019",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p2-oct-2024",
+      "questions": 11,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-jan-2024",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-jan-2025",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-jun-2024",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-jun-2025",
+      "questions": 10,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-jun-2025-a",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    },
+    {
+      "paper": "p3-oct-2024",
+      "questions": 9,
+      "marks": 75,
+      "officialMarkSchemeMapped": true
+    }
+  ]
+}

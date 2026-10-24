@@ -4,8 +4,8 @@ const root=new URL('../',import.meta.url),read=p=>JSON.parse(fs.readFileSync(new
 const past=read('dist/data/past-bank.json'),archive=read('dist/data/paper-archive.json'),classes=read('dist/data/classification.json').questions;
 assert.equal(past.version,17);assert.equal(past.papers.length,58);assert.equal(past.questions.length,572);
 assert.deepEqual(Object.fromEntries(['P1','P2','P3'].map(s=>[s,past.questions.filter(q=>q.stage===s).length])),{P1:211,P2:200,P3:161});
-const generated=past.questions.filter(q=>q.officialMarkScheme);
-assert.equal(generated.length,249);assert.equal(new Set(past.questions.map(q=>q.id)).size,572);
+const generated=past.questions.filter(q=>q.v17Added);
+assert.equal(generated.length,249);assert.equal(past.questions.filter(q=>q.officialMarkScheme&&q.officialSchemeRevision===17).length,572);assert.equal(new Set(past.questions.map(q=>q.id)).size,572);
 for(const paper of archive.papers){
  const qs=past.questions.filter(q=>q.paper===paper.id).sort((a,b)=>a.number-b.number);
  assert(qs.length,paper.id+' has no question practice');
@@ -23,6 +23,10 @@ for(const q of generated){
   assert(v.renderFromPdf&&fs.existsSync(new URL('dist/'+v.pdf,root)),q.id+' '+v.pdf);
   const [x,y,w,h]=v.crop;assert([x,y,w,h].every(Number.isFinite)&&x>=0&&y>=0&&w>0&&h>0&&x+w<=1.00001&&y+h<=1.00001,q.id+' crop');
  }
+ assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy')),q.id+' visible answer highlights');
+}
+for(const q of past.questions){
+ assert(q.markSchemePages?.length,q.id+' official scheme mapping');
  assert(q.markSchemePages.some(v=>v.highlights?.some(h=>h.kind==='accuracy')),q.id+' visible answer highlights');
 }
 const sql=fs.readFileSync(new URL('backend/007-complete-past-catalog.sql',root),'utf8');

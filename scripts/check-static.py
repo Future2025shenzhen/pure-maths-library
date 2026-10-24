@@ -26,7 +26,8 @@ for q in b['questions']:
  for p in q['pages']:
   assert (root/(p['pdf'] if p.get('renderFromPdf') else p['image'])).is_file()
  if q.get('officialMarkScheme'):
-  assert q['markSchemePages'] and not q['solutionSections']
+  assert q['markSchemePages']
+  if q.get('v17Added'):assert not q['solutionSections']
   for p in q['markSchemePages']:assert p.get('renderFromPdf') and (root/p['pdf']).is_file()
 for p in b['papers']:
  assert (root/p['pdf']).is_file() and (root/p['markScheme']).is_file()

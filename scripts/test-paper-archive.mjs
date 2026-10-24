@@ -20,5 +20,6 @@ assert.equal(archivePapers(a,{stage:'P1',year:'2026'}).length,0);
 assert.equal(archivePapers(a,{stage:'P3',year:'2019'}).length,0);
 assert.equal(past.questions.length,572);
 assert(past.questions.every(q=>q.year<2025||(q.year===2025&&q.month<=6)));
-assert.equal(past.questions.filter(q=>q.officialMarkScheme).length,249);
+assert.equal(past.questions.filter(q=>q.officialMarkScheme).length,572);
+assert.equal(past.questions.filter(q=>q.v17Added).length,249);
 console.log('PASS: 58 complete paper pairs through June 2025, 116 local PDFs and 572 question-by-question practice records.');

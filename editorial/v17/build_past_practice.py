@@ -104,7 +104,7 @@ def scheme_positions(doc, count):
             if w[0]>108: continue
             token=w[4].strip().replace(' ','')
             for n in range(1,count+1):
-                if re.match(rf'^{n}[.:]?(?:\([a-ziv]+\))*$',token,re.I):
+                if re.match(rf'^{n}(?!\d)[.:(a-ziv)]*$',token,re.I):
                     candidates[n].append((pi,w[1]))
     selected=[]; prev=(3,0)
     for n in range(1,count+1):
@@ -173,7 +173,7 @@ def main():
     archive=json.loads((DATA/'paper-archive.json').read_text())
     # Idempotent rebuild: retain the reviewed 2020--2023 records and recreate the
     # generated official-scheme records from their PDFs.
-    bank['questions']=[q for q in bank['questions'] if not q.get('officialMarkScheme')]
+    bank['questions']=[q for q in bank['questions'] if not (q.get('v17Added') or q['year'] in (2019,2024,2025))]
     old_papers={q['paper'] for q in bank['questions']}
     new_questions=[]; layout=json.loads((DATA/'past-layout.json').read_text())
     layout_questions=layout['questions']
@@ -226,10 +226,34 @@ def main():
             scheme_text='\n'.join(ms[p['page']-1].get_text() for p in ms_refs)
             chapters=classify(paper['stage'],text+'\n'+scheme_text)
             title='、'.join(CHAPTERS[paper['stage']][c] for c in chapters)
-            q={'id':qid,'paper':pid,'stage':paper['stage'],'year':paper['year'],'month':paper['month'],'variant':paper['variant'],'number':number,'sourcePages':source_pages,'pages':page_refs,'marks':marks,'searchText':text,'chapters':chapters,'topics':[title],'titleZh':title,'solutionZh':'本题答案直接采用官方评分标准；绿色框标出准确答案或独立得分结论，橙色框标出方法得分点。','solutionSections':[],'officialMarkScheme':True,'markSchemePages':ms_refs,'verification':'题面裁自官方原卷；答案裁自本卷官方评分标准，未另写自拟解法。'}
+            q={'id':qid,'paper':pid,'stage':paper['stage'],'year':paper['year'],'month':paper['month'],'variant':paper['variant'],'number':number,'sourcePages':source_pages,'pages':page_refs,'marks':marks,'searchText':text,'chapters':chapters,'topics':[title],'titleZh':title,'solutionZh':'本题答案直接采用官方评分标准；绿色框标出准确答案或独立得分结论，橙色框标出方法得分点。','solutionSections':[],'officialMarkScheme':True,'officialSchemeRevision':17,'v17Added':True,'markSchemePages':ms_refs,'verification':'题面裁自官方原卷；答案裁自本卷官方评分标准，未另写自拟解法。'}
             new_questions.append(q);layout_questions[qid]=page_refs
         if paper_marks!=75: raise ValueError(f'{pid}: question marks total {paper_marks}, expected 75')
         audit.append({'paper':pid,'questions':len(starts),'marks':paper_marks,'officialMarkSchemeMapped':True})
+    # Replace the displayed authored solutions on the existing 323 records with
+    # crops from their official mark schemes too. Their legacy text stays in the
+    # data only for rollback/history and is no longer rendered by the site.
+    paper_by_id={p['id']:p for p in archive['papers']}
+    retained_by_paper={}
+    for q in bank['questions']:retained_by_paper.setdefault(q['paper'],[]).append(q)
+    for pid,questions in retained_by_paper.items():
+        questions.sort(key=lambda q:q['number']);paper=paper_by_id[pid]
+        ms=fitz.open(ROOT/'dist'/paper['markScheme']);positions=scheme_positions(ms,len(questions))
+        for index,q in enumerate(questions):
+            start_page,start_y=positions[index]
+            if index+1<len(positions):end_page,end_y=positions[index+1]
+            else:end_page,end_y=len(ms)+1,0
+            last=end_page if end_page==start_page else end_page-1;last=min(last,len(ms));refs=[]
+            for page_number in range(start_page,last+1):
+                page=ms[page_number-1];top=max(.025,(start_y-18)/page.rect.height) if page_number==start_page else .025
+                bottom=(end_y-8)/page.rect.height if page_number==end_page==start_page else .96
+                if bottom<=top+.04:bottom=.96
+                highlights=[]
+                for word in page.get_text('words'):
+                    token=word[4].strip().replace(' ','')
+                    if re.match(r'^(?:d?M\d|A\d|B\d)',token):highlights.append({'kind':'method' if 'M' in token else 'accuracy','box':[round(word[0]/page.rect.width,6),round(word[1]/page.rect.height,6),round((word[2]-word[0])/page.rect.width,6),round((word[3]-word[1])/page.rect.height,6)]})
+                refs.append({'page':page_number,'pdf':paper['markScheme'],'renderFromPdf':True,'width':round(page.rect.width*1.55),'height':round(page.rect.height*1.55),'crop':[.035,top,.93,bottom-top],'highlights':highlights})
+            q.update(officialMarkScheme=True,officialSchemeRevision=17,markSchemePages=refs,verification='题面裁自官方原卷；答案显示本卷官方评分标准，本站自拟解析不再展示。')
     bank['papers']=[{k:p[k] for k in ('id','stage','year','month','title','pdf','markScheme','sha256') if k in p}|{'questions':len(STARTS[p['id']]),'providedByUser':False,'variant':p['variant']} if p['id'] in STARTS else p for p in archive['papers']]
     bank['questions'].extend(new_questions)
     bank['questions'].sort(key=lambda q:(q['stage'],q['year'],q['month'],q.get('variant',''),q['number']))

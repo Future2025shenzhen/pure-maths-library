@@ -1,0 +1,30 @@
+{
+  "count": 793,
+  "bytes": 577912096,
+  "types": {
+    "Physics-0625/ci": 36,
+    "Physics-0625/er": 14,
+    "Physics-0625/gt": 17,
+    "Physics-0625/ms": 251,
+    "Physics-0625/qp": 251,
+    "Computer-Science-0478/er": 11,
+    "Computer-Science-0478/gt": 17,
+    "Computer-Science-0478/ms": 84,
+    "Computer-Science-0478/pm": 28,
+    "Computer-Science-0478/qp": 84
+  },
+  "cover_text_review": [
+    {
+      "filename": "0478_s22_pm_21.zip",
+      "issue": "Archive extension was ZIP but bytes are PDF; saved as 0478_s22_pm_21.pdf without changing content"
+    },
+    {
+      "filename": "0478_s22_pm_22.zip",
+      "issue": "Archive extension was ZIP but bytes are PDF; saved as 0478_s22_pm_22.pdf without changing content"
+    },
+    {
+      "filename": "0478_s22_pm_23.zip",
+      "issue": "Archive extension was ZIP but bytes are PDF; saved as 0478_s22_pm_23.pdf without changing content"
+    }
+  ]
+}

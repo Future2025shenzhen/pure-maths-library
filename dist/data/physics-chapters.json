@@ -1,0 +1,90 @@
+{
+  "subject": "Cambridge IGCSE Physics 0625",
+  "source": "User-provided textbook contents page",
+  "paperGroups": [
+    {
+      "id": "mcq-theory",
+      "zh": "选择与理论",
+      "papers": [1, 2, 3, 4]
+    },
+    {
+      "id": "practical",
+      "zh": "实验题",
+      "papers": [5, 6]
+    }
+  ],
+  "chapters": [
+    {
+      "id": 1,
+      "title": "Motion, forces and energy",
+      "zh": "运动、力与能量",
+      "page": 1,
+      "sections": [
+        { "id": "1.1", "title": "Physical quantities and measurement techniques", "zh": "物理量与测量技术", "page": 2 },
+        { "id": "1.2", "title": "Motion", "zh": "运动", "page": 12 },
+        { "id": "1.3", "title": "Mass and weight", "zh": "质量与重量", "page": 25 },
+        { "id": "1.4", "title": "Density", "zh": "密度", "page": 29 },
+        { "id": "1.5", "title": "Forces", "zh": "力", "page": 33 },
+        { "id": "1.6", "title": "Momentum", "zh": "动量", "page": 55 },
+        { "id": "1.7", "title": "Energy, work and power", "zh": "能量、功与功率", "page": 60 },
+        { "id": "1.8", "title": "Pressure", "zh": "压强", "page": 78 }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Thermal physics",
+      "zh": "热学",
+      "page": 85,
+      "sections": [
+        { "id": "2.1", "title": "Kinetic particle model of matter", "zh": "物质的粒子运动模型", "page": 86 },
+        { "id": "2.2", "title": "Thermal properties and temperature", "zh": "热学性质与温度", "page": 100 },
+        { "id": "2.3", "title": "Transfer of thermal energy", "zh": "热能传递", "page": 115 }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Waves",
+      "zh": "波",
+      "page": 127,
+      "sections": [
+        { "id": "3.1", "title": "General properties of waves", "zh": "波的一般性质", "page": 128 },
+        { "id": "3.2", "title": "Light", "zh": "光", "page": 136 },
+        { "id": "3.3", "title": "Electromagnetic spectrum", "zh": "电磁波谱", "page": 160 },
+        { "id": "3.4", "title": "Sound", "zh": "声", "page": 167 }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Electricity and magnetism",
+      "zh": "电与磁",
+      "page": 175,
+      "sections": [
+        { "id": "4.1", "title": "Simple phenomena of magnetism", "zh": "磁的简单现象", "page": 176 },
+        { "id": "4.2", "title": "Electrical quantities", "zh": "电学量", "page": 184 },
+        { "id": "4.3", "title": "Electric circuits", "zh": "电路", "page": 209 },
+        { "id": "4.4", "title": "Electrical safety", "zh": "用电安全", "page": 222 },
+        { "id": "4.5", "title": "Electromagnetic effects", "zh": "电磁效应", "page": 229 }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nuclear physics",
+      "zh": "核物理",
+      "page": 251,
+      "sections": [
+        { "id": "5.1", "title": "The nuclear model of the atom", "zh": "原子的核式模型", "page": 252 },
+        { "id": "5.2", "title": "Radioactivity", "zh": "放射性", "page": 260 }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Space physics",
+      "zh": "空间物理",
+      "page": 275,
+      "sections": [
+        { "id": "6.1", "title": "Earth and the Solar System", "zh": "地球与太阳系", "page": 276 },
+        { "id": "6.2", "title": "Stars and the Universe", "zh": "恒星与宇宙", "page": 286 }
+      ]
+    }
+  ]
+}

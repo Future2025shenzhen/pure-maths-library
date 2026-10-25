@@ -25,3 +25,4 @@
 .mock-more-link{text-decoration:none;margin-left:10px}.pagination .mock-more-link{white-space:nowrap}
 @media(max-width:650px){.pagination{flex-wrap:wrap}.pagination .mock-more-link{flex-basis:100%;margin:8px 0 0;text-align:center}}
 button.nav-link{border:0;background:transparent;cursor:pointer}
+#past-reader{background:#e9ede8}#reader-page{width:auto;min-width:65px}.continuous-pdf-page{position:relative;margin:0 auto 18px;background:#fff;box-shadow:0 2px 12px #253a2514;scroll-margin-top:12px}.continuous-pdf-page canvas{display:block;width:100%;height:auto}.continuous-page-number{position:absolute;right:8px;bottom:6px;padding:2px 6px;border-radius:4px;background:#243d35cc;color:#fff;font:10px/1.4 system-ui}.continuous-pdf-page.render-error:after{content:'此页暂时无法显示';position:absolute;inset:45% 0;color:#912f28;font-size:12px}

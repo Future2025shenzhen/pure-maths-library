@@ -27,5 +27,5 @@ vm.createContext(context);let src=read('past.js').replace(/^import .*;\n/gm,'').
 assert.deepEqual(errors,[]);assert.equal(typeof nodes.get('reader-close').listeners.click,'function');assert.equal(typeof nodes.get('reader-full').listeners.click,'function');assert.equal(typeof nodes.get('timer-start').listeners.click,'function');assert(nodes.get('past-results').innerHTML.includes('question-card'));
 assert(nodes.get('paper-directory').innerHTML.includes('2019'));assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(!nodes.get('paper-directory').innerHTML.includes('2026'));assert(!html.includes('reserve-directory'));
 await nodes.get('past-year').listeners.change({target:{value:'2025'}});assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(nodes.get('past-results').innerHTML.includes('question-card'));assert(nodes.get('past-results').innerHTML.includes('查看官方答案'));
-assert(!html.includes('past-shuffle'));assert(!read('app.js').includes('data-action="shuffle"'));
+assert(html.includes('past-shuffle'));assert.equal(typeof nodes.get('past-shuffle').listeners.click,'function');assert(!read('app.js').includes('data-action="shuffle"'));
 console.log('PASS strict/cross chapter scope, unbiased shuffle integrity, authenticated past initialization and PDF/timer control binding');

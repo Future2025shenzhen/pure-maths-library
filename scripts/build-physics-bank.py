@@ -14,6 +14,73 @@ PDF_ROOT = DIST / 'assets/igcse'
 MANIFEST = DIST / 'data/igcse-online-files.json'
 OUTPUT = DIST / 'data/physics-question-bank.json'
 
+SECTION_PATTERNS = {
+    '1.1': r'physical quantit|measurement|measuring cylinder|micrometer|vernier|ruler|stopwatch|significant figure|unit of|scalar|vector',
+    '1.2': r'\bmotion\b|speed|velocity|acceleration|deceleration|distance.time|speed.time|velocity.time|terminal velocity|free fall',
+    '1.3': r'\bmass\b|\bweight\b|gravitational field|centre of (?:mass|gravity)',
+    '1.4': r'\bdensity\b|mass per unit volume',
+    '1.5': r'\bforce|resultant|newton|spring|elastic|hooke|extension|moment|turning effect|equilibrium|friction|centripetal',
+    '1.6': r'momentum|impulse|collision|conservation of momentum',
+    '1.7': r'energy|work done|\bpower\b|efficien|kinetic|potential energy|renewable|fossil fuel|energy resource',
+    '1.8': r'\bpressure\b|manometer|barometer|hydraulic|force per unit area',
+    '2.1': r'particle model|molecule|brownian|solid.*liquid.*gas|gas pressure|random motion|absolute zero',
+    '2.2': r'temperature|thermometer|thermal expansion|specific heat|heat capacity|specific latent|melting|boiling|evaporation|internal energy',
+    '2.3': r'conduction|convection|thermal radiation|infrared radiation|thermal energ|insulat|cooling|heating',
+    '3.1': r'\bwave|wavelength|frequency|amplitude|diffraction|wavefront|ripple tank|transverse|longitudinal',
+    '3.2': r'\blight\b|ray of light|mirror|reflection|refraction|refractive|lens|focal|image|optical fibre|total internal|critical angle|prism',
+    '3.3': r'electromagnetic spectrum|radio wave|microwave|infra.?red|ultraviolet|x-ray|gamma ray',
+    '3.4': r'\bsound\b|echo|ultrasound|loudness|pitch|hearing|microphone',
+    '4.1': r'\bmagnet|magnetic field|compass|magnetis|soft iron|permanent magnet',
+    '4.2': r'electric charge|charged|electrostatic|\bcurrent\b|potential difference|\bvoltage\b|e\.m\.f|resistance|resistivity|coulomb',
+    '4.3': r'\bcircuit|series|parallel|resistor|ammeter|voltmeter|potential divider|thermistor|light.dependent|diode|logic gate',
+    '4.4': r'electrical safety|fuse|circuit breaker|earth wire|live wire|neutral wire|three.core|appliance|mains',
+    '4.5': r'electromagnetic induction|induced|generator|alternat|transformer|motor|motor effect|relay|solenoid|current.carrying.*magnetic|slip ring|split.ring',
+    '5.1': r'nuclear model|nucleus|proton|neutron|electron|atomic number|proton number|nucleon|isotope|alpha.particle scattering|fission|fusion',
+    '5.2': r'radioactiv|half.life|background radiation|count rate|ionising|alpha radiation|beta radiation|gamma radiation|decay',
+    '6.1': r'solar system|planet|moon|orbit|comet|asteroid|gravitational.*orbit|earth.*sun',
+    '6.2': r'\bstar|universe|galaxy|redshift|hubble|big bang|cosmic microwave|light.year|supernova'
+}
+
+# Physics papers normally follow the syllabus order. These priors are used only
+# where extracted wording has no distinctive topic term (for example a diagram-
+# led multiple-choice question).
+MCQ_PRIORS = [
+    (1, 3, '1.1'), (4, 6, '1.2'), (7, 8, '1.3'), (9, 10, '1.4'),
+    (11, 15, '1.5'), (16, 17, '1.6'), (18, 21, '1.7'), (22, 22, '1.8'),
+    (23, 24, '2.1'), (25, 26, '2.2'), (27, 28, '2.3'),
+    (29, 29, '3.1'), (30, 31, '3.2'), (32, 32, '3.3'), (33, 33, '3.4'),
+    (34, 34, '4.1'), (35, 36, '4.2'), (37, 37, '4.3'), (38, 38, '4.5'),
+    (39, 40, '5.2')
+]
+
+
+def classify(text, paper_type, number, year):
+    clean = re.sub(r'\s+', ' ', text).lower()
+    scored = []
+    for section, pattern in SECTION_PATTERNS.items():
+        hits = re.findall(pattern, clean, re.I)
+        if hits:
+            scored.append((len(hits), section))
+    scored.sort(key=lambda item: (-item[0], float(item[1])))
+    if paper_type in (1, 2):
+        if scored and scored[0][0] >= 2:
+            sections = [scored[0][1]]
+        elif scored:
+            sections = [scored[0][1]]
+        else:
+            sections = [next(section for low, high, section in MCQ_PRIORS if low <= number <= high)]
+        # Space physics entered these papers from 2023 and occupies the final questions.
+        if year >= 2023 and number >= 38 and any(section.startswith('6.') for _, section in scored):
+            sections = [next(section for _, section in scored if section.startswith('6.'))]
+    else:
+        sections = [section for score, section in scored if score >= max(1, scored[0][0] - 1)][:3] if scored else []
+        if not sections:
+            # Broad fallback follows the official syllabus order without inventing a topic label.
+            broad = min(6 if year >= 2023 else 5, max(1, round(number / 2)))
+            sections = [f'{broad}.1']
+    chapters = sorted({int(section.split('.')[0]) for section in sections})
+    return chapters, sorted(set(sections), key=float)
+
 
 def words(page):
     result = []
@@ -132,12 +199,13 @@ def build():
                 if answer not in ('A', 'B', 'C', 'D', 'Question Discounted'):
                     raise ValueError(f'{ms_entry["filename"]} Q{number}: answer key not found')
             total = re.search(r'\[Total:\s*(\d+)\]', question_text, re.I)
+            chapters, sections = classify(question_text, paper_number, number, qp_entry['year'])
             questions.append({
                 'id': f'PHY-{qp_entry["year"]}-{qp_entry["session"].upper()}-{qp_entry["paper"]}-Q{number:02d}',
                 'paper': paper_id, 'group': paper_group, 'paperType': paper_number,
                 'year': qp_entry['year'], 'session': qp_entry['session'], 'variant': int(qp_entry['paper'][1]),
                 'number': number, 'marks': 1 if answer else (int(total.group(1)) if total else None),
-                'chapters': [], 'sections': [], 'topics': [], 'searchText': question_text,
+                'chapters': chapters, 'sections': sections, 'topics': sections, 'searchText': question_text,
                 'pages': question_pages, 'answer': answer, 'markSchemePages': answer_pages,
                 'officialMarkScheme': True,
                 'verification': '答案与过程得分点摘自本卷官方评分标准；已移除 Notes/Guidance，不添加自创解析或标注。'

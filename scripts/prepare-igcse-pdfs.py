@@ -40,8 +40,14 @@ def obtain(entry):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--verify-only', action='store_true')
+    parser.add_argument('--subject', choices=['physics', 'cs'])
+    parser.add_argument('--types', nargs='+', choices=['qp', 'ms', 'er', 'gt', 'ci', 'pm'])
     args = parser.parse_args()
     entries = json.loads(MANIFEST.read_text())['files']
+    if args.subject:
+        entries = [entry for entry in entries if entry['subject'] == args.subject]
+    if args.types:
+        entries = [entry for entry in entries if entry['type'] in args.types]
     failures = []
     if args.verify_only:
         failures = [entry['filename'] for entry in entries if not valid(DIST / entry['path'], entry)]

@@ -30,8 +30,7 @@ assert(html.includes('id="practice"')&&html.includes('hidden>原创练习'));
 assert(app.includes("$('practice').hidden=subject==='physics'"));
 assert(bankHtml.includes('允许跨章节')&&bankHtml.includes('真题收藏')&&bankHtml.includes('上下连续滑动'));
 assert(bankApp.includes('IntersectionObserver')&&bankApp.includes('pure-physics-notes-v1'));
-assert(bankApp.includes('data-copy-question')&&bankApp.includes("new URLSearchParams(location.search).get('q')"));
-assert(bankApp.includes('从官方原卷提取的题目文字')&&bankApp.includes('公开原卷 PDF'));
+assert(!bankApp.includes('data-copy-question')&&bankApp.includes("new URLSearchParams(location.search).get('q')"));
 assert(bankApp.includes('guest-mode')&&bankApp.includes('登录后可收藏'));
 for(const source of [bankApp]){
  const check=spawnSync(process.execPath,['--check','--input-type=module'],{input:source,encoding:'utf8'});

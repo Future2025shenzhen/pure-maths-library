@@ -28,6 +28,5 @@ assert.deepEqual(errors,[]);assert.equal(typeof nodes.get('reader-close').listen
 assert(nodes.get('paper-directory').innerHTML.includes('2019'));assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(!nodes.get('paper-directory').innerHTML.includes('2026'));assert(!html.includes('reserve-directory'));
 await nodes.get('past-year').listeners.change({target:{value:'2025'}});assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(nodes.get('past-results').innerHTML.includes('question-card'));assert(nodes.get('past-results').innerHTML.includes('查看官方答案'));
 assert(html.includes('past-shuffle'));assert.equal(typeof nodes.get('past-shuffle').listeners.click,'function');assert(!read('app.js').includes('data-action="shuffle"'));
-assert(!read('past.js').includes('account.requireUser()'));assert(read('past.js').includes('data-copy-question'));assert(read('past.js').includes('guest-mode'));
-assert(read('past.js').includes('https://edemat.alevelclouds.com/')&&read('past.js').includes('从官方原卷提取的题目文字'));
+assert(!read('past.js').includes('account.requireUser()'));assert(!read('past.js').includes('data-copy-question'));assert(read('past.js').includes('guest-mode'));
 console.log('PASS strict/cross chapter scope, unbiased shuffle integrity, authenticated past initialization and PDF/timer control binding');

@@ -180,6 +180,7 @@ def build():
         papers.append({
             'id': paper_id, 'year': qp_entry['year'], 'session': qp_entry['session'],
             'paper': qp_entry['paper'], 'group': paper_group, 'qp': qp_path, 'ms': ms_path,
+            'source': qp_entry['url'], 'markSchemeSource': ms_entry['url'],
             'title': f'{qp_entry["year"]} {session_name(qp_entry["session"])} · Paper {qp_entry["paper"]}'
         })
         for offset, ((number, *_), question_pages, answer_pages) in enumerate(zip(qp_starts, qp_crops, ms_crops), 1):

@@ -8,6 +8,7 @@ assert.equal(bank.papers.length,251);
 assert.equal(bank.questions.length,4590);
 assert.equal(new Set(bank.papers.map(p=>p.id)).size,251);
 assert.equal(new Set(bank.questions.map(q=>q.id)).size,4590);
+assert(bank.papers.every(p=>p.source?.startsWith('https://raw.githubusercontent.com/')));
 assert.equal(bank.questions.filter(q=>q.group==='mcq-theory').length,4254);
 assert.equal(bank.questions.filter(q=>q.group==='practical').length,336);
 assert.equal(bank.questions.filter(q=>[1,2].includes(q.paperType)).length,3360);
@@ -30,6 +31,7 @@ assert(app.includes("$('practice').hidden=subject==='physics'"));
 assert(bankHtml.includes('允许跨章节')&&bankHtml.includes('真题收藏')&&bankHtml.includes('上下连续滑动'));
 assert(bankApp.includes('IntersectionObserver')&&bankApp.includes('pure-physics-notes-v1'));
 assert(bankApp.includes('data-copy-question')&&bankApp.includes("new URLSearchParams(location.search).get('q')"));
+assert(bankApp.includes('从官方原卷提取的题目文字')&&bankApp.includes('公开原卷 PDF'));
 assert(bankApp.includes('guest-mode')&&bankApp.includes('登录后可收藏'));
 for(const source of [bankApp]){
  const check=spawnSync(process.execPath,['--check','--input-type=module'],{input:source,encoding:'utf8'});

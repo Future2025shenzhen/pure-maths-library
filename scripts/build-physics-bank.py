@@ -176,7 +176,7 @@ def build():
         qp_crops = crop_records(qp, qp_starts, qp_path)
         ms_crops = crop_records(ms, ms_starts, ms_path, scheme=True)
         paper_id = qp_entry['filename'][5:-4].replace('_qp_', '-')
-        paper_group = 'mcq-theory' if paper_number in (1, 2, 3, 4) else 'practical'
+        paper_group = f'paper{paper_number}'
         papers.append({
             'id': paper_id, 'year': qp_entry['year'], 'session': qp_entry['session'],
             'paper': qp_entry['paper'], 'group': paper_group, 'qp': qp_path, 'ms': ms_path,

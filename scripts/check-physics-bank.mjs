@@ -9,8 +9,7 @@ assert.equal(bank.questions.length,4590);
 assert.equal(new Set(bank.papers.map(p=>p.id)).size,251);
 assert.equal(new Set(bank.questions.map(q=>q.id)).size,4590);
 assert(bank.papers.every(p=>p.source?.startsWith('https://raw.githubusercontent.com/')));
-assert.equal(bank.questions.filter(q=>q.group==='mcq-theory').length,4254);
-assert.equal(bank.questions.filter(q=>q.group==='practical').length,336);
+for(let n=1;n<=6;n++)assert.equal(bank.questions.filter(q=>q.group===`paper${n}`).length,bank.questions.filter(q=>q.paperType===n).length);
 assert.equal(bank.questions.filter(q=>[1,2].includes(q.paperType)).length,3360);
 assert.equal(bank.questions.filter(q=>q.answer==='Question Discounted').length,1);
 for(const question of bank.questions){
@@ -28,8 +27,9 @@ const bankHtml=fs.readFileSync(new URL('physics-bank.html',root),'utf8');
 const bankApp=fs.readFileSync(new URL('physics-bank.js',root),'utf8');
 assert(html.includes('id="practice"')&&html.includes('hidden>原创练习'));
 assert(app.includes("$('practice').hidden=subject==='physics'"));
+assert(bankHtml.includes('Paper 1')&&bankHtml.includes('Paper 6'));
 assert(bankHtml.includes('允许跨章节')&&bankHtml.includes('真题收藏')&&bankHtml.includes('上下连续滑动'));
-assert(bankApp.includes('IntersectionObserver')&&bankApp.includes('pure-physics-notes-v1'));
+assert(bankApp.includes('Paper ${question.paperType}')&&bankApp.includes('IntersectionObserver')&&bankApp.includes('pure-physics-notes-v1'));
 assert(!bankApp.includes('data-copy-question')&&bankApp.includes("new URLSearchParams(location.search).get('q')"));
 assert(bankApp.includes('guest-mode')&&bankApp.includes('登录后可收藏'));
 for(const source of [bankApp]){

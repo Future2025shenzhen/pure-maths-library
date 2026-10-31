@@ -5,6 +5,7 @@ import {shuffle,chapterMatches,filterQuestions} from '../dist/core.js';
 import {applyClassification,linkedChapters} from '../dist/classification.js';
 import {archivePapers,validateArchive} from '../dist/paper-archive.js';
 import {Stopwatch} from '../dist/stopwatch.js';
+import {applyP3PastScope} from '../dist/p3-past-scope.js';
 const root=new URL('../dist/',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
 const bank=applyClassification(JSON.parse(read('data/bank.json')),JSON.parse(read('data/classification.json')));
 for(const stage of ['P1','P2','P3'])for(const c of bank.chapters[stage]){
@@ -22,7 +23,7 @@ const html=read('past.html'),nodes=new Map([...html.matchAll(/id="([^"]+)"/g)].m
 let errors=[];
 const fakeAccount={enabled:true,user:{nickname:'test'},ready:Promise.resolve(),getState:()=>({saved:[],done:[]}),addEventListener(){},activity:async()=>{}};
 class ContinuousPdfViewerStub{constructor(){this.current=1;}open(){}go(){}setZoom(){}resize(){}destroyDocument(){}}
-const context={console:{error:e=>errors.push(e)},account:fakeAccount,mountAccountLink:async()=>{},archivePapers,validateArchive,shuffle,chapterMatches,Stopwatch,ContinuousPdfViewer:ContinuousPdfViewerStub,applyClassification,linkedChapters,improveMath:x=>x,renderMath(){},notePlaceholder:()=>'',mountNotes(){},localStorage:{getItem:()=>null},sessionStorage:{getItem:()=>null,setItem(){}},innerWidth:1000,URLSearchParams,location:{search:''},document:{body:{classList:{toggle(){}}},querySelector:s=>s.startsWith('#')?nodes.get(s.slice(1))||null:null,addEventListener(){}},window:{addEventListener(){}},setInterval,clearInterval,setTimeout,clearTimeout,fetch:async url=>({ok:true,json:async()=>JSON.parse(read(url.split('?')[0]))})};
+const context={console:{error:e=>errors.push(e)},account:fakeAccount,mountAccountLink:async()=>{},archivePapers,validateArchive,shuffle,chapterMatches,Stopwatch,ContinuousPdfViewer:ContinuousPdfViewerStub,applyClassification,linkedChapters,applyP3PastScope,improveMath:x=>x,renderMath(){},notePlaceholder:()=>'',mountNotes(){},localStorage:{getItem:()=>null},sessionStorage:{getItem:()=>null,setItem(){}},innerWidth:1000,URLSearchParams,location:{search:''},document:{body:{classList:{toggle(){}}},querySelector:s=>s.startsWith('#')?nodes.get(s.slice(1))||null:null,addEventListener(){}},window:{addEventListener(){}},setInterval,clearInterval,setTimeout,clearTimeout,fetch:async url=>({ok:true,json:async()=>JSON.parse(read(url.split('?')[0]))})};
 vm.createContext(context);let src=read('past.js').replace(/^import .*;\n/gm,'').replaceAll('import.meta.url',JSON.stringify(new URL('../dist/past.js',import.meta.url).href));src=src.replace(/init\(\);\s*$/,'globalThis.initialized=init();');vm.runInContext(src,context);await context.initialized;
 assert.deepEqual(errors,[]);assert.equal(typeof nodes.get('reader-close').listeners.click,'function');assert.equal(typeof nodes.get('reader-full').listeners.click,'function');assert.equal(typeof nodes.get('timer-start').listeners.click,'function');assert(nodes.get('past-results').innerHTML.includes('question-card'));
 assert(nodes.get('paper-directory').innerHTML.includes('2019'));assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(!nodes.get('paper-directory').innerHTML.includes('2026'));assert(!html.includes('reserve-directory'));
@@ -30,3 +31,34 @@ await nodes.get('past-year').listeners.change({target:{value:'2025'}});assert(no
 assert(html.includes('past-shuffle'));assert.equal(typeof nodes.get('past-shuffle').listeners.click,'function');assert(!read('app.js').includes('data-action="shuffle"'));
 assert(!read('past.js').includes('account.requireUser()'));assert(!read('past.js').includes('data-copy-question'));assert(read('past.js').includes('guest-mode'));
 console.log('PASS strict/cross chapter scope, unbiased shuffle integrity, authenticated past initialization and PDF/timer control binding');
+
+// Exercise the real P3 page initialization and mode handlers against its HTML.
+await nodes.get('past-stage').listeners.change({target:{value:'P3'}});
+assert.equal(nodes.get('past-targeted-practice').checked,true);
+assert.equal(nodes.get('past-p3-cross-chapter').checked,false);
+assert.equal(nodes.get('past-p3-scope').hidden,false);
+assert.equal(nodes.get('past-cross-scope').hidden,true);
+await nodes.get('past-chapter').listeners.click({target:{closest:()=>({dataset:{pastChapter:'6'}})}});
+let p3Ids=JSON.parse(vm.runInContext('JSON.stringify(pool().map(q=>q.id))',context));
+assert(p3Ids.includes('P3-2024-01-Q06'),'basic trig differentiation stays in differentiation');
+assert(p3Ids.includes('P3-2025-01-Q10'),'a multiple-angle argument alone is not a double-angle identity');
+assert(!p3Ids.includes('P3-2021-10-Q06'),'required double-angle formula excludes this from chapter 6 alone');
+assert(!p3Ids.includes('P3-2021-01-Q10'),'a required sec/tan identity needs chapter 3');
+await nodes.get('past-p3-cross-chapter').listeners.change({target:{checked:true}});
+assert.equal(nodes.get('past-targeted-practice').checked,false);
+assert.equal(nodes.get('past-p3-cross-chapter').checked,true);
+assert(vm.runInContext("pool().some(q=>q.id==='P3-2021-10-Q06')",context));
+await nodes.get('past-targeted-practice').listeners.change({target:{checked:true}});
+vm.runInContext('chapter=[3,4];options();render();',context);
+assert(vm.runInContext('pool().length>0&&pool().every(q=>q.requiredChapters.every(n=>[3,4].includes(n)))',context));
+assert(vm.runInContext('pool().some(q=>q.requiredChapters.includes(3)&&q.requiredChapters.includes(4))',context));
+assert(nodes.get('past-results').innerHTML.includes('所需章节'));
+await nodes.get('past-reset').listeners.click();
+assert.equal(nodes.get('past-targeted-practice').checked,true);
+assert.equal(nodes.get('past-p3-cross-chapter').checked,false);
+await nodes.get('past-stage').listeners.change({target:{value:'P1'}});
+assert.equal(nodes.get('past-p3-scope').hidden,true);
+assert.equal(nodes.get('past-cross-scope').hidden,false);
+assert.equal(nodes.get('past-cross-chapter').checked,true);
+assert.deepEqual(errors,[]);
+console.log('PASS P3 targeted defaults, exclusive modes, actual trig/calculus cases, selected chapter unions, reset and P1 compatibility');

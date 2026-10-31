@@ -1,0 +1,3167 @@
+{
+  "sourceFileSha256": "ba2db3dda8e95dfd07eb216e33b06cc77d7c5512e534b553d53df12a93c1e584",
+  "pdfSha256": {
+    "assets/past-papers/p3-jan-2020.pdf": "930e1e7abc61e4d31ea491abc88d0fb30586477ae578c2954092d0d647dcee76",
+    "assets/past-papers/p3-jan-2020-ms.pdf": "60cc52c0f39ada2df43e0115fa6473195aafac2d7502d67806e13ac05ed6ca06",
+    "assets/past-papers/p3-oct-2020.pdf": "53b9a3250d23e30d5ce1597b1ce9d9534daf0fa3bc34f0889ce9ffd9ac7a3735",
+    "assets/past-papers/p3-oct-2020-ms.pdf": "4f8c80f167af7642680d11f6cad8a5804e448434c5c50bee7789359ea4f9258b",
+    "assets/past-papers/p3-jan-2021.pdf": "8ecbe0653acaa9b7ae6aa9b043e93ef695908a0324307244390cb10474e9e751",
+    "assets/past-papers/p3-jan-2021-ms.pdf": "7a2c0c0554a5a56bdea05d2601a5076219e2698145aa207d3ae91b6a101ae99a",
+    "assets/past-papers/p3-jun-2021.pdf": "790d666b0cbfc96f229a247d3a4413ba96e587abb4db80fd9c0ec6ee4ee399b3",
+    "assets/past-papers/p3-jun-2021-ms.pdf": "c19f8c46ee2912da41ea0d28176d8d94420a0c019ec8525d054ec5a8dc028f06",
+    "assets/past-papers/p3-oct-2021.pdf": "0a5266cadff9eb3bc87e353c94ec66e6cb30db5eae8ddf746bbda82326342331",
+    "assets/past-papers/p3-oct-2021-ms.pdf": "a32c66719b8ae36db4f48007ae70ce7d8f911d3316c035f8ea349ada34d884ca",
+    "assets/past-papers/p3-jan-2022.pdf": "ce6a80dfa3e8143d9ddaa818771b107480e5d7bbde41cdf59ad142c063bb494c",
+    "assets/past-papers/p3-jan-2022-ms.pdf": "f2fb1b25dce9f55838324885078dbfcbb824cf07043667085c46d63e17e670f4",
+    "assets/past-papers/p3-jun-2022.pdf": "90fbf34808221dafc60015b013b3ea6c0be02626c7b4d9925ba87f1740a14144",
+    "assets/past-papers/p3-jun-2022-ms.pdf": "d756e0dd2192d9f15b4bc1eb534ed4ef90e3eea968cdedea605377a1bf646462",
+    "assets/past-papers/p3-oct-2022.pdf": "d394fd48e94e65e88f1f0177a6fe0dd13b9fcfa8a2a2471c7c1809261be12197",
+    "assets/past-papers/p3-oct-2022-ms.pdf": "79bdd5540552a60a64a74b68e8de92ddd0b7f41640fc8a915d1ca4880f1b7a9b",
+    "assets/past-papers/p3-jan-2023.pdf": "0737ca29da5f6f3f5eb96e3329c439187513ae3c4f584e45f4fc3543808df6f7",
+    "assets/past-papers/p3-jan-2023-ms.pdf": "77f0075f0d92c840aab2e3b4445641e98b419e6ab89b130bece232acd6268ca4",
+    "assets/past-papers/p3-jun-2023.pdf": "7600eb4f80ae136f1160952e0cd777aab1a5ff114ae6ee1c548ecfca0aa8843c",
+    "assets/past-papers/p3-jun-2023-ms.pdf": "86ad970aa81478c5dc33c3150cffceeb9abd2d37b9be1f6de4c427b8198408b3",
+    "assets/past-papers/p3-oct-2023.pdf": "5206c3b9f755e34d925ac5852d2d6eb0df8ca15302fb53ef55efc64ab41d1e4c",
+    "assets/past-papers/p3-oct-2023-ms.pdf": "a06d240c0cc1345672b79c99105aed87c4a5dba0902d6207bbf3c7e9cad214b8",
+    "assets/past-papers/p3-jan-2024.pdf": "139663fbd7e9753b0a123f73f1800b74cf7f1560710fa1e271469203dae22fb4",
+    "assets/past-papers/p3-jan-2024-ms.pdf": "73b1048dbd175ac0b45281ee07390c267681e92c8d85fe42c4cb41825b36c6b9",
+    "assets/past-papers/p3-jun-2024.pdf": "b987c7d29bb470df6e72ffa3776c520a86ff20ff0c333af8f80ee93a969faf78",
+    "assets/past-papers/p3-jun-2024-ms.pdf": "42b048a23920fd6c5ae06555b5c5f84979e670b8e22c52af358c0cd89f8e0955",
+    "assets/past-papers/p3-oct-2024.pdf": "b6f02e3ebd5f2c8274e69fa7647df17121a2b1b9dc20a00195ec5b421dd02fd9",
+    "assets/past-papers/p3-oct-2024-ms.pdf": "995dbb6e8bf7c786120baf2301aca0cf9758dbcc9a5fa4990dccc1c29f2fe38d",
+    "assets/past-papers/p3-jan-2025.pdf": "bcde09b9772d405185bf4fe23c9fb1dd0c9b520b5687891ee411c9a5a9af2d2c",
+    "assets/past-papers/p3-jan-2025-ms.pdf": "edb1c3b7b115945064c6dd6eeb96fdc38970f300c704bf8abf833fc59fc8f438",
+    "assets/past-papers/p3-jun-2025.pdf": "8d1ada682ad2835b76ec05cf7a3c5f9a6e860a037b6d9d623031a0287191dfa5",
+    "assets/past-papers/p3-jun-2025-ms.pdf": "9a92d1c945e08dee588f0fc12cb4f12dd5c28064e0c51520581c81e2065d53f5",
+    "assets/past-papers/p3-jun-2025-a.pdf": "cbca4c53d3c3fb6c8367e204a09ae14f7ea38605e85518e22070562d6de1eee6",
+    "assets/past-papers/p3-jun-2025-a-ms.pdf": "7441897eb54ec2ec4adc5a6bf684623aa1e2c4f81c85b2dbe35529e31c3c42d0"
+  },
+  "questions": {
+    "P3-2020-01-Q01": {
+      "questionFingerprint": "eed6a6264e056c87fb5c0b6942c4cb7f2ee8dcfb492eb6d27c28b4eeca33a86e",
+      "answerFingerprint": "c2976fe55f8da69e5b313de16f4e8ecab91a04354b13c472f6e41241f71548bd",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        4
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2020-01-Q02": {
+      "questionFingerprint": "c178cf20918c79c2aadefb48e18a7df9f0c438166caee2812354c0f2312e0692",
+      "answerFingerprint": "8c8bfeca970f5c07e11e878f38997a86a7102cba3e6646cf356100a79b6786e8",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        6
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2020-01-Q03": {
+      "questionFingerprint": "39eafa707ee662b349abb404e1a45fae86fba3482f9ad4f3fb006891350eec99",
+      "answerFingerprint": "c1961fb21907192c4e24c83b6f2221eb2d0754a216ac5bcad50fba1d81c08190",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2020-01-Q04": {
+      "questionFingerprint": "ff7f8ae15de9bbe655bdeb107b383f4b332434a30402e3432b3820bc914e67a8",
+      "answerFingerprint": "51d8bf60f04c4284386ef4ed6045a8b11a4ff049288673eebf27a25cfafd3923",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2020-01-Q05": {
+      "questionFingerprint": "3d5be98a34e7ff5ac9f2fa875b9b2d8c12db333a27560d4e6b9633ac841e4f41",
+      "answerFingerprint": "dbefb41ac4acd5efeb99302965f4cbbf4ec53754f5b65cf24ecaa71466bcd8e1",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2020-01-Q06": {
+      "questionFingerprint": "27b588b20710c522a4dfcb05e11f83b2f040c8cee3673088f174af5ba7067aa6",
+      "answerFingerprint": "36507d3f9a999a3ea21e63360044fb6c931039763e037b6306d71915a8a91a79",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2020-01-Q07": {
+      "questionFingerprint": "45bb8d94b46be34d1e1af88117d50dc6822d49f44f39debf1db86aa24bbc66f1",
+      "answerFingerprint": "d5b6790e4e82a3d76d9a3804b0b6b5c901941f1d5f95d97b7108be1eed19c46c",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2020-01-Q08": {
+      "questionFingerprint": "f2769be459b8938290308ce1e79cef72b3bf15a9259f194995faf0a3b8c2645f",
+      "answerFingerprint": "80924ce13d6810739971469abb2cc1e9babea24e772925358475f3356c94b13b",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        1,
+        7
+      ]
+    },
+    "P3-2020-01-Q09": {
+      "questionFingerprint": "1147252368eb74da590d7d9f577df98155a8bd80a30944d76e6a5658be25394c",
+      "answerFingerprint": "ee456794237f340c8ecdefea96590bf2b2b16a9b4408f8a07e8b666e4a71ad31",
+      "questionPdf": "assets/past-papers/p3-jan-2020.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2020-ms.pdf",
+      "markSchemePages": [
+        19
+      ],
+      "previousChapters": [
+        2,
+        4
+      ]
+    },
+    "P3-2020-10-Q01": {
+      "questionFingerprint": "197c57b2b681e5a24346fe52ef38debb31398306503eee75df64f8ad02576c63",
+      "answerFingerprint": "89100bd22fe8ed889f0990c635e0e9ac23a6bd3d7811a0401efe2a87aeaa6ba2",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2020-10-Q02": {
+      "questionFingerprint": "dea4a1837a2a17f9d1851de014371f82cdf9ec6b5b75abf52e03b0158f17c460",
+      "answerFingerprint": "4bbfe5bbb6e5da2ef6c8500524b2a725d166e3ee270c757fc6dfbc0a1ae0bb48",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2020-10-Q03": {
+      "questionFingerprint": "a9ada4f24c961118a8bc48720e149ad7083082c3ba89741b221c197a76820c00",
+      "answerFingerprint": "00511b912b9fd9c32940749a2f31a00f3721bcc79e5ec1237717035acb2cbbd6",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        6,
+        2
+      ]
+    },
+    "P3-2020-10-Q04": {
+      "questionFingerprint": "c5c5ef05fbd2f54d5743b329065f0058d3a2555bb5e76164843bdc01521ded81",
+      "answerFingerprint": "f5eb3565f11e3e9b2cd82f9931658f46a62452136c3cb370f7fa9d257bd3d4d0",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2020-10-Q05": {
+      "questionFingerprint": "f0f49b8afcc4c664559d5669ede2a84db8e8151267c81d1c7d3716e3e019c279",
+      "answerFingerprint": "bc797d2dd84e397dc509c7d7919cda3273761c8fc8390902c875802420f3864e",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        11,
+        12
+      ],
+      "previousChapters": [
+        4,
+        7
+      ]
+    },
+    "P3-2020-10-Q06": {
+      "questionFingerprint": "16b4813657dca5eb526c50790a2a64f0932d26eafaac022e9e2ab4ef9efecbe3",
+      "answerFingerprint": "187da88249cf8bc26106731f2f85ad536ad61bf9d46a8189583231f3d8bca32f",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        5,
+        8
+      ]
+    },
+    "P3-2020-10-Q07": {
+      "questionFingerprint": "6c0423da73b28224167ee7b8b47d20af784a8c58dd990ea0ef8bf68c79cdfd97",
+      "answerFingerprint": "87bada9813e23710f8d7968aa711fdfeb713bc9e4d3e57fe63037826d90b3913",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2020-10-Q08": {
+      "questionFingerprint": "4d6f9d4642dbd1ebc1b7b8e23db616cabd65c1b33f166f9b2fa271989ea52176",
+      "answerFingerprint": "0031e87673e29c59d23f42f06a8cb251aa70ede019062adc5afd6a679878221d",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2020-10-Q09": {
+      "questionFingerprint": "da7e1d16ed2ff4a057f8bdf52c44c7ea6d6b9ae3423d66ed0a92bb5cc96dc198",
+      "answerFingerprint": "d3190715a57f4ac79d41fadc1ea9d014361b66ef536afc70eb1ccc392b50a268",
+      "questionPdf": "assets/past-papers/p3-oct-2020.pdf",
+      "questionPages": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2020-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        1,
+        6,
+        7
+      ]
+    },
+    "P3-2021-01-Q01": {
+      "questionFingerprint": "3ed8342e25047780a58a6e6e950ae593c95a9e5a4e5aa06ce2cbc89bbd7b0fc3",
+      "answerFingerprint": "0ee00479a153a45ae2b02b499ada0baea87b532e80aa0f9d6f55dfe8f1060de6",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2021-01-Q02": {
+      "questionFingerprint": "49d4bed87ea23fd12219c2c8c249cd3b942c637f51bcab0ed91ac615d423261e",
+      "answerFingerprint": "e2f5fa6f1a3cdd124554f4d1ae0330c7ce712e841013fef0842e24666b78f135",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2021-01-Q03": {
+      "questionFingerprint": "b5492506a225e3c40485b7a4fbb781ae75a26d15a6c12a8f90f9e1aa015ce5ad",
+      "answerFingerprint": "95bd1b0b4f0354f905c37ea9c2a136cb46352d3bc022d87becae58abb6b5af83",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        1,
+        2
+      ]
+    },
+    "P3-2021-01-Q04": {
+      "questionFingerprint": "3f93d34fe78014227743c15b46f4318161b614919b6a791b1c3e90f92d07dc75",
+      "answerFingerprint": "a540a666d67e09c432f13623db51e6352ae308b92ca7eee1490b440461840509",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2021-01-Q05": {
+      "questionFingerprint": "67e66a097d8f45d7dc2afbf8292dc9548ca61645514adcbc2518eb888e09fa8d",
+      "answerFingerprint": "074c6aef82a8c42e8ec31b9bd36acd75998122acc09fab17718e3f09fb727560",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2021-01-Q06": {
+      "questionFingerprint": "bf92f40a3d93769b4307631ded26dedefb23259a120caed7531c0a0dad59d4da",
+      "answerFingerprint": "cfd36fe1e4318ba83b1595cbbb5196ed1bddb94b2abc1560cc87686464f9af0a",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2021-01-Q07": {
+      "questionFingerprint": "4c3fc325b8ea958a8319b029a4850d5b7be7ddaaf1877c07ebf5052a79e886df",
+      "answerFingerprint": "6e78eb5a00e529492e4b77a73ef229ea7e970615cb4f61163c9b5c2f1ab669f2",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2021-01-Q08": {
+      "questionFingerprint": "941e4a7f4a8d57b25d239f3cce6b8b448097d3e7ac95c080d9a67178c4428eff",
+      "answerFingerprint": "93e3370377f107aeb5ed84e10f671935f694b1535d71100d71ba4e6a7c8f6585",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        26,
+        27
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        19
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2021-01-Q09": {
+      "questionFingerprint": "cebaf39cb2dc40418e3af8cf7764e677cad5554ca9ac2ae7ea3bee3f2f407ced",
+      "answerFingerprint": "d7e614733e0db9fd3c28e96c08fb0f4a88a8f3d5d408abb6b78c660436057e26",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2021-01-Q10": {
+      "questionFingerprint": "ee0a71936692008dcb837187ffe0ed8b7841efc0fc8fc94b93dfc421bfb4953b",
+      "answerFingerprint": "08642357712885db75316a9d09ddb270b1bb4f213c0fe62e6381cae932f082df",
+      "questionPdf": "assets/past-papers/p3-jan-2021.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2021-ms.pdf",
+      "markSchemePages": [
+        21
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2021-06-Q01": {
+      "questionFingerprint": "80c7d276a336fff3c054c0c368c37ba587f297a8791aab58df5f821663718510",
+      "answerFingerprint": "18d6ed0928eabb8b6385ad444c463cbf6819e51a1adfdf5185baff2049090779",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2021-06-Q02": {
+      "questionFingerprint": "0ec8545e2d6e5fd03c895bd1b9ad1fccbf4428e624bd64e98e4b386c35db2b60",
+      "answerFingerprint": "a4c3e813910d10c52acf83147ca8b6f9eed999912181aee9f1f41d5626f21906",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2021-06-Q03": {
+      "questionFingerprint": "8dcc37581a8739e46e2eaf18eee63b6f35aee395c56e07950d318a3d882bf73d",
+      "answerFingerprint": "707a2b7d26e41202f791fe9935ffa7087507b61b969e60a866a26096c0573978",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        1,
+        7
+      ]
+    },
+    "P3-2021-06-Q04": {
+      "questionFingerprint": "121df767b20c34b481613218e697d75254f54cfc020a1fd4ff0a59fa19e1573b",
+      "answerFingerprint": "a272deeff7fcc085f72f74dd715432b4af406f55bc1e4c9bdc56583d6e0b7a6f",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2021-06-Q05": {
+      "questionFingerprint": "a4aedd243414a5707a139d583cd1d8a7858948d36467c9ec95548d11e5abb196",
+      "answerFingerprint": "09ac1a7a3be2b5cb0c56cdd9689c56f07b8339f0bbd2273b5c8507a68d159f00",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2021-06-Q06": {
+      "questionFingerprint": "2f6596cad9b058833a3144b820b96e965e03289bd2b33ea12d905a7742c81051",
+      "answerFingerprint": "d01aa3f510251e137dda357239e427ac4ceae06fde72b8617935f5336994d488",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2021-06-Q07": {
+      "questionFingerprint": "c85920d45967d220104aa840411746f70df9ed414e21d70fbdc8ff9581d94289",
+      "answerFingerprint": "d268ed114fc27eec995a77436fbaca1eedc1f4191be79f4894e68959c3aed98a",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2021-06-Q08": {
+      "questionFingerprint": "da9125aa508b2c05eae47bc67421c7f4cb50f2f73ffc98dab91722840ebcabe1",
+      "answerFingerprint": "72da24cfbfdaea6f8b491aafdaa20815e9fa86822e556d0133b6052068e6ae40",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2021-06-Q09": {
+      "questionFingerprint": "f05a9e5a240bf8afda6d3dca296d9f5beb253526613bd287b5c463d00470374f",
+      "answerFingerprint": "517d2b67bd44c65e20f002b632578b200e3c225d7160a83bb4c5aaf8122eb5ab",
+      "questionPdf": "assets/past-papers/p3-jun-2021.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2021-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2021-10-Q01": {
+      "questionFingerprint": "a45abb36a14bdb27a4b0975e225bc7982af61916768ce5c62100e58dd1b162aa",
+      "answerFingerprint": "05a30e4e168bf03386ac6e5148033e4d87c85c1b24d621090fc61b80e9801503",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        1,
+        2,
+        6
+      ]
+    },
+    "P3-2021-10-Q02": {
+      "questionFingerprint": "2be05ee2a6ba4c7840d967bec347a91a702c30adeebdb65b8c7c67b8e42de745",
+      "answerFingerprint": "6dd1103c7fa229a3f0b71d59cb207e1757a6a52be4ca1dce61634b8320775ac8",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2021-10-Q03": {
+      "questionFingerprint": "1dcacd3961a054eedf4c6b4746b552f07695d418d59940cabeaeebd924479a65",
+      "answerFingerprint": "87665b565952fb327e2549eb744a71200cd952bc8a97e714e3a3abe793e049f9",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        10,
+        11
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2021-10-Q04": {
+      "questionFingerprint": "ba49a2a7e46852ba25066881eb007a96df9586e2e215bbaea0675d85ea3e39c8",
+      "answerFingerprint": "5e0aea81912f64459ab8003a0691128172858ff4de9760d74a59cd9e0fa9f64a",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2021-10-Q05": {
+      "questionFingerprint": "6067a761265b129f751f356fb5845dad6df9d742c15bc4e4c404d2d1dc548a57",
+      "answerFingerprint": "4d572031577fb29a9ef237ffadd7139f1b4606680edbe304b6e26e4e0780b9cd",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2021-10-Q06": {
+      "questionFingerprint": "5b30c602588585b8b1dd33adbccedb36c3286260b16a1cf846ddec79b49e3ef1",
+      "answerFingerprint": "c07df8091bf8e3fdadf7c913342bf8cf14358cd4415196e0df0672297270d89f",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        18,
+        19
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        6,
+        4
+      ]
+    },
+    "P3-2021-10-Q07": {
+      "questionFingerprint": "38c9ff00427d85e0d5a729c1e7d8393f511626c9605f0bdfc7b6c46758f04759",
+      "answerFingerprint": "58a39005263f4a114d26a323a71328a913db326c5277355f0088bb304567e059",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2021-10-Q08": {
+      "questionFingerprint": "7c47edcb671b4eb3d111159eda9e6d445b4a915efa4cd24dce3e8b2ea71d110b",
+      "answerFingerprint": "6155a940cf451691cd808fbf5411925c4b5a7aa92122dc37edd7bb313b2fdb6d",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2021-10-Q09": {
+      "questionFingerprint": "8b1328300bff515e990b36b3b7daa9d4cdb218e839540413e657eca99a805c63",
+      "answerFingerprint": "316cd4d83ae19022fc4e90262ff2822cc5098019708c62190c2a6c2f4b0d356e",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        23
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2021-10-Q10": {
+      "questionFingerprint": "1813687417727a91f52480bf430362a061f30a529ac495c32d267c35a56e6518",
+      "answerFingerprint": "168339e71faa7f0bba92cc4544996c653cff90704c6e6d21b7c850593dd71146",
+      "questionPdf": "assets/past-papers/p3-oct-2021.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2021-ms.pdf",
+      "markSchemePages": [
+        25
+      ],
+      "previousChapters": [
+        4,
+        7
+      ]
+    },
+    "P3-2022-01-Q01": {
+      "questionFingerprint": "b03e2a2ac1286392f67d4ab8176667249901fd8e13570800fcb214f2aafd64f1",
+      "answerFingerprint": "57429f72ae0b8e0b1855837a8ed2b3ff8b46b00612b97b03235e8f0d669bfee9",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        5
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2022-01-Q02": {
+      "questionFingerprint": "22897711453ac36f652f623d65ed659ed48cbcfe7ea20b704efc706958461148",
+      "answerFingerprint": "5cf6a06f107a077a77f6c7fb1485bee58528ddfef9521f67f4b92f5135a38944",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        6
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2022-01-Q03": {
+      "questionFingerprint": "a326f28935b2339236b2678a5794203906304d72222a5c70a465be259bd3f233",
+      "answerFingerprint": "a56238f614ae7f30c80d49b3ff5273f99384679739ae54af87f1dec3b12e5731",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2022-01-Q04": {
+      "questionFingerprint": "367c13cae49271a54164a082a8cc4e3f4de87628d1e39a4d2eeefcd4cbe8c278",
+      "answerFingerprint": "c7893d802ae320ceb5bc67bedc355e57189666359794df411e014f695c5c7232",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2022-01-Q05": {
+      "questionFingerprint": "ea8e95506fee0d315ae3b6524b641ac987b761fa6ef354043be438ddfc9564ad",
+      "answerFingerprint": "d40d451b13f652b04d76d2cc3069721a7a81ea0cc4f67a45139f1c2ab450a36d",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2022-01-Q06": {
+      "questionFingerprint": "b782494cba22355fb3f31c7395330d53f2541739d63616965bac9bf855b725f5",
+      "answerFingerprint": "9351895b6b2cc84b7a583c55c83c92b08d3e9f5804d9bc3a304604981ed68a56",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        2,
+        6
+      ]
+    },
+    "P3-2022-01-Q07": {
+      "questionFingerprint": "c7ecc2a83dca6655e0bb9cba8e87ff5835cef779198ef8cec55608141b7c8978",
+      "answerFingerprint": "697ebcde76630e4c631863e6f1a9427c7205023fb29cec58f91c76d10cb1747d",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2022-01-Q08": {
+      "questionFingerprint": "5008a8f94e82c3380c9a7fb7205648a2c4dd5a0d6cf3419415b1523177e7d58b",
+      "answerFingerprint": "5951e0196a590f77614d976fc915657bb17edcf70c44b987c4ec1302cb1597a7",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2022-01-Q09": {
+      "questionFingerprint": "f59bab7a0721579a69d2e55cc34a2220b268402f40aa5ce6e7bb3d89875fc320",
+      "answerFingerprint": "f9290b01751f0c30d77a4b88d495310b073fcd4b8456dd47df9ba30db0222f06",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2022-01-Q10": {
+      "questionFingerprint": "633799afc3eb02a842609fdf28b35ad6a6ad06d746fd85cdec76110d281c7f16",
+      "answerFingerprint": "a543ffa34377f43d2b28e8e15f661ee09dba47e9f2d4597ff605c69d34cdc296",
+      "questionPdf": "assets/past-papers/p3-jan-2022.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2022-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2022-06-Q01": {
+      "questionFingerprint": "a9895a5cb43980a3992e8f84ae182c4e86b6e8e2e4857e73355f0f30045c8641",
+      "answerFingerprint": "1d73d7c10349383b9b5e2feb3d6923657f7209fd619f775983d988ce4fc07c86",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2022-06-Q02": {
+      "questionFingerprint": "bed54ff6378fd77a097505291ce575ec72903a0031d2ffb328db4b8e9f09f450",
+      "answerFingerprint": "57c02d2ef8731c377319d809e53f44023d77301b349e7edb50694d7d91f32bb5",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2022-06-Q03": {
+      "questionFingerprint": "c1920f6e745ca832e88df5001ee90dd18504ae9e25ab818b92dba148c558ade9",
+      "answerFingerprint": "945a16dce505d199fd9d62a8354f92b2b56c0f16759ab933860c5220286c7767",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2022-06-Q04": {
+      "questionFingerprint": "8bbcb4579fe043b55f7abda19d6c052a9d736fe394b233f6cde7cd24e9b3e182",
+      "answerFingerprint": "c3e2842395b471641d6a889f3eb1f48f572032b9ff7059a8842b702e271a41af",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2022-06-Q05": {
+      "questionFingerprint": "14cba3f56766f97de53b8b2bc1069aa7f9f9e9aaca0c582db48707c9a42838a4",
+      "answerFingerprint": "0fef7e6acc946cef8f7104970b429f1364b07e7d5666277297dc3b75737167a1",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2022-06-Q06": {
+      "questionFingerprint": "1f010cb1eb6653a5f547173e5154c1766525da2a94cbd7c3b9cfa28b2b9e7612",
+      "answerFingerprint": "2c2ceb54da817d48a4921b0fc71f2575315d1c4ff9beb5f7d7d572484db6419e",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        6,
+        2
+      ]
+    },
+    "P3-2022-06-Q07": {
+      "questionFingerprint": "2b98aae25305bffda340484c84c104340be110074e0c74ae5798761730e9f59c",
+      "answerFingerprint": "c837a9c054a5cc21d09749b62ca88c4ff2dad286e0b753240e941ca4778a8ba0",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2022-06-Q08": {
+      "questionFingerprint": "cfea316291cda91623b759ced44485727ab294095e3a738c02dc958cc077279e",
+      "answerFingerprint": "9f0cf76de615ce26aa914ee3c31d4fe5c9382895bcc499e93cd7d51e5d8855bb",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        22
+      ],
+      "previousChapters": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "P3-2022-06-Q09": {
+      "questionFingerprint": "5cae51657ba8bc86ba7b2982e451626791641721a32f7f42f8ec5e6b5e184c1e",
+      "answerFingerprint": "b492b80fc93319e42fa6bc7fea58d3f9d6f6ebc34ab89923d69dbc785d62a596",
+      "questionPdf": "assets/past-papers/p3-jun-2022.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2022-ms.pdf",
+      "markSchemePages": [
+        24
+      ],
+      "previousChapters": [
+        4,
+        6
+      ]
+    },
+    "P3-2022-10-Q01": {
+      "questionFingerprint": "1ae44f423ef999130ebffb19161541a1283672136e951699827e0beaa3c05c1d",
+      "answerFingerprint": "24d8857cce82178b8d2c605767a25ea0c362b0eeb638065c7d663ebaeeaa0311",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        1,
+        7
+      ]
+    },
+    "P3-2022-10-Q02": {
+      "questionFingerprint": "765a21098cb0ab4a36f7ffe184ce0b467367a546125ce4231398c5ff92ce16a5",
+      "answerFingerprint": "9e539651fd945df673d480814eec9750d3d58d73c047198159ebc3872f37a502",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        2,
+        5
+      ]
+    },
+    "P3-2022-10-Q03": {
+      "questionFingerprint": "f2a7c926913cd45645fba16b2b16d8a678a6dad457b3004ac90e684421ccced1",
+      "answerFingerprint": "30f17abaf92314042d3279ba5ac72b7d31c916cfab94b63ee4ccdcea9c57ae32",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        6,
+        2
+      ]
+    },
+    "P3-2022-10-Q04": {
+      "questionFingerprint": "6476ebc83d3d25d53890b34c71bbe73ac9d41d8c4704e2aa46d99b4164ad166d",
+      "answerFingerprint": "738599164b1e60002443e6da4cb8622214d1acbaf69cd72bd4817f2adceffbe7",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        10,
+        11
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2022-10-Q05": {
+      "questionFingerprint": "fdebb9eb567f0046ae413816a32a4cf4b8b9ce244f5a8fd569c6d70342bb43c8",
+      "answerFingerprint": "14432e8f357499b565531e78b7ca38cf219fec3894448f2f8bbfc3a76b0b1dbd",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        5,
+        8
+      ]
+    },
+    "P3-2022-10-Q06": {
+      "questionFingerprint": "3ffccf4e6f1759c7261cb641c5b68d56b4c809e89291e839ee002fb4517cdf14",
+      "answerFingerprint": "c0ea93083fe47372061b2a06d0a8209e77e1d8445b20d6797240c2736a7898df",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2022-10-Q07": {
+      "questionFingerprint": "d80b6777af5960c2b917df74f4906f215eb3886c7ea36c351d77134fae1295f9",
+      "answerFingerprint": "5af581cc99a671e401e013e22ea2e2be05014daee6e845d635a4b147db532d3f",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2022-10-Q08": {
+      "questionFingerprint": "b6b90e3b1a417825e53dccb1e438ba18c6815f84cbdb6739cc72db28d39438e6",
+      "answerFingerprint": "dd01b4b494f5f17f01edabc127da69b79dbcabac324e9254abf586e586cb3b66",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        4,
+        2
+      ]
+    },
+    "P3-2022-10-Q09": {
+      "questionFingerprint": "3f46d576910ad094a8f4a1206e8ccce99b63bf74facc4a95cf7a18a498ef92ec",
+      "answerFingerprint": "43200410a4745c80b46fd8fc5de7c8b66e5d8b9497adbbf3a7f2317c260f0f3a",
+      "questionPdf": "assets/past-papers/p3-oct-2022.pdf",
+      "questionPages": [
+        28,
+        29,
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2022-ms.pdf",
+      "markSchemePages": [
+        17,
+        18,
+        19
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2023-01-Q01": {
+      "questionFingerprint": "3a2eedf0cbf38524f94ea156375fa7342f8b688d895e0a0400222b05401c7a3c",
+      "answerFingerprint": "c34a5117bf49e7cd33582d9296491d31321e58a3fe6de7c027ce232d677747e1",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2023-01-Q02": {
+      "questionFingerprint": "66bdfddf0313fdc99f8a74cbf19b509bbbf7336c1d32ee9ff463849ef4f7daf8",
+      "answerFingerprint": "7912ee69f4684f5c9c25d4ffce981c593c6ee9cd60e7ccb4f43d10aba585b2fc",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2023-01-Q03": {
+      "questionFingerprint": "adc198b683f1c2dfe144e7b1b6ee14c24ab3a9229d2e223f882c64c17c754076",
+      "answerFingerprint": "a6166feee78c229a8b21def1b9931625b25e112fc27ed9c1b947e4c2479ee01b",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2023-01-Q04": {
+      "questionFingerprint": "70254cea2bd07b968942885be59f2026601f5f4b93b4bad961a4d4be2a7ef96b",
+      "answerFingerprint": "21e66cebd3cdf396786190cb58475eea0ded14f7fdc0a823edd7327eb29156b8",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        1,
+        7
+      ]
+    },
+    "P3-2023-01-Q05": {
+      "questionFingerprint": "4090775c795bc5c3b412002840deacdd48f5406f3f0c84c9e65057881af7dc35",
+      "answerFingerprint": "cdc2e68cb94fe4bfc13be1c5ab311735dbf31dd5ea44ac37bf63dbb351b8563f",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        13,
+        14
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2023-01-Q06": {
+      "questionFingerprint": "9aec2d4107801bb3f301f0085a1927a72ae79fe659df45fcf963524e4c21b5f6",
+      "answerFingerprint": "579f3fe491477a83f070c360704ee922b2319ec9b1ed6904a5761764859a87d2",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2023-01-Q07": {
+      "questionFingerprint": "8e8e1cb99c7df1c5dbcd09a26ebd2815c7cfe316031c5660527d44b4968b66a0",
+      "answerFingerprint": "fb09eda709e2d33df544b5ed11bc0e85c09650e85a1e39ac03ea7edf42382bf6",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        20,
+        21,
+        22,
+        23
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2023-01-Q08": {
+      "questionFingerprint": "3393a844afc5c92c7f2882af2dec97068ee7fe82572d534df3607627944268b8",
+      "answerFingerprint": "451f11d49adfaaa600e9aaf1a8ca6409807a1e59618cc72831196eda67368622",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        19,
+        20,
+        21
+      ],
+      "previousChapters": [
+        4,
+        7
+      ]
+    },
+    "P3-2023-01-Q09": {
+      "questionFingerprint": "ab575b6b7854ce36c9e5278c8874ad5637ea4c5093c95f27db7045dbac78105f",
+      "answerFingerprint": "a3e65bc38d72854803f1c1990f7cf4c6ff113e4ae0a439137c13bbd564becfa0",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        22
+      ],
+      "previousChapters": [
+        6,
+        8
+      ]
+    },
+    "P3-2023-01-Q10": {
+      "questionFingerprint": "35bc5f724f82228cd12393b5a8986c2ff40018c49f73d4a6ac6d5936d8a3c081",
+      "answerFingerprint": "c603aa8c99610636e2fb7d5259bf888b1f9ee4ed43e9bc8b54f159339c8a6040",
+      "questionPdf": "assets/past-papers/p3-jan-2023.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2023-ms.pdf",
+      "markSchemePages": [
+        24
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2023-06-Q01": {
+      "questionFingerprint": "1ef15a7f5cd152f857a0f7ff37e1ca9dae17af10f8ced1994221df70b2055a9a",
+      "answerFingerprint": "3b1ac7a430fa53b41fed78976a08cbc25212e2827b4e0dddf0d64253e08143a7",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2023-06-Q02": {
+      "questionFingerprint": "ece19a56e0f8ca46fd01205f3328c1527454814a83d470617209ddcf2318df45",
+      "answerFingerprint": "a7f2bb57e8ab57555b78ceb996d5983d1240c8831a1bb3467667e6044e7bc2fc",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        4,
+        5
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2023-06-Q03": {
+      "questionFingerprint": "74336734b31c886acc5fa51f315e3256a140e96be71f0e917ac21173bd0a3279",
+      "answerFingerprint": "6fdfaec289141e0eabffac137f60c28c84ea0da9507819c54717db1ed6744fa4",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        6,
+        7
+      ]
+    },
+    "P3-2023-06-Q04": {
+      "questionFingerprint": "397ed89d67b8c2dfd35002dd96d5d9fc2c0ebb880b62c8b240d8462b9cf18639",
+      "answerFingerprint": "46bf79188a20cb1d743b405941ee7ce65231617219716304dc0a91991b3aa3b6",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2023-06-Q05": {
+      "questionFingerprint": "ed24d529831f9800e5c52f500f7ab4cf527342a7984b9241beee31280e217142",
+      "answerFingerprint": "2542826f1036a2537eb1d9f5dfed4e5568b8b67b056c1c35f5881103a859f022",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2023-06-Q06": {
+      "questionFingerprint": "5bf7856549797c80966e67a7db8f46c7e516d26b0cd09ed9a123732d5a3be74c",
+      "answerFingerprint": "e5744bc7dba1e36f0653a8c366cdf653501ea6a058d002a0d2e29f1cd1e8a4bc",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2023-06-Q07": {
+      "questionFingerprint": "4315778f0a4672eba833a58929787a929427ea25219da2eb64aecde45faadd90",
+      "answerFingerprint": "2e46902f388a68671c064efb9ae51419c7d42a34376d43eb81b6cee6e58b4a38",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2023-06-Q08": {
+      "questionFingerprint": "b082746d83521d0fed4b7cc257f6a0a23bbf57c52d6ab205e6f613e4616337ce",
+      "answerFingerprint": "cd209c82e9e3026f22f27d2fc659c1b8fab3d37732721aa6d75e0cde3525912e",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        6,
+        2
+      ]
+    },
+    "P3-2023-06-Q09": {
+      "questionFingerprint": "6525618713f2dad22819c93bee04f56259e123131bdbdc85d6d8e28bba1fed1b",
+      "answerFingerprint": "5f02df98fb2fd4379d716151b11538ccc145627aea4c90bcc2d98de2d8fbf85a",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        19,
+        20
+      ],
+      "previousChapters": [
+        3,
+        4,
+        7
+      ]
+    },
+    "P3-2023-06-Q10": {
+      "questionFingerprint": "b8c04fd04fc023cc121c9345be3940052e3823c87d292e7220d651a0fd33ec8f",
+      "answerFingerprint": "d14060a1a1ca6a28a5ce0987aa09889cbec8ab6fd71a63c2e470762d32efe19e",
+      "questionPdf": "assets/past-papers/p3-jun-2023.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2023-ms.pdf",
+      "markSchemePages": [
+        21,
+        22
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2023-10-Q01": {
+      "questionFingerprint": "f7d8fea118108dd5f1fae8d1f8fef55b3bfd73e96206aa3eaef47b10477db018",
+      "answerFingerprint": "7f37ce74e4196d90a6bd6f44edbb59978efca6951ce54e235cf887b8a7fe08b4",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        2,
+        3
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2023-10-Q02": {
+      "questionFingerprint": "48a1bcc433f418c0c0965a197bf070d51db025287c8e178ffbdd1c3d9ad0dc7d",
+      "answerFingerprint": "8b979657d4dd7f16389f84c4cf9a26dd6c176a2c93fc8d950493cde4b261748a",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2023-10-Q03": {
+      "questionFingerprint": "1c61c70fca2ff7c32e264019dcc4a28da2371f3bdddc4639215482e95534a29f",
+      "answerFingerprint": "f3b77bc2b747c6cd22f1af30ba15591e943906f0ed3496a89f5ac8519011bb1e",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        8,
+        9
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        4,
+        7
+      ]
+    },
+    "P3-2023-10-Q04": {
+      "questionFingerprint": "ee00e09dce206caf991fd46b17292685695cca57ac39ddf144063c57438d38a3",
+      "answerFingerprint": "a6ef461a2f8b9ef29cfcbfac2ad76ddadc16486ff436e2ecef43180f71ef800b",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        5,
+        6
+      ]
+    },
+    "P3-2023-10-Q05": {
+      "questionFingerprint": "c904a3c141b7ed31184b6cb76e4a54268667e5c0b708902a802e611df62ec948",
+      "answerFingerprint": "f4f0919d6fc74d57f82b445861a15dfa48322d04b271ce4ae2c8689a9422ee25",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        14,
+        15
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        6,
+        5
+      ]
+    },
+    "P3-2023-10-Q06": {
+      "questionFingerprint": "1f5bf2901d013acedfb7616f577bfa8a4dfc8262a8f902fd5732ed8e196a4419",
+      "answerFingerprint": "4ce558dd7a3c25261e0b218bbbae0df14ff1840bdf28164c5da3daee18a11403",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        16,
+        17
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2023-10-Q07": {
+      "questionFingerprint": "6b48b5fb6fd1c61e3e544c0e85f3368f88e6834b226e4bc78b91a58f07014310",
+      "answerFingerprint": "f93fd0c2bed4dcc1e926928e20a022a2b6407d340566aa16978494723326bd52",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        6,
+        2
+      ]
+    },
+    "P3-2023-10-Q08": {
+      "questionFingerprint": "64fda4c68c7cc51b5a4731cb829a4ae87ddd14922816708530705495a7607da4",
+      "answerFingerprint": "b0278be9f0cf01a9ba007dd38fd2654fa4fb70d318d1e5403aab61ab9b301235",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        14,
+        15
+      ],
+      "previousChapters": [
+        3,
+        4
+      ]
+    },
+    "P3-2023-10-Q09": {
+      "questionFingerprint": "3e0ebd638ff861bb90ea29f4830acc5d5875dcc76672f952f9c519c92752313c",
+      "answerFingerprint": "85f73a5ba825ba3931fc8305a2d5942f244fc93f7b970c183810d3d9845101d3",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        26,
+        27,
+        28,
+        29
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        2,
+        5
+      ]
+    },
+    "P3-2023-10-Q10": {
+      "questionFingerprint": "e3229fb39637977fc0f754b07e4869a9d40f32f5b2f9c87704d7224e73fa9d26",
+      "answerFingerprint": "d8f056b5c4f585b085c2581728d6bbb29ad120439619b336d69f45bea5c7d1a3",
+      "questionPdf": "assets/past-papers/p3-oct-2023.pdf",
+      "questionPages": [
+        30,
+        31,
+        32
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2023-ms.pdf",
+      "markSchemePages": [
+        17,
+        18
+      ],
+      "previousChapters": [
+        3,
+        6
+      ]
+    },
+    "P3-2024-01-Q01": {
+      "questionFingerprint": "2af13db8ecb6539dab10970302cde3fcfbac9ed6c8e0728a4e4bc99e3533a37e",
+      "answerFingerprint": "569ad58459315a4404ce1a04ceffc87ba6b055f18a52b0e0aa331551ce5951e2",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-01-Q02": {
+      "questionFingerprint": "11c38261f9b5d4332f0d8d9bbed8e96d2d26a72fa9953b20052b0559d19761d9",
+      "answerFingerprint": "1e4d9d1f2d5ce871ccccf021865173e460bc7f78761fc8c9785eef475d1ea782",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        4
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2024-01-Q03": {
+      "questionFingerprint": "bf8c86de043d8ead83f24e687439beb1d0a3f196f3870e1fdfba274baf0a0f66",
+      "answerFingerprint": "d4975b86808f292af6ec2fd4f39735eb32e4058972ccdce85862bd0d099995e3",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        6
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-01-Q04": {
+      "questionFingerprint": "c9ed63e5996d723a5f277ad16592a2601ec6fcde6a5ee6d2333d95ca882d0830",
+      "answerFingerprint": "9d0a5cc40274becad473f94ba0aa63b8e8d2182e2ff031b29c6acc49483567cc",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        8
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-01-Q05": {
+      "questionFingerprint": "e05dfe58669a37c7ca52eb6e59eb8e7e9ba374c3c5753a31259d469f6dce5cc1",
+      "answerFingerprint": "1cad5d0a275125913f982f5f8419ab1a212d0fda1ff4ec89d9be2f5617a43863",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        12
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-01-Q06": {
+      "questionFingerprint": "f81f7942349eca92f64fb3e87da007fccc1b6a351effca76cd815b0f8e399027",
+      "answerFingerprint": "4809e3b1323fa2f514e245bcba390c5d14d264bb8c669a3823f63982efaba6ee",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        14
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        3
+      ]
+    },
+    "P3-2024-01-Q07": {
+      "questionFingerprint": "f7f9202f658b097d182e51bec14ad93a06ae830d3658e21f30b787df513e655e",
+      "answerFingerprint": "8076d484789f17f7e413dde585008c7ecabfdaaff209e2029a6b1163994d4b7a",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        18
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        19,
+        22
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-01-Q08": {
+      "questionFingerprint": "22d748222311ff1c5a2aeeb29a157ee15ca678b23ef86108238f9be695f343e6",
+      "answerFingerprint": "e976700b9a06c2ff8daf11741f943d08b835852be868095cebfa392eccc22891",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        22
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        23,
+        24
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-01-Q09": {
+      "questionFingerprint": "377232abba6c0446a1b7a874e54147c2ed3261658569ba6c31a8fc87d76f6443",
+      "answerFingerprint": "304ba674db7443bea542bddd51e5b96e0072ee9e8445a55e6ec7c42d05da02bf",
+      "questionPdf": "assets/past-papers/p3-jan-2024.pdf",
+      "questionPages": [
+        26
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2024-ms.pdf",
+      "markSchemePages": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2024-06-Q01": {
+      "questionFingerprint": "40a7691bf656a6a1f19ed97d8bcf1fe1417a63b8b425e317a19c14a3020fc0ef",
+      "answerFingerprint": "c267d26722b75ed4cf2fe232bedbed219abbadcade5fb9f8a4cb74b420cf0f20",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-06-Q02": {
+      "questionFingerprint": "ccaf398a43644c495e1c54e617ac4c56192fcf0b37e30025356ace1eaf1a650a",
+      "answerFingerprint": "5ba771a2a45d4fa8c29700e1b29d6c3405af4e20c4e40614dad0ffbb72679846",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        4
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-06-Q03": {
+      "questionFingerprint": "c88196b03a5e7ff5a7200ec842af9581812924b06a2593e841a8b6ab04fdfdf1",
+      "answerFingerprint": "4dd49b5755a8842435a9f7334b27ca89757a211637ed6b800c2605e6c5820a84",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        8
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-06-Q04": {
+      "questionFingerprint": "f598ca116d18c7b0dc018e9450ce0540d00e4facb62837560c159eed5a6de297",
+      "answerFingerprint": "7413546c7ab3007207b1b973bd16ebdcb58a389917f865178c4553a8971a2395",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        10
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2024-06-Q05": {
+      "questionFingerprint": "71425ec806f4449a8b995718a6d62b9abbc70386e3153b27455f96c702511406",
+      "answerFingerprint": "d91fb8f45340f06dc68fd79d8c4db378f0d091cdd5be089e309ec3c6498425aa",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        14
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        14
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-06-Q06": {
+      "questionFingerprint": "53549f75cb7ac126b9ac1d4b4c746a8bdd905f8f9d507063c522e89d9fbb3304",
+      "answerFingerprint": "64ba64200f16afb443a747a71802861051ba2a4f37c8c708ef803bcb87739453",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        18
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2024-06-Q07": {
+      "questionFingerprint": "d3e63df43df19a2cb46a91ad8a53cee6bc6c6677c857d01f535bd5c8410e914b",
+      "answerFingerprint": "937d73c16976c9cf2a391fd1a6a904b59c91ae4b16f26a7d077b15fc6954650b",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        22
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2024-06-Q08": {
+      "questionFingerprint": "b4c7dbd62fec2f9a4587f38764209a8f4dc6c3876595268164da4d40a84599b3",
+      "answerFingerprint": "1ef91107b569bc5988e41b3a3658524a5fffd1288243af3768b263ed123398fc",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        26
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2024-06-Q09": {
+      "questionFingerprint": "5c60a28c9cf2a3f9887418dc59a95442fc4060d7f1f3425a1902d280519f7a4b",
+      "answerFingerprint": "e8d92b3754977145b39fa9c301f5f3292d7f8c8e4f53bbf600ec07a911e84582",
+      "questionPdf": "assets/past-papers/p3-jun-2024.pdf",
+      "questionPages": [
+        30
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2024-ms.pdf",
+      "markSchemePages": [
+        22
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2024-10-Q01": {
+      "questionFingerprint": "f7e4003f33802c25fcd4e59f0f18aa5acca454741e8e0b941f7c1be34d2fca4c",
+      "answerFingerprint": "be50fc4c45b1a6ed5cdaf2d4301c9d464f3e594c89ec2790e03469263509208c",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-10-Q02": {
+      "questionFingerprint": "8c8e8e5d0f933ed7fbf01b3d75c09bee01643f48c97bdf4935b73cdde6f0d87b",
+      "answerFingerprint": "4ab414ae9916a370c00687e901b9b7b616707a70a9c96251de6a52ca0a28dea7",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        4
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2024-10-Q03": {
+      "questionFingerprint": "4932ff15fbdf2f2a4db6a24278613dd3e2ea3a3575b51a288786d593e64ab32c",
+      "answerFingerprint": "3126cbd6a008d1a075a3e5e9d1b89cb3e20eb85623de8da152a04314366654c6",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        6
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-10-Q04": {
+      "questionFingerprint": "47b35b94e89e824449f176a680fb7da56f65c1daa0623d3d09e175bff24e7ae8",
+      "answerFingerprint": "eb2d9bfc70652335196bacc2346344ae5be9d3c93a80c7e5fb086396ea7899ba",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        10
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2024-10-Q05": {
+      "questionFingerprint": "8f457181d7d4f3d6b7511b09461deb5ae1aa96aa8721b7598248dcf876c9953f",
+      "answerFingerprint": "f9fc0cb45b66cbf8cecdf3d205fee69d18bda6976c66e6da8da530d3731634d7",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        12
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2024-10-Q06": {
+      "questionFingerprint": "d9a6de7a4d47f088b58ae8a8cb4c70876b7285dc5d7b8132a8b0829767880022",
+      "answerFingerprint": "86880407b72e3355afebec305cfb5bee38b7d5ef43dc6cfceb7c5efead67be97",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        16
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-10-Q07": {
+      "questionFingerprint": "7faf9667fefb078b0feee710463b7383ae45989e5f6e4f6b259d4adad5ac0a49",
+      "answerFingerprint": "76ad7cad3001dda95799133223497f471b36c8648ed878a3b486abdd78fd85c6",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        20
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        19
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2024-10-Q08": {
+      "questionFingerprint": "7172854ad72cc68715a777804d30ad6db537bc7d8f60430956bdc2508380aabc",
+      "answerFingerprint": "03d9580974c89870d07defe4f47486bea954ad61006a99c3711574f4cdb4764d",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        24
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        21
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2024-10-Q09": {
+      "questionFingerprint": "66a4e614781d1e7c2c2036ef9c7d357eb3e578624bb650d2324958c444d84994",
+      "answerFingerprint": "e5cd9fb23b3304bbb684f8e7e5afd7121e7c5764fa189d2018474e23be7f2564",
+      "questionPdf": "assets/past-papers/p3-oct-2024.pdf",
+      "questionPages": [
+        28
+      ],
+      "markSchemePdf": "assets/past-papers/p3-oct-2024-ms.pdf",
+      "markSchemePages": [
+        23
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-01-Q01": {
+      "questionFingerprint": "d8c6e721ecefaed1e693cf1334fa4f87ca2dee2da5830427e5c21951d1d83962",
+      "answerFingerprint": "ab3158f92620c09ecf46a79be3384366e7939f40470ce3399cada4e38189a0e7",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        5
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-01-Q02": {
+      "questionFingerprint": "d0e79c1461a9ed3fa28ef09ceb6176923afd2a474d142d9e09b40b7d3d76d8c3",
+      "answerFingerprint": "c5d9939f272a28b0ba763735247dfc3163b48ea15aadd8ad7ccd266e986a2824",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        4
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        6
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-01-Q03": {
+      "questionFingerprint": "c79295b6a478dcba0d4ce9831035d12458fbf8a90868f434d735ec8a230549dc",
+      "answerFingerprint": "a276c263a8320dc2987c6cf016ef57fa3a2320628939abd6d3f64a27a292996d",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        6
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        7
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-01-Q04": {
+      "questionFingerprint": "b086bd066041e3406d1f18b0b870e933a3e3bdb494c082ad6b464b7fed3cb97f",
+      "answerFingerprint": "c009d3c419b8cf20aae887cf92c725a508f81e6802cf0250d09c6dc7359fa98d",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        8
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-01-Q05": {
+      "questionFingerprint": "77f3f4c5c86809aafb4a14ad50f25031a2183dc25842f6224cf7f0280a271ea3",
+      "answerFingerprint": "4807395afd161d149898346b7ccd26703414ac0967a8afd71f53f61684909e6b",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        12
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        10
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-01-Q06": {
+      "questionFingerprint": "6aca0682a760393762432b415cd009e389e4c6184e0bfd1186d8b34edb360abd",
+      "answerFingerprint": "9f64144f01b8c7b0b63b6830120f29851049ce728083dd5f59548bdb3f2bc6bd",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        16
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        12
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-01-Q07": {
+      "questionFingerprint": "949b1138c9fce5090927555bb93678d750c2754c756584ad0aa8105d97904d8c",
+      "answerFingerprint": "7ef333e8fe590754ec7eda7a8f28535464c1cc8aee05f89401b78a0ac3f74059",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        20
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-01-Q08": {
+      "questionFingerprint": "b15603a94df22e686fe30217932629f784dc3bbf4722eb4737a46db5e4c6f994",
+      "answerFingerprint": "5b0150ddb0cd5972af3804924eb9a6f0bc0bfd622caca240f6cfe95dd2de09bf",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        22
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-01-Q09": {
+      "questionFingerprint": "fb6ebd0503287480fc8b24413d7ffcfa76351410ae1082d0feca4bf911e73752",
+      "answerFingerprint": "594d1dc98f2c7c464d08111db7ed2bd256b9b74487e28353ba2160ab4dfffbf7",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        26
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        17
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-01-Q10": {
+      "questionFingerprint": "969084faedc0efc941d4f72def9d65ccfe48813e650db97819302a3f262fd585",
+      "answerFingerprint": "2affb02869cd56388f3b6ff80f32a62dd08b110db868259d04c246fdc122a05c",
+      "questionPdf": "assets/past-papers/p3-jan-2025.pdf",
+      "questionPages": [
+        30
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jan-2025-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-06-Q01": {
+      "questionFingerprint": "08777dbea3ead102851b932d32acba43e26847186136f0c8994b988ac3a3c245",
+      "answerFingerprint": "7cde900bbec8d33165a894fb6567fdf5a125239a22eaa6cd585a77c690c4e374",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        7,
+        8
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-06-Q02": {
+      "questionFingerprint": "f93b5e1bf51e2295a5faf3325467332105316b2b507a3a6bb0897d5040bf3723",
+      "answerFingerprint": "a005e35fe5a2c3302df5e33157a63887e2c8f0d728b70f3247116857584223a6",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        6
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        9
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-06-Q03": {
+      "questionFingerprint": "0d6feb8547da39ca6fe20b034d388cbbf235faf4137be01e6fe6d210dedbf796",
+      "answerFingerprint": "3bbe4dd5ccb982f571ca496722b4f5f69768afb88885c87d434363a6dcbc5762",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        8
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        10,
+        11
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-06-Q04": {
+      "questionFingerprint": "f5148091845a1f90d962c5ce5009ef0b88cc4f74a1c6e509cf35d85dcaa45c99",
+      "answerFingerprint": "26f336007c1d7d45592fc3dad86fbe25c27664846c6de42e67a212a3823576e8",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        10
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        13,
+        14
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2025-06-Q05": {
+      "questionFingerprint": "cfbb290788d9f31afac1ff64eb84c739c9cecd010fc79833436d5251d02dd97b",
+      "answerFingerprint": "cf8bbec2169cbd1953d4e5f61d96ef0ed4b5b35ed4f54ef6799e6f5bec748f98",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        12
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        15
+      ],
+      "previousChapters": [
+        7
+      ]
+    },
+    "P3-2025-06-Q06": {
+      "questionFingerprint": "5b6f936decf49f7bcb82ad68a2543b0fa505f8731af87362824098ab4e0c72ab",
+      "answerFingerprint": "a208783558147fe15d2b5f43eee44175b752eae4a117ef3e593a6ef834d5bada",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        14
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        16,
+        17
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-06-Q07": {
+      "questionFingerprint": "2aa7bf2a6d7e68d70d9af35decf425e70ae15223b96ffae6b084f3d472bae4b2",
+      "answerFingerprint": "884672a5867bbfe97c8ffac67a5c3b9621f7d37e877af78c2cabea816d9720a9",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        18
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        18,
+        19
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-06-Q08": {
+      "questionFingerprint": "8f398309b622d7ead33bf5795f5763236d0b591a147c4c0eaebc5e3e7a6086e5",
+      "answerFingerprint": "a7ded76812808c60db9f4a3c8ff20a8c0053e8931c9deb32ebe854e4b00b41c1",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        22
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        20,
+        21,
+        22
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-06-Q09": {
+      "questionFingerprint": "40c477e5b9d310f10ac0a41526eab298836397636093694464df714636525bb6",
+      "answerFingerprint": "5452821b8d7f73fe7b5ba69710dcac3b692b93a56c474a0f149be1e1f115e5c0",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        26
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        23,
+        24,
+        25,
+        26
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2025-06-Q10": {
+      "questionFingerprint": "700b85cb05f71036a12999382a50b7238515e8809b130522222f052e41157e7a",
+      "answerFingerprint": "bc5078b816acc27b7386df53da6564e3179302e77d1ed116bf428a117026a19c",
+      "questionPdf": "assets/past-papers/p3-jun-2025.pdf",
+      "questionPages": [
+        30
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-ms.pdf",
+      "markSchemePages": [
+        28,
+        29,
+        30
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-06A-Q01": {
+      "questionFingerprint": "64ab33800be3bc3a5770030860f98fc3516ab83197e3837dd5aa409f797d6527",
+      "answerFingerprint": "8b729794abb5a1ab7af71d41856b3139a01880d583206eeddc14c06bfaa8f360",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        2
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        5
+      ],
+      "previousChapters": [
+        2
+      ]
+    },
+    "P3-2025-06A-Q02": {
+      "questionFingerprint": "cd95ad608dec17c7eac5c38f12559a964e5b99b594ac96666ba98517cf1c7177",
+      "answerFingerprint": "34b6aee68467b1238728ec6e5bf3daf1d7ce21e8c7c10491c919695027974378",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        4
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        6
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-06A-Q03": {
+      "questionFingerprint": "d1f13a919988ac5cba639dde3f4097497e99327d86d1d505556199e6b6d3c97b",
+      "answerFingerprint": "3ac33ec9453e9d2086092137c917d3c274c4620d60bd9c722fbb5afa6e38c341",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        6
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        8
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2025-06A-Q04": {
+      "questionFingerprint": "2b014e26f23aa30974324b2c17f7b4c40cecd42b73440c134700bb2f2031bc06",
+      "answerFingerprint": "15d37f6d9b391ceda26a4816788ae16ad0c16e8604369199270aba35645ef0e7",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        10
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        11
+      ],
+      "previousChapters": [
+        8
+      ]
+    },
+    "P3-2025-06A-Q05": {
+      "questionFingerprint": "df74152c578268168ea0bf004805b548a6da61fe0ef3cfab79322b73a851ece5",
+      "answerFingerprint": "b1218edfa8d491ddc8b256764b1827b66e53783e46b627cd82ebf02efb8b5813",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        14
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        13
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-06A-Q06": {
+      "questionFingerprint": "3252427daf4409d60ac7acbf729783c02522191ea67f9dcbe32a6a63b400b665",
+      "answerFingerprint": "2791f299e41a90c8ddea3c6580d394ce5f8e959ad8a44aae6c73542a86d3ff16",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        18
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        16
+      ],
+      "previousChapters": [
+        6
+      ]
+    },
+    "P3-2025-06A-Q07": {
+      "questionFingerprint": "dabd59a53e20b2e662201ca76e53f3fce690e2f7bf365a9b838b88836d3e94cc",
+      "answerFingerprint": "a5b5e5998694e8861ee1de0b7d2cc70eb87d00f6face9aea77026a17bee1cd74",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        22
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        18
+      ],
+      "previousChapters": [
+        4
+      ]
+    },
+    "P3-2025-06A-Q08": {
+      "questionFingerprint": "97448874cbe45e3eb793ceeee29a5cb09342989fee6d861ce317eec29da86fde",
+      "answerFingerprint": "62eab6b9fe4601886132f646ad4c88343c403b6ae63031eb5a4147f263a1d483",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        26
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        20
+      ],
+      "previousChapters": [
+        5
+      ]
+    },
+    "P3-2025-06A-Q09": {
+      "questionFingerprint": "ccc24e8374800d65b1a2ca16a78e18446ceba5a6d0cb7826a5cfa189933847a7",
+      "answerFingerprint": "246662ca13feff1d8861f2aa62b95f406a9678a8d059635f2044c79aae94131f",
+      "questionPdf": "assets/past-papers/p3-jun-2025-a.pdf",
+      "questionPages": [
+        30
+      ],
+      "markSchemePdf": "assets/past-papers/p3-jun-2025-a-ms.pdf",
+      "markSchemePages": [
+        22
+      ],
+      "previousChapters": [
+        5
+      ]
+    }
+  },
+  "changedChapterSets": [
+    {
+      "id": "P3-2020-10-Q08",
+      "before": [
+        3,
+        6
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2021-06-Q07",
+      "before": [
+        3,
+        6
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2022-10-Q02",
+      "before": [
+        2,
+        5
+      ],
+      "after": [
+        2
+      ]
+    },
+    {
+      "id": "P3-2023-10-Q05",
+      "before": [
+        6,
+        5
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2023-10-Q10",
+      "before": [
+        3,
+        6
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-01-Q04",
+      "before": [
+        5
+      ],
+      "after": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-01-Q05",
+      "before": [
+        5
+      ],
+      "after": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-01-Q06",
+      "before": [
+        3
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-01-Q07",
+      "before": [
+        5
+      ],
+      "after": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "P3-2024-01-Q09",
+      "before": [
+        4
+      ],
+      "after": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "P3-2024-06-Q02",
+      "before": [
+        5
+      ],
+      "after": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "P3-2024-06-Q05",
+      "before": [
+        5
+      ],
+      "after": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-06-Q06",
+      "before": [
+        7
+      ],
+      "after": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "P3-2024-06-Q08",
+      "before": [
+        8
+      ],
+      "after": [
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "P3-2024-06-Q09",
+      "before": [
+        7
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-10-Q01",
+      "before": [
+        2
+      ],
+      "after": [
+        3
+      ]
+    },
+    {
+      "id": "P3-2024-10-Q04",
+      "before": [
+        5
+      ],
+      "after": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-10-Q07",
+      "before": [
+        2
+      ],
+      "after": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "P3-2024-10-Q08",
+      "before": [
+        8
+      ],
+      "after": [
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "P3-2024-10-Q09",
+      "before": [
+        8
+      ],
+      "after": [
+        1,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q01",
+      "before": [
+        8
+      ],
+      "after": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q02",
+      "before": [
+        8
+      ],
+      "after": [
+        5
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q03",
+      "before": [
+        2
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q04",
+      "before": [
+        5
+      ],
+      "after": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q05",
+      "before": [
+        5
+      ],
+      "after": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q08",
+      "before": [
+        4
+      ],
+      "after": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q09",
+      "before": [
+        5
+      ],
+      "after": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-01-Q10",
+      "before": [
+        4
+      ],
+      "after": [
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-06-Q04",
+      "before": [
+        6
+      ],
+      "after": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-06-Q05",
+      "before": [
+        7
+      ],
+      "after": [
+        4,
+        7
+      ]
+    },
+    {
+      "id": "P3-2025-06-Q06",
+      "before": [
+        5
+      ],
+      "after": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-06-Q07",
+      "before": [
+        8
+      ],
+      "after": [
+        6,
+        8
+      ]
+    },
+    {
+      "id": "P3-2025-06-Q08",
+      "before": [
+        4
+      ],
+      "after": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "P3-2025-06A-Q04",
+      "before": [
+        8
+      ],
+      "after": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": "P3-2025-06A-Q05",
+      "before": [
+        4
+      ],
+      "after": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-06A-Q06",
+      "before": [
+        6
+      ],
+      "after": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "P3-2025-06A-Q07",
+      "before": [
+        4
+      ],
+      "after": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "P3-2025-06A-Q08",
+      "before": [
+        5
+      ],
+      "after": [
+        2,
+        5
+      ]
+    }
+  ]
+}

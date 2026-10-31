@@ -1,0 +1,2965 @@
+{
+  "version": 1,
+  "questionCount": 200,
+  "policy": "Whole question, including all subparts. Basic methods intrinsic to a chapter stay in that chapter; independently assessed chapters/sections are all required. Context and distractors alone do not add requirements.",
+  "questions": {
+    "P2-2019-06-Q01": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "递推数列",
+            "周期与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆心半径与圆的切线"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q03": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "代数证明与反例"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与组合系数"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q05": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "利润最优化与二阶导数判别"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q06": {
+      "requiredChapters": [
+        1,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与多项式分解"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三次三角方程"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q07": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差等比工资模型与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q08": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数方程与对数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等变形与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2019-06-Q10": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "函数单调区间"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分与积分性质"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q01": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点与单调区间"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等比增长与几何级数求和"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q03": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与常数项"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q04": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与分解"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q05": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数函数图像"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分估计"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆心",
+            "切线与圆方程"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q07": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与换底"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "求和符号与等差求和"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q08": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积与积分上限"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q09": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差数列条件"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2019-10-Q10": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "给定梯度参数与无驻点证明"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q01": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数运算"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分性质"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q02": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式系数",
+            "参数与常数项"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q03": {
+      "requiredChapters": [
+        1,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与多项式分解"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三次正切方程"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q04": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q05": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数解指数不等式"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "等比增长模型"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程",
+            "切线与弦长"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q07": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与方程"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差求和公式证明",
+            "数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q09": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数图像与对数求交点"
+          ]
+        }
+      ]
+    },
+    "P2-2020-01-Q10": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点参数",
+            "分类与第二驻点"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与常数项"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q02": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法积分估计"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q03": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理与因式定理"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点与参数"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q04": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "直径",
+            "圆方程与切线"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q05": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差储蓄模型",
+            "总和与解的取舍"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q06": {
+      "requiredChapters": [
+        1,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与曲线交点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "两曲线之间定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q07": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与方程"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数公式证明与有限求和"
+          ]
+        }
+      ]
+    },
+    "P2-2020-10-Q09": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与指数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q01": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理与联立参数"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q02": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点与二阶导数分类"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q03": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数方程与对数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与系数参数"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q05": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "代数证明与反例"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q06": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等变形与三次方程"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q07": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "给定函数的表值与梯形法"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "含参递推数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q09": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参圆方程",
+            "切线与面积"
+          ]
+        }
+      ]
+    },
+    "P2-2021-01-Q10": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差等比训练计划与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q01": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "数列模型选择与等差求和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q02": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数函数图像与指数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q03": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明与代数证明"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开",
+            "估计与误差方向"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q05": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法",
+            "标准积分与两曲线面积"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程",
+            "相切与坐标面积"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q07": {
+      "requiredChapters": [
+        1,
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与多项式分解"
+          ]
+        },
+        {
+          "chapter": 3,
+          "skills": [
+            "对数方程与定义域"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q08": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2021-06-Q09": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "几何建模与表面积优化"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与系数参数"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "递推数列与有限求和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q03": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分估计"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q04": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与实根个数"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q05": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差采矿模型与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆心半径",
+            "直径与参数范围"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q07": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数解指数不等式"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数与无穷和"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q08": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点参数与单调区间"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q09": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "代数证明与反例"
+          ]
+        }
+      ]
+    },
+    "P2-2021-10-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分线性性质"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q02": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点与二阶导数分类"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q03": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与系数参数"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q04": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与对数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q05": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理",
+            "因式定理与多项式除法"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "直径",
+            "圆心半径与圆的切线"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q07": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q08": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数解指数不等式"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "等差等比组合模型"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q09": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "两曲线面积",
+            "含参定积分与面积比"
+          ]
+        }
+      ]
+    },
+    "P2-2022-01-Q10": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例与穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q02": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "给定函数表值",
+            "梯形法与积分线性性质"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q03": {
+      "requiredChapters": [
+        1,
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例证明"
+          ]
+        },
+        {
+          "chapter": 2,
+          "skills": [
+            "直径与圆周角性质"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q04": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与联立方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q05": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等变形与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q06": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等比数列",
+            "收敛与无穷和"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q07": {
+      "requiredChapters": [
+        1,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分参数"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q08": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式因式分解"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "导数与驻点"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q09": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数衰减模型与对数求时间"
+          ]
+        }
+      ]
+    },
+    "P2-2022-06-Q10": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆与直线相切",
+            "弦切几何与长度"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q01": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q02": {
+      "requiredChapters": [
+        1,
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "由展开求梯度"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "周期数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q04": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数模型与反解变量"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q05": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q06": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法",
+            "定积分与组合面积"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q07": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与三次多项式求根"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等比数列",
+            "无穷和与有限和"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q09": {
+      "requiredChapters": [
+        2,
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程与切线"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "曲线与直线之间面积"
+          ]
+        }
+      ]
+    },
+    "P2-2022-10-Q10": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与指数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分平移性质"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q02": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "几何建模与表面积最优化"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q03": {
+      "requiredChapters": [
+        4,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "等差数列条件"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q04": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律",
+            "换底与有限项相加"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q05": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与多项式分解"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程",
+            "切点与法线"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q07": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数求项数"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数总和"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q08": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q09": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积与面积比"
+          ]
+        }
+      ]
+    },
+    "P2-2023-01-Q10": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q02": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "多项式分解与实根个数"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q03": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程与切线"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式系数与参数"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q05": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q06": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数求月数"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "等比下载模型与累计总和"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q07": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点",
+            "最大值与二阶导数验证"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q08": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例与穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q10": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "含参定积分与两曲线面积"
+          ]
+        }
+      ]
+    },
+    "P2-2023-06-Q11": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "递推数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q01": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "周期递推与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q03": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与复合角方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q04": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与多项式分解"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q05": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数方程与对数方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q06": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法",
+            "截面积与体积模型"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q07": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆的切线",
+            "圆心与圆方程"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差座位模型与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q09": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "函数单调区间"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "切线与曲线间面积"
+          ]
+        }
+      ]
+    },
+    "P2-2023-10-Q10": {
+      "requiredChapters": [
+        4,
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "等比条件与无穷和"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q01": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q02": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式指定幂次系数"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q03": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程",
+            "弦长与平行弦"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q04": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数图像"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分性质"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q05": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数",
+            "周期递推与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q06": {
+      "requiredChapters": [
+        1,
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与三次方程分解"
+          ]
+        },
+        {
+          "chapter": 3,
+          "skills": [
+            "对数方程与定义域"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q07": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差等比增长模型与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q08": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例与穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角方程与三角函数模型"
+          ]
+        }
+      ]
+    },
+    "P2-2024-01-Q10": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "曲线与水平线间面积"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与系数"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差数列",
+            "总和与最小项数"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q03": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律",
+            "对数方程与换底"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q04": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与实根个数"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q05": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "代数证明与反例"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q06": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数图像"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分性质"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q07": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆心半径与两圆位置关系"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q08": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式",
+            "方程与温度模型"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q09": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分与面积相等条件"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06-Q10": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "指数模型交点与对数求时间"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "几何增长模型"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q01": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "二阶递推数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q02": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法反求表值与积分性质"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q03": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程与最短距离"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与指定系数"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q05": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角函数潮汐模型与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q06": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与余式定理"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "单调区间"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q07": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差求和证明与几何级数收敛"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q09": {
+      "requiredChapters": [
+        1,
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与三次分解"
+          ]
+        },
+        {
+          "chapter": 3,
+          "skills": [
+            "对数方程与定义域"
+          ]
+        }
+      ]
+    },
+    "P2-2024-06R-Q10": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分线性性质"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "含参周期递推与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q03": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理",
+            "因式定理与多项式除法"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q04": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点",
+            "分类与单调区间"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q05": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与常数项"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q06": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与方程"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q07": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差等比储蓄模型与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q08": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "两曲线交点与定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q10": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程",
+            "切线与切点"
+          ]
+        }
+      ]
+    },
+    "P2-2024-10-Q11": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例与穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q01": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等差级数项数与总和"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q02": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与估计"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q03": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "几何建模与表面积优化"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q04": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数有限和与无穷和"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q05": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与多项式分解"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "弦的垂直平分线",
+            "圆心与圆方程"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q07": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与对数方程"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q08": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "反例与代数证明"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q09": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2025-01-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式展开与系数参数"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆方程与极端位置"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q03": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "曲线与线段之间定积分面积"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q04": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理",
+            "余式定理与多项式除法"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q05": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与积分线性性质"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q06": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数方程与指数曲线交点"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q07": {
+      "requiredChapters": [
+        3,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数求项数"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "几何级数与等差总和最大值"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q08": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与区间方程"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q09": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "容器表面积建模与优化"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06-Q10": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q01": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "穷举证明"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "等比数列与无穷和"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q03": {
+      "requiredChapters": [
+        1
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "余式定理与多项式除法"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q04": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "对数律与对数方程"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "梯形法与精度改进"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q05": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "周期递推数列与求和"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q06": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角恒等式与潮汐模型"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q07": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二项式系数与指数参数"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q08": {
+      "requiredChapters": [
+        1,
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式定理与多项式分解"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "单调区间"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "由导数还原曲线"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q09": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "圆的几何条件与圆方程"
+          ]
+        }
+      ]
+    },
+    "P2-2025-06A-Q10": {
+      "requiredChapters": [
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "曲线与水平线之间面积"
+          ]
+        }
+      ]
+    }
+  }
+}

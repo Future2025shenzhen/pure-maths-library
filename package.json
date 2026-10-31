@@ -7,7 +7,7 @@
     "start": "node server.mjs",
     "dev": "node server.mjs",
     "check": "node scripts/check-bank.mjs && node scripts/check-adaptations.mjs && node scripts/check-browsing.mjs && node scripts/check-challenges.mjs && node scripts/check-v9.mjs && node scripts/check-v12.mjs && node scripts/check-v14.mjs && node scripts/check-v15.mjs && node scripts/check-igcse.mjs && node scripts/check-physics-chapters.mjs && node scripts/check-physics-bank.mjs && node scripts/check-cs-bank.mjs && node scripts/check-v16.mjs && node scripts/check-v17.mjs && node scripts/check-v20.mjs && python3 scripts/check-static.py",
-    "test": "node scripts/test-core.mjs && node scripts/test-stopwatch.mjs && node scripts/test-notes.mjs && node scripts/test-practice-scope.mjs && node scripts/test-paper-archive.mjs && node scripts/test-p3-targeted.mjs",
+    "test": "node scripts/test-core.mjs && node scripts/test-stopwatch.mjs && node scripts/test-notes.mjs && node scripts/test-practice-scope.mjs && node scripts/test-paper-archive.mjs && node scripts/test-p3-targeted.mjs && node scripts/test-all-targeted.mjs",
     "prepare:release": "python3 editorial/v17/prepare.py",
     "pretest": "npm run prepare:release",
     "precheck": "npm run prepare:release",

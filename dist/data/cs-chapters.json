@@ -202,8 +202,8 @@
         },
         {
           "id": "9.2",
-          "zh": "SQL 查询",
-          "title": "SQL queries"
+          "zh": "数据库查询（SQL／旧卷 QBE）",
+          "title": "Database queries (SQL / legacy QBE)"
         }
       ]
     },

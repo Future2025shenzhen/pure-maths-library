@@ -23,3 +23,5 @@
 .catalogue-only .collection-note{grid-column:1/-1;grid-row:4}
 }
 @media(min-width:761px) and (max-width:1000px){.catalogue-only aside{grid-template-columns:260px minmax(0,1fr)}.catalogue-only .series-group{grid-template-columns:1fr}.workspace.catalogue-only{padding:15px}}
+
+@media(max-width:760px){.app-header #question-bank{display:block;font-size:11px;white-space:nowrap;margin-left:auto}.app-header{gap:10px}}

@@ -1,0 +1,240 @@
+{
+  "version": 1,
+  "subject": "Cambridge IGCSE Computer Science 0478",
+  "syllabus": "https://www.cambridgeinternational.org/Images/595424-2023-2025-syllabus.pdf",
+  "syllabusYears": [
+    2023,
+    2024,
+    2025
+  ],
+  "note": "第7、9、10章的小节编号为本站依照考纲学习目标整理；旧题按考点映射至本目录，旧考纲补充单列。",
+  "chapters": [
+    {
+      "id": 1,
+      "zh": "数据表示",
+      "title": "Data representation",
+      "sections": [
+        {
+          "id": "1.1",
+          "zh": "数制",
+          "title": "Number systems"
+        },
+        {
+          "id": "1.2",
+          "zh": "文字、声音与图像",
+          "title": "Text, sound and images"
+        },
+        {
+          "id": "1.3",
+          "zh": "数据存储与压缩",
+          "title": "Data storage and compression"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "zh": "数据传输",
+      "title": "Data transmission",
+      "sections": [
+        {
+          "id": "2.1",
+          "zh": "传输方式与数据包",
+          "title": "Types and methods of data transmission"
+        },
+        {
+          "id": "2.2",
+          "zh": "错误检测",
+          "title": "Methods of error detection"
+        },
+        {
+          "id": "2.3",
+          "zh": "加密",
+          "title": "Encryption"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "zh": "硬件",
+      "title": "Hardware",
+      "sections": [
+        {
+          "id": "3.1",
+          "zh": "计算机体系结构",
+          "title": "Computer architecture"
+        },
+        {
+          "id": "3.2",
+          "zh": "输入与输出设备",
+          "title": "Input and output devices"
+        },
+        {
+          "id": "3.3",
+          "zh": "数据存储",
+          "title": "Data storage"
+        },
+        {
+          "id": "3.4",
+          "zh": "网络硬件",
+          "title": "Network hardware"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "zh": "软件",
+      "title": "Software",
+      "sections": [
+        {
+          "id": "4.1",
+          "zh": "软件类型与中断",
+          "title": "Types of software and interrupts"
+        },
+        {
+          "id": "4.2",
+          "zh": "编程语言、翻译器与开发环境",
+          "title": "Programming languages, translators and IDEs"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "zh": "互联网及其应用",
+      "title": "The internet and its uses",
+      "sections": [
+        {
+          "id": "5.1",
+          "zh": "互联网与万维网",
+          "title": "The internet and the world wide web"
+        },
+        {
+          "id": "5.2",
+          "zh": "数字货币",
+          "title": "Digital currency"
+        },
+        {
+          "id": "5.3",
+          "zh": "网络安全",
+          "title": "Cyber security"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "zh": "自动化与新兴技术",
+      "title": "Automated and emerging technologies",
+      "sections": [
+        {
+          "id": "6.1",
+          "zh": "自动化系统",
+          "title": "Automated systems"
+        },
+        {
+          "id": "6.2",
+          "zh": "机器人",
+          "title": "Robotics"
+        },
+        {
+          "id": "6.3",
+          "zh": "人工智能",
+          "title": "Artificial intelligence"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "zh": "算法设计与问题求解",
+      "title": "Algorithm design and problem-solving",
+      "sections": [
+        {
+          "id": "7.1",
+          "zh": "开发周期与问题分解",
+          "title": "Development life cycle and decomposition"
+        },
+        {
+          "id": "7.2",
+          "zh": "算法设计与标准算法",
+          "title": "Algorithm design and standard methods"
+        },
+        {
+          "id": "7.3",
+          "zh": "输入验证与核对",
+          "title": "Validation and verification"
+        },
+        {
+          "id": "7.4",
+          "zh": "测试、跟踪表与纠错",
+          "title": "Testing, trace tables and debugging"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "zh": "编程",
+      "title": "Programming",
+      "sections": [
+        {
+          "id": "8.1",
+          "zh": "编程概念",
+          "title": "Programming concepts"
+        },
+        {
+          "id": "8.2",
+          "zh": "数组",
+          "title": "Arrays"
+        },
+        {
+          "id": "8.3",
+          "zh": "文件处理",
+          "title": "File handling"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "zh": "数据库",
+      "title": "Databases",
+      "sections": [
+        {
+          "id": "9.1",
+          "zh": "数据库结构、数据类型与主键",
+          "title": "Database structure, data types and primary keys"
+        },
+        {
+          "id": "9.2",
+          "zh": "SQL 查询",
+          "title": "SQL queries"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "zh": "布尔逻辑",
+      "title": "Boolean logic",
+      "sections": [
+        {
+          "id": "10.1",
+          "zh": "逻辑门",
+          "title": "Logic gates"
+        },
+        {
+          "id": "10.2",
+          "zh": "逻辑电路、表达式与真值表",
+          "title": "Logic circuits, expressions and truth tables"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "zh": "旧考纲补充",
+      "title": "Legacy syllabus topics",
+      "sections": [
+        {
+          "id": "11.1",
+          "zh": "伦理、版权及其他旧考点",
+          "title": "Ethics, copyright and other legacy topics"
+        }
+      ]
+    }
+  ]
+}

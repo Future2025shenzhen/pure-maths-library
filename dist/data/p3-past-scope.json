@@ -1,0 +1,2825 @@
+{
+  "version": 1,
+  "stage": "P3",
+  "questionCount": 161,
+  "policy": "Whole-question chapter requirements. Standard differentiation/integration rules and basic prerequisite algebra/trigonometry stay within the calculus chapter; separately assessed identities, addition/double-angle/auxiliary-angle formulae and other P3 chapter skills remain explicit requirements.",
+  "questions": {
+    "P3-2020-01-Q01": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数种群模型",
+            "对数解方程与极限"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数与交点"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "双对数直线与幂函数模型"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q04": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则",
+            "单调区间与三角乘积求导"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q05": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "倒数三角函数与sec平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "正切二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "方程与直线交点个数"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q07": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角函数求导与局部极小值"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间与给定迭代公式"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q08": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "标准积分与有理函数积分"
+          ]
+        }
+      ]
+    },
+    "P3-2020-01-Q09": {
+      "requiredChapters": [
+        2,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "图像伸缩平移与函数范围"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角表达式与三角函数最值"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q01": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角化为余弦二次方程"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化与指数增长模型"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q03": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数值域"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与驻点"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q04": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "绝对值方程与图像变换"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q05": {
+      "requiredChapters": [
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "三倍角恒等式证明"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "化简后的三角函数定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q06": {
+      "requiredChapters": [
+        5,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数曲线与对数解方程"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "根的精度验证与迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q07": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角",
+            "三角最值与时间方程"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q08": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数与sec乘积求导",
+            "反向求导及基本正弦余弦平方关系"
+          ]
+        }
+      ]
+    },
+    "P3-2020-10-Q09": {
+      "requiredChapters": [
+        1,
+        6,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "切线"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "定积分面积与对数结果"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q01": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "幂函数化简与标准积分"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合图像变换与关键点"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q03": {
+      "requiredChapters": [
+        1,
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式因式分解与有理式约分"
+          ]
+        },
+        {
+          "chapter": 2,
+          "skills": [
+            "反函数与反函数定义域"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q04": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参绝对值图像与交点"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q05": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数温度模型与对数求参数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数函数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q06": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角复合函数求导与驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "迭代与根的精度验证"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q07": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "余切与倒数三角恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q08": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化",
+            "指数模型与参数解释"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q09": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "幂函数与指数复合函数标准积分"
+          ]
+        }
+      ]
+    },
+    "P3-2021-01-Q10": {
+      "requiredChapters": [
+        3,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec平方与tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "sec平方复合求导",
+            "反向求导与法线"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q01": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "三角乘积求导与驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "反正切形式的给定迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q02": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec与tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角化简与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q03": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "幂函数积分与对数定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q04": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数与逆函数图像"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q05": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "双对数数据转指数模型"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "一般底数指数函数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参绝对值图像与方程"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q07": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "正弦平方的链式求导与反向求导",
+            "基本正弦余弦平方关系"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q08": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数种群模型与对数解方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2021-06-Q09": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角",
+            "最值位置与平方函数范围"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q01": {
+      "requiredChapters": [
+        1,
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "有理式约分"
+          ]
+        },
+        {
+          "chapter": 2,
+          "skills": [
+            "反函数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与增减性"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "复合函数",
+            "不等式与变换"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数增长模型",
+            "对数求时间与极限"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "差角展开与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q05": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "幂函数定积分与标准对数积分"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q06": {
+      "requiredChapters": [
+        4,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "把正弦余弦乘积化为二倍角"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "对数复合求导与最大梯度"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q07": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "双对数直线与幂模型",
+            "参数解释"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q08": {
+      "requiredChapters": [
+        3,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "反正弦函数图像"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "反向求导与切线"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q09": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "乘积求导",
+            "法线与交点关系"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "迭代求交点"
+          ]
+        }
+      ]
+    },
+    "P3-2021-10-Q10": {
+      "requiredChapters": [
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "余弦平方降幂与二倍角"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "三角定积分与面积"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q01": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积求导与驻点"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q02": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "余割定义"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "正弦二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q03": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "标准对数积分与识别导数"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q04": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数种群模型",
+            "对数求时间与上限"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q05": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "对数函数求导与最大值"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间与给定迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q06": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "反函数",
+            "复合函数与值域"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与单调性"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q07": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值不等式与图像绝对值变换"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q08": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化与指数模型"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数函数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q09": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "三倍角与角和差恒等式"
+          ]
+        }
+      ]
+    },
+    "P3-2022-01-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积的反向求导与曲线转折",
+            "水平交点个数"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q01": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "链式求导与法线"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数与函数方程"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q03": {
+      "requiredChapters": [
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 7,
+          "skills": [
+            "标准对数定积分",
+            "积分常数参数与对数结果化简"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q04": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数直线",
+            "指数模型与求时间"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q05": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "不等式与直线交点个数"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q06": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "图像纵向变换与函数范围"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "乘积链式求导与极值"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q07": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "cot平方与cosec平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q08": {
+      "requiredChapters": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数求指数方程的时间"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数函数求导与最大值"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "速度定积分与路程"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "给定迭代公式"
+          ]
+        }
+      ]
+    },
+    "P3-2022-06-Q09": {
+      "requiredChapters": [
+        4,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角求三角方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三角商法则与最小值条件"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q01": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "标准对数定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "有理函数反函数",
+            "定义域",
+            "值域与复合函数"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q03": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "水平直线交点个数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积求导与极大值"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q04": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "常用对数转指数式"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "反向求导与对数导数"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q05": {
+      "requiredChapters": [
+        5,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数利润模型"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间",
+            "迭代重排与近似根"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q06": {
+      "requiredChapters": [
+        3,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec与tan的倒数定义"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三角商法则及导数恒等化简"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q07": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "抛物线与交点"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q08": {
+      "requiredChapters": [
+        2,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数图像伸缩与反射"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角与最值位置"
+          ]
+        }
+      ]
+    },
+    "P3-2022-10-Q09": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "余割定义"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角",
+            "三倍角恒等式与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q01": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数范围",
+            "复合函数",
+            "反函数与定义域"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q02": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角与复合三角式的最值"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性关系转指数模型"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q04": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "标准积分与对数积分"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q05": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "cot",
+            "tan",
+            "cosec定义与平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角恒等式证明与方程"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参绝对值图像与不等式"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q07": {
+      "requiredChapters": [
+        3,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec平方与tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "反向求导与切线截距"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q08": {
+      "requiredChapters": [
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "三角平方降幂与二倍角"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "三角函数不定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q09": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积求导",
+            "过原点切线与切点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间",
+            "迭代重排与近似根"
+          ]
+        }
+      ]
+    },
+    "P3-2023-01-Q10": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数种群模型与对数求时间"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "变化率与商法则"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间与给定迭代公式"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "双对数直线",
+            "对数运算与幂模型"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q03": {
+      "requiredChapters": [
+        6,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "对数三角复合求导"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "识别导数与定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q04": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数范围",
+            "反函数图像与交点"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q05": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec方程"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "余弦二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "复合函数与不等式"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q07": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数增长衰减模型与求交时间"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q08": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合图像变换与极值点映射"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积链式求导与驻点"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q09": {
+      "requiredChapters": [
+        3,
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "cot",
+            "cosec定义"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角恒等式与三角方程"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "三角定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2023-06-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则",
+            "反向求导与竖直切线"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q01": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "含指数函数的变号区间与给定迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q02": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数与函数方程"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q03": {
+      "requiredChapters": [
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "余弦二倍角证明及降幂"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "三角定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q04": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数销售模型与对数求时间"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q05": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "对数商法则",
+            "驻点方程与含参驻点个数"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q06": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化",
+            "指数模型与参数解释"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q07": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数范围与水平直线交点个数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数商法则与极值"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q08": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "cosec",
+            "sec",
+            "tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角恒等式与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q09": {
+      "requiredChapters": [
+        2,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值对数图像与不等式"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "对数解不等式与指数边界"
+          ]
+        }
+      ]
+    },
+    "P3-2023-10-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "正弦平方链式求导与反向求导",
+            "基本正弦余弦平方关系"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q01": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "图像变换与点的映射"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q02": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "多项式变号区间与迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化",
+            "指数模型与求时间"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q04": {
+      "requiredChapters": [
+        1,
+        2,
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "因式分解",
+            "有理式通分与约分"
+          ]
+        },
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数与反函数定义域"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "对数函数的逆运算与函数方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与单调性"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q05": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数温度模型与对数求参数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q06": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数三角乘积求导",
+            "驻点与基本正弦余弦平方关系"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q07": {
+      "requiredChapters": [
+        6,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "有理函数求导与法线"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "标准对数定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q08": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值图像",
+            "交点与含参图像"
+          ]
+        }
+      ]
+    },
+    "P3-2024-01-Q09": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec的倒数定义"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角及辅助角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q01": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "绝对值不等式",
+            "图像平移伸缩与点映射"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q02": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "标准对数定积分"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数坐标与指数模型"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q04": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角",
+            "平方降幂",
+            "辅助角与最大值"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q05": {
+      "requiredChapters": [
+        2,
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "反函数",
+            "函数范围与复合函数"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "对数函数逆运算"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与单调性"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q06": {
+      "requiredChapters": [
+        6,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "曲线法线"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "积分求曲线与直线围成的面积"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q07": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "角和差展开与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q08": {
+      "requiredChapters": [
+        5,
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数模型与对数解方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积求导与最高点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "迭代求最大值位置"
+          ]
+        }
+      ]
+    },
+    "P3-2024-06-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "正弦平方链式求导",
+            "反向求导",
+            "法线与三角形面积"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q01": {
+      "requiredChapters": [
+        3
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec平方与tan平方恒等式",
+            "三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q02": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "反向求导与竖直切线"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q03": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合绝对值函数",
+            "方程与不等式"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q04": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数线性化与指数模型"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数增长率"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q05": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "三倍角",
+            "二倍角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数及其定义域"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q07": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数值域与图像变换"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "乘积链式求导与极值"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q08": {
+      "requiredChapters": [
+        5,
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数心率模型与对数解方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数函数求导与最大值"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "迭代求时间"
+          ]
+        }
+      ]
+    },
+    "P3-2024-10-Q09": {
+      "requiredChapters": [
+        1,
+        6,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与法线"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "对数定积分及面积"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q01": {
+      "requiredChapters": [
+        3,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec的倒数定义与迭代重排"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间与迭代"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q02": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "对数模型与求时间"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q03": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则与单调区间"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q04": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "定积分与对数结果"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q05": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数衰减模型",
+            "图像与对数求时间"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数变化率"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q06": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "反函数",
+            "复合函数与点映射"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q07": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参绝对值图像与方程"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q08": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "余割定义"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "二倍角",
+            "正切差角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q09": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数值域与图像纵向变换"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "对数乘积求导与极小值"
+          ]
+        }
+      ]
+    },
+    "P3-2025-01-Q10": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "余弦复合函数求导",
+            "反向求导与梯度条件"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q01": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数范围",
+            "复合函数",
+            "反函数与函数方程"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q02": {
+      "requiredChapters": [
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角与复合三角式的最值"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q03": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "双对数直线与幂模型"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q04": {
+      "requiredChapters": [
+        1,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "有理式因式分解与约分"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "商法则"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q05": {
+      "requiredChapters": [
+        4,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "正弦平方的二倍角降幂"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "三角积分与识别导数积分"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q06": {
+      "requiredChapters": [
+        5,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "指数温度模型与对数求参数"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "变化率求时间"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q07": {
+      "requiredChapters": [
+        6,
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "指数三角乘积求导与驻点"
+          ]
+        },
+        {
+          "chapter": 8,
+          "skills": [
+            "迭代及根的精度验证"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q08": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec平方与tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "正切和角与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q09": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "正弦复合函数求导",
+            "反向求导",
+            "切线与法线"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06-Q10": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "含参绝对值图像",
+            "不等式与交点个数"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q01": {
+      "requiredChapters": [
+        2
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合图像变换与反函数的点映射"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q02": {
+      "requiredChapters": [
+        8
+      ],
+      "requirements": [
+        {
+          "chapter": 8,
+          "skills": [
+            "变号区间",
+            "迭代重排与近似根"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q03": {
+      "requiredChapters": [
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 6,
+          "skills": [
+            "反向求导与给定梯度求点"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q04": {
+      "requiredChapters": [
+        1,
+        7
+      ],
+      "requirements": [
+        {
+          "chapter": 1,
+          "skills": [
+            "多项式除法与有理式分拆"
+          ]
+        },
+        {
+          "chapter": 7,
+          "skills": [
+            "对数定积分与面积"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q05": {
+      "requiredChapters": [
+        4,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 4,
+          "skills": [
+            "辅助角与三角方程"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "三角函数求导与给定梯度"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q06": {
+      "requiredChapters": [
+        2,
+        6
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "函数值域与图像纵向变换"
+          ]
+        },
+        {
+          "chapter": 6,
+          "skills": [
+            "指数乘积链式求导与驻点"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q07": {
+      "requiredChapters": [
+        3,
+        4
+      ],
+      "requirements": [
+        {
+          "chapter": 3,
+          "skills": [
+            "sec",
+            "cot",
+            "tan平方恒等式"
+          ]
+        },
+        {
+          "chapter": 4,
+          "skills": [
+            "四倍角展开与三角方程"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q08": {
+      "requiredChapters": [
+        2,
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 2,
+          "skills": [
+            "复合函数",
+            "反函数与绝对值图像"
+          ]
+        },
+        {
+          "chapter": 5,
+          "skills": [
+            "对数函数逆运算"
+          ]
+        }
+      ]
+    },
+    "P3-2025-06A-Q09": {
+      "requiredChapters": [
+        5
+      ],
+      "requirements": [
+        {
+          "chapter": 5,
+          "skills": [
+            "多次给药的指数衰减模型与对数求时间"
+          ]
+        }
+      ]
+    }
+  }
+}

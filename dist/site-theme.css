@@ -113,3 +113,23 @@ body :is(button, a, summary, input, select, textarea):focus-visible {
 .archive-page :is(.stem, .reader, .paper) { color: var(--text); }
 .archive-page :is(.paper, .panel) { background: var(--white); border-color: var(--line); }
 :is(.question-coverage, .past-required-scope, .archive-note, .past-stats, .paper-row small) { color: var(--muted); }
+
+/* Calm reading surfaces and a consistent, compact interface. */
+:root {
+  --sans: system-ui, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+  --text: #263247;
+  --muted: #56647b;
+  --bg: #f5f7fb;
+}
+body { line-height: 1.6; }
+.topbar .brand, .course-head .brand { font-weight: 680; letter-spacing: -.025em; }
+:is(.compact-heading, .account-main) h1 { font-weight: 650; }
+:is(.past-tools, .search-row) button { min-height: 38px; }
+.past-card .card-head { border-bottom-color: var(--line); }
+.past-card .card-footer { border-top: 1px solid var(--line); }
+.past-card .q-number { font: 650 .95rem/1.45 var(--sans); }
+.past-card .card-actions .small-action { border-radius: 7px; }
+.past-card .source-pdf-crop[data-ready="loading"] {
+  background: var(--bg);
+  border-color: var(--line);
+}

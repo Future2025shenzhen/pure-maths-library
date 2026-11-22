@@ -23,7 +23,8 @@ const html=read('past.html'),nodes=new Map([...html.matchAll(/id="([^"]+)"/g)].m
 let errors=[];
 const fakeAccount={enabled:true,user:{nickname:'test'},ready:Promise.resolve(),getState:()=>({saved:[],done:[]}),addEventListener(){},activity:async()=>{}};
 class ContinuousPdfViewerStub{constructor(){this.current=1;}open(){}go(){}setZoom(){}resize(){}destroyDocument(){}}
-const context={console:{error:e=>errors.push(e)},account:fakeAccount,mountAccountLink:async()=>{},archivePapers,inYearRange,validateArchive,shuffle,chapterMatches,Stopwatch,ContinuousPdfViewer:ContinuousPdfViewerStub,applyClassification,linkedChapters,applyPastScope,improveMath:x=>x,renderMath(){},notePlaceholder:()=>'',mountNotes(){},localStorage:{getItem:()=>null},sessionStorage:{getItem:()=>null,setItem(){}},innerWidth:1000,URLSearchParams,location:{search:''},document:{body:{classList:{toggle(){}}},querySelector:s=>s.startsWith('#')?nodes.get(s.slice(1))||null:null,addEventListener(){}},window:{addEventListener(){}},setInterval,clearInterval,setTimeout,clearTimeout,fetch:async url=>({ok:true,json:async()=>JSON.parse(read(url.split('?')[0]))})};
+const filtersStorage=new Map();
+const context={console:{error:e=>errors.push(e)},account:fakeAccount,mountAccountLink:async()=>{},archivePapers,inYearRange,validateArchive,shuffle,chapterMatches,Stopwatch,ContinuousPdfViewer:ContinuousPdfViewerStub,applyClassification,linkedChapters,applyPastScope,improveMath:x=>x,renderMath(){},notePlaceholder:()=>'',mountNotes(){},localStorage:{getItem:()=>null},sessionStorage:{getItem:key=>filtersStorage.get(key),setItem:(key,value)=>filtersStorage.set(key,value)},innerWidth:1000,URLSearchParams,location:{search:''},document:{body:{classList:{toggle(){}}},querySelector:s=>s.startsWith('#')?nodes.get(s.slice(1))||null:null,addEventListener(){}},window:{addEventListener(){}},setInterval,clearInterval,setTimeout,clearTimeout,fetch:async url=>({ok:true,json:async()=>JSON.parse(read(url.split('?')[0]))})};
 vm.createContext(context);let src=read('past.js').replace(/^import .*;\n/gm,'').replaceAll('import.meta.url',JSON.stringify(new URL('../dist/past.js',import.meta.url).href));src=src.replace(/init\(\);\s*$/,'globalThis.initialized=init();');vm.runInContext(src,context);await context.initialized;
 assert.deepEqual(errors,[]);assert.equal(typeof nodes.get('reader-close').listeners.click,'function');assert.equal(typeof nodes.get('reader-full').listeners.click,'function');assert.equal(typeof nodes.get('timer-start').listeners.click,'function');assert(nodes.get('past-results').innerHTML.includes('question-card'));
 assert(nodes.get('paper-directory').innerHTML.includes('2019'));assert(nodes.get('paper-directory').innerHTML.includes('2025'));assert(!nodes.get('paper-directory').innerHTML.includes('2026'));assert(!html.includes('reserve-directory'));
@@ -82,3 +83,20 @@ for(const stage of ['P1','P2']){
 }
 assert.deepEqual(errors,[]);
 console.log('PASS P3 targeted defaults, exclusive modes, actual trig/calculus cases, selected chapter unions, reset and P1 compatibility');
+
+await nodes.get('past-stage').listeners.change({target:{value:'P3'}});
+vm.runInContext("chapter=[3,4];yearFrom='2021';yearTo='2024';options();render();",context);
+nodes.get('past-record').listeners.change({target:{value:'undone'}});
+nodes.get('past-saved-nav').listeners.click();
+assert.equal(nodes.get('past-record').value,'saved');
+let prevented=false;
+nodes.get('past-all-nav').listeners.click({button:0,preventDefault(){prevented=true;}});
+assert(prevented);
+assert.equal(nodes.get('past-record').value,'undone');
+assert(vm.runInContext("stage==='P3'&&String(chapter)==='3,4'&&yearFrom==='2021'&&yearTo==='2024'",context));
+const restored=vm.createContext({...context});
+vm.runInContext(src,restored);
+await restored.initialized;
+assert(vm.runInContext("stage==='P3'&&String(chapter)==='3,4'&&yearFrom==='2021'&&yearTo==='2024'&&record==='undone'",restored));
+assert.deepEqual(errors,[]);
+console.log('PASS math question filters survive switching to favorites and a fresh page load');

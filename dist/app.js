@@ -142,6 +142,11 @@ async function handleAction(action,el){
 async function init(){
  try{
   await account.ready;await mountAccountLink();
+  if(document.body.classList.contains('course-home')){
+   const link=$('#cloud-account-link');
+   if(link)$('#course-account-link').replaceWith(link);
+   return;
+  }
   const res=await fetch('data/bank.json?v=16');if(!res.ok)throw Error(`HTTP ${res.status}`);data=applyClassification(validateBank(await res.json()),await (await fetch('data/classification.json?v=16')).json());ids=new Set(data.questions.map(q=>q.id));state=cleanState(account.user?account.getState('original'):account.enabled?{}:safeRead(STORE_KEY,{}),ids);document.body.classList.toggle('guest-mode',account.enabled&&!account.user);
   const old=account.enabled?account.paper.value:safeRead('pure-practice-paper-v1',null);if(old&&data.chapters[old.stage]&&Array.isArray(old.ids)&&old.ids.length&&old.ids.every(id=>ids.has(id)&&id.startsWith(old.stage))&&new Set(old.ids).size===old.ids.length&&typeof old.date==='string')paper=old;
   const params=new URLSearchParams(location.search);if(data.chapters[params.get('stage')])stage=params.get('stage');search=params.get('q')||'';const hash=location.hash.slice(1);if(['library','saved','papers','books'].includes(hash))view=hash;

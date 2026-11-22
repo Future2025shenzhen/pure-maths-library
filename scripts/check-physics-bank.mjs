@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {spawnSync} from 'node:child_process';
+import {isPublishedExamFile,limitPhysicsBank,physicsPapers} from '../dist/physics-scope.js';
 
 const root=new URL('../dist/',import.meta.url);
 const bank=JSON.parse(fs.readFileSync(new URL('data/physics-question-bank.json',root),'utf8'));
@@ -27,7 +28,17 @@ const bankHtml=fs.readFileSync(new URL('physics-bank.html',root),'utf8');
 const bankApp=fs.readFileSync(new URL('physics-bank.js',root),'utf8');
 assert(html.includes('id="practice"')&&html.includes('hidden>原创练习'));
 assert(app.includes("$('practice').hidden=subject==='physics'"));
-assert(bankHtml.includes('Paper 1')&&bankHtml.includes('Paper 6'));
+assert.deepEqual([...bankHtml.matchAll(/<option value="paper(\d)">/g)].map(match=>Number(match[1])),physicsPapers);
+const published=limitPhysicsBank(bank);
+assert.equal(published.papers.length,126);
+assert.equal(published.questions.length,2277);
+assert(published.questions.every(q=>physicsPapers.includes(q.paperType)&&published.papers.some(p=>p.id===q.paper)));
+const files=JSON.parse(fs.readFileSync(new URL('data/igcse-online-files.json',root),'utf8')).files;
+const publicFiles=files.filter(isPublishedExamFile);
+assert.deepEqual(publicFiles.filter(f=>f.subject==='cs'),files.filter(f=>f.subject==='cs'));
+assert(!publicFiles.some(f=>f.subject==='physics'&&/^[135]/.test(f.paper)));
+const publicPaths=new Set(publicFiles.map(f=>f.path));
+assert(published.papers.every(p=>publicPaths.has(p.qp)&&publicPaths.has(p.ms)));
 assert(bankHtml.includes('允许跨章节')&&bankHtml.includes('真题收藏')&&bankHtml.includes('上下连续滑动'));
 assert(bankApp.includes('Paper ${question.paperType}')&&bankApp.includes('IntersectionObserver')&&bankApp.includes('pure-physics-notes-v1'));
 assert(!bankApp.includes('data-copy-question')&&bankApp.includes("new URLSearchParams(location.search).get('q')"));

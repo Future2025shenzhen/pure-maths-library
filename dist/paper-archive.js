@@ -1,7 +1,11 @@
+export function inYearRange(year, from, to) {
+  return (!from || year >= Number(from)) && (!to || year <= Number(to));
+}
+
 // Whole-paper archive stays separate from question-level practice.
-export function archivePapers(archive, {stage, year='', month='', query=''}={}) {
+export function archivePapers(archive, {stage, year='', from=year, to=year, month='', query=''}={}) {
   const term=query.trim().toLowerCase();
-  return archive.papers.filter(p=>p.stage===stage&&(!year||p.year===+year)&&(!month||p.month===+month)&&(!term||`${p.id} ${p.title}`.toLowerCase().includes(term)))
+  return archive.papers.filter(p=>p.stage===stage&&inYearRange(p.year,from,to)&&(!month||p.month===+month)&&(!term||`${p.id} ${p.title}`.toLowerCase().includes(term)))
     .sort((a,b)=>b.year-a.year||b.month-a.month||a.variant.localeCompare(b.variant));
 }
 export function validateArchive(archive) {
